@@ -7,6 +7,8 @@
  * - CSP meta + OpenGraph metadata
  */
 
+import "../styles/global.css";
+
 export interface Props {
   title: string;
   description?: string;
@@ -32,8 +34,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://dpiatlas
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects/", label: "Projects" },
+  { href: "/organizations/", label: "Organizations" },
+  { href: "/compare/", label: "Compare" },
   { href: "/map/", label: "Map" },
   { href: "/graph/", label: "Graph" },
+  { href: "/standards/", label: "Standards" },
   { href: "/about/", label: "About" },
   { href: "/api/", label: "API" }
 ];
@@ -63,9 +68,6 @@ const navLinks = [
 
     <!-- Icons -->
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="/src/styles/global.css" />
 
     <title>{siteTitle}</title>
   </head>
@@ -125,6 +127,8 @@ const navLinks = [
           <nav aria-label="Footer navigation">
             <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-2);">
               <li><a href="/about/">About</a></li>
+              <li><a href="/methodology/">Methodology</a></li>
+              <li><a href="/sustainability/">Sustainability</a></li>
               <li><a href="/api/">API Documentation</a></li>
               <li><a href="/accessibility/">Accessibility Statement</a></li>
               <li><a href="https://github.com/mgifford/dpg-dpi-govstack-map">GitHub</a></li>

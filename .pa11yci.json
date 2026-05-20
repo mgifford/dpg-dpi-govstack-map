@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "timeout": 30000,
+    "standard": "WCAG2AA",
+    "wait": 500,
+    "headers": {
+      "User-Agent": "dpi-atlas-pa11y"
+    }
+  },
+  "urls": [
+    "http://127.0.0.1:4321/",
+    "http://127.0.0.1:4321/projects/",
+    "http://127.0.0.1:4321/organizations/",
+    "http://127.0.0.1:4321/compare/",
+    "http://127.0.0.1:4321/map/",
+    "http://127.0.0.1:4321/deployments/",
+    "http://127.0.0.1:4321/standards/",
+    "http://127.0.0.1:4321/accessibility/"
+  ]
+}

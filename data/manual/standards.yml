@@ -1,0 +1,35 @@
+- id: w3c-did
+  name: W3C Decentralized Identifiers
+  description: W3C standard for decentralized identifiers used in identity and verifiable credential ecosystems.
+  website: https://www.w3.org/TR/did-core/
+  steward_organizations: [w3c]
+  related_projects: [mosip]
+  tags: [identity, standards, w3c]
+  provenance: {}
+
+- id: fhir
+  name: HL7 FHIR
+  description: Health interoperability standard used for modern health information exchange.
+  website: https://www.hl7.org/fhir/
+  steward_organizations: [hl7]
+  related_projects: [dhis2, openmrs]
+  tags: [health, interoperability, standards]
+  provenance: {}
+
+- id: dcat
+  name: Data Catalog Vocabulary
+  description: W3C recommendation for describing datasets and data services.
+  website: https://www.w3.org/TR/vocab-dcat-3/
+  steward_organizations: [w3c]
+  related_projects: [ckan, dkan]
+  tags: [open-data, metadata, standards]
+  provenance: {}
+
+- id: iso-20022
+  name: ISO 20022
+  description: Global financial messaging standard used in payments interoperability ecosystems.
+  website: https://www.iso20022.org/
+  steward_organizations: [iso]
+  related_projects: [mojaloop]
+  tags: [payments, finance, standards]
+  provenance: {}

@@ -15,6 +15,7 @@ import { fetchDpgProjects } from "./ingest-dpg.js";
 import { enrichProjectsBatch } from "./enrich-github.js";
 import { generateDatasets } from "./generate-datasets.js";
 import { generateSearchIndex } from "./generate-search-index.js";
+import { loadManualDataset } from "./lib/manual.js";
 
 const SEED_PATH = path.resolve("data/processed/atlas.json");
 const OUT_PATH = path.resolve("data/processed/atlas.json");
@@ -34,7 +35,8 @@ async function loadSeed(): Promise<AtlasDataset> {
       people: [],
       deployments: [],
       repositories: [],
-      relationships: []
+      relationships: [],
+      standards: []
     };
   }
 }
@@ -54,9 +56,15 @@ async function main(): Promise<void> {
   console.log("=== Digital Public Infrastructure Ecosystem Atlas — Monthly Update ===");
   const startTime = Date.now();
 
-  // 1. Load existing seed data
-  console.log("[1/6] Loading seed dataset…");
-  const seed = await loadSeed();
+  // 1. Load curated manual dataset, with processed data as a fallback
+  console.log("[1/6] Loading manual phase-one dataset…");
+  let seed: AtlasDataset;
+  try {
+    seed = await loadManualDataset();
+  } catch (error) {
+    console.warn(`[run-monthly-update] Could not load manual dataset: ${(error as Error).message}`);
+    seed = await loadSeed();
+  }
 
   // 2. Fetch DPG Registry
   console.log("[2/6] Fetching DPG Registry…");
@@ -84,7 +92,8 @@ async function main(): Promise<void> {
     people: seed.people,
     deployments: seed.deployments,
     repositories: seed.repositories,
-    relationships: seed.relationships
+    relationships: seed.relationships,
+    standards: seed.standards
   };
 
   // 6. Persist updated dataset

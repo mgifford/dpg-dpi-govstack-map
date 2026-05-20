@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "drupal",
+      "label": "Drupal",
+      "type": "project",
+      "category": "Government Platforms",
+      "maturity": "mature",
+      "activity": 88
+    },
+    {
+      "id": "mosip",
+      "label": "MOSIP",
+      "type": "project",
+      "category": "Digital Identity",
+      "maturity": "mature",
+      "activity": 78
+    },
+    {
+      "id": "dhis2",
+      "label": "DHIS2",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "mature",
+      "activity": 92
+    },
+    {
+      "id": "openmrs",
+      "label": "OpenMRS",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "mature",
+      "activity": 79
+    },
+    {
+      "id": "openspp",
+      "label": "OpenSPP",
+      "type": "project",
+      "category": "Social Protection",
+      "maturity": "growing",
+      "activity": 66
+    },
+    {
+      "id": "ckan",
+      "label": "CKAN",
+      "type": "project",
+      "category": "Open Government",
+      "maturity": "mature",
+      "activity": 76
+    },
+    {
+      "id": "dkan",
+      "label": "DKAN",
+      "type": "project",
+      "category": "Open Government",
+      "maturity": "growing",
+      "activity": 61
+    },
+    {
+      "id": "mojaloop",
+      "label": "Mojaloop",
+      "type": "project",
+      "category": "Financial Inclusion",
+      "maturity": "mature",
+      "activity": 80
+    },
+    {
+      "id": "drupal-association",
+      "label": "Drupal Association",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "United States"
+    },
+    {
+      "id": "iiit-bangalore",
+      "label": "IIIT Bangalore",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "India"
+    },
+    {
+      "id": "mosip-foundation",
+      "label": "MOSIP Foundation",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "India"
+    },
+    {
+      "id": "university-of-oslo",
+      "label": "University of Oslo",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "Norway"
+    },
+    {
+      "id": "openmrs-inc",
+      "label": "OpenMRS Inc.",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "United States"
+    },
+    {
+      "id": "openspp-association",
+      "label": "OpenSPP Association",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "Kenya"
+    },
+    {
+      "id": "ckan-association",
+      "label": "CKAN Association",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "civicactions",
+      "label": "CivicActions",
+      "type": "organization",
+      "org_type": "company",
+      "country": "United States"
+    },
+    {
+      "id": "mojaloop-foundation",
+      "label": "Mojaloop Foundation",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "Singapore"
+    },
+    {
+      "id": "w3c",
+      "label": "World Wide Web Consortium",
+      "type": "organization",
+      "org_type": "standards-body",
+      "country": "International"
+    },
+    {
+      "id": "hl7",
+      "label": "Health Level Seven International",
+      "type": "organization",
+      "org_type": "standards-body",
+      "country": "International"
+    },
+    {
+      "id": "iso",
+      "label": "International Organization for Standardization",
+      "type": "organization",
+      "org_type": "standards-body",
+      "country": "Switzerland"
+    }
+  ],
+  "edges": [
+    {
+      "source": "drupal",
+      "target": "ckan",
+      "type": "aligned_with",
+      "strength": 0.62
+    },
+    {
+      "source": "dkan",
+      "target": "drupal",
+      "type": "implements",
+      "strength": 0.95
+    },
+    {
+      "source": "ckan",
+      "target": "dkan",
+      "type": "aligned_with",
+      "strength": 0.76
+    },
+    {
+      "source": "mosip",
+      "target": "openspp",
+      "type": "integrates_with",
+      "strength": 0.8
+    },
+    {
+      "source": "mojaloop",
+      "target": "openspp",
+      "type": "integrates_with",
+      "strength": 0.84
+    },
+    {
+      "source": "dhis2",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.88
+    },
+    {
+      "source": "mosip",
+      "target": "w3c-did",
+      "type": "aligned_with",
+      "strength": 0.7
+    },
+    {
+      "source": "drupal-association",
+      "target": "drupal",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "mojaloop-foundation",
+      "target": "mojaloop",
+      "type": "governed_by",
+      "strength": 0.93
+    },
+    {
+      "source": "university-of-oslo",
+      "target": "dhis2",
+      "type": "maintained_by",
+      "strength": 0.92
+    }
+  ]
+}

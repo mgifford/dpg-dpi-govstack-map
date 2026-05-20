@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Methodology" description="Methodology for provenance, maturity dimensions, and phased growth of the Digital Public Infrastructure Ecosystem Atlas." currentPage="/methodology/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16); max-width: 960px;">
+    <h1 style="margin-bottom: var(--space-6);">Methodology</h1>
+    <p style="font-size: var(--text-lg); color: var(--color-text-muted); margin-bottom: var(--space-8); max-width: 72ch;">
+      The Atlas treats governance, stewardship, interoperability, accessibility, sustainability, and procurement readiness
+      as first-class dimensions. It is intentionally not a popularity ranking or a software catalog.
+    </p>
+
+    <section aria-labelledby="phase-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="phase-heading" style="margin-bottom: var(--space-4);">Phased Implementation</h2>
+      <ol style="padding-left: var(--space-6); display: flex; flex-direction: column; gap: var(--space-3);">
+        <li><strong>Phase 1:</strong> Curated cohort, provenance, profile pages, accessible tables, and basic map/graph views.</li>
+        <li><strong>Phase 2:</strong> GitHub, DPG, GovStack, OpenSSF, and publiccode.yml enrichment with monthly automation.</li>
+        <li><strong>Phase 3:</strong> Relationship intelligence across standards, funders, conferences, deployments, and organizations.</li>
+        <li><strong>Phase 4:</strong> Optional private overlays for meetings, introductions, and collaboration notes.</li>
+        <li><strong>Phase 5:</strong> Large-scale ecosystem expansion across DPGs, GovStack building blocks, civic tech, and standards ecosystems.</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="provenance-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="provenance-heading" style="margin-bottom: var(--space-4);">Provenance and Confidence</h2>
+      <p>
+        Important facts are stored with provenance metadata. The data model distinguishes manual curation, declared facts,
+        inferred relationships, and scraped or API-derived fields. Confidence levels make uncertainty explicit rather than hidden.
+      </p>
+    </section>
+
+    <section aria-labelledby="maturity-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="maturity-heading" style="margin-bottom: var(--space-4);">Maturity Dimensions</h2>
+      <div style="overflow-x: auto;">
+        <table class="data-table" aria-label="Maturity dimensions">
+          <thead>
+            <tr>
+              <th scope="col">Dimension</th>
+              <th scope="col">Why it matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Code</th><td>Commit history, contributors, and release engineering indicate maintenance capacity.</td></tr>
+            <tr><th scope="row">Governance</th><td>Transparent decision-making and policy clarity support institutional trust.</td></tr>
+            <tr><th scope="row">Stewardship</th><td>Long-term custodianship matters for public-interest adoption and resilience.</td></tr>
+            <tr><th scope="row">Public-sector</th><td>Known government deployments and implementation evidence indicate operational maturity.</td></tr>
+            <tr><th scope="row">Accessibility</th><td>Public infrastructure must work for disabled people and low-friction procurement contexts.</td></tr>
+            <tr><th scope="row">Sustainability</th><td>Funding resilience and maintainer capacity affect whether a project can endure.</td></tr>
+            <tr><th scope="row">Security</th><td>Policies, disclosures, and dependency health reduce operational risk.</td></tr>
+            <tr><th scope="row">Interoperability</th><td>Standards and APIs determine whether systems can cooperate over time.</td></tr>
+            <tr><th scope="row">Procurement</th><td>Support ecosystems and documentation influence public-sector adoption.</td></tr>
+            <tr><th scope="row">Community</th><td>Contributor health and issue response show whether participation is viable.</td></tr>
+            <tr><th scope="row">Documentation</th><td>Onboarding and operational docs are essential for implementers and procurement teams.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</Base>

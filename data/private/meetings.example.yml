@@ -1,0 +1,8 @@
+- id: example-meeting-1
+  date: 2026-05-20
+  contact: Example Ecosystem Lead
+  organization: Example Organization
+  project_affiliations: [mosip]
+  conference: Example DPI Forum
+  notes: Local-only notes belong in data/private and should never be published.
+  relationship_strength: 0.5

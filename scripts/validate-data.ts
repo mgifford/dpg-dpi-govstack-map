@@ -48,24 +48,72 @@ async function main(): Promise<void> {
   const errors: string[] = [];
   const projectIds = new Set(dataset.projects.map((p) => p.id));
   const orgIds = new Set(dataset.organizations.map((o) => o.id));
+  const personIds = new Set(dataset.people.map((p) => p.id));
+  const standardIds = new Set(dataset.standards.map((s) => s.id));
 
   for (const rel of dataset.relationships) {
     const sourceInProjects = projectIds.has(rel.source);
     const sourceInOrgs = orgIds.has(rel.source);
+    const sourceInPeople = personIds.has(rel.source);
+    const sourceInStandards = standardIds.has(rel.source);
     const targetInProjects = projectIds.has(rel.target);
     const targetInOrgs = orgIds.has(rel.target);
+    const targetInPeople = personIds.has(rel.target);
+    const targetInStandards = standardIds.has(rel.target);
 
-    if (!sourceInProjects && !sourceInOrgs) {
-      errors.push(`Relationship source "${rel.source}" not found in projects or organizations`);
+    if (!sourceInProjects && !sourceInOrgs && !sourceInPeople && !sourceInStandards) {
+      errors.push(`Relationship source "${rel.source}" not found in projects, organizations, people, or standards`);
     }
-    if (!targetInProjects && !targetInOrgs) {
-      errors.push(`Relationship target "${rel.target}" not found in projects or organizations`);
+    if (!targetInProjects && !targetInOrgs && !targetInPeople && !targetInStandards) {
+      errors.push(`Relationship target "${rel.target}" not found in projects, organizations, people, or standards`);
     }
   }
 
   for (const dep of dataset.deployments) {
     if (!projectIds.has(dep.project)) {
       errors.push(`Deployment references unknown project "${dep.project}"`);
+    }
+  }
+
+  for (const project of dataset.projects) {
+    for (const relatedProjectId of project.related_projects) {
+      if (!projectIds.has(relatedProjectId)) {
+        errors.push(`Project "${project.id}" references unknown related project "${relatedProjectId}"`);
+      }
+    }
+
+    for (const stewardOrgId of project.steward_organizations) {
+      if (!orgIds.has(stewardOrgId)) {
+        errors.push(`Project "${project.id}" references unknown steward organization "${stewardOrgId}"`);
+      }
+    }
+  }
+
+  for (const organization of dataset.organizations) {
+    for (const associatedProjectId of organization.associated_projects) {
+      if (!projectIds.has(associatedProjectId)) {
+        errors.push(`Organization "${organization.id}" references unknown associated project "${associatedProjectId}"`);
+      }
+    }
+
+    for (const partnerOrgId of organization.partnerships) {
+      if (!orgIds.has(partnerOrgId)) {
+        errors.push(`Organization "${organization.id}" references unknown partner organization "${partnerOrgId}"`);
+      }
+    }
+  }
+
+  for (const standard of dataset.standards) {
+    for (const relatedProjectId of standard.related_projects) {
+      if (!projectIds.has(relatedProjectId)) {
+        errors.push(`Standard "${standard.id}" references unknown related project "${relatedProjectId}"`);
+      }
+    }
+
+    for (const stewardOrgId of standard.steward_organizations) {
+      if (!orgIds.has(stewardOrgId)) {
+        errors.push(`Standard "${standard.id}" references unknown steward organization "${stewardOrgId}"`);
+      }
     }
   }
 

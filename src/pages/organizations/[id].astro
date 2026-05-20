@@ -1,0 +1,168 @@
+---
+import Base from "../../layouts/Base.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset, Organization } from "../../lib/schema";
+
+export async function getStaticPaths() {
+  let dataset: AtlasDataset;
+  try {
+    const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+    dataset = JSON.parse(raw) as AtlasDataset;
+  } catch {
+    return [];
+  }
+
+  return dataset.organizations.map((organization) => ({
+    params: { id: organization.id },
+    props: { organization, dataset }
+  }));
+}
+
+interface Props {
+  organization: Organization;
+  dataset: AtlasDataset;
+}
+
+const { organization, dataset } = Astro.props;
+const projects = dataset.projects.filter((project) => organization.associated_projects.includes(project.id));
+const inboundRelationships = dataset.relationships.filter((relationship) => relationship.source === organization.id || relationship.target === organization.id);
+const partneredOrganizations = dataset.organizations.filter((candidate) => organization.partnerships.includes(candidate.id));
+---
+
+<Base title={organization.name} description={`Profile for ${organization.name} in the Digital Public Infrastructure Ecosystem Atlas.`} currentPage="">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-6); font-size: var(--text-sm);">
+      <ol role="list" style="list-style: none; display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center;">
+        <li><a href="/">Home</a></li>
+        <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
+        <li><a href="/organizations/">Organizations</a></li>
+        <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
+        <li aria-current="page" style="color: var(--color-text-muted);">{organization.name}</li>
+      </ol>
+    </nav>
+
+    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: var(--space-10); align-items: start;">
+      <main>
+        <header style="margin-bottom: var(--space-8);">
+          <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-4);">
+            <span class="badge" style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);">{organization.type}</span>
+            {organization.governance_role && <span class="badge badge--growing">{organization.governance_role}</span>}
+          </div>
+          <h1 style="margin-bottom: var(--space-3);">{organization.name}</h1>
+          <p style="font-size: var(--text-lg); color: var(--color-text-muted); max-width: 66ch;">
+            {organization.name} participates in the Atlas ecosystem as a {organization.type} organization based in {organization.city ? `${organization.city}, ` : ""}{organization.country}.
+          </p>
+        </header>
+
+        <section aria-labelledby="projects-heading" style="margin-bottom: var(--space-10);">
+          <h2 id="projects-heading" style="margin-bottom: var(--space-4);">Associated Projects</h2>
+          {projects.length > 0 ? (
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th scope="col">Project</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">Governance</th>
+                  <th scope="col">Procurement Readiness</th>
+                </tr>
+              </thead>
+              <tbody>
+                {projects.map((project) => (
+                  <tr>
+                    <td><a href={`/projects/${project.id}/`}>{project.name}</a></td>
+                    <td>{project.project_type}</td>
+                    <td>{project.governance_model}</td>
+                    <td>{project.procurement_readiness ?? "n/a"}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            <p>No associated projects are currently recorded.</p>
+          )}
+        </section>
+
+        <section aria-labelledby="partnerships-heading" style="margin-bottom: var(--space-10);">
+          <h2 id="partnerships-heading" style="margin-bottom: var(--space-4);">Partnerships and Relationships</h2>
+          {partneredOrganizations.length > 0 && (
+            <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3); margin-bottom: var(--space-6);">
+              {partneredOrganizations.map((partner) => (
+                <li class="card" style="padding: var(--space-4);">
+                  <a href={`/organizations/${partner.id}/`} style="font-weight: 600;">{partner.name}</a>
+                  <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-2);">{partner.type} in {partner.country}.</p>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {inboundRelationships.length > 0 ? (
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th scope="col">Relationship</th>
+                  <th scope="col">With</th>
+                  <th scope="col">Confidence</th>
+                </tr>
+              </thead>
+              <tbody>
+                {inboundRelationships.map((relationship) => {
+                  const otherId = relationship.source === organization.id ? relationship.target : relationship.source;
+                  const otherProject = dataset.projects.find((project) => project.id === otherId);
+                  const otherOrganization = dataset.organizations.find((candidate) => candidate.id === otherId);
+                  return (
+                    <tr>
+                      <td>{relationship.type.replace(/_/g, " ")}</td>
+                      <td>
+                        {otherProject ? <a href={`/projects/${otherProject.id}/`}>{otherProject.name}</a> : otherOrganization ? <a href={`/organizations/${otherOrganization.id}/`}>{otherOrganization.name}</a> : otherId}
+                      </td>
+                      <td>{Math.round(relationship.confidence * 100)}%</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          ) : (
+            <p>No explicit ecosystem relationships are currently recorded.</p>
+          )}
+        </section>
+      </main>
+
+      <aside aria-label="Organization details" style="position: sticky; top: calc(64px + var(--space-4));">
+        <div class="card" style="padding: var(--space-5);">
+          <h2 style="font-size: var(--text-base); margin-bottom: var(--space-5); border-bottom: 1px solid var(--color-border); padding-bottom: var(--space-3);">Details</h2>
+          <dl style="display: flex; flex-direction: column; gap: var(--space-4); font-size: var(--text-sm);">
+            <div>
+              <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Country</dt>
+              <dd>{organization.country}</dd>
+            </div>
+            {organization.city && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">City</dt>
+                <dd>{organization.city}</dd>
+              </div>
+            )}
+            {organization.github_org && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">GitHub</dt>
+                <dd><a href={`https://github.com/${organization.github_org}`} rel="noopener noreferrer" target="_blank">{organization.github_org} ↗</a></dd>
+              </div>
+            )}
+            {organization.linkedin && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">LinkedIn</dt>
+                <dd><a href={organization.linkedin} rel="noopener noreferrer" target="_blank">Profile ↗</a></dd>
+              </div>
+            )}
+            {organization.website && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Website</dt>
+                <dd><a href={organization.website} rel="noopener noreferrer" target="_blank">Visit ↗</a></dd>
+              </div>
+            )}
+          </dl>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

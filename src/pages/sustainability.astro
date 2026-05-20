@@ -1,0 +1,65 @@
+---
+import Base from "../layouts/Base.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../lib/schema";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.2.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [], standards: [] };
+}
+
+const projects = [...dataset.projects].sort((a, b) => (b.maturity_scores?.sustainability.score ?? b.sustainability_score) - (a.maturity_scores?.sustainability.score ?? a.sustainability_score));
+---
+
+<Base title="Sustainability" description="Sustainability posture for the Digital Public Infrastructure Ecosystem Atlas and its project cohort." currentPage="/sustainability/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16); max-width: 1080px;">
+    <h1 style="margin-bottom: var(--space-6);">Sustainability</h1>
+    <p style="font-size: var(--text-lg); color: var(--color-text-muted); margin-bottom: var(--space-8); max-width: 72ch;">
+      Sustainability is both a platform concern and a dataset concern. The Atlas favors static generation, minimal
+      JavaScript, cached data generation, and explicit scoring for maintainer resilience and long-term stewardship.
+    </p>
+
+    <section aria-labelledby="platform-practices" style="margin-bottom: var(--space-10);">
+      <h2 id="platform-practices" style="margin-bottom: var(--space-4);">Platform Practices</h2>
+      <ul style="padding-left: var(--space-6); display: flex; flex-direction: column; gap: var(--space-3);">
+        <li>Static-first Astro deployment to GitHub Pages or Cloudflare Pages.</li>
+        <li>Structured JSON outputs generated ahead of time to minimize runtime requests.</li>
+        <li>Accessible list and table alternatives before any interactive visualization.</li>
+        <li>Progressive enhancement so core content remains available without JavaScript.</li>
+        <li>Scoped dependencies and lazy-loaded heavier visualization surfaces.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="project-scores" style="margin-bottom: var(--space-10);">
+      <h2 id="project-scores" style="margin-bottom: var(--space-4);">Project Sustainability Comparison</h2>
+      <div style="overflow-x: auto;">
+        <table class="data-table" aria-label="Project sustainability maturity table">
+          <thead>
+            <tr>
+              <th scope="col">Project</th>
+              <th scope="col">Sustainability</th>
+              <th scope="col">Stewardship</th>
+              <th scope="col">Funding</th>
+              <th scope="col">Band</th>
+            </tr>
+          </thead>
+          <tbody>
+            {projects.map((project) => (
+              <tr>
+                <th scope="row"><a href={`/projects/${project.id}/`}>{project.name}</a></th>
+                <td>{project.maturity_scores?.sustainability.score ?? project.sustainability_score}</td>
+                <td>{project.maturity_scores?.stewardship.score ?? project.sustainability_score}</td>
+                <td>{project.funding_model}</td>
+                <td>{project.sustainability_maturity ?? "n/a"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</Base>

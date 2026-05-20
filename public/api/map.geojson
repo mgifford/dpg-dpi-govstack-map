@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6784,
+          45.5152
+        ]
+      },
+      "properties": {
+        "id": "drupal-association",
+        "name": "Drupal Association",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "United States",
+        "city": "Portland",
+        "associated_projects": [
+          "drupal"
+        ],
+        "popup_label": "Drupal Association — Portland, United States",
+        "popup_detail": "Projects: Drupal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6633,
+          12.8406
+        ]
+      },
+      "properties": {
+        "id": "iiit-bangalore",
+        "name": "IIIT Bangalore",
+        "entity_type": "organization",
+        "org_type": "academic",
+        "country": "India",
+        "city": "Bengaluru",
+        "associated_projects": [
+          "mosip"
+        ],
+        "popup_label": "IIIT Bangalore — Bengaluru, India",
+        "popup_detail": "Projects: MOSIP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "properties": {
+        "id": "mosip-foundation",
+        "name": "MOSIP Foundation",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "India",
+        "city": "Bengaluru",
+        "associated_projects": [
+          "mosip"
+        ],
+        "popup_label": "MOSIP Foundation — Bengaluru, India",
+        "popup_detail": "Projects: MOSIP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.723,
+          59.939
+        ]
+      },
+      "properties": {
+        "id": "university-of-oslo",
+        "name": "University of Oslo",
+        "entity_type": "organization",
+        "org_type": "academic",
+        "country": "Norway",
+        "city": "Oslo",
+        "associated_projects": [
+          "dhis2"
+        ],
+        "popup_label": "University of Oslo — Oslo, Norway",
+        "popup_detail": "Projects: DHIS2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1581,
+          39.7684
+        ]
+      },
+      "properties": {
+        "id": "openmrs-inc",
+        "name": "OpenMRS Inc.",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "United States",
+        "city": "Indianapolis",
+        "associated_projects": [
+          "openmrs"
+        ],
+        "popup_label": "OpenMRS Inc. — Indianapolis, United States",
+        "popup_detail": "Projects: OpenMRS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8172,
+          -1.2864
+        ]
+      },
+      "properties": {
+        "id": "openspp-association",
+        "name": "OpenSPP Association",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "Kenya",
+        "city": "Nairobi",
+        "associated_projects": [
+          "openspp"
+        ],
+        "popup_label": "OpenSPP Association — Nairobi, Kenya",
+        "popup_detail": "Projects: OpenSPP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ]
+      },
+      "properties": {
+        "id": "ckan-association",
+        "name": "CKAN Association",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "United Kingdom",
+        "city": "London",
+        "associated_projects": [
+          "ckan"
+        ],
+        "popup_label": "CKAN Association — London, United Kingdom",
+        "popup_detail": "Projects: CKAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273,
+          37.8715
+        ]
+      },
+      "properties": {
+        "id": "civicactions",
+        "name": "CivicActions",
+        "entity_type": "organization",
+        "org_type": "company",
+        "country": "United States",
+        "city": "Berkeley",
+        "associated_projects": [
+          "dkan"
+        ],
+        "popup_label": "CivicActions — Berkeley, United States",
+        "popup_detail": "Projects: DKAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      },
+      "properties": {
+        "id": "mojaloop-foundation",
+        "name": "Mojaloop Foundation",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "Singapore",
+        "city": "Singapore",
+        "associated_projects": [
+          "mojaloop"
+        ],
+        "popup_label": "Mojaloop Foundation — Singapore, Singapore",
+        "popup_detail": "Projects: Mojaloop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.743,
+          42.2808
+        ]
+      },
+      "properties": {
+        "id": "hl7",
+        "name": "Health Level Seven International",
+        "entity_type": "organization",
+        "org_type": "standards-body",
+        "country": "International",
+        "city": "Ann Arbor",
+        "associated_projects": [],
+        "popup_label": "Health Level Seven International — Ann Arbor, International",
+        "popup_detail": "Projects: "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1432,
+          46.2044
+        ]
+      },
+      "properties": {
+        "id": "iso",
+        "name": "International Organization for Standardization",
+        "entity_type": "organization",
+        "org_type": "standards-body",
+        "country": "Switzerland",
+        "city": "Geneva",
+        "associated_projects": [],
+        "popup_label": "International Organization for Standardization — Geneva, Switzerland",
+        "popup_detail": "Projects: "
+      }
+    }
+  ]
+}

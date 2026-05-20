@@ -1,0 +1,4622 @@
+{
+  "index": {
+    "version": "2.3.9",
+    "fields": [
+      "name",
+      "description",
+      "tags",
+      "category",
+      "project_type",
+      "countries",
+      "sdgs",
+      "dpi_domains",
+      "standards",
+      "governance",
+      "orgs",
+      "licenses"
+    ],
+    "fieldVectors": [
+      [
+        "name/drupal",
+        [
+          0,
+          6.931
+        ]
+      ],
+      [
+        "description/drupal",
+        [
+          1,
+          1.708,
+          2,
+          0.279,
+          3,
+          6.246,
+          4,
+          3.38,
+          5,
+          8.737,
+          6,
+          6.246,
+          7,
+          3.38,
+          8,
+          2.402,
+          9,
+          6.246,
+          10,
+          8.737,
+          11,
+          4.606,
+          12,
+          8.737,
+          13,
+          0.889,
+          14,
+          1.204,
+          15,
+          6.246
+        ]
+      ],
+      [
+        "tags/drupal",
+        [
+          1,
+          1.289,
+          2,
+          0.21,
+          16,
+          6.595,
+          17,
+          4.715,
+          18,
+          6.595
+        ]
+      ],
+      [
+        "category/drupal",
+        [
+          14,
+          0.741,
+          19,
+          0.976
+        ]
+      ],
+      [
+        "project_type/drupal",
+        [
+          14,
+          0.624,
+          20,
+          2.389
+        ]
+      ],
+      [
+        "countries/drupal",
+        [
+          21,
+          2.448,
+          22,
+          2.353,
+          23,
+          2.353,
+          24,
+          3.291,
+          25,
+          3.291,
+          26,
+          2.353
+        ]
+      ],
+      [
+        "sdgs/drupal",
+        [
+          27,
+          0.144,
+          28,
+          1.22,
+          29,
+          3.153
+        ]
+      ],
+      [
+        "dpi_domains/drupal",
+        [
+          11,
+          1.517,
+          14,
+          0.396,
+          30,
+          1.517
+        ]
+      ],
+      [
+        "standards/drupal",
+        [
+          31,
+          1.468,
+          32,
+          1.468,
+          33,
+          1.468,
+          34,
+          1.468,
+          35,
+          1.05
+        ]
+      ],
+      [
+        "governance/drupal",
+        [
+          36,
+          0.191
+        ]
+      ],
+      [
+        "orgs/drupal",
+        [
+          0,
+          0.71,
+          37,
+          0.968
+        ]
+      ],
+      [
+        "licenses/drupal",
+        [
+          38,
+          1.156,
+          39,
+          0.445,
+          40,
+          1.156
+        ]
+      ],
+      [
+        "name/mosip",
+        [
+          41,
+          12.809
+        ]
+      ],
+      [
+        "description/mosip",
+        [
+          1,
+          1.757,
+          2,
+          0.287,
+          13,
+          0.915,
+          14,
+          1.239,
+          19,
+          1.633,
+          36,
+          0.915,
+          42,
+          8.991,
+          43,
+          4.777,
+          44,
+          8.991,
+          45,
+          6.428,
+          46,
+          4.739,
+          47,
+          1.633,
+          48,
+          8.991
+        ]
+      ],
+      [
+        "tags/mosip",
+        [
+          43,
+          2.807,
+          47,
+          1.318,
+          49,
+          5.188,
+          50,
+          7.257
+        ]
+      ],
+      [
+        "category/mosip",
+        [
+          13,
+          0.547,
+          43,
+          2.079
+        ]
+      ],
+      [
+        "project_type/mosip",
+        [
+          51,
+          2.341
+        ]
+      ],
+      [
+        "countries/mosip",
+        [
+          52,
+          2.208,
+          53,
+          3.089,
+          54,
+          2.208,
+          55,
+          3.089,
+          56,
+          3.089,
+          57,
+          3.089,
+          58,
+          3.089,
+          59,
+          3.089
+        ]
+      ],
+      [
+        "sdgs/mosip",
+        [
+          27,
+          0.132,
+          28,
+          1.605
+        ]
+      ],
+      [
+        "dpi_domains/mosip",
+        [
+          13,
+          0.355,
+          43,
+          1.349
+        ]
+      ],
+      [
+        "standards/mosip",
+        [
+          60,
+          1.468,
+          61,
+          1.468,
+          62,
+          1.468,
+          63,
+          1.468,
+          64,
+          1.468
+        ]
+      ],
+      [
+        "governance/mosip",
+        [
+          36,
+          0.191
+        ]
+      ],
+      [
+        "orgs/mosip",
+        [
+          36,
+          0.134,
+          41,
+          0.941,
+          65,
+          1.317,
+          66,
+          1.317
+        ]
+      ],
+      [
+        "licenses/mosip",
+        [
+          39,
+          0.526,
+          67,
+          1.369
+        ]
+      ],
+      [
+        "name/dhis2",
+        [
+          68,
+          17.918
+        ]
+      ],
+      [
+        "description/dhis2",
+        [
+          1,
+          1.757,
+          2,
+          0.287,
+          7,
+          3.478,
+          8,
+          2.471,
+          11,
+          4.739,
+          19,
+          1.633,
+          30,
+          4.739,
+          69,
+          0.394,
+          70,
+          4.739,
+          71,
+          8.991,
+          72,
+          6.428,
+          73,
+          6.428,
+          74,
+          6.428
+        ]
+      ],
+      [
+        "tags/dhis2",
+        [
+          49,
+          5.188,
+          69,
+          0.232,
+          72,
+          5.188,
+          73,
+          5.188
+        ]
+      ],
+      [
+        "category/dhis2",
+        [
+          69,
+          0.171,
+          70,
+          2.833
+        ]
+      ],
+      [
+        "project_type/dhis2",
+        [
+          51,
+          2.341
+        ]
+      ],
+      [
+        "countries/dhis2",
+        [
+          54,
+          1.967,
+          75,
+          1.45,
+          76,
+          1.967,
+          77,
+          1.064,
+          78,
+          2.752,
+          79,
+          2.752,
+          80,
+          2.752,
+          81,
+          2.752,
+          82,
+          2.752,
+          83,
+          2.752
+        ]
+      ],
+      [
+        "sdgs/dhis2",
+        [
+          27,
+          0.132,
+          84,
+          2.187
+        ]
+      ],
+      [
+        "dpi_domains/dhis2",
+        [
+          69,
+          0.141
+        ]
+      ],
+      [
+        "standards/dhis2",
+        [
+          85,
+          1.323,
+          86,
+          1.323,
+          87,
+          1.85
+        ]
+      ],
+      [
+        "governance/dhis2",
+        [
+          88,
+          1.877
+        ]
+      ],
+      [
+        "orgs/dhis2",
+        [
+          89,
+          1.836,
+          90,
+          1.836
+        ]
+      ],
+      [
+        "licenses/dhis2",
+        [
+          84,
+          0.853,
+          91,
+          1.618,
+          92,
+          1.618
+        ]
+      ],
+      [
+        "name/openmrs",
+        [
+          93,
+          12.809
+        ]
+      ],
+      [
+        "description/openmrs",
+        [
+          1,
+          1.616,
+          2,
+          0.264,
+          7,
+          3.199,
+          13,
+          0.842,
+          19,
+          1.502,
+          45,
+          5.912,
+          46,
+          4.359,
+          69,
+          0.372,
+          94,
+          8.27,
+          95,
+          8.27,
+          96,
+          8.27,
+          97,
+          8.27,
+          98,
+          8.27,
+          99,
+          8.27,
+          100,
+          8.27,
+          101,
+          5.912
+        ]
+      ],
+      [
+        "tags/openmrs",
+        [
+          47,
+          1.465,
+          69,
+          0.257,
+          102,
+          8.067
+        ]
+      ],
+      [
+        "category/openmrs",
+        [
+          69,
+          0.171,
+          70,
+          2.833
+        ]
+      ],
+      [
+        "project_type/openmrs",
+        [
+          51,
+          2.341
+        ]
+      ],
+      [
+        "countries/openmrs",
+        [
+          75,
+          1.995,
+          77,
+          1.464,
+          103,
+          3.786,
+          104,
+          3.786,
+          105,
+          3.786
+        ]
+      ],
+      [
+        "sdgs/openmrs",
+        [
+          27,
+          0.132,
+          84,
+          2.187
+        ]
+      ],
+      [
+        "dpi_domains/openmrs",
+        [
+          69,
+          0.141
+        ]
+      ],
+      [
+        "standards/openmrs",
+        [
+          85,
+          1.52,
+          86,
+          1.52
+        ]
+      ],
+      [
+        "governance/openmrs",
+        [
+          106,
+          1.342
+        ]
+      ],
+      [
+        "orgs/openmrs",
+        [
+          93,
+          1.313,
+          107,
+          1.836
+        ]
+      ],
+      [
+        "licenses/openmrs",
+        [
+          39,
+          0.526,
+          67,
+          1.369
+        ]
+      ],
+      [
+        "name/openspp",
+        [
+          108,
+          12.809
+        ]
+      ],
+      [
+        "description/openspp",
+        [
+          1,
+          1.757,
+          2,
+          0.287,
+          4,
+          3.478,
+          8,
+          2.471,
+          9,
+          6.428,
+          19,
+          1.633,
+          30,
+          4.739,
+          101,
+          6.428,
+          109,
+          3.478,
+          110,
+          3.478,
+          111,
+          8.991,
+          112,
+          6.428,
+          113,
+          3.478,
+          114,
+          8.991
+        ]
+      ],
+      [
+        "tags/openspp",
+        [
+          4,
+          2.551,
+          109,
+          2.551,
+          110,
+          2.551,
+          112,
+          4.715,
+          115,
+          6.595
+        ]
+      ],
+      [
+        "category/openspp",
+        [
+          109,
+          2.079,
+          110,
+          2.079
+        ]
+      ],
+      [
+        "project_type/openspp",
+        [
+          17,
+          4.325
+        ]
+      ],
+      [
+        "countries/openspp",
+        [
+          52,
+          3.185,
+          77,
+          1.724,
+          116,
+          4.455
+        ]
+      ],
+      [
+        "sdgs/openspp",
+        [
+          27,
+          0.144,
+          117,
+          2.254,
+          118,
+          2.254
+        ]
+      ],
+      [
+        "dpi_domains/openspp",
+        [
+          109,
+          1.349,
+          110,
+          1.349
+        ]
+      ],
+      [
+        "standards/openspp",
+        [
+          35,
+          1.787
+        ]
+      ],
+      [
+        "governance/openspp",
+        [
+          106,
+          1.342
+        ]
+      ],
+      [
+        "orgs/openspp",
+        [
+          37,
+          0.968,
+          108,
+          1.313
+        ]
+      ],
+      [
+        "licenses/openspp",
+        [
+          119,
+          1.369,
+          120,
+          1.369
+        ]
+      ],
+      [
+        "name/ckan",
+        [
+          121,
+          12.809
+        ]
+      ],
+      [
+        "description/ckan",
+        [
+          1,
+          2.414,
+          2,
+          0.287,
+          4,
+          3.478,
+          6,
+          6.428,
+          7,
+          3.478,
+          8,
+          2.471,
+          14,
+          1.239,
+          15,
+          6.428,
+          46,
+          4.739,
+          122,
+          4.777,
+          123,
+          8.991,
+          124,
+          4.739
+        ]
+      ],
+      [
+        "tags/ckan",
+        [
+          1,
+          1.289,
+          122,
+          2.551,
+          125,
+          6.595,
+          126,
+          6.595,
+          127,
+          6.595
+        ]
+      ],
+      [
+        "category/ckan",
+        [
+          1,
+          1.051,
+          14,
+          0.741
+        ]
+      ],
+      [
+        "project_type/ckan",
+        [
+          14,
+          0.624,
+          20,
+          2.389
+        ]
+      ],
+      [
+        "countries/ckan",
+        [
+          21,
+          1.856,
+          22,
+          2.517,
+          26,
+          2.517,
+          128,
+          3.521,
+          129,
+          3.521,
+          130,
+          3.521
+        ]
+      ],
+      [
+        "sdgs/ckan",
+        [
+          27,
+          0.132,
+          28,
+          1.605
+        ]
+      ],
+      [
+        "dpi_domains/ckan",
+        [
+          1,
+          0.682,
+          14,
+          0.481
+        ]
+      ],
+      [
+        "standards/ckan",
+        [
+          131,
+          1.52,
+          132,
+          2.126
+        ]
+      ],
+      [
+        "governance/ckan",
+        [
+          36,
+          0.191
+        ]
+      ],
+      [
+        "orgs/ckan",
+        [
+          37,
+          0.968,
+          121,
+          1.313
+        ]
+      ],
+      [
+        "licenses/ckan",
+        [
+          119,
+          1.369,
+          120,
+          1.369
+        ]
+      ],
+      [
+        "name/dkan",
+        [
+          133,
+          17.918
+        ]
+      ],
+      [
+        "description/dkan",
+        [
+          0,
+          3.582,
+          1,
+          1.81,
+          3,
+          9.008,
+          8,
+          2.545,
+          19,
+          1.682,
+          47,
+          1.682,
+          74,
+          6.62,
+          122,
+          3.582,
+          124,
+          4.881,
+          134,
+          9.261,
+          135,
+          9.261,
+          136,
+          9.261
+        ]
+      ],
+      [
+        "tags/dkan",
+        [
+          0,
+          2.807,
+          1,
+          1.418,
+          122,
+          2.807,
+          124,
+          3.825
+        ]
+      ],
+      [
+        "category/dkan",
+        [
+          1,
+          1.051,
+          14,
+          0.741
+        ]
+      ],
+      [
+        "project_type/dkan",
+        [
+          14,
+          0.624,
+          20,
+          2.389
+        ]
+      ],
+      [
+        "countries/dkan",
+        [
+          21,
+          2.576,
+          23,
+          3.494
+        ]
+      ],
+      [
+        "sdgs/dkan",
+        [
+          27,
+          0.132,
+          28,
+          1.605
+        ]
+      ],
+      [
+        "dpi_domains/dkan",
+        [
+          1,
+          0.682,
+          14,
+          0.481
+        ]
+      ],
+      [
+        "standards/dkan",
+        [
+          131,
+          1.323,
+          137,
+          1.85,
+          138,
+          1.85
+        ]
+      ],
+      [
+        "governance/dkan",
+        [
+          139,
+          1.359,
+          140,
+          1.359
+        ]
+      ],
+      [
+        "orgs/dkan",
+        [
+          141,
+          2.287
+        ]
+      ],
+      [
+        "licenses/dkan",
+        [
+          38,
+          1.156,
+          39,
+          0.445,
+          40,
+          1.156
+        ]
+      ],
+      [
+        "name/mojaloop",
+        [
+          142,
+          12.809
+        ]
+      ],
+      [
+        "description/mojaloop",
+        [
+          1,
+          1.866,
+          2,
+          0.305,
+          13,
+          0.971,
+          47,
+          1.734,
+          113,
+          3.693,
+          143,
+          9.546,
+          144,
+          9.546,
+          145,
+          9.546,
+          146,
+          6.825,
+          147,
+          6.825,
+          148,
+          9.546,
+          149,
+          9.546
+        ]
+      ],
+      [
+        "tags/mojaloop",
+        [
+          47,
+          1.465,
+          113,
+          3.121,
+          150,
+          8.067
+        ]
+      ],
+      [
+        "category/mojaloop",
+        [
+          146,
+          3.843,
+          147,
+          3.843
+        ]
+      ],
+      [
+        "project_type/mojaloop",
+        [
+          51,
+          2.341
+        ]
+      ],
+      [
+        "countries/mojaloop",
+        [
+          75,
+          1.995,
+          76,
+          2.706,
+          77,
+          1.464,
+          151,
+          3.786,
+          152,
+          3.786
+        ]
+      ],
+      [
+        "sdgs/mojaloop",
+        [
+          27,
+          0.148,
+          117,
+          1.818,
+          118,
+          1.818,
+          153,
+          2.543
+        ]
+      ],
+      [
+        "dpi_domains/mojaloop",
+        [
+          13,
+          0.355,
+          113,
+          1.349
+        ]
+      ],
+      [
+        "standards/mojaloop",
+        [
+          154,
+          1.468,
+          155,
+          1.468,
+          156,
+          1.468,
+          157,
+          1.468,
+          158,
+          1.468
+        ]
+      ],
+      [
+        "governance/mojaloop",
+        [
+          36,
+          0.191
+        ]
+      ],
+      [
+        "orgs/mojaloop",
+        [
+          36,
+          0.187,
+          142,
+          1.313
+        ]
+      ],
+      [
+        "licenses/mojaloop",
+        [
+          39,
+          0.526,
+          159,
+          1.915
+        ]
+      ]
+    ],
+    "invertedIndex": [
+      [
+        "1",
+        {
+          "_index": 117,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "openspp": {},
+            "mojaloop": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "10",
+        {
+          "_index": 118,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "openspp": {},
+            "mojaloop": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "16",
+        {
+          "_index": 28,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "drupal": {},
+            "mosip": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "19794",
+        {
+          "_index": 64,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mosip": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "2.0",
+        {
+          "_index": 39,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "drupal": {},
+            "mosip": {},
+            "openmrs": {},
+            "dkan": {},
+            "mojaloop": {}
+          }
+        }
+      ],
+      [
+        "2.2",
+        {
+          "_index": 34,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "drupal": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "20022",
+        {
+          "_index": 155,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mojaloop": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "3",
+        {
+          "_index": 84,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "dhis2": {}
+          }
+        }
+      ],
+      [
+        "3.0",
+        {
+          "_index": 120,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "openspp": {},
+            "ckan": {}
+          }
+        }
+      ],
+      [
+        "8",
+        {
+          "_index": 153,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "mojaloop": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "9",
+        {
+          "_index": 29,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "drupal": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "academ",
+        {
+          "_index": 88,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {
+            "dhis2": {}
+          },
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "access",
+        {
+          "_index": 18,
+          "name": {},
+          "description": {},
+          "tags": {
+            "drupal": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "adx",
+        {
+          "_index": 87,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "dhis2": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "agenc",
+        {
+          "_index": 135,
+          "name": {},
+          "description": {
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "agpl",
+        {
+          "_index": 119,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "openspp": {},
+            "ckan": {}
+          }
+        }
+      ],
+      [
+        "analyt",
+        {
+          "_index": 73,
+          "name": {},
+          "description": {
+            "dhis2": {}
+          },
+          "tags": {
+            "dhis2": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "apach",
+        {
+          "_index": 159,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "mojaloop": {}
+          }
+        }
+      ],
+      [
+        "argentina",
+        {
+          "_index": 129,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "ckan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "aria",
+        {
+          "_index": 32,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "drupal": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "associ",
+        {
+          "_index": 37,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "drupal": {},
+            "openspp": {},
+            "ckan": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "australia",
+        {
+          "_index": 24,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "drupal": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "bangalor",
+        {
+          "_index": 66,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "mosip": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "bangladesh",
+        {
+          "_index": 80,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "base",
+        {
+          "_index": 134,
+          "name": {},
+          "description": {
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "biometr",
+        {
+          "_index": 50,
+          "name": {},
+          "description": {},
+          "tags": {
+            "mosip": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "bsd",
+        {
+          "_index": 91,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "dhis2": {}
+          }
+        }
+      ],
+      [
+        "build",
+        {
+          "_index": 45,
+          "name": {},
+          "description": {
+            "mosip": {},
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "canada",
+        {
+          "_index": 128,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "ckan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "case",
+        {
+          "_index": 112,
+          "name": {},
+          "description": {
+            "openspp": {}
+          },
+          "tags": {
+            "openspp": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "catalogu",
+        {
+          "_index": 124,
+          "name": {},
+          "description": {
+            "ckan": {},
+            "dkan": {}
+          },
+          "tags": {
+            "dkan": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "center",
+        {
+          "_index": 97,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "civic",
+        {
+          "_index": 126,
+          "name": {},
+          "description": {},
+          "tags": {
+            "ckan": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "civicact",
+        {
+          "_index": 141,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "dkan": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "ckan",
+        {
+          "_index": 121,
+          "name": {
+            "ckan": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "ckan": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "claus",
+        {
+          "_index": 92,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "dhis2": {}
+          }
+        }
+      ],
+      [
+        "cm",
+        {
+          "_index": 16,
+          "name": {},
+          "description": {},
+          "tags": {
+            "drupal": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "colombia",
+        {
+          "_index": 116,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "openspp": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "commun",
+        {
+          "_index": 106,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {
+            "openmrs": {},
+            "openspp": {}
+          },
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "compani",
+        {
+          "_index": 139,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {
+            "dkan": {}
+          },
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "compon",
+        {
+          "_index": 48,
+          "name": {},
+          "description": {
+            "mosip": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "connect",
+        {
+          "_index": 62,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mosip": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "content",
+        {
+          "_index": 3,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "data",
+        {
+          "_index": 122,
+          "name": {},
+          "description": {
+            "ckan": {},
+            "dkan": {}
+          },
+          "tags": {
+            "ckan": {},
+            "dkan": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "dcat",
+        {
+          "_index": 131,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "ckan": {},
+            "dkan": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "deliveri",
+        {
+          "_index": 30,
+          "name": {},
+          "description": {
+            "dhis2": {},
+            "openspp": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "drupal": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "dhis2",
+        {
+          "_index": 68,
+          "name": {
+            "dhis2": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "digit",
+        {
+          "_index": 13,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "mosip": {},
+            "openmrs": {},
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {
+            "mosip": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "mosip": {},
+            "mojaloop": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "dkan",
+        {
+          "_index": 133,
+          "name": {
+            "dkan": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "dpg",
+        {
+          "_index": 51,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {
+            "mosip": {},
+            "dhis2": {},
+            "openmrs": {},
+            "mojaloop": {}
+          },
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "drupal",
+        {
+          "_index": 0,
+          "name": {
+            "drupal": {}
+          },
+          "description": {
+            "dkan": {}
+          },
+          "tags": {
+            "dkan": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "drupal": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "ecosystem",
+        {
+          "_index": 148,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "emr",
+        {
+          "_index": 102,
+          "name": {},
+          "description": {},
+          "tags": {
+            "openmrs": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "ethiopia",
+        {
+          "_index": 54,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {},
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "fhir",
+        {
+          "_index": 85,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "financi",
+        {
+          "_index": 147,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {
+            "mojaloop": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "fintech",
+        {
+          "_index": 150,
+          "name": {},
+          "description": {},
+          "tags": {
+            "mojaloop": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "foundat",
+        {
+          "_index": 36,
+          "name": {},
+          "description": {
+            "mosip": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {
+            "drupal": {},
+            "mosip": {},
+            "ckan": {},
+            "mojaloop": {}
+          },
+          "orgs": {
+            "mosip": {},
+            "mojaloop": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "framework",
+        {
+          "_index": 5,
+          "name": {},
+          "description": {
+            "drupal": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "franc",
+        {
+          "_index": 25,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "drupal": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "g2p",
+        {
+          "_index": 115,
+          "name": {},
+          "description": {},
+          "tags": {
+            "openspp": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "germani",
+        {
+          "_index": 26,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "drupal": {},
+            "ckan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "ghana",
+        {
+          "_index": 151,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mojaloop": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "global",
+        {
+          "_index": 71,
+          "name": {},
+          "description": {
+            "dhis2": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "govern",
+        {
+          "_index": 14,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "mosip": {},
+            "ckan": {}
+          },
+          "tags": {},
+          "category": {
+            "drupal": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "project_type": {
+            "drupal": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "drupal": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "govstack",
+        {
+          "_index": 49,
+          "name": {},
+          "description": {},
+          "tags": {
+            "mosip": {},
+            "dhis2": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "govtech",
+        {
+          "_index": 17,
+          "name": {},
+          "description": {},
+          "tags": {
+            "drupal": {}
+          },
+          "category": {},
+          "project_type": {
+            "openspp": {}
+          },
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "gpl",
+        {
+          "_index": 38,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "drupal": {},
+            "dkan": {}
+          }
+        }
+      ],
+      [
+        "haiti",
+        {
+          "_index": 104,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "openmrs": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "health",
+        {
+          "_index": 69,
+          "name": {},
+          "description": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "tags": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "category": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "help",
+        {
+          "_index": 44,
+          "name": {},
+          "description": {
+            "mosip": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "hl7",
+        {
+          "_index": 86,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "ident",
+        {
+          "_index": 43,
+          "name": {},
+          "description": {
+            "mosip": {}
+          },
+          "tags": {
+            "mosip": {}
+          },
+          "category": {
+            "mosip": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "mosip": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "iiit",
+        {
+          "_index": 65,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "mosip": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "inc",
+        {
+          "_index": 107,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "openmrs": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "inclus",
+        {
+          "_index": 146,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {
+            "mojaloop": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "india",
+        {
+          "_index": 78,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "indonesia",
+        {
+          "_index": 79,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "inform",
+        {
+          "_index": 70,
+          "name": {},
+          "description": {
+            "dhis2": {}
+          },
+          "tags": {},
+          "category": {
+            "dhis2": {},
+            "openmrs": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "infrastructur",
+        {
+          "_index": 149,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "instant",
+        {
+          "_index": 144,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "institut",
+        {
+          "_index": 123,
+          "name": {},
+          "description": {
+            "ckan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "interoper",
+        {
+          "_index": 47,
+          "name": {},
+          "description": {
+            "mosip": {},
+            "dkan": {},
+            "mojaloop": {}
+          },
+          "tags": {
+            "mosip": {},
+            "openmrs": {},
+            "mojaloop": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "iso",
+        {
+          "_index": 154,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mojaloop": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "iso/iec",
+        {
+          "_index": 63,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mosip": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "json",
+        {
+          "_index": 137,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "dkan": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "kenya",
+        {
+          "_index": 77,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {},
+            "openmrs": {},
+            "openspp": {},
+            "mojaloop": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "kingdom",
+        {
+          "_index": 22,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "drupal": {},
+            "ckan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "lanka",
+        {
+          "_index": 58,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "later",
+        {
+          "_index": 40,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "drupal": {},
+            "dkan": {}
+          }
+        }
+      ],
+      [
+        "ld",
+        {
+          "_index": 138,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "dkan": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "led",
+        {
+          "_index": 140,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {
+            "dkan": {}
+          },
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "leon",
+        {
+          "_index": 56,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "level",
+        {
+          "_index": 156,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mojaloop": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "liberia",
+        {
+          "_index": 105,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "openmrs": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "low",
+        {
+          "_index": 98,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "maldiv",
+        {
+          "_index": 152,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mojaloop": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "manag",
+        {
+          "_index": 4,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "openspp": {},
+            "ckan": {}
+          },
+          "tags": {
+            "openspp": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "medic",
+        {
+          "_index": 94,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "mexico",
+        {
+          "_index": 130,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "ckan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "modular",
+        {
+          "_index": 42,
+          "name": {},
+          "description": {
+            "mosip": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "mojaloop",
+        {
+          "_index": 142,
+          "name": {
+            "mojaloop": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "mojaloop": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "morocco",
+        {
+          "_index": 53,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "mosip",
+        {
+          "_index": 41,
+          "name": {
+            "mosip": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "mosip": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "mpl",
+        {
+          "_index": 67,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {
+            "mosip": {},
+            "openmrs": {}
+          }
+        }
+      ],
+      [
+        "nation",
+        {
+          "_index": 100,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "need",
+        {
+          "_index": 136,
+          "name": {},
+          "description": {
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "nigeria",
+        {
+          "_index": 81,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "on",
+        {
+          "_index": 157,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mojaloop": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "open",
+        {
+          "_index": 1,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "mosip": {},
+            "dhis2": {},
+            "openmrs": {},
+            "openspp": {},
+            "ckan": {},
+            "dkan": {},
+            "mojaloop": {}
+          },
+          "tags": {
+            "drupal": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "category": {
+            "ckan": {},
+            "dkan": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "ckan": {},
+            "dkan": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "openapi",
+        {
+          "_index": 35,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "drupal": {},
+            "openspp": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "openid",
+        {
+          "_index": 61,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mosip": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "openmr",
+        {
+          "_index": 93,
+          "name": {
+            "openmrs": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "openmrs": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "openspp",
+        {
+          "_index": 108,
+          "name": {
+            "openspp": {}
+          },
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "openspp": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "oslo",
+        {
+          "_index": 90,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "dhis2": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "oss",
+        {
+          "_index": 20,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {
+            "drupal": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "patient",
+        {
+          "_index": 96,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "payment",
+        {
+          "_index": 113,
+          "name": {},
+          "description": {
+            "openspp": {},
+            "mojaloop": {}
+          },
+          "tags": {
+            "mojaloop": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "mojaloop": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "philippin",
+        {
+          "_index": 52,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {},
+            "openspp": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "platform",
+        {
+          "_index": 19,
+          "name": {},
+          "description": {
+            "mosip": {},
+            "dhis2": {},
+            "openmrs": {},
+            "openspp": {},
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {
+            "drupal": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "portal",
+        {
+          "_index": 12,
+          "name": {},
+          "description": {
+            "drupal": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "program",
+        {
+          "_index": 114,
+          "name": {},
+          "description": {
+            "openspp": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "project",
+        {
+          "_index": 158,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mojaloop": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "protect",
+        {
+          "_index": 110,
+          "name": {},
+          "description": {
+            "openspp": {}
+          },
+          "tags": {
+            "openspp": {}
+          },
+          "category": {
+            "openspp": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "openspp": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "public",
+        {
+          "_index": 8,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "dhis2": {},
+            "openspp": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "publish",
+        {
+          "_index": 15,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "ckan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "rdf",
+        {
+          "_index": 132,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "ckan": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "record",
+        {
+          "_index": 95,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "registri",
+        {
+          "_index": 111,
+          "name": {},
+          "description": {
+            "openspp": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "report",
+        {
+          "_index": 72,
+          "name": {},
+          "description": {
+            "dhis2": {}
+          },
+          "tags": {
+            "dhis2": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "resourc",
+        {
+          "_index": 99,
+          "name": {},
+          "description": {
+            "openmrs": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "rwanda",
+        {
+          "_index": 103,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "openmrs": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "sdg",
+        {
+          "_index": 27,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {
+            "drupal": {},
+            "mosip": {},
+            "dhis2": {},
+            "openmrs": {},
+            "openspp": {},
+            "ckan": {},
+            "dkan": {},
+            "mojaloop": {}
+          },
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "sector",
+        {
+          "_index": 9,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "openspp": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "servic",
+        {
+          "_index": 11,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "dhis2": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "drupal": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "set",
+        {
+          "_index": 101,
+          "name": {},
+          "description": {
+            "openmrs": {},
+            "openspp": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "sierra",
+        {
+          "_index": 55,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "social",
+        {
+          "_index": 109,
+          "name": {},
+          "description": {
+            "openspp": {}
+          },
+          "tags": {
+            "openspp": {}
+          },
+          "category": {
+            "openspp": {}
+          },
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {
+            "openspp": {}
+          },
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "softwar",
+        {
+          "_index": 143,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "sourc",
+        {
+          "_index": 2,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "mosip": {},
+            "dhis2": {},
+            "openmrs": {},
+            "openspp": {},
+            "ckan": {},
+            "mojaloop": {}
+          },
+          "tags": {
+            "drupal": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "sri",
+        {
+          "_index": 57,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "state",
+        {
+          "_index": 23,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "drupal": {},
+            "dkan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "switch",
+        {
+          "_index": 145,
+          "name": {},
+          "description": {
+            "mojaloop": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "system",
+        {
+          "_index": 46,
+          "name": {},
+          "description": {
+            "mosip": {},
+            "openmrs": {},
+            "ckan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "tanzania",
+        {
+          "_index": 76,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {},
+            "mojaloop": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "tech",
+        {
+          "_index": 127,
+          "name": {},
+          "description": {},
+          "tags": {
+            "ckan": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "togo",
+        {
+          "_index": 59,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "mosip": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "transpar",
+        {
+          "_index": 125,
+          "name": {},
+          "description": {},
+          "tags": {
+            "ckan": {}
+          },
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "uganda",
+        {
+          "_index": 75,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {},
+            "openmrs": {},
+            "mojaloop": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "unit",
+        {
+          "_index": 21,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "drupal": {},
+            "ckan": {},
+            "dkan": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "univers",
+        {
+          "_index": 89,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {
+            "dhis2": {}
+          },
+          "licenses": {}
+        }
+      ],
+      [
+        "us",
+        {
+          "_index": 7,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "dhis2": {},
+            "openmrs": {},
+            "ckan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "w3c",
+        {
+          "_index": 60,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "mosip": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "wai",
+        {
+          "_index": 31,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "drupal": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "wcag",
+        {
+          "_index": 33,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {
+            "drupal": {}
+          },
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "websit",
+        {
+          "_index": 10,
+          "name": {},
+          "description": {
+            "drupal": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "wide",
+        {
+          "_index": 6,
+          "name": {},
+          "description": {
+            "drupal": {},
+            "ckan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "workflow",
+        {
+          "_index": 74,
+          "name": {},
+          "description": {
+            "dhis2": {},
+            "dkan": {}
+          },
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {},
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "zambia",
+        {
+          "_index": 82,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ],
+      [
+        "zimbabw",
+        {
+          "_index": 83,
+          "name": {},
+          "description": {},
+          "tags": {},
+          "category": {},
+          "project_type": {},
+          "countries": {
+            "dhis2": {}
+          },
+          "sdgs": {},
+          "dpi_domains": {},
+          "standards": {},
+          "governance": {},
+          "orgs": {},
+          "licenses": {}
+        }
+      ]
+    ],
+    "pipeline": [
+      "stemmer"
+    ]
+  },
+  "meta": {
+    "drupal": {
+      "name": "Drupal",
+      "category": "Government Platforms",
+      "project_type": "Government OSS",
+      "maturity_level": "mature"
+    },
+    "mosip": {
+      "name": "MOSIP",
+      "category": "Digital Identity",
+      "project_type": "DPG",
+      "maturity_level": "mature"
+    },
+    "dhis2": {
+      "name": "DHIS2",
+      "category": "Health Information",
+      "project_type": "DPG",
+      "maturity_level": "mature"
+    },
+    "openmrs": {
+      "name": "OpenMRS",
+      "category": "Health Information",
+      "project_type": "DPG",
+      "maturity_level": "mature"
+    },
+    "openspp": {
+      "name": "OpenSPP",
+      "category": "Social Protection",
+      "project_type": "GovTech",
+      "maturity_level": "growing"
+    },
+    "ckan": {
+      "name": "CKAN",
+      "category": "Open Government",
+      "project_type": "Government OSS",
+      "maturity_level": "mature"
+    },
+    "dkan": {
+      "name": "DKAN",
+      "category": "Open Government",
+      "project_type": "Government OSS",
+      "maturity_level": "growing"
+    },
+    "mojaloop": {
+      "name": "Mojaloop",
+      "category": "Financial Inclusion",
+      "project_type": "DPG",
+      "maturity_level": "mature"
+    }
+  }
+}

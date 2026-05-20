@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-05-20T14:07:17.110Z",
+  "count": 12,
+  "organizations": [
+    {
+      "id": "drupal-association",
+      "name": "Drupal Association",
+      "type": "nonprofit",
+      "website": "https://www.drupal.org/association",
+      "country": "United States",
+      "city": "Portland",
+      "coordinates": {
+        "lat": 45.5152,
+        "lon": -122.6784
+      },
+      "associated_projects": [
+        "drupal"
+      ],
+      "partnerships": [],
+      "funders": [
+        "member-sponsors"
+      ],
+      "staff": [],
+      "github_org": "drupal",
+      "linkedin": "https://www.linkedin.com/company/drupal-association/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "iiit-bangalore",
+      "name": "IIIT Bangalore",
+      "type": "academic",
+      "website": "https://iiitb.ac.in",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.8406,
+        "lon": 77.6633
+      },
+      "associated_projects": [
+        "mosip"
+      ],
+      "partnerships": [
+        "mosip-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "mosip",
+      "linkedin": "https://www.linkedin.com/school/iiitb/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "mosip-foundation",
+      "name": "MOSIP Foundation",
+      "type": "nonprofit",
+      "website": "https://mosip.io",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "mosip"
+      ],
+      "partnerships": [
+        "iiit-bangalore"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "mosip",
+      "linkedin": "https://www.linkedin.com/company/mosip/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "university-of-oslo",
+      "name": "University of Oslo",
+      "type": "academic",
+      "website": "https://www.uio.no",
+      "country": "Norway",
+      "city": "Oslo",
+      "coordinates": {
+        "lat": 59.939,
+        "lon": 10.723
+      },
+      "associated_projects": [
+        "dhis2"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "dhis2",
+      "linkedin": "https://www.linkedin.com/school/university-of-oslo/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openmrs-inc",
+      "name": "OpenMRS Inc.",
+      "type": "nonprofit",
+      "website": "https://openmrs.org",
+      "country": "United States",
+      "city": "Indianapolis",
+      "coordinates": {
+        "lat": 39.7684,
+        "lon": -86.1581
+      },
+      "associated_projects": [
+        "openmrs"
+      ],
+      "partnerships": [
+        "university-of-oslo"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "openmrs",
+      "linkedin": "https://www.linkedin.com/company/openmrs-inc/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openspp-association",
+      "name": "OpenSPP Association",
+      "type": "nonprofit",
+      "website": "https://openspp.org",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "coordinates": {
+        "lat": -1.2864,
+        "lon": 36.8172
+      },
+      "associated_projects": [
+        "openspp"
+      ],
+      "partnerships": [
+        "mojaloop-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "openspp",
+      "linkedin": "https://www.linkedin.com/company/openspp/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "ckan-association",
+      "name": "CKAN Association",
+      "type": "nonprofit",
+      "website": "https://ckan.org/community/",
+      "country": "United Kingdom",
+      "city": "London",
+      "coordinates": {
+        "lat": 51.5072,
+        "lon": -0.1276
+      },
+      "associated_projects": [
+        "ckan"
+      ],
+      "partnerships": [
+        "civicactions"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "ckan",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "civicactions",
+      "name": "CivicActions",
+      "type": "company",
+      "website": "https://civicactions.com",
+      "country": "United States",
+      "city": "Berkeley",
+      "coordinates": {
+        "lat": 37.8715,
+        "lon": -122.273
+      },
+      "associated_projects": [
+        "dkan"
+      ],
+      "partnerships": [
+        "ckan-association"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "GetDKAN",
+      "linkedin": "https://www.linkedin.com/company/civicactions/",
+      "governance_role": "maintainer",
+      "provenance": {}
+    },
+    {
+      "id": "mojaloop-foundation",
+      "name": "Mojaloop Foundation",
+      "type": "nonprofit",
+      "website": "https://mojaloop.io",
+      "country": "Singapore",
+      "city": "Singapore",
+      "coordinates": {
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "associated_projects": [
+        "mojaloop"
+      ],
+      "partnerships": [
+        "openspp-association"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "mojaloop",
+      "linkedin": "https://www.linkedin.com/company/mojaloop-foundation/",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "w3c",
+      "name": "World Wide Web Consortium",
+      "type": "standards-body",
+      "website": "https://www.w3.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "w3c",
+      "linkedin": "",
+      "governance_role": "standards-steward",
+      "provenance": {}
+    },
+    {
+      "id": "hl7",
+      "name": "Health Level Seven International",
+      "type": "standards-body",
+      "website": "https://www.hl7.org",
+      "country": "International",
+      "city": "Ann Arbor",
+      "coordinates": {
+        "lat": 42.2808,
+        "lon": -83.743
+      },
+      "associated_projects": [],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "HL7",
+      "linkedin": "",
+      "governance_role": "standards-steward",
+      "provenance": {}
+    },
+    {
+      "id": "iso",
+      "name": "International Organization for Standardization",
+      "type": "standards-body",
+      "website": "https://www.iso.org",
+      "country": "Switzerland",
+      "city": "Geneva",
+      "coordinates": {
+        "lat": 46.2044,
+        "lon": 6.1432
+      },
+      "associated_projects": [],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "standards-steward",
+      "provenance": {}
+    }
+  ]
+}

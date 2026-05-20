@@ -1,0 +1,66 @@
+---
+import Base from "../../layouts/Base.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../../lib/schema";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.2.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [], standards: [] };
+}
+
+const organizations = [...dataset.organizations].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Base title="Organizations" description="Browse steward, maintainer, nonprofit, academic, and public-interest organizations across the Atlas." currentPage="/organizations/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <header style="margin-bottom: var(--space-8);">
+      <h1>Organizations</h1>
+      <p style="color: var(--color-text-muted); margin-top: var(--space-2); max-width: 72ch;">
+        Institutional context matters as much as code activity. Browse the steward, maintainer, academic, nonprofit,
+        and implementation organizations that sustain the phase-one Atlas cohort.
+      </p>
+    </header>
+
+    <div class="card-grid" role="list" aria-label="Organizations">
+      {organizations.map((organization) => {
+        const linkedProjects = dataset.projects.filter((project) => organization.associated_projects.includes(project.id));
+        return (
+          <article class="card" role="listitem" style="padding: var(--space-5);">
+            <header style="margin-bottom: var(--space-4);">
+              <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-2);">
+                <a href={`/organizations/${organization.id}/`}>{organization.name}</a>
+              </h2>
+              <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; align-items: center;">
+                <span class="badge" style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);">{organization.type}</span>
+                {organization.governance_role && <span class="badge badge--growing">{organization.governance_role}</span>}
+              </div>
+            </header>
+
+            <dl style="display: grid; grid-template-columns: minmax(8ch, auto) 1fr; gap: var(--space-2) var(--space-3); font-size: var(--text-sm); margin-bottom: var(--space-4);">
+              <dt style="font-weight: 600; color: var(--color-text-muted);">Location</dt>
+              <dd>{organization.city ? `${organization.city}, ` : ""}{organization.country}</dd>
+              <dt style="font-weight: 600; color: var(--color-text-muted);">Projects</dt>
+              <dd>{linkedProjects.length}</dd>
+            </dl>
+
+            {linkedProjects.length > 0 && (
+              <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">
+                Supports {linkedProjects.slice(0, 3).map((project) => project.name).join(", ")}
+                {linkedProjects.length > 3 && ` and ${linkedProjects.length - 3} more`}.
+              </p>
+            )}
+
+            <footer style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+              <a href={`/organizations/${organization.id}/`} style="font-size: var(--text-sm); font-weight: 600;">Profile →</a>
+              {organization.website && <a href={organization.website} rel="noopener noreferrer" target="_blank" style="font-size: var(--text-sm);">Website ↗</a>}
+            </footer>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</Base>

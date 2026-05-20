@@ -52,6 +52,7 @@ const graphJson = JSON.stringify({ nodes, edges });
   <div
     id="atlas-graph"
     style={`height: ${height};`}
+    role="region"
     aria-label={`Relationship graph with ${nodes.length} nodes and ${edges.length} edges`}
     aria-describedby="graph-instructions"
     tabindex="0"

@@ -1,0 +1,449 @@
+- id: drupal
+  name: Drupal
+  description: Open source content management framework widely used for public-sector websites, service portals, and digital government publishing.
+  category: Government Platforms
+  subcategory: Content Management
+  project_type: Government OSS
+  categories: [Government Platforms, Civic Technology]
+  subcategories: [Content Management, Service Delivery]
+  project_types: [Government OSS, Civic Tech]
+  website: https://drupal.org
+  project_page: https://www.drupal.org/about
+  repository_urls:
+    - https://github.com/drupal/drupal
+  documentation_urls:
+    - https://www.drupal.org/documentation
+  licenses: [GPL-2.0-or-later]
+  tags: [cms, govtech, accessibility, open-source]
+  governance_model: foundation
+  funding_model: mixed
+  steward_organizations: [drupal-association]
+  maintainers: [Drupal core maintainers]
+  deployment_countries: [United Kingdom, United States, Australia, France, Germany]
+  related_projects: [ckan, dkan]
+  interoperability_frameworks: [OpenAPI]
+  standards_alignment: [WAI-ARIA, WCAG 2.2, OpenAPI]
+  sdgs: [SDG-16, SDG-9]
+  dpi_domains: [government-service-delivery]
+  maturity_level: mature
+  sustainability_score: 91
+  activity_score: 88
+  ecosystem_score: 94
+  accessibility_score: 86
+  community_health:
+    commits_last_12_months: 3400
+    contributors_last_12_months: 420
+    issue_closure_rate: 0.76
+    median_issue_response_hours: 30
+    releases_last_12_months: 6
+    contributor_diversity_index: 0.74
+    governance_maturity: 94
+    documentation_quality: 91
+    onboarding_quality: 80
+    dependency_freshness: 84
+    security_advisories_open: 0
+    openssf_scorecard: 7.9
+  maturity_scores:
+    code: { score: 88, rationale: Mature release engineering and broad contributor base. }
+    governance: { score: 94, rationale: Foundation governance and transparent policies. }
+    stewardship: { score: 92, rationale: Long-term stewardship through the Drupal Association and agencies. }
+    public_sector: { score: 89, rationale: Extensive procurement-ready government deployments. }
+    accessibility: { score: 86, rationale: Strong accessibility history and testing practices. }
+    sustainability: { score: 91, rationale: Diverse service ecosystem and long-term funding patterns. }
+    security: { score: 87, rationale: Coordinated security team and disclosure process. }
+    interoperability: { score: 80, rationale: Mature API and standards support. }
+    procurement: { score: 90, rationale: Large public-sector support market and documentation. }
+    community: { score: 88, rationale: Deep contributor ecosystem and events pipeline. }
+    documentation: { score: 91, rationale: Extensive contributor and user documentation. }
+  accessibility_maturity: leading
+  sustainability_maturity: leading
+  procurement_readiness: leading
+  provenance:
+    licenses:
+      - source: Drupal.org
+        retrieved_at: 2026-05-20T00:00:00.000Z
+        confidence: 0.99
+        kind: manual
+        note: Curated from official project documentation.
+    deployment_countries:
+      - source: Public government case studies
+        retrieved_at: 2026-05-20T00:00:00.000Z
+        confidence: 0.7
+        kind: inferred
+        note: Countries reflect visible public-sector deployments, not exhaustive usage.
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: mosip
+  name: MOSIP
+  description: Modular Open Source Identity Platform helping governments build foundational digital identity systems with interoperable components.
+  category: Digital Identity
+  subcategory: Foundational ID
+  project_type: DPG
+  categories: [Digital Identity, DPI]
+  subcategories: [Foundational ID]
+  project_types: [DPG]
+  website: https://mosip.io
+  project_page: https://digitalpublicgoods.net/r/mosip
+  repository_urls:
+    - https://github.com/mosip/mosip-platform
+  documentation_urls:
+    - https://docs.mosip.io
+  licenses: [MPL-2.0]
+  tags: [identity, govstack, interoperability, biometrics]
+  governance_model: foundation
+  funding_model: grant
+  steward_organizations: [iiit-bangalore, mosip-foundation]
+  maintainers: [MOSIP core team]
+  deployment_countries: [Philippines, Morocco, Ethiopia, Sierra Leone, Sri Lanka, Togo]
+  related_projects: [openspp, mojaloop]
+  interoperability_frameworks: [GovStack, G2P Connect]
+  standards_alignment: [W3C DID, OpenID Connect, ISO/IEC 19794]
+  sdgs: [SDG-16]
+  dpi_domains: [digital-identity]
+  maturity_level: mature
+  sustainability_score: 82
+  activity_score: 78
+  ecosystem_score: 85
+  accessibility_score: 55
+  community_health:
+    commits_last_12_months: 1240
+    contributors_last_12_months: 62
+    issue_closure_rate: 0.74
+    median_issue_response_hours: 36
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.65
+    governance_maturity: 80
+    documentation_quality: 82
+    onboarding_quality: 70
+    dependency_freshness: 75
+    security_advisories_open: 1
+    openssf_scorecard: 6.8
+  maturity_scores:
+    code: { score: 78, rationale: Active engineering and regular releases. }
+    governance: { score: 80, rationale: Clear stewardship and open documentation. }
+    stewardship: { score: 83, rationale: Strong institutional home and implementation network. }
+    public_sector: { score: 92, rationale: Direct public-sector adoption across multiple countries. }
+    accessibility: { score: 55, rationale: Accessibility practices exist but need systematic evidence. }
+    sustainability: { score: 82, rationale: Strong ecosystem support and grants. }
+    security: { score: 76, rationale: Good identity security posture with some open items. }
+    interoperability: { score: 90, rationale: Central interoperability role in digital identity stacks. }
+    procurement: { score: 78, rationale: Growing integrator ecosystem and deployment record. }
+    community: { score: 74, rationale: Healthy but still concentrated contributor base. }
+    documentation: { score: 82, rationale: Strong technical documentation. }
+  accessibility_maturity: growing
+  sustainability_maturity: leading
+  procurement_readiness: mature
+  provenance:
+    governance_model:
+      - source: MOSIP documentation
+        retrieved_at: 2026-05-20T00:00:00.000Z
+        confidence: 0.95
+        kind: manual
+        note: Based on published governance and institutional materials.
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: dhis2
+  name: DHIS2
+  description: Open source health information platform used globally for public health reporting, analytics, and service delivery workflows.
+  category: Health Information
+  subcategory: HMIS
+  project_type: DPG
+  categories: [Health Information, DPI]
+  subcategories: [HMIS]
+  project_types: [DPG]
+  website: https://dhis2.org
+  project_page: https://digitalpublicgoods.net/r/dhis2
+  repository_urls:
+    - https://github.com/dhis2/dhis2-core
+  documentation_urls:
+    - https://docs.dhis2.org
+  licenses: [BSD-3-Clause]
+  tags: [health, analytics, reporting, govstack]
+  governance_model: academic
+  funding_model: grant
+  steward_organizations: [university-of-oslo]
+  maintainers: [HISP Centre]
+  deployment_countries: [Uganda, Tanzania, Kenya, India, Indonesia, Bangladesh, Nigeria, Ethiopia, Zambia, Zimbabwe]
+  related_projects: [openmrs]
+  interoperability_frameworks: [OpenHIE]
+  standards_alignment: [FHIR, HL7, ADX]
+  sdgs: [SDG-3]
+  dpi_domains: [health]
+  maturity_level: mature
+  sustainability_score: 90
+  activity_score: 92
+  ecosystem_score: 95
+  accessibility_score: 68
+  community_health:
+    commits_last_12_months: 4820
+    contributors_last_12_months: 145
+    issue_closure_rate: 0.81
+    median_issue_response_hours: 18
+    releases_last_12_months: 8
+    contributor_diversity_index: 0.78
+    governance_maturity: 92
+    documentation_quality: 90
+    onboarding_quality: 85
+    dependency_freshness: 85
+    security_advisories_open: 0
+    openssf_scorecard: 7.2
+  accessibility_maturity: mature
+  sustainability_maturity: leading
+  procurement_readiness: leading
+  provenance: {}
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: openmrs
+  name: OpenMRS
+  description: Open source medical record platform used to build patient-centered digital health systems in low-resource and national health settings.
+  category: Health Information
+  subcategory: Electronic Medical Records
+  project_type: DPG
+  categories: [Health Information, Civic Technology]
+  subcategories: [Electronic Medical Records]
+  project_types: [DPG]
+  website: https://openmrs.org
+  project_page: https://digitalpublicgoods.net/r/openmrs
+  repository_urls:
+    - https://github.com/openmrs/openmrs-core
+  documentation_urls:
+    - https://openmrs.atlassian.net/wiki/spaces/docs/overview
+  licenses: [MPL-2.0]
+  tags: [health, emr, interoperability]
+  governance_model: community
+  funding_model: mixed
+  steward_organizations: [openmrs-inc]
+  maintainers: [OpenMRS community]
+  deployment_countries: [Rwanda, Kenya, Uganda, Haiti, Liberia]
+  related_projects: [dhis2]
+  interoperability_frameworks: [OpenHIE]
+  standards_alignment: [FHIR, HL7]
+  sdgs: [SDG-3]
+  dpi_domains: [health]
+  maturity_level: mature
+  sustainability_score: 84
+  activity_score: 79
+  ecosystem_score: 83
+  accessibility_score: 58
+  community_health:
+    commits_last_12_months: 1560
+    contributors_last_12_months: 97
+    issue_closure_rate: 0.71
+    median_issue_response_hours: 28
+    releases_last_12_months: 5
+    contributor_diversity_index: 0.68
+    governance_maturity: 83
+    documentation_quality: 78
+    onboarding_quality: 76
+    dependency_freshness: 70
+    security_advisories_open: 1
+    openssf_scorecard: 6.4
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: mature
+  provenance: {}
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: openspp
+  name: OpenSPP
+  description: Open source social protection platform for registries, case management, payments, and program delivery in public-sector settings.
+  category: Social Protection
+  subcategory: Program Delivery
+  project_type: GovTech
+  categories: [Social Protection, DPI]
+  subcategories: [Program Delivery]
+  project_types: [GovTech]
+  website: https://openspp.org
+  project_page: https://www.openspp.org
+  repository_urls:
+    - https://github.com/openspp/openspp-modules
+  documentation_urls:
+    - https://documentation.openspp.org
+  licenses: [AGPL-3.0-only]
+  tags: [social-protection, g2p, case-management]
+  governance_model: community
+  funding_model: grant
+  steward_organizations: [openspp-association]
+  maintainers: [OpenSPP maintainers]
+  deployment_countries: [Colombia, Kenya, Philippines]
+  related_projects: [mosip, mojaloop]
+  interoperability_frameworks: [G2P Connect, GovStack]
+  standards_alignment: [OpenAPI]
+  sdgs: [SDG-1, SDG-10]
+  dpi_domains: [social-protection]
+  maturity_level: growing
+  sustainability_score: 70
+  activity_score: 66
+  ecosystem_score: 72
+  accessibility_score: 52
+  community_health:
+    commits_last_12_months: 820
+    contributors_last_12_months: 31
+    issue_closure_rate: 0.69
+    median_issue_response_hours: 42
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.54
+    governance_maturity: 70
+    documentation_quality: 74
+    onboarding_quality: 68
+    dependency_freshness: 73
+    security_advisories_open: 0
+    openssf_scorecard: 5.8
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: ckan
+  name: CKAN
+  description: Open source data management system widely used by governments and public institutions to publish open data catalogues.
+  category: Open Government
+  subcategory: Open Data Catalogue
+  project_type: Government OSS
+  categories: [Open Government, Civic Technology]
+  subcategories: [Open Data Catalogue]
+  project_types: [Government OSS]
+  website: https://ckan.org
+  project_page: https://ckan.org
+  repository_urls:
+    - https://github.com/ckan/ckan
+  documentation_urls:
+    - https://docs.ckan.org
+  licenses: [AGPL-3.0-only]
+  tags: [open-data, transparency, civic-tech]
+  governance_model: foundation
+  funding_model: mixed
+  steward_organizations: [ckan-association]
+  maintainers: [CKAN core team]
+  deployment_countries: [United Kingdom, Canada, Germany, Argentina, Mexico]
+  related_projects: [dkan, drupal]
+  interoperability_frameworks: [DCAT]
+  standards_alignment: [DCAT, RDF]
+  sdgs: [SDG-16]
+  dpi_domains: [open-government]
+  maturity_level: mature
+  sustainability_score: 85
+  activity_score: 76
+  ecosystem_score: 82
+  accessibility_score: 63
+  community_health:
+    commits_last_12_months: 980
+    contributors_last_12_months: 74
+    issue_closure_rate: 0.67
+    median_issue_response_hours: 40
+    releases_last_12_months: 3
+    contributor_diversity_index: 0.61
+    governance_maturity: 84
+    documentation_quality: 79
+    onboarding_quality: 72
+    dependency_freshness: 69
+    security_advisories_open: 1
+    openssf_scorecard: 6.3
+  accessibility_maturity: mature
+  sustainability_maturity: mature
+  procurement_readiness: mature
+  provenance: {}
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: dkan
+  name: DKAN
+  description: Drupal-based open data and content platform for public agencies that need interoperable catalogue and content workflows.
+  category: Open Government
+  subcategory: Open Data Platform
+  project_type: Government OSS
+  categories: [Open Government, Government Platforms]
+  subcategories: [Open Data Platform]
+  project_types: [Government OSS]
+  website: https://getdkan.org
+  project_page: https://getdkan.org
+  repository_urls:
+    - https://github.com/GetDKAN/dkan
+  documentation_urls:
+    - https://getdkan.github.io/dkan-documentation/
+  licenses: [GPL-2.0-or-later]
+  tags: [open-data, drupal, catalogues]
+  governance_model: company-led
+  funding_model: services
+  steward_organizations: [civicactions]
+  maintainers: [DKAN maintainers]
+  deployment_countries: [United States]
+  related_projects: [ckan, drupal]
+  interoperability_frameworks: [DCAT]
+  standards_alignment: [DCAT, JSON-LD]
+  sdgs: [SDG-16]
+  dpi_domains: [open-government]
+  maturity_level: growing
+  sustainability_score: 68
+  activity_score: 61
+  ecosystem_score: 66
+  accessibility_score: 71
+  community_health:
+    commits_last_12_months: 410
+    contributors_last_12_months: 19
+    issue_closure_rate: 0.62
+    median_issue_response_hours: 52
+    releases_last_12_months: 2
+    contributor_diversity_index: 0.42
+    governance_maturity: 62
+    documentation_quality: 77
+    onboarding_quality: 66
+    dependency_freshness: 64
+    security_advisories_open: 0
+    openssf_scorecard: 5.4
+  accessibility_maturity: mature
+  sustainability_maturity: growing
+  procurement_readiness: emerging
+  provenance: {}
+  last_updated: 2026-05-20T00:00:00.000Z
+
+- id: mojaloop
+  name: Mojaloop
+  description: Open source software for interoperable instant payment switches and inclusive digital financial ecosystem infrastructure.
+  category: Financial Inclusion
+  subcategory: Payments
+  project_type: DPG
+  categories: [Financial Inclusion, DPI]
+  subcategories: [Payments]
+  project_types: [DPG]
+  website: https://mojaloop.io
+  project_page: https://digitalpublicgoods.net/r/mojaloop
+  repository_urls:
+    - https://github.com/mojaloop/project
+  documentation_urls:
+    - https://docs.mojaloop.io
+  licenses: [Apache-2.0]
+  tags: [payments, interoperability, fintech]
+  governance_model: foundation
+  funding_model: grant
+  steward_organizations: [mojaloop-foundation]
+  maintainers: [Mojaloop technical team]
+  deployment_countries: [Tanzania, Uganda, Ghana, Maldives, Kenya]
+  related_projects: [openspp, mosip]
+  interoperability_frameworks: [G2P Connect]
+  standards_alignment: [ISO 20022, Level One Project]
+  sdgs: [SDG-1, SDG-8, SDG-10]
+  dpi_domains: [digital-payments]
+  maturity_level: mature
+  sustainability_score: 85
+  activity_score: 80
+  ecosystem_score: 82
+  accessibility_score: 50
+  community_health:
+    commits_last_12_months: 2100
+    contributors_last_12_months: 88
+    issue_closure_rate: 0.77
+    median_issue_response_hours: 24
+    releases_last_12_months: 6
+    contributor_diversity_index: 0.72
+    governance_maturity: 85
+    documentation_quality: 82
+    onboarding_quality: 75
+    dependency_freshness: 80
+    security_advisories_open: 0
+    openssf_scorecard: 7.5
+  accessibility_maturity: growing
+  sustainability_maturity: leading
+  procurement_readiness: mature
+  provenance: {}
+  last_updated: 2026-05-20T00:00:00.000Z

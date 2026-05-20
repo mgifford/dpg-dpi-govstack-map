@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-05-20T14:07:17.110Z",
+  "count": 10,
+  "relationships": [
+    {
+      "source": "drupal",
+      "target": "ckan",
+      "type": "aligned_with",
+      "strength": 0.62,
+      "evidence": "Shared open government and public sector delivery ecosystem.",
+      "confidence": 0.7,
+      "provenance": {}
+    },
+    {
+      "source": "dkan",
+      "target": "drupal",
+      "type": "implements",
+      "strength": 0.95,
+      "evidence": "DKAN is built on Drupal.",
+      "confidence": 0.98,
+      "provenance": {}
+    },
+    {
+      "source": "ckan",
+      "target": "dkan",
+      "type": "aligned_with",
+      "strength": 0.76,
+      "evidence": "Both projects support open government data catalogues.",
+      "confidence": 0.82,
+      "provenance": {}
+    },
+    {
+      "source": "mosip",
+      "target": "openspp",
+      "type": "integrates_with",
+      "strength": 0.8,
+      "evidence": "MOSIP participates in G2P and social protection interoperability conversations.",
+      "confidence": 0.76,
+      "provenance": {}
+    },
+    {
+      "source": "mojaloop",
+      "target": "openspp",
+      "type": "integrates_with",
+      "strength": 0.84,
+      "evidence": "Payment rails are part of social protection and cash transfer delivery.",
+      "confidence": 0.83,
+      "provenance": {}
+    },
+    {
+      "source": "dhis2",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.88,
+      "evidence": "Common OpenHIE health interoperability patterns.",
+      "confidence": 0.91,
+      "provenance": {}
+    },
+    {
+      "source": "mosip",
+      "target": "w3c-did",
+      "type": "aligned_with",
+      "strength": 0.7,
+      "evidence": "Identity architecture discussions reference decentralized identity standards.",
+      "confidence": 0.65,
+      "provenance": {}
+    },
+    {
+      "source": "drupal-association",
+      "target": "drupal",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "Drupal Association stewards the project ecosystem.",
+      "confidence": 0.92,
+      "provenance": {}
+    },
+    {
+      "source": "mojaloop-foundation",
+      "target": "mojaloop",
+      "type": "governed_by",
+      "strength": 0.93,
+      "evidence": "Foundation stewardship model.",
+      "confidence": 0.95,
+      "provenance": {}
+    },
+    {
+      "source": "university-of-oslo",
+      "target": "dhis2",
+      "type": "maintained_by",
+      "strength": 0.92,
+      "evidence": "University of Oslo is the institutional home for DHIS2.",
+      "confidence": 0.96,
+      "provenance": {}
+    }
+  ]
+}

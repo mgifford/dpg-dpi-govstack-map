@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../lib/schema";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.2.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [], standards: [] };
+}
+
+const standards = [...dataset.standards].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Base title="Standards" description="Standards and interoperability frameworks aligned with Atlas projects." currentPage="/standards/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <header style="margin-bottom: var(--space-8); max-width: 72ch;">
+      <h1>Standards Alignment</h1>
+      <p style="color: var(--color-text-muted); margin-top: var(--space-2);">
+        Interoperability maturity depends on real standards alignment, not marketing claims. This index surfaces the
+        standards currently recorded in the manual Atlas dataset and the projects connected to them.
+      </p>
+    </header>
+
+    <div class="card-grid" role="list" aria-label="Standards index">
+      {standards.map((standard) => {
+        const projects = dataset.projects.filter((project) => standard.related_projects.includes(project.id));
+        const stewards = dataset.organizations.filter((organization) => standard.steward_organizations.includes(organization.id));
+        return (
+          <article class="card" role="listitem" style="padding: var(--space-5);">
+            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-3);">{standard.name}</h2>
+            <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">{standard.description}</p>
+            <dl style="display: grid; grid-template-columns: minmax(10ch, auto) 1fr; gap: var(--space-2) var(--space-3); font-size: var(--text-sm); margin-bottom: var(--space-4);">
+              <dt style="font-weight: 600; color: var(--color-text-muted);">Stewards</dt>
+              <dd>{stewards.length > 0 ? stewards.map((steward) => steward.name).join(", ") : standard.steward_organizations.join(", ") || "Unspecified"}</dd>
+              <dt style="font-weight: 600; color: var(--color-text-muted);">Projects</dt>
+              <dd>{projects.length > 0 ? projects.map((project) => project.name).join(", ") : "None linked yet"}</dd>
+            </dl>
+            {standard.website && <a href={standard.website} rel="noopener noreferrer" target="_blank">Standard document ↗</a>}
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</Base>

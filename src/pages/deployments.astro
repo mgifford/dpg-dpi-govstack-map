@@ -1,0 +1,62 @@
+---
+import Base from "../layouts/Base.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../lib/schema";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.2.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [], standards: [] };
+}
+
+const deployments = [...dataset.deployments].sort((a, b) => a.country.localeCompare(b.country) || a.project.localeCompare(b.project));
+---
+
+<Base title="Deployments" description="Public-sector deployment records for Atlas projects, with procurement and implementation context." currentPage="/deployments/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <header style="margin-bottom: var(--space-8); max-width: 72ch;">
+      <h1>Deployments</h1>
+      <p style="color: var(--color-text-muted); margin-top: var(--space-2);">
+        Deployment evidence is central to public-sector maturity. This page lists known implementation contexts,
+        delivery partners, and confidence levels for the phase-one cohort.
+      </p>
+    </header>
+
+    <div style="overflow-x: auto;">
+      <table class="data-table" aria-label="Project deployments">
+        <thead>
+          <tr>
+            <th scope="col">Country</th>
+            <th scope="col">Project</th>
+            <th scope="col">Government</th>
+            <th scope="col">Ministry</th>
+            <th scope="col">Type</th>
+            <th scope="col">Status</th>
+            <th scope="col">Partner</th>
+            <th scope="col">Confidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          {deployments.map((deployment) => {
+            const project = dataset.projects.find((entry) => entry.id === deployment.project);
+            return (
+              <tr>
+                <td>{deployment.country}</td>
+                <td>{project ? <a href={`/projects/${project.id}/`}>{project.name}</a> : deployment.project}</td>
+                <td>{deployment.government}</td>
+                <td>{deployment.ministry}</td>
+                <td>{deployment.deployment_type}</td>
+                <td><span class={`badge badge--${deployment.deployment_status === "active" ? "mature" : deployment.deployment_status === "pilot" ? "growing" : "emerging"}`}>{deployment.deployment_status}</span></td>
+                <td>{deployment.implementation_partner}</td>
+                <td>{Math.round(deployment.confidence * 100)}%</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>
