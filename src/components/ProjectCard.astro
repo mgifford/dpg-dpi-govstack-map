@@ -1,0 +1,95 @@
+---
+/**
+ * ProjectCard component
+ * Accessible card for project listings with score bars, badges, and proper semantics.
+ */
+import type { Project } from "../lib/schema";
+
+export interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+
+const maturityClass = `badge badge--${project.maturity_level}`;
+const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
+---
+
+<article class="card project-card" aria-labelledby={`project-title-${project.id}`}>
+  <header>
+    <h3 class="project-card__title" id={`project-title-${project.id}`}>
+      <a href={`/projects/${project.id}/`}>{project.name}</a>
+    </h3>
+    <div class="project-card__meta">
+      <span class={maturityClass}>{project.maturity_level}</span>
+      <span class={typeClass}>{project.project_type}</span>
+      {project.category && (
+        <span class="badge" style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);">
+          {project.category}
+        </span>
+      )}
+    </div>
+  </header>
+
+  <p class="project-card__desc">{project.description}</p>
+
+  <!-- Score bars — accessible with labelled values -->
+  <div aria-label="Project scores" style="display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-4);">
+    <div class="score-bar">
+      <span class="score-bar__label" id={`activity-label-${project.id}`}>Activity</span>
+      <div class="score-bar__track" role="meter" aria-labelledby={`activity-label-${project.id}`} aria-valuenow={project.activity_score} aria-valuemin={0} aria-valuemax={100}>
+        <div class="score-bar__fill" style={`width: ${project.activity_score}%`}></div>
+      </div>
+      <span class="score-bar__value" aria-hidden="true">{project.activity_score}</span>
+    </div>
+    <div class="score-bar">
+      <span class="score-bar__label" id={`sustain-label-${project.id}`}>Sustain</span>
+      <div class="score-bar__track" role="meter" aria-labelledby={`sustain-label-${project.id}`} aria-valuenow={project.sustainability_score} aria-valuemin={0} aria-valuemax={100}>
+        <div class="score-bar__fill" style={`width: ${project.sustainability_score}%; background: var(--color-success)`}></div>
+      </div>
+      <span class="score-bar__value" aria-hidden="true">{project.sustainability_score}</span>
+    </div>
+  </div>
+
+  <!-- Countries -->
+  {project.deployment_countries.length > 0 && (
+    <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-3);">
+      <span aria-label="Deployed in">🌍</span>{" "}
+      {project.deployment_countries.slice(0, 4).join(", ")}
+      {project.deployment_countries.length > 4 && ` +${project.deployment_countries.length - 4} more`}
+    </p>
+  )}
+
+  <!-- Links -->
+  <footer style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+    <a
+      href={`/projects/${project.id}/`}
+      aria-label={`View details for ${project.name}`}
+      style="font-size: var(--text-sm); font-weight: 600;"
+    >
+      Details →
+    </a>
+    {project.website && (
+      <a
+        href={project.website}
+        rel="noopener noreferrer"
+        target="_blank"
+        aria-label={`${project.name} website (opens in new tab)`}
+        style="font-size: var(--text-sm); color: var(--color-text-muted);"
+      >
+        Website ↗
+      </a>
+    )}
+    {project.repository_urls[0] && (
+      <a
+        href={project.repository_urls[0]}
+        rel="noopener noreferrer"
+        target="_blank"
+        aria-label={`${project.name} source code (opens in new tab)`}
+        style="font-size: var(--text-sm); color: var(--color-text-muted);"
+      >
+        Source ↗
+      </a>
+    )}
+  </footer>
+</article>

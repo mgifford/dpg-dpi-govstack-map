@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+coverage/
+.env
+.env.*
+*.log
+public/api/*.tmp.json
+data/raw/*.tmp.json

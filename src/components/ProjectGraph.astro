@@ -1,0 +1,270 @@
+---
+/**
+ * ProjectGraph — relationship graph using Cytoscape.js.
+ * Accessible: keyboard navigable, list-view fallback, ARIA live region,
+ * reduced-motion support, no color-only encoding.
+ */
+
+export interface GraphNode {
+  id: string;
+  label: string;
+  type: "project" | "organization";
+  maturity?: string;
+}
+
+export interface GraphEdge {
+  source: string;
+  target: string;
+  type: string;
+  strength: number;
+}
+
+export interface Props {
+  nodes: GraphNode[];
+  edges: GraphEdge[];
+  height?: string;
+}
+
+const { nodes, edges, height = "560px" } = Astro.props;
+const graphJson = JSON.stringify({ nodes, edges });
+---
+
+<!-- Skip graph -->
+<p style="margin-bottom: var(--space-2);">
+  <a href="#graph-list-view" style="font-size: var(--text-sm);">
+    Skip graph — go to relationship list
+  </a>
+</p>
+
+<!-- View tabs -->
+<div role="tablist" aria-label="Graph or list view" style="display:flex; gap:var(--space-2); margin-bottom:var(--space-4);" id="graph-tabs">
+  <button role="tab" id="tab-graph-visual" aria-selected="true" aria-controls="graph-visual-panel" class="tab" type="button">Graph view</button>
+  <button role="tab" id="tab-graph-list" aria-selected="false" aria-controls="graph-list-panel" class="tab" type="button">List view</button>
+</div>
+
+<!-- Graph canvas panel -->
+<div id="graph-visual-panel" role="tabpanel" aria-labelledby="tab-graph-visual">
+  <p class="sr-only" id="graph-instructions">
+    Interactive relationship graph with {nodes.length} nodes and {edges.length} connections.
+    Use Tab to move between nodes, Enter to select, and arrow keys to navigate.
+    Select "List view" above for a non-visual alternative.
+  </p>
+  <div
+    id="atlas-graph"
+    style={`height: ${height};`}
+    aria-label={`Relationship graph with ${nodes.length} nodes and ${edges.length} edges`}
+    aria-describedby="graph-instructions"
+    tabindex="0"
+  ></div>
+  <div id="graph-selected" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+</div>
+
+<!-- List view panel -->
+<div id="graph-list-panel" role="tabpanel" aria-labelledby="tab-graph-list" hidden>
+  <section id="graph-list-view" tabindex="-1">
+    <h3 style="margin-bottom: var(--space-4);">Relationships ({edges.length})</h3>
+    <table class="data-table" aria-label="Project and organization relationships">
+      <thead>
+        <tr>
+          <th scope="col">Source</th>
+          <th scope="col">Relationship</th>
+          <th scope="col">Target</th>
+          <th scope="col">Strength</th>
+        </tr>
+      </thead>
+      <tbody>
+        {edges.map((e) => {
+          const sourceNode = nodes.find((n) => n.id === e.source);
+          const targetNode = nodes.find((n) => n.id === e.target);
+          return (
+            <tr>
+              <td>{sourceNode?.label ?? e.source}</td>
+              <td><code style="font-size:var(--text-xs)">{e.type.replace(/_/g, " ")}</code></td>
+              <td>{targetNode?.label ?? e.target}</td>
+              <td>
+                <span aria-label={`Strength ${Math.round(e.strength * 100)}%`}>
+                  {Math.round(e.strength * 100)}%
+                </span>
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<script define:vars={{ graphJson }}>
+(function () {
+  // Tab switching
+  const tabVisual = document.getElementById("tab-graph-visual");
+  const tabListBtn = document.getElementById("tab-graph-list");
+  const visualPanel = document.getElementById("graph-visual-panel");
+  const listPanel = document.getElementById("graph-list-panel");
+
+  function showTab(active) {
+    const isVisual = active === "visual";
+    tabVisual.setAttribute("aria-selected", String(isVisual));
+    tabListBtn.setAttribute("aria-selected", String(!isVisual));
+    visualPanel.hidden = !isVisual;
+    listPanel.hidden = isVisual;
+  }
+  tabVisual?.addEventListener("click", () => showTab("visual"));
+  tabListBtn?.addEventListener("click", () => showTab("list"));
+  document.getElementById("graph-tabs")?.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") { tabListBtn.focus(); showTab("list"); }
+    if (e.key === "ArrowLeft")  { tabVisual.focus();  showTab("visual"); }
+  });
+
+  // Reduce motion check
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Load Cytoscape.js
+  const script = document.createElement("script");
+  script.src = "https://unpkg.com/cytoscape@3.29.2/dist/cytoscape.min.js";
+  script.onload = initGraph;
+  document.head.appendChild(script);
+
+  function initGraph() {
+    const { nodes, edges } = JSON.parse(graphJson);
+    const container = document.getElementById("atlas-graph");
+    const srSelected = document.getElementById("graph-selected");
+    if (!container || typeof cytoscape === "undefined") return;
+
+    const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+
+    const maturityColors = {
+      mature: "#166534",
+      growing: "#1e40af",
+      emerging: "#92400e",
+      stagnant: "#4a5568",
+      abandoned: "#991b1b"
+    };
+
+    const cy = cytoscape({
+      container,
+      elements: [
+        ...nodes.map((n) => ({
+          data: {
+            id: n.id,
+            label: n.label,
+            type: n.type,
+            maturity: n.maturity ?? ""
+          }
+        })),
+        ...edges.map((e, i) => ({
+          data: {
+            id: `e${i}`,
+            source: e.source,
+            target: e.target,
+            type: e.type,
+            strength: e.strength
+          }
+        }))
+      ],
+      style: [
+        {
+          selector: "node",
+          style: {
+            label: "data(label)",
+            "font-size": "11px",
+            "text-valign": "bottom",
+            "text-halign": "center",
+            "text-margin-y": "4px",
+            "background-color": (ele) => {
+              if (ele.data("type") === "organization") return isDark ? "#58a6ff" : "#005fcc";
+              const c = maturityColors[ele.data("maturity")] ?? "#666";
+              return c;
+            },
+            "border-width": 2,
+            "border-color": isDark ? "#30363d" : "#fff",
+            width: (ele) => ele.data("type") === "organization" ? 30 : 22,
+            height: (ele) => ele.data("type") === "organization" ? 30 : 22,
+            color: isDark ? "#e6edf3" : "#1a1a2e"
+          }
+        },
+        {
+          selector: "node:selected",
+          style: {
+            "border-color": "#f59e0b",
+            "border-width": 3
+          }
+        },
+        {
+          selector: "edge",
+          style: {
+            width: (ele) => Math.max(1, ele.data("strength") * 4),
+            "line-color": isDark ? "#30363d" : "#d0d7de",
+            "target-arrow-color": isDark ? "#30363d" : "#d0d7de",
+            "target-arrow-shape": "triangle",
+            "curve-style": "bezier",
+            label: "data(type)",
+            "font-size": "9px",
+            "text-rotation": "autorotate",
+            "text-background-opacity": 1,
+            "text-background-color": isDark ? "#161b22" : "#fff",
+            "text-background-padding": "2px",
+            color: isDark ? "#8b949e" : "#4a5568"
+          }
+        },
+        {
+          selector: "edge:selected",
+          style: { "line-color": "#f59e0b", "target-arrow-color": "#f59e0b" }
+        }
+      ],
+      layout: {
+        name: "cose",
+        animate: !prefersReducedMotion,
+        animationDuration: prefersReducedMotion ? 0 : 500,
+        randomize: false,
+        nodeRepulsion: () => 8000,
+        padding: 40
+      }
+    });
+
+    // Announce selected node to screen readers
+    cy.on("select", "node", (evt) => {
+      const node = evt.target;
+      const label = node.data("label");
+      const type = node.data("type");
+      const connectedEdges = node.connectedEdges();
+      const desc = `Selected: ${label} (${type}). ${connectedEdges.length} connections.`;
+      if (srSelected) srSelected.textContent = desc;
+    });
+
+    cy.on("select", "edge", (evt) => {
+      const edge = evt.target;
+      const src = edge.source().data("label");
+      const tgt = edge.target().data("label");
+      const type = edge.data("type").replace(/_/g, " ");
+      if (srSelected) srSelected.textContent = `Selected relationship: ${src} ${type} ${tgt}`;
+    });
+
+    // Keyboard: Tab to navigate nodes
+    container.addEventListener("keydown", (e) => {
+      const selected = cy.$("node:selected");
+      const allNodes = cy.nodes();
+      const idx = selected.length > 0 ? allNodes.indexOf(selected[0]) : -1;
+
+      if (e.key === "ArrowRight" || e.key === "Tab") {
+        e.preventDefault();
+        const next = allNodes[(idx + 1) % allNodes.length];
+        cy.elements().unselect();
+        next.select();
+        cy.animate({ center: { eles: next }, zoom: 2 }, { duration: prefersReducedMotion ? 0 : 300 });
+      }
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        const prev = allNodes[(idx - 1 + allNodes.length) % allNodes.length];
+        cy.elements().unselect();
+        prev.select();
+        cy.animate({ center: { eles: prev }, zoom: 2 }, { duration: prefersReducedMotion ? 0 : 300 });
+      }
+      if (e.key === "Escape") {
+        cy.elements().unselect();
+        cy.fit(undefined, 40);
+      }
+    });
+  }
+})();
+</script>

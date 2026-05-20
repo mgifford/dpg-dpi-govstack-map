@@ -1,0 +1,185 @@
+---
+/**
+ * FilterPanel — accessible server-rendered filter controls.
+ * All filters are progressive-enhancement: full functionality in HTML,
+ * enhanced with client-side JS for instant filtering.
+ */
+export interface FilterOptions {
+  countries: string[];
+  projectTypes: string[];
+  governanceModels: string[];
+  licenses: string[];
+  maturities: string[];
+}
+
+export interface Props {
+  options: FilterOptions;
+  totalCount: number;
+}
+
+const { options, totalCount } = Astro.props;
+---
+
+<section
+  class="filter-panel"
+  aria-label="Filter projects"
+  id="filter-panel"
+>
+  <h2 style="font-size: var(--text-base); margin-bottom: var(--space-4);">
+    Filter
+    <span id="filter-count" aria-live="polite" aria-atomic="true" style="font-weight: normal; color: var(--color-text-muted); font-size: var(--text-sm);">
+      — {totalCount} projects
+    </span>
+  </h2>
+
+  <form id="filter-form" method="get" action="/projects/" novalidate>
+    <!-- Search -->
+    <div class="filter-group">
+      <label for="filter-query">Search</label>
+      <div class="search-box">
+        <svg class="search-box__icon" aria-hidden="true" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+        </svg>
+        <input
+          type="search"
+          id="filter-query"
+          name="q"
+          placeholder="Name, description, tags…"
+          autocomplete="off"
+          aria-controls="project-list"
+          aria-label="Search projects"
+        />
+      </div>
+    </div>
+
+    <!-- Country -->
+    <div class="filter-group">
+      <label for="filter-country">Country</label>
+      <select id="filter-country" name="country" aria-controls="project-list">
+        {options.countries.map((c) => (
+          <option value={c}>{c === "all" ? "All countries" : c}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Project type -->
+    <div class="filter-group">
+      <label for="filter-type">Project Type</label>
+      <select id="filter-type" name="type" aria-controls="project-list">
+        {options.projectTypes.map((t) => (
+          <option value={t}>{t === "all" ? "All types" : t}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Maturity -->
+    <div class="filter-group">
+      <label for="filter-maturity">Maturity</label>
+      <select id="filter-maturity" name="maturity" aria-controls="project-list">
+        {options.maturities.map((m) => (
+          <option value={m}>{m === "all" ? "All levels" : m}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Governance -->
+    <div class="filter-group">
+      <label for="filter-governance">Governance</label>
+      <select id="filter-governance" name="governance" aria-controls="project-list">
+        {options.governanceModels.map((g) => (
+          <option value={g}>{g === "all" ? "All models" : g}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- License -->
+    <div class="filter-group">
+      <label for="filter-license">License</label>
+      <select id="filter-license" name="license" aria-controls="project-list">
+        {options.licenses.map((l) => (
+          <option value={l}>{l === "all" ? "All licenses" : l}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Fallback submit (hidden when JS enhances to live filter) -->
+    <button type="submit" id="filter-submit" style="width: 100%; padding: var(--space-3); background: var(--color-brand); color: #fff; border: none; border-radius: var(--radius-md); cursor: pointer; font-weight: 600; font-size: var(--text-sm);">
+      Apply Filters
+    </button>
+
+    <button
+      type="reset"
+      style="width: 100%; margin-top: var(--space-2); padding: var(--space-2); background: transparent; border: 1px solid var(--color-border); border-radius: var(--radius-md); cursor: pointer; font-size: var(--text-sm); color: var(--color-text-muted);"
+      id="filter-reset"
+    >
+      Clear All
+    </button>
+  </form>
+
+  <!-- Download links -->
+  <div style="margin-top: var(--space-5); border-top: 1px solid var(--color-border); padding-top: var(--space-4);">
+    <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-2);">Download filtered data</p>
+    <div style="display: flex; gap: var(--space-2);">
+      <a href="/api/projects.json" aria-label="Download projects as JSON" style="font-size: var(--text-xs);">JSON</a>
+      <span aria-hidden="true">·</span>
+      <a href="/api/projects.csv" aria-label="Download projects as CSV" style="font-size: var(--text-xs);">CSV</a>
+      <span aria-hidden="true">·</span>
+      <a href="/api/map.geojson" aria-label="Download map data as GeoJSON" style="font-size: var(--text-xs);">GeoJSON</a>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Progressive enhancement: live filter without page reload
+  (function () {
+    const form = document.getElementById("filter-form") as HTMLFormElement | null;
+    const submitBtn = document.getElementById("filter-submit");
+    const countEl = document.getElementById("filter-count");
+    const list = document.getElementById("project-list");
+
+    if (!form || !list) return;
+
+    // Hide the submit button when JS is available (live filtering)
+    if (submitBtn) submitBtn.style.display = "none";
+    form.addEventListener("reset", () => setTimeout(doFilter, 0));
+
+    const inputs = form.querySelectorAll("input, select");
+    inputs.forEach((el) => el.addEventListener("input", doFilter));
+
+    function doFilter() {
+      const data = new FormData(form!);
+      const q = (data.get("q") as string ?? "").toLowerCase().trim();
+      const country = data.get("country") as string ?? "all";
+      const type = data.get("type") as string ?? "all";
+      const maturity = data.get("maturity") as string ?? "all";
+      const governance = data.get("governance") as string ?? "all";
+      const license = data.get("license") as string ?? "all";
+
+      let visible = 0;
+      const cards = list!.querySelectorAll<HTMLElement>("[data-project]");
+      cards.forEach((card) => {
+        const name = (card.dataset.name ?? "").toLowerCase();
+        const desc = (card.dataset.desc ?? "").toLowerCase();
+        const tags = (card.dataset.tags ?? "").toLowerCase();
+        const countries = (card.dataset.countries ?? "").split("|");
+        const cardType = card.dataset.type ?? "";
+        const cardMaturity = card.dataset.maturity ?? "";
+        const cardGovernance = card.dataset.governance ?? "";
+        const cardLicenses = (card.dataset.licenses ?? "").split("|");
+
+        const matchesQuery = !q || `${name} ${desc} ${tags}`.includes(q);
+        const matchesCountry = country === "all" || countries.includes(country);
+        const matchesType = type === "all" || cardType === type;
+        const matchesMaturity = maturity === "all" || cardMaturity === maturity;
+        const matchesGov = governance === "all" || cardGovernance === governance;
+        const matchesLicense = license === "all" || cardLicenses.includes(license);
+
+        const show = matchesQuery && matchesCountry && matchesType && matchesMaturity && matchesGov && matchesLicense;
+        card.hidden = !show;
+        if (show) visible++;
+      });
+
+      if (countEl) countEl.textContent = `— ${visible} project${visible !== 1 ? "s" : ""}`;
+    }
+  })();
+</script>

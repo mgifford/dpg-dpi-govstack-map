@@ -1,0 +1,71 @@
+---
+import Base from "../layouts/Base.astro";
+import ProjectGraph from "../components/ProjectGraph.astro";
+import type { GraphNode, GraphEdge } from "../components/ProjectGraph.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../lib/schema";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+}
+
+const nodes: GraphNode[] = [
+  ...dataset.projects.map((p): GraphNode => ({
+    id: p.id,
+    label: p.name,
+    type: "project",
+    maturity: p.maturity_level
+  })),
+  ...dataset.organizations.map((o): GraphNode => ({
+    id: o.id,
+    label: o.name,
+    type: "organization"
+  }))
+];
+
+const edges: GraphEdge[] = dataset.relationships.map((r): GraphEdge => ({
+  source: r.source,
+  target: r.target,
+  type: r.type,
+  strength: r.strength
+}));
+---
+
+<Base title="Ecosystem Graph" description="Visualize ecosystem relationships between DPI, DPG, and GovTech projects and organizations." currentPage="/graph/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <header style="margin-bottom: var(--space-8);">
+      <h1>Ecosystem Relationship Graph</h1>
+      <p style="color: var(--color-text-muted); margin-top: var(--space-2);">
+        {nodes.length} nodes · {edges.length} relationships.
+        Use Tab/arrow keys to navigate nodes. Select "List view" for a non-visual alternative.
+      </p>
+    </header>
+
+    <!-- Legend -->
+    <div role="note" aria-label="Graph legend" style="display: flex; gap: var(--space-6); flex-wrap: wrap; margin-bottom: var(--space-6); font-size: var(--text-sm);">
+      <div style="display: flex; align-items: center; gap: var(--space-2);">
+        <span style="width: 14px; height: 14px; background: #005fcc; border-radius: 50%; display: inline-block;" aria-hidden="true"></span>
+        Organization
+      </div>
+      <div style="display: flex; align-items: center; gap: var(--space-2);">
+        <span style="width: 14px; height: 14px; background: #166534; border-radius: 50%; display: inline-block;" aria-hidden="true"></span>
+        Mature project
+      </div>
+      <div style="display: flex; align-items: center; gap: var(--space-2);">
+        <span style="width: 14px; height: 14px; background: #1e40af; border-radius: 50%; display: inline-block;" aria-hidden="true"></span>
+        Growing project
+      </div>
+      <div style="display: flex; align-items: center; gap: var(--space-2);">
+        <span style="width: 14px; height: 14px; background: #92400e; border-radius: 50%; display: inline-block;" aria-hidden="true"></span>
+        Emerging project
+      </div>
+    </div>
+
+    <ProjectGraph nodes={nodes} edges={edges} height="600px" />
+  </div>
+</Base>

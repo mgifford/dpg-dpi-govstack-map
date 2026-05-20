@@ -1,0 +1,53 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="About" description="About the Digital Public Infrastructure Ecosystem Atlas." currentPage="/about/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16); max-width: 820px;">
+    <h1 style="margin-bottom: var(--space-6);">About the Atlas</h1>
+
+    <section aria-labelledby="mission-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="mission-heading" style="margin-bottom: var(--space-4);">Mission</h2>
+      <p>
+        The <strong>Digital Public Infrastructure Ecosystem Atlas</strong> is a continuously updated, open source registry
+        of Digital Public Infrastructure (DPI), Digital Public Goods (DPG), GovTech, and civic technology projects
+        around the world.
+      </p>
+      <p style="margin-top: var(--space-4);">
+        It exists to support researchers, governments, NGOs, standards bodies, funders, implementers, procurement teams,
+        and ecosystem builders in discovering, comparing, and understanding the global landscape of public-interest
+        technology.
+      </p>
+    </section>
+
+    <section aria-labelledby="data-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="data-heading" style="margin-bottom: var(--space-4);">Data Sources</h2>
+      <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3);">
+        <li><strong>DPG Registry</strong> — <a href="https://digitalpublicgoods.net/registry" rel="noopener noreferrer" target="_blank">digitalpublicgoods.net/registry</a></li>
+        <li><strong>GovStack</strong> — <a href="https://govstack.global" rel="noopener noreferrer" target="_blank">govstack.global</a></li>
+        <li><strong>GitHub API</strong> — repository health metrics for open source projects</li>
+        <li><strong>Manual curation</strong> — expert-curated relationships, deployments, and organizational data</li>
+      </ul>
+      <p style="margin-top: var(--space-4);">Data is refreshed automatically each month via GitHub Actions.</p>
+    </section>
+
+    <section aria-labelledby="accessibility-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="accessibility-heading" style="margin-bottom: var(--space-4);">Accessibility</h2>
+      <p>
+        This platform is designed to meet <strong>WCAG 2.2 Level AA</strong> at minimum, targeting Level AAA
+        where feasible. All map and graph visualisations have accessible list/table alternatives.
+        See the <a href="/accessibility/">Accessibility Statement</a> for full details.
+      </p>
+    </section>
+
+    <section aria-labelledby="governance-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="governance-heading" style="margin-bottom: var(--space-4);">Governance &amp; Contributing</h2>
+      <p>
+        The Atlas is open source under the MIT licence. Data is published under
+        <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer" target="_blank">CC BY 4.0</a>.
+        Contributions are welcome — see
+        <a href="https://github.com/mgifford/dpg-dpi-govstack-map/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.
+      </p>
+    </section>
+  </div>
+</Base>

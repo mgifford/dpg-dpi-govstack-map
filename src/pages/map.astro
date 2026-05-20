@@ -1,0 +1,85 @@
+---
+import Base from "../layouts/Base.astro";
+import AtlasMap from "../components/AtlasMap.astro";
+import type { MapFeature } from "../components/AtlasMap.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../lib/schema";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+}
+
+// Build map features from organizations (which have coordinates)
+const features: MapFeature[] = dataset.organizations
+  .filter((o) => o.coordinates)
+  .map((o) => ({
+    id: o.id,
+    name: o.name,
+    lat: o.coordinates!.lat,
+    lon: o.coordinates!.lon,
+    entity_type: "organization",
+    country: o.country,
+    city: o.city,
+    popup_label: `${o.name} — ${o.city}, ${o.country}`,
+    popup_detail: `Type: ${o.type}. Projects: ${o.associated_projects.join(", ") || "none"}`
+  }));
+---
+
+<Base title="Map" description="Interactive global map of DPI, DPG, and GovTech organizations and project deployments." currentPage="/map/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <header style="margin-bottom: var(--space-8);">
+      <h1>Global Map</h1>
+      <p style="color: var(--color-text-muted); margin-top: var(--space-2);">
+        Explore {features.length} organizations and project deployments worldwide.
+        Use the list view for a non-visual alternative.
+      </p>
+    </header>
+
+    <AtlasMap features={features} height="580px" />
+
+    <!-- Deployment table as accessible alternative -->
+    <section aria-labelledby="deployments-table-heading" style="margin-top: var(--space-10);">
+      <h2 id="deployments-table-heading" style="margin-bottom: var(--space-4);">All Deployments</h2>
+      <div style="overflow-x: auto;">
+        <table class="data-table" aria-label="Project deployments by country">
+          <thead>
+            <tr>
+              <th scope="col">Country</th>
+              <th scope="col">Project</th>
+              <th scope="col">Government / Ministry</th>
+              <th scope="col">Type</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {dataset.deployments.map((d) => {
+              const project = dataset.projects.find((p) => p.id === d.project);
+              return (
+                <tr>
+                  <td>{d.country}</td>
+                  <td>
+                    {project
+                      ? <a href={`/projects/${d.project}/`}>{project.name}</a>
+                      : d.project}
+                  </td>
+                  <td>{d.government} — {d.ministry}</td>
+                  <td>{d.deployment_type}</td>
+                  <td>
+                    <span class={`badge badge--${d.deployment_status === "active" ? "mature" : "growing"}`}>
+                      {d.deployment_status}
+                    </span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</Base>

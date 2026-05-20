@@ -1,0 +1,94 @@
+---
+import Base from "../../layouts/Base.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+import FilterPanel from "../../components/FilterPanel.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset } from "../../lib/schema";
+import { deriveFilterOptions } from "../../lib/filters";
+
+let dataset: AtlasDataset;
+try {
+  const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+  dataset = JSON.parse(raw) as AtlasDataset;
+} catch {
+  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+}
+
+const projects = dataset.projects;
+const filterOptions = deriveFilterOptions(dataset);
+---
+
+<Base title="Projects" description="Browse all Digital Public Infrastructure and DPG projects in the atlas." currentPage="/projects/">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <header style="margin-bottom: var(--space-8);">
+      <h1>Projects</h1>
+      <p style="color: var(--color-text-muted); margin-top: var(--space-2);">
+        {projects.length} projects in the registry. Updated monthly.
+      </p>
+    </header>
+
+    <div class="sidebar-layout">
+      <!-- Filter sidebar -->
+      <aside aria-label="Project filters" style="position: sticky; top: calc(64px + var(--space-4));">
+        <FilterPanel options={filterOptions} totalCount={projects.length} />
+      </aside>
+
+      <!-- Project list -->
+      <div>
+        <!-- Results summary (live region updated by FilterPanel.astro script) -->
+        <p class="sr-only" aria-live="polite" aria-atomic="true" id="results-summary">
+          Showing {projects.length} projects
+        </p>
+
+        <div
+          id="project-list"
+          class="card-grid"
+          aria-label="Project list"
+          role="list"
+        >
+          {projects.map((project) => (
+            <div
+              role="listitem"
+              data-project={project.id}
+              data-name={project.name}
+              data-desc={project.description}
+              data-tags={project.tags.join("|")}
+              data-countries={project.deployment_countries.join("|")}
+              data-type={project.project_type}
+              data-maturity={project.maturity_level}
+              data-governance={project.governance_model}
+              data-licenses={project.licenses.join("|")}
+            >
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
+
+        <!-- Empty state (shown by JS when no results match) -->
+        <div id="no-results" hidden aria-live="polite" style="padding: var(--space-12); text-align: center; color: var(--color-text-muted);">
+          <p>No projects match the current filters.</p>
+          <p><button id="clear-filters-inline" type="button" style="margin-top: var(--space-4); text-decoration: underline; background: none; border: none; cursor: pointer; color: var(--color-link);">Clear all filters</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<script>
+  // Show/hide empty state based on visible cards
+  const list = document.getElementById("project-list");
+  const noResults = document.getElementById("no-results");
+  const clearBtn = document.getElementById("clear-filters-inline");
+  const filterReset = document.getElementById("filter-reset") as HTMLButtonElement | null;
+
+  clearBtn?.addEventListener("click", () => { filterReset?.click(); });
+
+  if (list && noResults) {
+    const observer = new MutationObserver(() => {
+      const visibleCards = list.querySelectorAll("[data-project]:not([hidden])");
+      noResults.hidden = visibleCards.length > 0;
+    });
+    observer.observe(list, { childList: false, subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  }
+</script>

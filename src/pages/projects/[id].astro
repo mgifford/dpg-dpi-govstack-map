@@ -1,0 +1,284 @@
+---
+import Base from "../../layouts/Base.astro";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import type { AtlasDataset, Project } from "../../lib/schema";
+
+export async function getStaticPaths() {
+  let dataset: AtlasDataset;
+  try {
+    const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
+    dataset = JSON.parse(raw) as AtlasDataset;
+  } catch {
+    return [];
+  }
+  return dataset.projects.map((project) => ({
+    params: { id: project.id },
+    props: { project, dataset }
+  }));
+}
+
+interface Props { project: Project; dataset: AtlasDataset; }
+const { project, dataset } = Astro.props;
+
+// Find related projects
+const relatedProjects = dataset.projects.filter(
+  (p) => project.related_projects.includes(p.id)
+);
+
+// Find ecosystem relationships for this project
+const rels = dataset.relationships.filter(
+  (r) => r.source === project.id || r.target === project.id
+);
+
+// Find deployments
+const deployments = dataset.deployments.filter((d) => d.project === project.id);
+---
+
+<Base
+  title={project.name}
+  description={project.description}
+  currentPage=""
+>
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-6); font-size: var(--text-sm);">
+      <ol role="list" style="list-style: none; display: flex; gap: var(--space-2); align-items: center; flex-wrap: wrap;">
+        <li><a href="/">Home</a></li>
+        <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
+        <li><a href="/projects/">Projects</a></li>
+        <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
+        <li aria-current="page" style="color: var(--color-text-muted);">{project.name}</li>
+      </ol>
+    </nav>
+
+    <div style="display: grid; grid-template-columns: 1fr 300px; gap: var(--space-10); align-items: start;">
+      <!-- Main content -->
+      <main>
+        <header style="margin-bottom: var(--space-8);">
+          <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-4);">
+            <span class={`badge badge--${project.maturity_level}`}>{project.maturity_level}</span>
+            <span class={`badge badge--${project.project_type.toLowerCase()}`}>{project.project_type}</span>
+            <span class="badge" style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);">{project.category}</span>
+          </div>
+          <h1 style="font-size: var(--text-4xl); margin-bottom: var(--space-4);">{project.name}</h1>
+          <p style="font-size: var(--text-lg); color: var(--color-text-muted); line-height: 1.7; max-width: 680px;">{project.description}</p>
+          <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-6);">
+            {project.website && (
+              <a href={project.website} rel="noopener noreferrer" target="_blank" style="font-weight: 600;">
+                Website ↗
+              </a>
+            )}
+            {project.repository_urls.map((url) => (
+              <a href={url} rel="noopener noreferrer" target="_blank" style="font-weight: 600;">
+                Source Code ↗
+              </a>
+            ))}
+            {project.documentation_urls.map((url) => (
+              <a href={url} rel="noopener noreferrer" target="_blank">
+                Documentation ↗
+              </a>
+            ))}
+          </div>
+        </header>
+
+        <!-- Community health -->
+        <section aria-labelledby="health-heading" style="margin-bottom: var(--space-10);">
+          <h2 id="health-heading" style="margin-bottom: var(--space-6);">Community Health</h2>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
+            <div class="stat">
+              <span class="stat__value">{project.community_health.commits_last_12_months}</span>
+              <span class="stat__label">Commits (12mo)</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">{project.community_health.contributors_last_12_months}</span>
+              <span class="stat__label">Contributors</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">{project.community_health.releases_last_12_months}</span>
+              <span class="stat__label">Releases (12mo)</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">{Math.round(project.community_health.issue_closure_rate * 100)}%</span>
+              <span class="stat__label">Issue Closure</span>
+            </div>
+          </div>
+
+          <!-- Score breakdown -->
+          <div style="display: flex; flex-direction: column; gap: var(--space-3); max-width: 480px;">
+            {[
+              { label: "Activity Score", value: project.activity_score },
+              { label: "Sustainability Score", value: project.sustainability_score },
+              { label: "Ecosystem Score", value: project.ecosystem_score },
+              { label: "Accessibility Score", value: project.accessibility_score },
+              { label: "Governance Maturity", value: project.community_health.governance_maturity },
+              { label: "Documentation Quality", value: project.community_health.documentation_quality },
+            ].map(({ label, value }) => (
+              <div class="score-bar">
+                <span class="score-bar__label" style="min-width: 16ch; font-size: var(--text-xs);">{label}</span>
+                <div class="score-bar__track" role="meter" aria-label={`${label}: ${value} out of 100`} aria-valuenow={value} aria-valuemin={0} aria-valuemax={100}>
+                  <div class="score-bar__fill" style={`width: ${value}%`}></div>
+                </div>
+                <span class="score-bar__value">{value}</span>
+              </div>
+            ))}
+          </div>
+
+          {project.community_health.openssf_scorecard != null && (
+            <p style="margin-top: var(--space-4); font-size: var(--text-sm); color: var(--color-text-muted);">
+              OpenSSF Scorecard: <strong>{project.community_health.openssf_scorecard}/10</strong>
+            </p>
+          )}
+        </section>
+
+        <!-- Deployments -->
+        {deployments.length > 0 && (
+          <section aria-labelledby="deployments-heading" style="margin-bottom: var(--space-10);">
+            <h2 id="deployments-heading" style="margin-bottom: var(--space-4);">Deployments</h2>
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th scope="col">Country</th>
+                  <th scope="col">Government / Ministry</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Partner</th>
+                </tr>
+              </thead>
+              <tbody>
+                {deployments.map((d) => (
+                  <tr>
+                    <td>{d.country}</td>
+                    <td>{d.government} — {d.ministry}</td>
+                    <td>{d.deployment_type}</td>
+                    <td><span class={`badge badge--${d.deployment_status === "active" ? "mature" : d.deployment_status === "pilot" ? "growing" : "emerging"}`}>{d.deployment_status}</span></td>
+                    <td>{d.implementation_partner}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </section>
+        )}
+
+        <!-- Relationships -->
+        {rels.length > 0 && (
+          <section aria-labelledby="rels-heading" style="margin-bottom: var(--space-10);">
+            <h2 id="rels-heading" style="margin-bottom: var(--space-4);">Ecosystem Relationships</h2>
+            <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3);">
+              {rels.map((r) => {
+                const other = r.source === project.id ? r.target : r.source;
+                const direction = r.source === project.id ? "→" : "←";
+                const otherProject = dataset.projects.find((p) => p.id === other);
+                const otherOrg = dataset.organizations.find((o) => o.id === other);
+                const otherName = otherProject?.name ?? otherOrg?.name ?? other;
+                const rel = r.type.replace(/_/g, " ");
+                return (
+                  <li style="display: flex; gap: var(--space-3); align-items: center; font-size: var(--text-sm);">
+                    <span aria-hidden="true" style="color: var(--color-text-muted); font-family: var(--font-mono);">{direction}</span>
+                    <code style="font-size: var(--text-xs); background: var(--color-surface); padding: 2px 6px; border-radius: var(--radius-sm); border: 1px solid var(--color-border);">{rel}</code>
+                    {otherProject
+                      ? <a href={`/projects/${other}/`}>{otherName}</a>
+                      : <span>{otherName}</span>
+                    }
+                    <span style="color: var(--color-text-muted); font-size: var(--text-xs);">({Math.round(r.strength * 100)}% strength)</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+
+        <!-- Related projects -->
+        {relatedProjects.length > 0 && (
+          <section aria-labelledby="related-heading">
+            <h2 id="related-heading" style="margin-bottom: var(--space-6);">Related Projects</h2>
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
+              {relatedProjects.map((p) => (
+                <article class="card" style="padding: var(--space-4);">
+                  <h3 style="font-size: var(--text-base); margin-bottom: var(--space-2);">
+                    <a href={`/projects/${p.id}/`}>{p.name}</a>
+                  </h3>
+                  <p style="font-size: var(--text-sm); color: var(--color-text-muted);">{p.description.slice(0, 100)}…</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+      </main>
+
+      <!-- Sidebar metadata -->
+      <aside aria-label="Project metadata" style="position: sticky; top: calc(64px + var(--space-4));">
+        <div class="card" style="padding: var(--space-5);">
+          <h2 style="font-size: var(--text-base); margin-bottom: var(--space-5); border-bottom: 1px solid var(--color-border); padding-bottom: var(--space-3);">Details</h2>
+
+          <dl style="display: flex; flex-direction: column; gap: var(--space-4); font-size: var(--text-sm);">
+            <div>
+              <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Licenses</dt>
+              <dd>{project.licenses.join(", ") || "Unknown"}</dd>
+            </div>
+            <div>
+              <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Governance</dt>
+              <dd>{project.governance_model}</dd>
+            </div>
+            <div>
+              <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Funding Model</dt>
+              <dd>{project.funding_model}</dd>
+            </div>
+            {project.sdgs.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">SDGs</dt>
+                <dd>{project.sdgs.join(", ")}</dd>
+              </div>
+            )}
+            {project.dpi_domains.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">DPI Domains</dt>
+                <dd>{project.dpi_domains.join(", ")}</dd>
+              </div>
+            )}
+            {project.standards_alignment.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Standards</dt>
+                <dd>
+                  <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-1);">
+                    {project.standards_alignment.map((s) => <li>{s}</li>)}
+                  </ul>
+                </dd>
+              </div>
+            )}
+            {project.deployment_countries.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Deployed in</dt>
+                <dd>{project.deployment_countries.join(", ")}</dd>
+              </div>
+            )}
+            {project.steward_organizations.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Steward</dt>
+                <dd>{project.steward_organizations.join(", ")}</dd>
+              </div>
+            )}
+            {project.tags.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Tags</dt>
+                <dd style="display: flex; flex-wrap: wrap; gap: var(--space-1);">
+                  {project.tags.map((t) => (
+                    <span style="font-size: var(--text-xs); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-full); padding: 2px 8px;">{t}</span>
+                  ))}
+                </dd>
+              </div>
+            )}
+            <div>
+              <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Last updated</dt>
+              <dd>
+                <time datetime={project.last_updated}>
+                  {new Date(project.last_updated).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })}
+                </time>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

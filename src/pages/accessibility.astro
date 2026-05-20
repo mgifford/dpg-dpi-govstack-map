@@ -1,0 +1,68 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Accessibility Statement" description="Accessibility statement for the DPI Ecosystem Atlas." currentPage="">
+  <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16); max-width: 820px;">
+    <h1 style="margin-bottom: var(--space-2);">Accessibility Statement</h1>
+    <p style="color: var(--color-text-muted); margin-bottom: var(--space-10);">
+      Last reviewed: <time datetime="2026-05-20">20 May 2026</time>
+    </p>
+
+    <section aria-labelledby="commitment-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="commitment-heading" style="margin-bottom: var(--space-4);">Our Commitment</h2>
+      <p>
+        The Digital Public Infrastructure Ecosystem Atlas is committed to ensuring digital accessibility for people
+        with disabilities. We continually improve the user experience and apply relevant accessibility standards.
+      </p>
+    </section>
+
+    <section aria-labelledby="conformance-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="conformance-heading" style="margin-bottom: var(--space-4);">Conformance Status</h2>
+      <p>
+        This site targets conformance with the
+        <a href="https://www.w3.org/TR/WCAG22/" rel="noopener noreferrer" target="_blank">Web Content Accessibility Guidelines (WCAG) 2.2</a>
+        at Level AA. We aim for Level AAA where technically feasible.
+      </p>
+    </section>
+
+    <section aria-labelledby="measures-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="measures-heading" style="margin-bottom: var(--space-4);">Accessibility Measures</h2>
+      <ul role="list" style="list-style: disc; padding-left: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2);">
+        <li>Skip navigation link at top of every page</li>
+        <li>All pages use proper HTML landmark regions (header, nav, main, footer)</li>
+        <li>All interactive elements are keyboard operable</li>
+        <li>Focus indicators meet 3:1 contrast ratio minimum</li>
+        <li>All images have descriptive alt text; decorative images use empty alt</li>
+        <li>Colour is never used as the only means of conveying information</li>
+        <li>Dark mode and high contrast mode supported</li>
+        <li>Respects prefers-reduced-motion</li>
+        <li>Map view has synchronized accessible list alternative</li>
+        <li>Graph view has accessible relationship table alternative</li>
+        <li>All data available as downloadable structured formats (JSON, CSV, GeoJSON)</li>
+        <li>ARIA live regions announce dynamic filter changes</li>
+        <li>Text resizes to 400% without loss of content or functionality</li>
+        <li>Touch targets meet 24×24 CSS pixel minimum</li>
+        <li>No autoplay media; no flashing content above 3Hz</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="known-issues-heading" style="margin-bottom: var(--space-10);">
+      <h2 id="known-issues-heading" style="margin-bottom: var(--space-4);">Known Limitations</h2>
+      <ul role="list" style="list-style: disc; padding-left: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2);">
+        <li>Leaflet map popups: complex content may not fully announce in all screen reader / browser combinations. Use the list view as a supported alternative.</li>
+        <li>Cytoscape graph: node layout positions are not communicable to screen readers. The relationship table is the primary accessible interface.</li>
+        <li>Some third-party tiles may not have full keyboard support in all browsers.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="feedback-heading">
+      <h2 id="feedback-heading" style="margin-bottom: var(--space-4);">Feedback &amp; Contact</h2>
+      <p>
+        If you experience accessibility barriers, please
+        <a href="https://github.com/mgifford/dpg-dpi-govstack-map/issues/new?template=accessibility.md">open an issue on GitHub</a>.
+        We aim to respond within 5 business days.
+      </p>
+    </section>
+  </div>
+</Base>

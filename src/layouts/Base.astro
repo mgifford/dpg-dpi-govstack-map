@@ -1,0 +1,170 @@
+---
+/**
+ * Base layout with full accessibility scaffolding:
+ * - Skip navigation
+ * - Landmark regions (header, nav, main, footer)
+ * - Dark mode toggle
+ * - CSP meta + OpenGraph metadata
+ */
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  noIndex?: boolean;
+  currentPage?: string;
+}
+
+const {
+  title,
+  description = "A globally searchable registry and atlas of Digital Public Infrastructure, Digital Public Goods, and GovTech projects.",
+  ogImage = "/assets/og-image.png",
+  noIndex = false,
+  currentPage = ""
+} = Astro.props;
+
+const siteTitle = title === "Home"
+  ? "DPI Ecosystem Atlas"
+  : `${title} — DPI Ecosystem Atlas`;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://dpiatlas.example.org");
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/projects/", label: "Projects" },
+  { href: "/map/", label: "Map" },
+  { href: "/graph/", label: "Graph" },
+  { href: "/about/", label: "About" },
+  { href: "/api/", label: "API" }
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    {noIndex && <meta name="robots" content="noindex" />}
+
+    <!-- Canonical -->
+    <link rel="canonical" href={canonicalURL.toString()} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.toString()} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Accessibility: colour scheme preference -->
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/src/styles/global.css" />
+
+    <title>{siteTitle}</title>
+  </head>
+
+  <body>
+    <!-- Skip navigation — WCAG 2.4.1 -->
+    <a class="skip-nav" href="#main-content">Skip to main content</a>
+
+    <!-- Site header -->
+    <header class="site-header" role="banner">
+      <div class="container site-header__inner">
+        <a class="site-header__logo" href="/" aria-label="DPI Ecosystem Atlas — Home">
+          DPI Atlas
+        </a>
+
+        <!-- Primary navigation -->
+        <nav aria-label="Primary navigation">
+          <ul class="site-nav" role="list">
+            {navLinks.map(({ href, label }) => (
+              <li>
+                <a
+                  href={href}
+                  aria-current={currentPage === href ? "page" : undefined}
+                >
+                  {label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <!-- Theme toggle -->
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="Toggle dark mode"
+          style="margin-left: var(--space-4); padding: var(--space-2); background: transparent; border: 1px solid var(--color-border); border-radius: var(--radius-md); cursor: pointer; color: var(--color-text-muted);"
+        >
+          <span aria-hidden="true" id="theme-icon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main id="main-content" tabindex="-1">
+      <slot />
+    </main>
+
+    <!-- Site footer -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-8); justify-content: space-between;">
+          <div>
+            <p><strong>DPI Ecosystem Atlas</strong></p>
+            <p>A public-interest open source registry of Digital Public Infrastructure,<br />Digital Public Goods, and GovTech projects.</p>
+          </div>
+          <nav aria-label="Footer navigation">
+            <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-2);">
+              <li><a href="/about/">About</a></li>
+              <li><a href="/api/">API Documentation</a></li>
+              <li><a href="/accessibility/">Accessibility Statement</a></li>
+              <li><a href="https://github.com/mgifford/dpg-dpi-govstack-map">GitHub</a></li>
+              <li><a href="/api/atlas.json">Download Data (JSON)</a></li>
+              <li><a href="/api/projects.csv">Download Data (CSV)</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p style="margin-top: var(--space-6);">
+          Data updated monthly. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+          Source code under <a href="https://github.com/mgifford/dpg-dpi-govstack-map/blob/main/LICENSE">MIT</a>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Theme toggle script (inline, no external dependency) -->
+    <script>
+      (function () {
+        const KEY = "atlas-theme";
+        const toggle = document.getElementById("theme-toggle");
+        const icon = document.getElementById("theme-icon");
+        const html = document.documentElement;
+
+        function applyTheme(theme: string) {
+          html.setAttribute("data-theme", theme);
+          if (icon) icon.textContent = theme === "dark" ? "☀️" : "🌙";
+          try { localStorage.setItem(KEY, theme); } catch (_) { /* noop */ }
+        }
+
+        // Restore saved preference
+        try {
+          const saved = localStorage.getItem(KEY);
+          if (saved === "dark" || saved === "light") applyTheme(saved);
+        } catch (_) { /* noop */ }
+
+        toggle?.addEventListener("click", () => {
+          const current = html.getAttribute("data-theme") ?? "light";
+          applyTheme(current === "dark" ? "light" : "dark");
+        });
+      })();
+    </script>
+  </body>
+</html>
