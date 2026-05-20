@@ -1,12 +1,22 @@
 # Maturity Model Alignment
 
-This project is being built explicitly against the maturity model described in `2510.04603v1.pdf`.
+This project is being built in response to and in conversation with Johan Linaker and Sachiko Muto's paper, "Advancing Digital Government: Integrating Open Source Software Enablement Indicators in Maturity Indexes."
 
-The Atlas does not treat maturity as a single popularity proxy. The implementation uses the paper's maturity-oriented framing as a decision rule for what data we collect, how we structure evidence, and which product phases we prioritize first.
+The Atlas does not treat maturity as a single popularity proxy. Instead, it builds on the paper's argument that digital government maturity assessments should include open source software enablement indicators alongside broader public-sector digital capability signals.
+
+## Reference Point
+
+The relevant reference is:
+
+- Johan Linaker and Sachiko Muto, "Advancing Digital Government: Integrating Open Source Software Enablement Indicators in Maturity Indexes"
+- ResearchGate publication: https://www.researchgate.net/publication/396250702_Advancing_Digital_Government_Integrating_Open_Source_Software_Enablement_Indicators_in_Maturity_Indexes
+- arXiv preprint context: `arXiv:2510.04603v1 [cs.SE]`
+
+The important point for this repository is not the identifier by itself. It is the paper's core claim that digital maturity frameworks should better account for policy, institutional support, software reuse, and OSS ecosystem enablement in government.
 
 ## Working Interpretation
 
-We use the paper as a directional framework for evaluating whether a digital public infrastructure project is adoptable, governable, sustainable, and operable in real public-sector settings.
+We use that paper as a directional framework for evaluating whether a digital public infrastructure project is adoptable, governable, sustainable, and operable in real public-sector settings.
 
 That means the Atlas emphasizes:
 
@@ -17,6 +27,10 @@ That means the Atlas emphasizes:
 - phased implementation so the data model matures before the automation layer expands
 
 ## How The Atlas Applies The Model
+
+The paper examines OSS policy formation, implementation support, and institutional enablers such as Open Source Program Offices, then proposes indicators across 14 areas covering policy incentives, policy design, implementation, and support.
+
+The Atlas translates that orientation into an operational project and ecosystem data model.
 
 The current schema and workflows operationalize maturity through eleven dimensions:
 
@@ -43,7 +57,9 @@ These dimensions are stored in `maturity_scores` and then surfaced alongside sup
 - sustainability score
 - procurement readiness
 
-This is intentional. A project can be technically active while still being weak in governance, documentation, accessibility, interoperability, or procurement readiness. The Atlas is designed to make those differences visible.
+This is intentional. A project can be technically active while still be weak in governance, documentation, accessibility, interoperability, or procurement readiness. The Atlas is designed to make those differences visible in a way that is useful for governments, implementers, funders, and policy teams.
+
+The Atlas is therefore not claiming to reproduce the paper's maturity index verbatim. It is building on that research to create a practical evidence system for DPI and DPG discovery, comparison, and stewardship.
 
 ## Evidence Model
 
@@ -98,6 +114,7 @@ The sequencing matters. We do not want broad automation before the maturity mode
 When adding or changing data, pages, or automation, contributors should prefer changes that strengthen one or more of these qualities:
 
 - clearer maturity evidence
+- better OSS enablement signals for public-sector reuse and collaboration
 - better provenance
 - stronger accessibility
 - more actionable public-sector adoption signals
@@ -118,4 +135,4 @@ The maturity-model approach currently appears in:
 
 ## Summary
 
-The Atlas is not being built as a generic software directory. It is being built as an evidence-backed maturity atlas for digital public infrastructure, and `2510.04603v1.pdf` is the reference point for that orientation.
+The Atlas is not being built as a generic software directory. It is being built as an evidence-backed maturity atlas for digital public infrastructure, informed by Linaker and Muto's work on integrating OSS enablement indicators into digital government maturity models.

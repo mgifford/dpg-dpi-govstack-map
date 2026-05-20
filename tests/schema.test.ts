@@ -61,12 +61,14 @@ describe("projectSchema", () => {
   });
 
   it("requires id", () => {
-    const { id: _, ...rest } = validProject;
+    const rest = { ...validProject };
+    delete (rest as { id?: string }).id;
     expect(() => projectSchema.parse(rest)).toThrow();
   });
 
   it("requires name", () => {
-    const { name: _, ...rest } = validProject;
+    const rest = { ...validProject };
+    delete (rest as { name?: string }).name;
     expect(() => projectSchema.parse(rest)).toThrow();
   });
 
@@ -131,7 +133,8 @@ describe("organizationSchema", () => {
   });
 
   it("rejects missing required fields", () => {
-    const { name: _, ...rest } = validOrg;
+    const rest = { ...validOrg };
+    delete (rest as { name?: string }).name;
     expect(() => organizationSchema.parse(rest)).toThrow();
   });
 });
