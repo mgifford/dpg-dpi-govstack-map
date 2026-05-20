@@ -23,13 +23,11 @@ async function readCachedJson<T>(filePath: string): Promise<T | null> {
   }
 }
 
-export async function fetchJsonWithCache<T>(url: string, options: FetchJsonOptions): Promise<T | null> {
-  const {
-    cacheKey,
-    headers,
-    timeoutMs = 15_000,
-    allowStale = true
-  } = options;
+export async function fetchJsonWithCache<T>(
+  url: string,
+  options: FetchJsonOptions
+): Promise<T | null> {
+  const { cacheKey, headers, timeoutMs = 15_000, allowStale = true } = options;
 
   const filePath = cachePath(cacheKey);
   const controller = new AbortController();
@@ -49,7 +47,9 @@ export async function fetchJsonWithCache<T>(url: string, options: FetchJsonOptio
     if (allowStale) {
       const cached = await readCachedJson<T>(filePath);
       if (cached != null) {
-        console.warn(`[fetch] ${url} failed (${(error as Error).message}); using cached ${cacheKey}`);
+        console.warn(
+          `[fetch] ${url} failed (${(error as Error).message}); using cached ${cacheKey}`
+        );
         return cached;
       }
     }

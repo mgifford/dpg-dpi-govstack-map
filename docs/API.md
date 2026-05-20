@@ -5,6 +5,7 @@
 The Digital Public Infrastructure Ecosystem Atlas exposes a static public API generated at build time and published under `public/api/`.
 
 Characteristics:
+
 - No authentication required
 - Static JSON, GeoJSON, and CSV outputs
 - Designed for GitHub Pages and CDN-style hosting
@@ -31,6 +32,7 @@ Static API artifacts are generated from the processed Atlas dataset:
 ### `GET /api/atlas.json`
 
 Canonical Atlas dataset containing:
+
 - metadata
 - projects
 - organizations
@@ -45,6 +47,7 @@ Use this endpoint when you want the full graph-aware dataset in one request.
 ### `GET /api/projects.json`
 
 Project registry entries including:
+
 - categories and project types
 - governance and funding metadata
 - deployment countries
@@ -55,6 +58,7 @@ Project registry entries including:
 ### `GET /api/organizations.json`
 
 Organization records including:
+
 - type and governance role
 - country and city
 - coordinates
@@ -64,6 +68,7 @@ Organization records including:
 ### `GET /api/deployments.json`
 
 Deployment records including:
+
 - country
 - ministry and government context
 - project
@@ -73,6 +78,7 @@ Deployment records including:
 ### `GET /api/relationships.json`
 
 Directional relationship edges between entities such as:
+
 - `funded_by`
 - `integrates_with`
 - `implements`
@@ -107,9 +113,11 @@ Serialized Lunr.js search index used by the static frontend search experience.
 Primary schema definitions live in [src/lib/schema.ts](../src/lib/schema.ts).
 
 Detailed schema reference:
+
 - [docs/SCHEMA.md](./SCHEMA.md)
 
 Important model characteristics:
+
 - multi-dimensional maturity instead of one overall score
 - provenance metadata for important fields
 - explicit standards and relationship support
@@ -147,6 +155,7 @@ curl -O https://dpiatlas.example.org/api/projects.csv
 This API is static-first, not version-negotiated. Current dataset versioning is stored inside `atlas.json` as a metadata field.
 
 Compatibility guidance:
+
 - prefer tolerant readers
 - treat new fields as additive
 - do not assume ordering is stable
@@ -157,6 +166,7 @@ Compatibility guidance:
 ## Provenance
 
 The Atlas distinguishes between:
+
 - manual facts
 - declared facts
 - inferred facts

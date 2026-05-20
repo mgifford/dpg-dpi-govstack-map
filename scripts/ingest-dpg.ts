@@ -96,41 +96,63 @@ function mapDpgItem(item: DpgApiItem): Project {
       openssf_scorecard: null
     },
     provenance: {
-      description: [{
-        source: "DPG API",
-        retrieved_at: retrievedAt,
-        confidence: 0.95,
-        kind: "scraped",
-        note: "Imported from the Digital Public Goods Registry API."
-      }],
-      licenses: licenses.length > 0 ? [{
-        source: "DPG API",
-        retrieved_at: retrievedAt,
-        confidence: 0.92,
-        kind: "declared",
-        note: "License values normalized from registry metadata."
-      }] : [],
-      deployment_countries: countries.length > 0 ? [{
-        source: "DPG API",
-        retrieved_at: retrievedAt,
-        confidence: 0.75,
-        kind: "declared",
-        note: "Deployment countries may be incomplete relative to actual public deployments."
-      }] : [],
-      repository_urls: repoUrls.length > 0 ? [{
-        source: "DPG API",
-        retrieved_at: retrievedAt,
-        confidence: 0.9,
-        kind: "declared",
-        note: "Repository URL supplied by the DPG record."
-      }] : [],
-      steward_organizations: orgs.length > 0 ? [{
-        source: "DPG API",
-        retrieved_at: retrievedAt,
-        confidence: 0.8,
-        kind: "declared",
-        note: "Organizations copied from the registry record without local normalization."
-      }] : []
+      description: [
+        {
+          source: "DPG API",
+          retrieved_at: retrievedAt,
+          confidence: 0.95,
+          kind: "scraped",
+          note: "Imported from the Digital Public Goods Registry API."
+        }
+      ],
+      licenses:
+        licenses.length > 0
+          ? [
+              {
+                source: "DPG API",
+                retrieved_at: retrievedAt,
+                confidence: 0.92,
+                kind: "declared",
+                note: "License values normalized from registry metadata."
+              }
+            ]
+          : [],
+      deployment_countries:
+        countries.length > 0
+          ? [
+              {
+                source: "DPG API",
+                retrieved_at: retrievedAt,
+                confidence: 0.75,
+                kind: "declared",
+                note: "Deployment countries may be incomplete relative to actual public deployments."
+              }
+            ]
+          : [],
+      repository_urls:
+        repoUrls.length > 0
+          ? [
+              {
+                source: "DPG API",
+                retrieved_at: retrievedAt,
+                confidence: 0.9,
+                kind: "declared",
+                note: "Repository URL supplied by the DPG record."
+              }
+            ]
+          : [],
+      steward_organizations:
+        orgs.length > 0
+          ? [
+              {
+                source: "DPG API",
+                retrieved_at: retrievedAt,
+                confidence: 0.8,
+                kind: "declared",
+                note: "Organizations copied from the registry record without local normalization."
+              }
+            ]
+          : []
     },
     last_updated: retrievedAt
   });

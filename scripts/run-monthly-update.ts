@@ -41,7 +41,10 @@ async function loadSeed(): Promise<AtlasDataset> {
   }
 }
 
-function mergeProjects(seed: AtlasDataset["projects"], incoming: AtlasDataset["projects"]): AtlasDataset["projects"] {
+function mergeProjects(
+  seed: AtlasDataset["projects"],
+  incoming: AtlasDataset["projects"]
+): AtlasDataset["projects"] {
   const map = new Map(seed.map((p) => [p.id, p]));
   for (const p of incoming) {
     if (!map.has(p.id)) {
@@ -78,9 +81,10 @@ async function main(): Promise<void> {
 
   // 4. Enrich with GitHub metadata
   console.log("[4/6] Enriching with GitHub metadata…");
-  const githubEnrichment = process.env.SKIP_GITHUB_ENRICHMENT === "true"
-    ? { projects: mergedProjects, repositories: seed.repositories }
-    : await enrichProjectsBatch(mergedProjects);
+  const githubEnrichment =
+    process.env.SKIP_GITHUB_ENRICHMENT === "true"
+      ? { projects: mergedProjects, repositories: seed.repositories }
+      : await enrichProjectsBatch(mergedProjects);
 
   // 5. Build final dataset
   const activeSources = ["manual-seed", "dpg-registry"];

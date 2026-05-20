@@ -14,6 +14,7 @@ All projects must pass schema validation (`npm run validate:data`).
 See [docs/SCHEMA.md](docs/SCHEMA.md) for field definitions.
 
 If you are adding a new project, include at minimum:
+
 - `id`, `name`, `description`
 - `category`, `project_type`
 - `licenses`
@@ -29,6 +30,7 @@ If you have verified `coordinates` for an organization, include them — they dr
 ### 3. Fix accessibility issues
 
 Open an issue tagged `accessibility`. Include:
+
 - WCAG criterion violated (e.g., "1.4.3 Contrast")
 - Browser and assistive technology combination
 - Steps to reproduce
@@ -95,6 +97,7 @@ GITHUB_TOKEN=your_token npm run ingest
 ## Accessibility Requirements for Contributions
 
 All UI contributions must:
+
 - Work without a mouse (keyboard only)
 - Provide text alternatives for non-text content
 - Not introduce color-only information encoding

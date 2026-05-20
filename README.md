@@ -14,7 +14,7 @@ The Digital Public Infrastructure Ecosystem Atlas aims to create a single source
 - **Maps geographic deployments, relationships, and dependencies** to understand how public digital infrastructure is interconnected globally
 - **Tracks community health, sustainability, and maturity** using sophisticated metrics (not just GitHub stars)
 - **Enables discovery** through full-text search, faceted filtering, relationship graphs, and accessible interactive maps
-- **Prioritizes accessibility (WCAG 2.2 AA+)**, sustainability, and performance** as core requirements, not afterthoughts
+- **Prioritizes accessibility (WCAG 2.2 AA+)**, sustainability, and performance\*\* as core requirements, not afterthoughts
 - **Supports long-term stewardship** through open governance, transparent data, and clean architecture
 
 ---
@@ -138,6 +138,7 @@ The Atlas ingests from:
 - **Open procurement, civic participation, and interoperability systems**
 
 Data enrichment via:
+
 - Wikidata
 - OpenAlex
 - ORCID
@@ -152,17 +153,20 @@ Data enrichment via:
 ## Tech Stack
 
 **Frontend:**
+
 - **Astro** for static site generation
 - **TypeScript** for type safety
 - **Tailwind CSS** for styling
 - **Accessible HTML** with semantic structure
 
 **Backend & Automation:**
+
 - **Node.js** ingestion scripts
 - **GitHub Actions** for monthly CI/CD
 - **SQLite** for lightweight data processing (optional PostgreSQL + PostGIS for advanced deployments)
 
 **Visualization:**
+
 - **MapLibre GL JS** for accessible maps
 - **Leaflet** as fallback
 - **D3.js** for ecosystem graphs
@@ -170,10 +174,12 @@ Data enrichment via:
 - **Cytoscape.js** for relationship graphs
 
 **Search:**
+
 - **Lunr.js** for static full-text search (no backend required)
 - **Typesense** optional for advanced deployments
 
 **Deployment:**
+
 - **GitHub Pages** or **Cloudflare Pages**
 - Automatic via GitHub Actions
 
@@ -311,6 +317,7 @@ The Atlas exposes a public API for programmatic access:
 ### Endpoints
 
 **Projects**
+
 ```
 GET /api/projects                    # List all projects
 GET /api/projects?country=KE&type=mobile  # Filter projects
@@ -318,17 +325,20 @@ GET /api/projects/:id               # Get project detail
 ```
 
 **Organizations**
+
 ```
 GET /api/organizations
 GET /api/organizations/:id
 ```
 
 **Search**
+
 ```
 GET /api/search?q=digital%20identity&limit=20
 ```
 
 **Map Data**
+
 ```
 GET /api/map/deployments.geojson   # Deployment locations
 GET /api/map/organizations.geojson # Organization HQs
@@ -336,12 +346,14 @@ GET /api/map/relationships.geojson # Ecosystem relationships
 ```
 
 **Graph**
+
 ```
 GET /api/graph/projects.json        # Project relationship graph
 GET /api/graph/organizations.json   # Organization network
 ```
 
 **Bulk Export**
+
 ```
 GET /api/export/projects.csv
 GET /api/export/organizations.json
@@ -370,6 +382,7 @@ const export = await fetch('/api/export/all.tar.gz');
 We welcome contributions from researchers, developers, data wranglers, accessibility specialists, and ecosystem builders.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
+
 - How to add new data sources
 - How to improve community health metrics
 - How to enhance accessibility
@@ -395,6 +408,7 @@ See [GOVERNANCE.md](docs/GOVERNANCE.md) for details.
 This platform is committed to **WCAG 2.2 AA compliance** as a core requirement.
 
 See [ACCESSIBILITY.md](docs/ACCESSIBILITY.md) for:
+
 - Detailed accessibility statement
 - Testing procedures
 - How to report accessibility issues
@@ -420,6 +434,7 @@ See [SUSTAINABILITY.md](docs/SUSTAINABILITY.md) for metrics and practices.
 ### "ENOENT: no such file or directory, open 'data/processed/atlas.json'"
 
 Generate datasets first:
+
 ```bash
 npm run generate-datasets
 npm run build
@@ -432,6 +447,7 @@ Ensure MapLibre GL and Leaflet CSS are loaded. Check browser console for CORS er
 ### Tests failing with validation errors
 
 Regenerate and validate datasets:
+
 ```bash
 npm run generate-datasets
 npm run validate
@@ -471,6 +487,7 @@ npm run validate
 ## Funding & Support
 
 This project is maintained as a public good. We welcome support from:
+
 - Foundations focused on digital infrastructure
 - Government digital transformation programs
 - Research institutions
@@ -483,6 +500,7 @@ For partnership inquiries, please open a discussion on GitHub.
 ## Acknowledgments
 
 Built with:
+
 - [Astro](https://astro.build)
 - [MapLibre GL JS](https://maplibre.org)
 - [Zod](https://zod.dev)

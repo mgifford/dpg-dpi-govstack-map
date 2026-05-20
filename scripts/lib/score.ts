@@ -7,9 +7,10 @@ function clamp(v: number, min = 0, max = 100): number {
 export function calculateActivityScore(repo: Repository): number {
   const commitsWeight = Math.min(repo.commit_frequency * 12, 50);
   const releasesWeight = Math.min(repo.releases * 5, 25);
-  const issuesWeight = repo.closed_issues + repo.open_issues > 0
-    ? (repo.closed_issues / (repo.closed_issues + repo.open_issues)) * 25
-    : 0;
+  const issuesWeight =
+    repo.closed_issues + repo.open_issues > 0
+      ? (repo.closed_issues / (repo.closed_issues + repo.open_issues)) * 25
+      : 0;
   return clamp(Math.round(commitsWeight + releasesWeight + issuesWeight));
 }
 
@@ -23,7 +24,10 @@ export function calculateSustainabilityScore(project: Project): number {
   return clamp(Math.round(governance + docs + onboarding + dependency - securityPenalty));
 }
 
-export function classifyMaturity(activityScore: number, sustainabilityScore: number): Project["maturity_level"] {
+export function classifyMaturity(
+  activityScore: number,
+  sustainabilityScore: number
+): Project["maturity_level"] {
   const composite = (activityScore + sustainabilityScore) / 2;
   if (composite > 75) {
     return "mature";

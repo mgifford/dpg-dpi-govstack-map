@@ -67,20 +67,45 @@ function escape(v: unknown): string {
 
 function buildCsv(projects: Project[]): string {
   const headers = [
-    "id", "name", "category", "project_type", "maturity_level",
-    "activity_score", "sustainability_score", "ecosystem_score", "accessibility_score",
-    "deployment_countries", "licenses", "sdgs", "dpi_domains",
-    "governance_model", "website", "last_updated"
+    "id",
+    "name",
+    "category",
+    "project_type",
+    "maturity_level",
+    "activity_score",
+    "sustainability_score",
+    "ecosystem_score",
+    "accessibility_score",
+    "deployment_countries",
+    "licenses",
+    "sdgs",
+    "dpi_domains",
+    "governance_model",
+    "website",
+    "last_updated"
   ];
 
   const rows = projects.map((p) =>
     [
-      p.id, p.name, p.category, p.project_type, p.maturity_level,
-      p.activity_score, p.sustainability_score, p.ecosystem_score, p.accessibility_score,
-      p.deployment_countries.join("; "), p.licenses.join("; "),
-      p.sdgs.join("; "), p.dpi_domains.join("; "),
-      p.governance_model, p.website, p.last_updated
-    ].map(escape).join(",")
+      p.id,
+      p.name,
+      p.category,
+      p.project_type,
+      p.maturity_level,
+      p.activity_score,
+      p.sustainability_score,
+      p.ecosystem_score,
+      p.accessibility_score,
+      p.deployment_countries.join("; "),
+      p.licenses.join("; "),
+      p.sdgs.join("; "),
+      p.dpi_domains.join("; "),
+      p.governance_model,
+      p.website,
+      p.last_updated
+    ]
+      .map(escape)
+      .join(",")
   );
 
   return [headers.join(","), ...rows].join("\n");
@@ -127,26 +152,38 @@ export async function generateDatasets(dataset: AtlasDataset): Promise<void> {
     writeFile(path.join(OUT_DIR, "atlas.json"), toJson(dataset)),
 
     // Sliced endpoints
-    writeFile(path.join(OUT_DIR, "projects.json"), toJson({
-      generated_at: dataset.generated_at,
-      count: dataset.projects.length,
-      projects: dataset.projects
-    })),
-    writeFile(path.join(OUT_DIR, "organizations.json"), toJson({
-      generated_at: dataset.generated_at,
-      count: dataset.organizations.length,
-      organizations: dataset.organizations
-    })),
-    writeFile(path.join(OUT_DIR, "relationships.json"), toJson({
-      generated_at: dataset.generated_at,
-      count: dataset.relationships.length,
-      relationships: dataset.relationships
-    })),
-    writeFile(path.join(OUT_DIR, "deployments.json"), toJson({
-      generated_at: dataset.generated_at,
-      count: dataset.deployments.length,
-      deployments: dataset.deployments
-    })),
+    writeFile(
+      path.join(OUT_DIR, "projects.json"),
+      toJson({
+        generated_at: dataset.generated_at,
+        count: dataset.projects.length,
+        projects: dataset.projects
+      })
+    ),
+    writeFile(
+      path.join(OUT_DIR, "organizations.json"),
+      toJson({
+        generated_at: dataset.generated_at,
+        count: dataset.organizations.length,
+        organizations: dataset.organizations
+      })
+    ),
+    writeFile(
+      path.join(OUT_DIR, "relationships.json"),
+      toJson({
+        generated_at: dataset.generated_at,
+        count: dataset.relationships.length,
+        relationships: dataset.relationships
+      })
+    ),
+    writeFile(
+      path.join(OUT_DIR, "deployments.json"),
+      toJson({
+        generated_at: dataset.generated_at,
+        count: dataset.deployments.length,
+        deployments: dataset.deployments
+      })
+    ),
 
     // GeoJSON
     writeFile(

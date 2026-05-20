@@ -29,7 +29,10 @@ export const defaultFilterState: ProjectFilterState = {
 export function applyProjectFilters(projects: Project[], state: ProjectFilterState): Project[] {
   const q = state.query.toLowerCase();
   return projects.filter((project) => {
-    if (q && !(`${project.name} ${project.description} ${project.tags.join(" ")}`.toLowerCase().includes(q))) {
+    if (
+      q &&
+      !`${project.name} ${project.description} ${project.tags.join(" ")}`.toLowerCase().includes(q)
+    ) {
       return false;
     }
     if (state.country !== "all" && !project.deployment_countries.includes(state.country)) {

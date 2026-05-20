@@ -5,59 +5,86 @@ import {
   defaultFilterState,
   type ProjectFilterState
 } from "../src/lib/filters";
-import { emptyAtlasDataset, projectSchema, type AtlasDataset, type Project } from "../src/lib/schema";
+import {
+  emptyAtlasDataset,
+  projectSchema,
+  type AtlasDataset,
+  type Project
+} from "../src/lib/schema";
 
-const makeProject = (overrides: Partial<Project>): Project => projectSchema.parse({
-  id: "test",
-  name: "Test Project",
-  description: "A description",
-  category: "DPG",
-  subcategory: "",
-  project_type: "DPG",
-  tags: ["health", "open-source"],
-  website: "",
-  project_page: "",
-  repository_urls: [],
-  documentation_urls: [],
-  licenses: ["MIT"],
-  governance_model: "foundation",
-  funding_model: "grant",
-  standards_alignment: [],
-  interoperability_frameworks: [],
-  deployment_countries: ["Kenya", "Uganda"],
-  steward_organizations: [],
-  maintainers: [],
-  related_projects: [],
-  sdgs: ["SDG-3"],
-  dpi_domains: ["health"],
-  maturity_level: "mature",
-  sustainability_score: 75,
-  activity_score: 80,
-  ecosystem_score: 70,
-  accessibility_score: 60,
-  community_health: {
-    commits_last_12_months: 500,
-    contributors_last_12_months: 20,
-    issue_closure_rate: 0.7,
-    median_issue_response_hours: 24,
-    releases_last_12_months: 4,
-    contributor_diversity_index: 0.6,
-    governance_maturity: 75,
-    documentation_quality: 80,
-    onboarding_quality: 70,
-    dependency_freshness: 72,
-    security_advisories_open: 0,
-    openssf_scorecard: null
-  },
-  provenance: {},
-  last_updated: new Date().toISOString(),
-  ...overrides
-});
+const makeProject = (overrides: Partial<Project>): Project =>
+  projectSchema.parse({
+    id: "test",
+    name: "Test Project",
+    description: "A description",
+    category: "DPG",
+    subcategory: "",
+    project_type: "DPG",
+    tags: ["health", "open-source"],
+    website: "",
+    project_page: "",
+    repository_urls: [],
+    documentation_urls: [],
+    licenses: ["MIT"],
+    governance_model: "foundation",
+    funding_model: "grant",
+    standards_alignment: [],
+    interoperability_frameworks: [],
+    deployment_countries: ["Kenya", "Uganda"],
+    steward_organizations: [],
+    maintainers: [],
+    related_projects: [],
+    sdgs: ["SDG-3"],
+    dpi_domains: ["health"],
+    maturity_level: "mature",
+    sustainability_score: 75,
+    activity_score: 80,
+    ecosystem_score: 70,
+    accessibility_score: 60,
+    community_health: {
+      commits_last_12_months: 500,
+      contributors_last_12_months: 20,
+      issue_closure_rate: 0.7,
+      median_issue_response_hours: 24,
+      releases_last_12_months: 4,
+      contributor_diversity_index: 0.6,
+      governance_maturity: 75,
+      documentation_quality: 80,
+      onboarding_quality: 70,
+      dependency_freshness: 72,
+      security_advisories_open: 0,
+      openssf_scorecard: null
+    },
+    provenance: {},
+    last_updated: new Date().toISOString(),
+    ...overrides
+  });
 
 const projects: Project[] = [
-  makeProject({ id: "dhis2", name: "DHIS2", project_type: "DPG", licenses: ["BSD-3-Clause"], deployment_countries: ["Kenya", "Tanzania"], maturity_level: "mature" }),
-  makeProject({ id: "decidim", name: "Decidim", project_type: "GovTech", licenses: ["AGPL-3.0"], deployment_countries: ["Spain", "France"], maturity_level: "mature" }),
-  makeProject({ id: "opencrvs", name: "OpenCRVS", project_type: "DPG", licenses: ["MPL-2.0"], deployment_countries: ["Bangladesh"], maturity_level: "growing" }),
+  makeProject({
+    id: "dhis2",
+    name: "DHIS2",
+    project_type: "DPG",
+    licenses: ["BSD-3-Clause"],
+    deployment_countries: ["Kenya", "Tanzania"],
+    maturity_level: "mature"
+  }),
+  makeProject({
+    id: "decidim",
+    name: "Decidim",
+    project_type: "GovTech",
+    licenses: ["AGPL-3.0"],
+    deployment_countries: ["Spain", "France"],
+    maturity_level: "mature"
+  }),
+  makeProject({
+    id: "opencrvs",
+    name: "OpenCRVS",
+    project_type: "DPG",
+    licenses: ["MPL-2.0"],
+    deployment_countries: ["Bangladesh"],
+    maturity_level: "growing"
+  })
 ];
 
 const state: ProjectFilterState = { ...defaultFilterState };

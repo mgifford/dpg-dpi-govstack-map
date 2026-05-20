@@ -46,10 +46,12 @@
   maturity_scores:
     code: { score: 88, rationale: Mature release engineering and broad contributor base. }
     governance: { score: 94, rationale: Foundation governance and transparent policies. }
-    stewardship: { score: 92, rationale: Long-term stewardship through the Drupal Association and agencies. }
+    stewardship:
+      { score: 92, rationale: Long-term stewardship through the Drupal Association and agencies. }
     public_sector: { score: 89, rationale: Extensive procurement-ready government deployments. }
     accessibility: { score: 86, rationale: Strong accessibility history and testing practices. }
-    sustainability: { score: 91, rationale: Diverse service ecosystem and long-term funding patterns. }
+    sustainability:
+      { score: 91, rationale: Diverse service ecosystem and long-term funding patterns. }
     security: { score: 87, rationale: Coordinated security team and disclosure process. }
     interoperability: { score: 80, rationale: Mature API and standards support. }
     procurement: { score: 90, rationale: Large public-sector support market and documentation. }
@@ -122,11 +124,14 @@
     code: { score: 78, rationale: Active engineering and regular releases. }
     governance: { score: 80, rationale: Clear stewardship and open documentation. }
     stewardship: { score: 83, rationale: Strong institutional home and implementation network. }
-    public_sector: { score: 92, rationale: Direct public-sector adoption across multiple countries. }
-    accessibility: { score: 55, rationale: Accessibility practices exist but need systematic evidence. }
+    public_sector:
+      { score: 92, rationale: Direct public-sector adoption across multiple countries. }
+    accessibility:
+      { score: 55, rationale: Accessibility practices exist but need systematic evidence. }
     sustainability: { score: 82, rationale: Strong ecosystem support and grants. }
     security: { score: 76, rationale: Good identity security posture with some open items. }
-    interoperability: { score: 90, rationale: Central interoperability role in digital identity stacks. }
+    interoperability:
+      { score: 90, rationale: Central interoperability role in digital identity stacks. }
     procurement: { score: 78, rationale: Growing integrator ecosystem and deployment record. }
     community: { score: 74, rationale: Healthy but still concentrated contributor base. }
     documentation: { score: 82, rationale: Strong technical documentation. }
@@ -163,7 +168,8 @@
   funding_model: grant
   steward_organizations: [university-of-oslo]
   maintainers: [HISP Centre]
-  deployment_countries: [Uganda, Tanzania, Kenya, India, Indonesia, Bangladesh, Nigeria, Ethiopia, Zambia, Zimbabwe]
+  deployment_countries:
+    [Uganda, Tanzania, Kenya, India, Indonesia, Bangladesh, Nigeria, Ethiopia, Zambia, Zimbabwe]
   related_projects: [openmrs]
   interoperability_frameworks: [OpenHIE]
   standards_alignment: [FHIR, HL7, ADX]

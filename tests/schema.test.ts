@@ -157,7 +157,9 @@ describe("deploymentSchema", () => {
   });
 
   it("rejects invalid deployment_status", () => {
-    expect(() => deploymentSchema.parse({ ...validDeployment, deployment_status: "unknown" })).toThrow();
+    expect(() =>
+      deploymentSchema.parse({ ...validDeployment, deployment_status: "unknown" })
+    ).toThrow();
   });
 });
 
@@ -198,9 +200,16 @@ describe("repositorySchema", () => {
 describe("relationshipSchema", () => {
   it("accepts all valid relationship types", () => {
     const types = [
-      "funded_by", "integrates_with", "implements",
-      "aligned_with", "governed_by", "maintained_by",
-      "deployed_in", "used_by", "sponsored_by", "participates_in"
+      "funded_by",
+      "integrates_with",
+      "implements",
+      "aligned_with",
+      "governed_by",
+      "maintained_by",
+      "deployed_in",
+      "used_by",
+      "sponsored_by",
+      "participates_in"
     ] as const;
     for (const type of types) {
       expect(() =>

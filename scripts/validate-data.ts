@@ -62,10 +62,14 @@ async function main(): Promise<void> {
     const targetInStandards = standardIds.has(rel.target);
 
     if (!sourceInProjects && !sourceInOrgs && !sourceInPeople && !sourceInStandards) {
-      errors.push(`Relationship source "${rel.source}" not found in projects, organizations, people, or standards`);
+      errors.push(
+        `Relationship source "${rel.source}" not found in projects, organizations, people, or standards`
+      );
     }
     if (!targetInProjects && !targetInOrgs && !targetInPeople && !targetInStandards) {
-      errors.push(`Relationship target "${rel.target}" not found in projects, organizations, people, or standards`);
+      errors.push(
+        `Relationship target "${rel.target}" not found in projects, organizations, people, or standards`
+      );
     }
   }
 
@@ -78,13 +82,17 @@ async function main(): Promise<void> {
   for (const project of dataset.projects) {
     for (const relatedProjectId of project.related_projects) {
       if (!projectIds.has(relatedProjectId)) {
-        errors.push(`Project "${project.id}" references unknown related project "${relatedProjectId}"`);
+        errors.push(
+          `Project "${project.id}" references unknown related project "${relatedProjectId}"`
+        );
       }
     }
 
     for (const stewardOrgId of project.steward_organizations) {
       if (!orgIds.has(stewardOrgId)) {
-        errors.push(`Project "${project.id}" references unknown steward organization "${stewardOrgId}"`);
+        errors.push(
+          `Project "${project.id}" references unknown steward organization "${stewardOrgId}"`
+        );
       }
     }
   }
@@ -92,13 +100,17 @@ async function main(): Promise<void> {
   for (const organization of dataset.organizations) {
     for (const associatedProjectId of organization.associated_projects) {
       if (!projectIds.has(associatedProjectId)) {
-        errors.push(`Organization "${organization.id}" references unknown associated project "${associatedProjectId}"`);
+        errors.push(
+          `Organization "${organization.id}" references unknown associated project "${associatedProjectId}"`
+        );
       }
     }
 
     for (const partnerOrgId of organization.partnerships) {
       if (!orgIds.has(partnerOrgId)) {
-        errors.push(`Organization "${organization.id}" references unknown partner organization "${partnerOrgId}"`);
+        errors.push(
+          `Organization "${organization.id}" references unknown partner organization "${partnerOrgId}"`
+        );
       }
     }
   }
@@ -106,13 +118,17 @@ async function main(): Promise<void> {
   for (const standard of dataset.standards) {
     for (const relatedProjectId of standard.related_projects) {
       if (!projectIds.has(relatedProjectId)) {
-        errors.push(`Standard "${standard.id}" references unknown related project "${relatedProjectId}"`);
+        errors.push(
+          `Standard "${standard.id}" references unknown related project "${relatedProjectId}"`
+        );
       }
     }
 
     for (const stewardOrgId of standard.steward_organizations) {
       if (!orgIds.has(stewardOrgId)) {
-        errors.push(`Standard "${standard.id}" references unknown steward organization "${stewardOrgId}"`);
+        errors.push(
+          `Standard "${standard.id}" references unknown steward organization "${stewardOrgId}"`
+        );
       }
     }
   }

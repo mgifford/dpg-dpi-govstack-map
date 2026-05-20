@@ -21,17 +21,22 @@ async function readYamlFile<T>(fileName: string): Promise<T> {
 }
 
 export async function loadManualDataset(): Promise<AtlasDataset> {
-  const [projectsRaw, organizationsRaw, relationshipsRaw, deploymentsRaw, standardsRaw] = await Promise.all([
-    readYamlFile<unknown[]>("projects.yml"),
-    readYamlFile<unknown[]>("organizations.yml"),
-    readYamlFile<unknown[]>("relationships.yml"),
-    readYamlFile<unknown[]>("deployments.yml"),
-    readYamlFile<unknown[]>("standards.yml")
-  ]);
+  const [projectsRaw, organizationsRaw, relationshipsRaw, deploymentsRaw, standardsRaw] =
+    await Promise.all([
+      readYamlFile<unknown[]>("projects.yml"),
+      readYamlFile<unknown[]>("organizations.yml"),
+      readYamlFile<unknown[]>("relationships.yml"),
+      readYamlFile<unknown[]>("deployments.yml"),
+      readYamlFile<unknown[]>("standards.yml")
+    ]);
 
   const projects = projectsRaw.map((project) => projectSchema.parse(project));
-  const organizations = organizationsRaw.map((organization) => organizationSchema.parse(organization));
-  const relationships = relationshipsRaw.map((relationship) => relationshipSchema.parse(relationship));
+  const organizations = organizationsRaw.map((organization) =>
+    organizationSchema.parse(organization)
+  );
+  const relationships = relationshipsRaw.map((relationship) =>
+    relationshipSchema.parse(relationship)
+  );
   const deployments = deploymentsRaw.map((deployment) => deploymentSchema.parse(deployment));
   const standards = standardsRaw.map((standard) => standardSchema.parse(standard));
 

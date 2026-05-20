@@ -176,34 +176,36 @@ The frontend is built with **Astro** in fully static (`output: "static"`) mode.
 ### Scoring Model
 
 #### Activity Score (0–100)
+
 Derived from GitHub repository data:
 
-| Factor | Weight |
-|---|---|
-| Commit frequency × 12 months (capped at 50) | 50% |
-| Releases in last 12 months (capped at 25) | 25% |
-| Issue closure rate | 25% |
+| Factor                                      | Weight |
+| ------------------------------------------- | ------ |
+| Commit frequency × 12 months (capped at 50) | 50%    |
+| Releases in last 12 months (capped at 25)   | 25%    |
+| Issue closure rate                          | 25%    |
 
 #### Sustainability Score (0–100)
+
 Derived from community health metadata:
 
-| Factor | Weight |
-|---|---|
-| Governance maturity | 25% |
-| Documentation quality | 20% |
-| Onboarding quality | 20% |
-| Dependency freshness | 20% |
-| Security advisory penalty (−4 per open advisory, max −20) | –20% |
+| Factor                                                    | Weight |
+| --------------------------------------------------------- | ------ |
+| Governance maturity                                       | 25%    |
+| Documentation quality                                     | 20%    |
+| Onboarding quality                                        | 20%    |
+| Dependency freshness                                      | 20%    |
+| Security advisory penalty (−4 per open advisory, max −20) | –20%   |
 
 #### Maturity Classification
 
 | Composite Score | Classification |
-|---|---|
-| > 75 | mature |
-| > 55 | growing |
-| > 35 | emerging |
-| > 20 | stagnant |
-| ≤ 20 | abandoned |
+| --------------- | -------------- |
+| > 75            | mature         |
+| > 55            | growing        |
+| > 35            | emerging       |
+| > 20            | stagnant       |
+| ≤ 20            | abandoned      |
 
 ---
 
@@ -212,6 +214,7 @@ Derived from community health metadata:
 The platform is designed to **WCAG 2.2 Level AA** with Level AAA targets where achievable.
 
 Core accessibility features:
+
 - Skip navigation on every page
 - Proper HTML landmark regions (`<header>`, `<nav>`, `<main>`, `<footer>`)
 - Map: `<div>` with `role`, accessible markers, keyboard navigation, ARIA live region for zoom, synchronized list view
@@ -241,7 +244,7 @@ Core accessibility features:
 ```yaml
 # astro.config.mjs
 site: "https://<owner>.github.io/<repo>"
-base: "/<repo>"   # if not at root
+base: "/<repo>" # if not at root
 ```
 
 Push to `main` → deploy.yml builds and deploys automatically.
@@ -252,7 +255,7 @@ Connect repository → set build command `npm run build` → output directory `d
 
 #### Environment variables
 
-| Variable | Used in | Purpose |
-|---|---|---|
+| Variable                               | Used in            | Purpose                                          |
+| -------------------------------------- | ------------------ | ------------------------------------------------ |
 | `GITHUB_TOKEN` or `ATLAS_GITHUB_TOKEN` | monthly-update job | Higher GitHub API rate limits (5000/hr vs 60/hr) |
-| `SKIP_GITHUB_ENRICHMENT` | any ingest run | Set to `true` to skip GitHub API calls (dry run) |
+| `SKIP_GITHUB_ENRICHMENT`               | any ingest run     | Set to `true` to skip GitHub API calls (dry run) |

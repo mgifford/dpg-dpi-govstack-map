@@ -49,7 +49,10 @@ export async function generateSearchIndex(dataset: AtlasDataset): Promise<void> 
   });
 
   // Also store a metadata map for display after search
-  const meta: Record<string, { name: string; category: string; project_type: string; maturity_level: string }> = {};
+  const meta: Record<
+    string,
+    { name: string; category: string; project_type: string; maturity_level: string }
+  > = {};
   for (const p of dataset.projects) {
     meta[p.id] = {
       name: p.name,
@@ -59,10 +62,7 @@ export async function generateSearchIndex(dataset: AtlasDataset): Promise<void> 
     };
   }
 
-  await writeFile(
-    OUT_PATH,
-    `${JSON.stringify({ index: index.toJSON(), meta }, null, 2)}\n`
-  );
+  await writeFile(OUT_PATH, `${JSON.stringify({ index: index.toJSON(), meta }, null, 2)}\n`);
 
   console.log(`[generate-search-index] Wrote search index for ${documents.length} projects`);
 }

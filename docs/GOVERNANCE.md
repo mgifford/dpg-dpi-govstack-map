@@ -5,6 +5,7 @@
 The Digital Public Infrastructure Ecosystem Atlas is intended to be maintained as a public-interest open source project.
 
 Its governance should favor:
+
 - transparency
 - maintainability
 - documented decision-making
@@ -18,6 +19,7 @@ Its governance should favor:
 At this stage, governance is maintainer-led with public contribution pathways.
 
 Current practical controls are in:
+
 - version-controlled schemas and datasets
 - pull requests for code and data changes
 - public issue tracking
@@ -31,6 +33,7 @@ This is intentionally lightweight for early implementation while leaving room fo
 ## Decision Priorities
 
 When tradeoffs arise, the project should prioritize:
+
 1. accessibility and public usability
 2. data quality and provenance
 3. maintainability and transparency
@@ -47,6 +50,7 @@ The Atlas should not optimize for novelty, vanity metrics, or dashboard complexi
 The Atlas is not just a catalog of repositories.
 
 It is intended to support:
+
 - ecosystem intelligence
 - public infrastructure mapping
 - governance maturity analysis
@@ -62,6 +66,7 @@ This affects contribution review: additions should strengthen ecosystem understa
 ## Contribution Expectations
 
 Contributions should prefer:
+
 - explicit provenance
 - stable entity identifiers
 - clear rationale for inferred relationships
@@ -76,6 +81,7 @@ Contributors changing data should avoid making unsupported claims without source
 ## Future Governance Evolution
 
 As the project grows, governance may expand toward:
+
 - a small editorial or stewardship group
 - documented review standards for data inclusion
 - ecosystem-specific maintainers

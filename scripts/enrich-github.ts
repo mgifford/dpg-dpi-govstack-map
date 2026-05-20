@@ -6,7 +6,11 @@
 
 import type { Project, Repository } from "../src/lib/schema.js";
 import { fetchJsonWithCache } from "./lib/fetch.js";
-import { calculateActivityScore, calculateSustainabilityScore, classifyMaturity } from "./lib/score.js";
+import {
+  calculateActivityScore,
+  calculateSustainabilityScore,
+  classifyMaturity
+} from "./lib/score.js";
 
 const GITHUB_API = "https://api.github.com";
 const TIMEOUT_MS = 15_000;
@@ -121,13 +125,21 @@ export async function enrichWithGitHub(project: Project): Promise<ProjectEnrichm
   const recentReleases = Array.isArray(releases)
     ? releases.filter((release) => new Date(release.published_at).getTime() > oneYearAgo).length
     : 0;
-  const latestRelease = Array.isArray(releases) && releases.length > 0 ? releases[0].tag_name : null;
+  const latestRelease =
+    Array.isArray(releases) && releases.length > 0 ? releases[0].tag_name : null;
   const busFactor = uniqueContributors > 10 ? 3 : uniqueContributors > 3 ? 2 : 1;
   const contentNames = Array.isArray(contents)
-    ? new Set(contents.filter((item) => item.type === "file").map((item) => item.name.toUpperCase()))
+    ? new Set(
+        contents.filter((item) => item.type === "file").map((item) => item.name.toUpperCase())
+      )
     : new Set<string>();
-  const governanceFiles = ["CODE_OF_CONDUCT.md", "CONTRIBUTING.md", "SECURITY.md", "GOVERNANCE.md", "PUBLICCODE.YML"]
-    .filter((fileName) => contentNames.has(fileName));
+  const governanceFiles = [
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "GOVERNANCE.md",
+    "PUBLICCODE.YML"
+  ].filter((fileName) => contentNames.has(fileName));
   const enrichedAt = new Date().toISOString();
 
   const repository: Repository = {
@@ -148,25 +160,33 @@ export async function enrichWithGitHub(project: Project): Promise<ProjectEnrichm
     bus_factor: busFactor,
     governance_files: governanceFiles,
     code_of_conduct: governanceFiles.includes("CODE_OF_CONDUCT.md"),
-    contributing_guidelines: governanceFiles.includes("CONTRIBUTING.md") || governanceFiles.includes("PUBLICCODE.YML"),
+    contributing_guidelines:
+      governanceFiles.includes("CONTRIBUTING.md") || governanceFiles.includes("PUBLICCODE.YML"),
     security_policy: governanceFiles.includes("SECURITY.md"),
     dependency_health: project.community_health.dependency_freshness,
     openssf_score: project.community_health.openssf_scorecard ?? null,
     provenance: {
-      url: [{
-        source: "GitHub API",
-        retrieved_at: enrichedAt,
-        confidence: 0.99,
-        kind: "scraped",
-        note: "Repository snapshot collected from the GitHub REST API."
-      }],
-      governance_files: governanceFiles.length > 0 ? [{
-        source: "GitHub contents API",
-        retrieved_at: enrichedAt,
-        confidence: 0.9,
-        kind: "scraped",
-        note: "Detected from files present at repository root."
-      }] : []
+      url: [
+        {
+          source: "GitHub API",
+          retrieved_at: enrichedAt,
+          confidence: 0.99,
+          kind: "scraped",
+          note: "Repository snapshot collected from the GitHub REST API."
+        }
+      ],
+      governance_files:
+        governanceFiles.length > 0
+          ? [
+              {
+                source: "GitHub contents API",
+                retrieved_at: enrichedAt,
+                confidence: 0.9,
+                kind: "scraped",
+                note: "Detected from files present at repository root."
+              }
+            ]
+          : []
     }
   };
 
@@ -180,27 +200,33 @@ export async function enrichWithGitHub(project: Project): Promise<ProjectEnrichm
       releases_last_12_months: recentReleases
     },
     provenance: mergeProvenance(project, {
-      activity_score: [{
-        source: "GitHub API",
-        retrieved_at: enrichedAt,
-        confidence: 0.92,
-        kind: "scraped",
-        note: "Derived from repository commit, contributor, and release activity."
-      }],
-      community_health: [{
-        source: "GitHub API",
-        retrieved_at: enrichedAt,
-        confidence: 0.92,
-        kind: "scraped",
-        note: "Repository health metrics refreshed from GitHub."
-      }],
-      repository_urls: [{
-        source: "GitHub API",
-        retrieved_at: enrichedAt,
-        confidence: 0.99,
-        kind: "declared",
-        note: "GitHub repository used as the enrichment anchor."
-      }]
+      activity_score: [
+        {
+          source: "GitHub API",
+          retrieved_at: enrichedAt,
+          confidence: 0.92,
+          kind: "scraped",
+          note: "Derived from repository commit, contributor, and release activity."
+        }
+      ],
+      community_health: [
+        {
+          source: "GitHub API",
+          retrieved_at: enrichedAt,
+          confidence: 0.92,
+          kind: "scraped",
+          note: "Repository health metrics refreshed from GitHub."
+        }
+      ],
+      repository_urls: [
+        {
+          source: "GitHub API",
+          retrieved_at: enrichedAt,
+          confidence: 0.99,
+          kind: "declared",
+          note: "GitHub repository used as the enrichment anchor."
+        }
+      ]
     }),
     last_updated: enrichedAt
   };
@@ -214,20 +240,24 @@ export async function enrichWithGitHub(project: Project): Promise<ProjectEnrichm
       sustainability_score: sustainabilityScore,
       maturity_level: maturity,
       provenance: mergeProvenance(refreshedProject, {
-        sustainability_score: [{
-          source: "GitHub API",
-          retrieved_at: enrichedAt,
-          confidence: 0.85,
-          kind: "inferred",
-          note: "Recomputed after GitHub activity enrichment."
-        }]
+        sustainability_score: [
+          {
+            source: "GitHub API",
+            retrieved_at: enrichedAt,
+            confidence: 0.85,
+            kind: "inferred",
+            note: "Recomputed after GitHub activity enrichment."
+          }
+        ]
       })
     },
     repository
   };
 }
 
-export async function enrichProjectsBatch(projects: Project[]): Promise<{ projects: Project[]; repositories: Repository[] }> {
+export async function enrichProjectsBatch(
+  projects: Project[]
+): Promise<{ projects: Project[]; repositories: Repository[] }> {
   const enrichedProjects: Project[] = [];
   const repositories: Repository[] = [];
 
