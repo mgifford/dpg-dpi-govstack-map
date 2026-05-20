@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset } from "../lib/schema";
+import { withBase } from "../lib/paths";
 
 let dataset: AtlasDataset;
 try {
@@ -59,7 +60,7 @@ const dimensions = [
           <tbody>
             {projects.map((project) => (
               <tr>
-                <th scope="row"><a href={`/projects/${project.id}/`}>{project.name}</a></th>
+                <th scope="row"><a href={withBase(`/projects/${project.id}/`)}>{project.name}</a></th>
                 {dimensions.map(([key]) => <td>{project.maturity_scores?.[key].score ?? "n/a"}</td>)}
               </tr>
             ))}
@@ -70,7 +71,7 @@ const dimensions = [
       <div class="card-grid" role="list" aria-label="Accessibility and procurement comparison summaries">
         {projects.map((project) => (
           <article class="card" role="listitem" style="padding: var(--space-5);">
-            <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-4);"><a href={`/projects/${project.id}/`}>{project.name}</a></h3>
+            <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-4);"><a href={withBase(`/projects/${project.id}/`)}>{project.name}</a></h3>
             <div aria-label={`${project.name} comparison bars`} style="display: flex; flex-direction: column; gap: var(--space-3);">
               {[
                 ["Accessibility", project.maturity_scores?.accessibility.score ?? project.accessibility_score],
@@ -80,7 +81,7 @@ const dimensions = [
               ].map(([label, value]) => (
                 <div class="score-bar">
                   <span class="score-bar__label" style="min-width: 12ch;">{label}</span>
-                  <div class="score-bar__track" role="meter" aria-label={`${project.name} ${label}: ${value} out of 100`} aria-valuenow={value as number} aria-valuemin={0} aria-valuemax={100}>
+                  <div class="score-bar__track" role="progressbar" aria-label={`${project.name} ${label}: ${value} out of 100`} aria-valuenow={value as number} aria-valuemin={0} aria-valuemax={100}>
                     <div class="score-bar__fill" style={`width: ${value}%;`}></div>
                   </div>
                   <span class="score-bar__value">{value}</span>

@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset } from "../lib/schema";
+import { withBase } from "../lib/paths";
 
 let dataset: AtlasDataset;
 try {
@@ -50,7 +51,7 @@ const projects = [...dataset.projects].sort((a, b) => (b.maturity_scores?.sustai
           <tbody>
             {projects.map((project) => (
               <tr>
-                <th scope="row"><a href={`/projects/${project.id}/`}>{project.name}</a></th>
+                <th scope="row"><a href={withBase(`/projects/${project.id}/`)}>{project.name}</a></th>
                 <td>{project.maturity_scores?.sustainability.score ?? project.sustainability_score}</td>
                 <td>{project.maturity_scores?.stewardship.score ?? project.sustainability_score}</td>
                 <td>{project.funding_model}</td>

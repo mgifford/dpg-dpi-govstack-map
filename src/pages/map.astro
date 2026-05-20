@@ -4,14 +4,15 @@ import AtlasMap from "../components/AtlasMap.astro";
 import type { MapFeature } from "../components/AtlasMap.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { AtlasDataset } from "../lib/schema";
+import { emptyAtlasDataset, type AtlasDataset } from "../lib/schema";
+import { withBase } from "../lib/paths";
 
 let dataset: AtlasDataset;
 try {
   const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
   dataset = JSON.parse(raw) as AtlasDataset;
 } catch {
-  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+  dataset = emptyAtlasDataset;
 }
 
 // Build map features from organizations (which have coordinates)
@@ -64,7 +65,7 @@ const features: MapFeature[] = dataset.organizations
                   <td>{d.country}</td>
                   <td>
                     {project
-                      ? <a href={`/projects/${d.project}/`}>{project.name}</a>
+                      ? <a href={withBase(`/projects/${d.project}/`)}>{project.name}</a>
                       : d.project}
                   </td>
                   <td>{d.government} — {d.ministry}</td>

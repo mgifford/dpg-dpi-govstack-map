@@ -4,14 +4,14 @@ import ProjectGraph from "../components/ProjectGraph.astro";
 import type { GraphNode, GraphEdge } from "../components/ProjectGraph.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { AtlasDataset } from "../lib/schema";
+import { emptyAtlasDataset, type AtlasDataset } from "../lib/schema";
 
 let dataset: AtlasDataset;
 try {
   const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
   dataset = JSON.parse(raw) as AtlasDataset;
 } catch {
-  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+  dataset = emptyAtlasDataset;
 }
 
 const nodes: GraphNode[] = [

@@ -442,6 +442,7 @@ npm run validate
 ## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md) — System design and data flow
+- [Maturity Model Alignment](docs/MATURITY_MODEL.md) — How the Atlas is being built against the 2510.04603v1 maturity framework
 - [Schema](docs/SCHEMA.md) — Complete data model reference
 - [API](docs/API.md) — API endpoints and examples
 - [Contributing](CONTRIBUTING.md) — How to contribute code and data

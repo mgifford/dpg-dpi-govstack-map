@@ -1,5 +1,13 @@
 import type { AtlasDataset, Project } from "./schema";
 
+export interface FilterOptions {
+  countries: string[];
+  projectTypes: string[];
+  governanceModels: string[];
+  licenses: string[];
+  maturities: string[];
+}
+
 export interface ProjectFilterState {
   query: string;
   country: string;
@@ -47,7 +55,7 @@ function unique(values: string[]): string[] {
   return ["all", ...Array.from(new Set(values.filter(Boolean))).sort((a, b) => a.localeCompare(b))];
 }
 
-export function deriveFilterOptions(dataset: AtlasDataset): Record<string, string[]> {
+export function deriveFilterOptions(dataset: AtlasDataset): FilterOptions {
   return {
     countries: unique(dataset.projects.flatMap((p) => p.deployment_countries)),
     projectTypes: unique(dataset.projects.map((p) => p.project_type)),

@@ -4,19 +4,19 @@ import ProjectCard from "../../components/ProjectCard.astro";
 import FilterPanel from "../../components/FilterPanel.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { AtlasDataset } from "../../lib/schema";
-import { deriveFilterOptions } from "../../lib/filters";
+import { emptyAtlasDataset, type AtlasDataset } from "../../lib/schema";
+import { deriveFilterOptions, type FilterOptions } from "../../lib/filters";
 
 let dataset: AtlasDataset;
 try {
   const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
   dataset = JSON.parse(raw) as AtlasDataset;
 } catch {
-  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+  dataset = emptyAtlasDataset;
 }
 
 const projects = dataset.projects;
-const filterOptions = deriveFilterOptions(dataset);
+const filterOptions: FilterOptions = deriveFilterOptions(dataset);
 ---
 
 <Base title="Projects" description="Browse all Digital Public Infrastructure and DPG projects in the atlas." currentPage="/projects/">

@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset, Project } from "../../lib/schema";
+import { withBase } from "../../lib/paths";
 
 export async function getStaticPaths() {
   let dataset: AtlasDataset;
@@ -44,9 +45,9 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
     <!-- Breadcrumb -->
     <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-6); font-size: var(--text-sm);">
       <ol role="list" style="list-style: none; display: flex; gap: var(--space-2); align-items: center; flex-wrap: wrap;">
-        <li><a href="/">Home</a></li>
+        <li><a href={withBase("/")}>Home</a></li>
         <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
-        <li><a href="/projects/">Projects</a></li>
+        <li><a href={withBase("/projects/")}>Projects</a></li>
         <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
         <li aria-current="page" style="color: var(--color-text-muted);">{project.name}</li>
       </ol>
@@ -116,7 +117,7 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
             ].map(({ label, value }) => (
               <div class="score-bar">
                 <span class="score-bar__label" style="min-width: 16ch; font-size: var(--text-xs);">{label}</span>
-                <div class="score-bar__track" role="meter" aria-label={`${label}: ${value} out of 100`} aria-valuenow={value} aria-valuemin={0} aria-valuemax={100}>
+                <div class="score-bar__track" role="progressbar" aria-label={`${label}: ${value} out of 100`} aria-valuenow={value} aria-valuemin={0} aria-valuemax={100}>
                   <div class="score-bar__fill" style={`width: ${value}%`}></div>
                 </div>
                 <span class="score-bar__value">{value}</span>
@@ -177,7 +178,7 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
                     <span aria-hidden="true" style="color: var(--color-text-muted); font-family: var(--font-mono);">{direction}</span>
                     <code style="font-size: var(--text-xs); background: var(--color-surface); padding: 2px 6px; border-radius: var(--radius-sm); border: 1px solid var(--color-border);">{rel}</code>
                     {otherProject
-                      ? <a href={`/projects/${other}/`}>{otherName}</a>
+                      ? <a href={withBase(`/projects/${other}/`)}>{otherName}</a>
                       : <span>{otherName}</span>
                     }
                     <span style="color: var(--color-text-muted); font-size: var(--text-xs);">({Math.round(r.strength * 100)}% strength)</span>
@@ -196,7 +197,7 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
               {relatedProjects.map((p) => (
                 <article class="card" style="padding: var(--space-4);">
                   <h3 style="font-size: var(--text-base); margin-bottom: var(--space-2);">
-                    <a href={`/projects/${p.id}/`}>{p.name}</a>
+                    <a href={withBase(`/projects/${p.id}/`)}>{p.name}</a>
                   </h3>
                   <p style="font-size: var(--text-sm); color: var(--color-text-muted);">{p.description.slice(0, 100)}…</p>
                 </article>

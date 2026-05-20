@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-05-20T14:07:17.110Z",
+  "generated_at": "2026-05-20T14:30:30.125Z",
   "version": "0.2.0",
   "sources": [
-    "dpg-registry",
-    "github-api",
-    "manual-seed"
+    "manual-seed",
+    "dpg-registry"
   ],
   "projects": [
     {

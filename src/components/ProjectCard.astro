@@ -4,6 +4,7 @@
  * Accessible card for project listings with score bars, badges, and proper semantics.
  */
 import type { Project } from "../lib/schema";
+import { withBase } from "../lib/paths";
 
 export interface Props {
   project: Project;
@@ -18,7 +19,7 @@ const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
 <article class="card project-card" aria-labelledby={`project-title-${project.id}`}>
   <header>
     <h3 class="project-card__title" id={`project-title-${project.id}`}>
-      <a href={`/projects/${project.id}/`}>{project.name}</a>
+      <a href={withBase(`/projects/${project.id}/`)}>{project.name}</a>
     </h3>
     <div class="project-card__meta">
       <span class={maturityClass}>{project.maturity_level}</span>
@@ -37,14 +38,14 @@ const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
   <div aria-label="Project scores" style="display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-4);">
     <div class="score-bar">
       <span class="score-bar__label" id={`activity-label-${project.id}`}>Activity</span>
-      <div class="score-bar__track" role="meter" aria-labelledby={`activity-label-${project.id}`} aria-valuenow={project.activity_score} aria-valuemin={0} aria-valuemax={100}>
+      <div class="score-bar__track" role="progressbar" aria-labelledby={`activity-label-${project.id}`} aria-valuenow={project.activity_score} aria-valuemin={0} aria-valuemax={100}>
         <div class="score-bar__fill" style={`width: ${project.activity_score}%`}></div>
       </div>
       <span class="score-bar__value" aria-hidden="true">{project.activity_score}</span>
     </div>
     <div class="score-bar">
       <span class="score-bar__label" id={`sustain-label-${project.id}`}>Sustain</span>
-      <div class="score-bar__track" role="meter" aria-labelledby={`sustain-label-${project.id}`} aria-valuenow={project.sustainability_score} aria-valuemin={0} aria-valuemax={100}>
+      <div class="score-bar__track" role="progressbar" aria-labelledby={`sustain-label-${project.id}`} aria-valuenow={project.sustainability_score} aria-valuemin={0} aria-valuemax={100}>
         <div class="score-bar__fill" style={`width: ${project.sustainability_score}%; background: var(--color-success)`}></div>
       </div>
       <span class="score-bar__value" aria-hidden="true">{project.sustainability_score}</span>
@@ -63,7 +64,7 @@ const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
   <!-- Links -->
   <footer style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
     <a
-      href={`/projects/${project.id}/`}
+      href={withBase(`/projects/${project.id}/`)}
       aria-label={`View details for ${project.name}`}
       style="font-size: var(--text-sm); font-weight: 600;"
     >

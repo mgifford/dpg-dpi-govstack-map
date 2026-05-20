@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { withBase } from "../lib/paths";
 ---
 
 <Base title="About" description="About the Digital Public Infrastructure Ecosystem Atlas." currentPage="/about/">
@@ -36,7 +37,7 @@ import Base from "../layouts/Base.astro";
       <p>
         This platform is designed to meet <strong>WCAG 2.2 Level AA</strong> at minimum, targeting Level AAA
         where feasible. All map and graph visualisations have accessible list/table alternatives.
-        See the <a href="/accessibility/">Accessibility Statement</a> for full details.
+        See the <a href={withBase("/accessibility/")}>Accessibility Statement</a> for full details.
       </p>
     </section>
 

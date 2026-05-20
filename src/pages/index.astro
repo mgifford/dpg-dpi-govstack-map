@@ -3,7 +3,8 @@ import Base from "../layouts/Base.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { AtlasDataset } from "../lib/schema";
+import { emptyAtlasDataset, type AtlasDataset } from "../lib/schema";
+import { withBase } from "../lib/paths";
 
 // Load dataset at build time
 let dataset: AtlasDataset;
@@ -11,7 +12,7 @@ try {
   const raw = await readFile(path.resolve("data/processed/atlas.json"), "utf8");
   dataset = JSON.parse(raw) as AtlasDataset;
 } catch {
-  dataset = { generated_at: "", version: "0.1.0", sources: [], projects: [], organizations: [], people: [], deployments: [], repositories: [], relationships: [] };
+  dataset = emptyAtlasDataset;
 }
 
 const featuredProjects = dataset.projects
@@ -37,19 +38,19 @@ const stats = {
       </p>
       <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-8);">
         <a
-          href="/projects/"
+          href={withBase("/projects/")}
           style="padding: var(--space-3) var(--space-6); background: #fff; color: var(--color-brand-dark); font-weight: 700; border-radius: var(--radius-md); text-decoration: none;"
         >
           Browse Projects
         </a>
         <a
-          href="/map/"
+          href={withBase("/map/")}
           style="padding: var(--space-3) var(--space-6); background: rgba(255,255,255,0.15); color: #fff; font-weight: 600; border-radius: var(--radius-md); text-decoration: none; border: 1px solid rgba(255,255,255,0.4);"
         >
           View Map
         </a>
         <a
-          href="/graph/"
+          href={withBase("/graph/")}
           style="padding: var(--space-3) var(--space-6); background: rgba(255,255,255,0.15); color: #fff; font-weight: 600; border-radius: var(--radius-md); text-decoration: none; border: 1px solid rgba(255,255,255,0.4);"
         >
           Explore Graph
@@ -87,7 +88,7 @@ const stats = {
   <section class="container" style="padding-top: var(--space-12); padding-bottom: var(--space-12);" aria-labelledby="featured-heading">
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--space-8); flex-wrap: wrap; gap: var(--space-4);">
       <h2 id="featured-heading">Featured Projects</h2>
-      <a href="/projects/" style="font-size: var(--text-sm); font-weight: 600;">View all {stats.projects} projects →</a>
+      <a href={withBase("/projects/")} style="font-size: var(--text-sm); font-weight: 600;">View all {stats.projects} projects →</a>
     </div>
     <div class="card-grid">
       {featuredProjects.map((project) => (
@@ -123,7 +124,7 @@ const stats = {
           <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-3);">Open by design</h3>
           <p style="color: var(--color-text-muted);">
             All data is available as JSON, CSV, and GeoJSON. Source code is MIT licensed.
-            <a href="/api/">Browse the API →</a>
+            <a href={withBase("/api/")}>Browse the API →</a>
           </p>
         </div>
       </div>

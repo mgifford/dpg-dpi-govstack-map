@@ -8,6 +8,7 @@
  */
 
 import "../styles/global.css";
+import { withBase } from "../lib/paths";
 
 export interface Props {
   title: string;
@@ -30,6 +31,7 @@ const siteTitle = title === "Home"
   : `${title} — DPI Ecosystem Atlas`;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://dpiatlas.example.org");
+const resolvedOgImage = ogImage.startsWith("/") ? withBase(ogImage) : ogImage;
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -60,14 +62,14 @@ const navLinks = [
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL.toString()} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={resolvedOgImage} />
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Accessibility: colour scheme preference -->
     <meta name="color-scheme" content="light dark" />
 
     <!-- Icons -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href={withBase("/favicon.svg")} type="image/svg+xml" />
 
     <title>{siteTitle}</title>
   </head>
@@ -79,7 +81,7 @@ const navLinks = [
     <!-- Site header -->
     <header class="site-header" role="banner">
       <div class="container site-header__inner">
-        <a class="site-header__logo" href="/" aria-label="DPI Ecosystem Atlas — Home">
+        <a class="site-header__logo" href={withBase("/")} aria-label="DPI Ecosystem Atlas — Home">
           DPI Atlas
         </a>
 
@@ -89,7 +91,7 @@ const navLinks = [
             {navLinks.map(({ href, label }) => (
               <li>
                 <a
-                  href={href}
+                  href={withBase(href)}
                   aria-current={currentPage === href ? "page" : undefined}
                 >
                   {label}
@@ -126,14 +128,14 @@ const navLinks = [
           </div>
           <nav aria-label="Footer navigation">
             <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-2);">
-              <li><a href="/about/">About</a></li>
-              <li><a href="/methodology/">Methodology</a></li>
-              <li><a href="/sustainability/">Sustainability</a></li>
-              <li><a href="/api/">API Documentation</a></li>
-              <li><a href="/accessibility/">Accessibility Statement</a></li>
+              <li><a href={withBase("/about/")}>About</a></li>
+              <li><a href={withBase("/methodology/")}>Methodology</a></li>
+              <li><a href={withBase("/sustainability/")}>Sustainability</a></li>
+              <li><a href={withBase("/api/")}>API Documentation</a></li>
+              <li><a href={withBase("/accessibility/")}>Accessibility Statement</a></li>
               <li><a href="https://github.com/mgifford/dpg-dpi-govstack-map">GitHub</a></li>
-              <li><a href="/api/atlas.json">Download Data (JSON)</a></li>
-              <li><a href="/api/projects.csv">Download Data (CSV)</a></li>
+              <li><a href={withBase("/api/atlas.json")}>Download Data (JSON)</a></li>
+              <li><a href={withBase("/api/projects.csv")}>Download Data (CSV)</a></li>
             </ul>
           </nav>
         </div>

@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset, Organization } from "../../lib/schema";
+import { withBase } from "../../lib/paths";
 
 export async function getStaticPaths() {
   let dataset: AtlasDataset;
@@ -34,9 +35,9 @@ const partneredOrganizations = dataset.organizations.filter((candidate) => organ
   <div class="container" style="padding-top: var(--space-10); padding-bottom: var(--space-16);">
     <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-6); font-size: var(--text-sm);">
       <ol role="list" style="list-style: none; display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center;">
-        <li><a href="/">Home</a></li>
+        <li><a href={withBase("/")}>Home</a></li>
         <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
-        <li><a href="/organizations/">Organizations</a></li>
+        <li><a href={withBase("/organizations/")}>Organizations</a></li>
         <li aria-hidden="true" style="color: var(--color-text-muted);">/</li>
         <li aria-current="page" style="color: var(--color-text-muted);">{organization.name}</li>
       </ol>
@@ -70,7 +71,7 @@ const partneredOrganizations = dataset.organizations.filter((candidate) => organ
               <tbody>
                 {projects.map((project) => (
                   <tr>
-                    <td><a href={`/projects/${project.id}/`}>{project.name}</a></td>
+                    <td><a href={withBase(`/projects/${project.id}/`)}>{project.name}</a></td>
                     <td>{project.project_type}</td>
                     <td>{project.governance_model}</td>
                     <td>{project.procurement_readiness ?? "n/a"}</td>
@@ -89,7 +90,7 @@ const partneredOrganizations = dataset.organizations.filter((candidate) => organ
             <ul role="list" style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3); margin-bottom: var(--space-6);">
               {partneredOrganizations.map((partner) => (
                 <li class="card" style="padding: var(--space-4);">
-                  <a href={`/organizations/${partner.id}/`} style="font-weight: 600;">{partner.name}</a>
+                  <a href={withBase(`/organizations/${partner.id}/`)} style="font-weight: 600;">{partner.name}</a>
                   <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-2);">{partner.type} in {partner.country}.</p>
                 </li>
               ))}
@@ -114,7 +115,7 @@ const partneredOrganizations = dataset.organizations.filter((candidate) => organ
                     <tr>
                       <td>{relationship.type.replace(/_/g, " ")}</td>
                       <td>
-                        {otherProject ? <a href={`/projects/${otherProject.id}/`}>{otherProject.name}</a> : otherOrganization ? <a href={`/organizations/${otherOrganization.id}/`}>{otherOrganization.name}</a> : otherId}
+                        {otherProject ? <a href={withBase(`/projects/${otherProject.id}/`)}>{otherProject.name}</a> : otherOrganization ? <a href={withBase(`/organizations/${otherOrganization.id}/`)}>{otherOrganization.name}</a> : otherId}
                       </td>
                       <td>{Math.round(relationship.confidence * 100)}%</td>
                     </tr>

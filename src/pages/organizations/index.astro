@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset } from "../../lib/schema";
+import { withBase } from "../../lib/paths";
 
 let dataset: AtlasDataset;
 try {
@@ -32,7 +33,7 @@ const organizations = [...dataset.organizations].sort((a, b) => a.name.localeCom
           <article class="card" role="listitem" style="padding: var(--space-5);">
             <header style="margin-bottom: var(--space-4);">
               <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-2);">
-                <a href={`/organizations/${organization.id}/`}>{organization.name}</a>
+                <a href={withBase(`/organizations/${organization.id}/`)}>{organization.name}</a>
               </h2>
               <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; align-items: center;">
                 <span class="badge" style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);">{organization.type}</span>
@@ -55,7 +56,7 @@ const organizations = [...dataset.organizations].sort((a, b) => a.name.localeCom
             )}
 
             <footer style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
-              <a href={`/organizations/${organization.id}/`} style="font-size: var(--text-sm); font-weight: 600;">Profile →</a>
+              <a href={withBase(`/organizations/${organization.id}/`)} style="font-size: var(--text-sm); font-weight: 600;">Profile →</a>
               {organization.website && <a href={organization.website} rel="noopener noreferrer" target="_blank" style="font-size: var(--text-sm);">Website ↗</a>}
             </footer>
           </article>

@@ -1,7 +1,8 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://example.org",
+  site: "https://mgifford.github.io",
+  base: "/dpg-dpi-govstack-map",
   output: "static",
   build: {
     inlineStylesheets: "auto"

@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset } from "../lib/schema";
+import { withBase } from "../lib/paths";
 
 let dataset: AtlasDataset;
 try {
@@ -45,7 +46,7 @@ const deployments = [...dataset.deployments].sort((a, b) => a.country.localeComp
             return (
               <tr>
                 <td>{deployment.country}</td>
-                <td>{project ? <a href={`/projects/${project.id}/`}>{project.name}</a> : deployment.project}</td>
+                <td>{project ? <a href={withBase(`/projects/${project.id}/`)}>{project.name}</a> : deployment.project}</td>
                 <td>{deployment.government}</td>
                 <td>{deployment.ministry}</td>
                 <td>{deployment.deployment_type}</td>

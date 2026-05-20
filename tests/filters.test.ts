@@ -5,9 +5,9 @@ import {
   defaultFilterState,
   type ProjectFilterState
 } from "../src/lib/filters";
-import type { AtlasDataset, Project } from "../src/lib/schema";
+import { emptyAtlasDataset, projectSchema, type AtlasDataset, type Project } from "../src/lib/schema";
 
-const makeProject = (overrides: Partial<Project>): Project => ({
+const makeProject = (overrides: Partial<Project>): Project => projectSchema.parse({
   id: "test",
   name: "Test Project",
   description: "A description",
@@ -49,6 +49,7 @@ const makeProject = (overrides: Partial<Project>): Project => ({
     security_advisories_open: 0,
     openssf_scorecard: null
   },
+  provenance: {},
   last_updated: new Date().toISOString(),
   ...overrides
 });
@@ -120,15 +121,10 @@ describe("applyProjectFilters", () => {
 
 describe("deriveFilterOptions", () => {
   const dataset: AtlasDataset = {
+    ...emptyAtlasDataset,
     generated_at: new Date().toISOString(),
-    version: "0.1.0",
-    sources: [],
     projects,
-    organizations: [],
-    people: [],
-    deployments: [],
-    repositories: [],
-    relationships: []
+    version: "0.2.0"
   };
 
   it("includes 'all' as first option for each filter", () => {

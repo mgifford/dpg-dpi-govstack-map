@@ -1,5 +1,84 @@
 ---
 import Base from "../../layouts/Base.astro";
+import { withBase } from "../../lib/paths";
+
+const siteOrigin = Astro.site?.toString().replace(/\/$/, "") ?? "https://mgifford.github.io";
+
+const endpoints = [
+  {
+    path: "/api/atlas.json",
+    format: "JSON",
+    description: "Full dataset — projects, organizations, deployments, relationships, and metadata.",
+    schema: "AtlasDataset"
+  },
+  {
+    path: "/api/projects.json",
+    format: "JSON",
+    description: "All projects with full metadata, community health scores, and deployment countries.",
+    schema: "Project[]"
+  },
+  {
+    path: "/api/organizations.json",
+    format: "JSON",
+    description: "All organizations with coordinates, associated projects, and governance roles.",
+    schema: "Organization[]"
+  },
+  {
+    path: "/api/relationships.json",
+    format: "JSON",
+    description: "All relationships between projects and organizations.",
+    schema: "Relationship[]"
+  },
+  {
+    path: "/api/deployments.json",
+    format: "JSON",
+    description: "All known project deployments with country and status.",
+    schema: "Deployment[]"
+  },
+  {
+    path: "/api/map.geojson",
+    format: "GeoJSON",
+    description: "GeoJSON FeatureCollection of organization locations for map rendering.",
+    schema: "GeoJSON FeatureCollection"
+  },
+  {
+    path: "/api/projects.csv",
+    format: "CSV",
+    description: "Flat CSV of all projects — suitable for spreadsheet analysis.",
+    schema: "Tabular"
+  },
+  {
+    path: "/api/graph.json",
+    format: "JSON",
+    description: "Graph data with nodes and edges for visualization tools.",
+    schema: "{ nodes, edges }"
+  },
+  {
+    path: "/api/search-index.json",
+    format: "JSON",
+    description: "Pre-built Lunr.js search index for client-side full-text search.",
+    schema: "Lunr serialized index"
+  }
+].map((endpoint) => ({
+  ...endpoint,
+  href: withBase(endpoint.path),
+  absoluteUrl: `${siteOrigin}${withBase(endpoint.path)}`
+}));
+
+const fetchProjectsExample = [
+  `const res = await fetch("${endpoints[1].absoluteUrl}");`,
+  "const { projects } = await res.json();",
+  "console.log(`${projects.length} projects loaded`);"
+].join("\n");
+
+const geoJsonExample = [
+  'map.addSource("atlas-orgs", {',
+  '  type: "geojson",',
+  `  data: "${endpoints[5].absoluteUrl}"`,
+  '});'
+].join("\n");
+
+const curlExample = `curl -O ${endpoints[6].absoluteUrl}`;
 ---
 
 <Base title="API Documentation" description="Public API for the DPI Ecosystem Atlas — JSON, GeoJSON, and CSV endpoints." currentPage="/api/">
@@ -12,70 +91,15 @@ import Base from "../../layouts/Base.astro";
     <section aria-labelledby="endpoints-heading" style="margin-bottom: var(--space-12);">
       <h2 id="endpoints-heading" style="margin-bottom: var(--space-6);">Endpoints</h2>
 
-      {[
-        {
-          path: "/api/atlas.json",
-          format: "JSON",
-          description: "Full dataset — projects, organizations, deployments, relationships, and metadata.",
-          schema: "AtlasDataset"
-        },
-        {
-          path: "/api/projects.json",
-          format: "JSON",
-          description: "All projects with full metadata, community health scores, and deployment countries.",
-          schema: "Project[]"
-        },
-        {
-          path: "/api/organizations.json",
-          format: "JSON",
-          description: "All organizations with coordinates, associated projects, and governance roles.",
-          schema: "Organization[]"
-        },
-        {
-          path: "/api/relationships.json",
-          format: "JSON",
-          description: "All relationships between projects and organizations.",
-          schema: "Relationship[]"
-        },
-        {
-          path: "/api/deployments.json",
-          format: "JSON",
-          description: "All known project deployments with country and status.",
-          schema: "Deployment[]"
-        },
-        {
-          path: "/api/map.geojson",
-          format: "GeoJSON",
-          description: "GeoJSON FeatureCollection of organization locations for map rendering.",
-          schema: "GeoJSON FeatureCollection"
-        },
-        {
-          path: "/api/projects.csv",
-          format: "CSV",
-          description: "Flat CSV of all projects — suitable for spreadsheet analysis.",
-          schema: "Tabular"
-        },
-        {
-          path: "/api/graph.json",
-          format: "JSON",
-          description: "Graph data with nodes and edges for visualization tools.",
-          schema: "{ nodes, edges }"
-        },
-        {
-          path: "/api/search-index.json",
-          format: "JSON",
-          description: "Pre-built Lunr.js search index for client-side full-text search.",
-          schema: "Lunr serialized index"
-        }
-      ].map((ep) => (
+      {endpoints.map((ep) => (
         <div class="card" style="padding: var(--space-5); margin-bottom: var(--space-4);">
           <div style="display: flex; align-items: baseline; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-3);">
-            <code style="font-size: var(--text-base); font-family: var(--font-mono); color: var(--color-brand);">{ep.path}</code>
+            <code style="font-size: var(--text-base); font-family: var(--font-mono); color: var(--color-brand);">{ep.href}</code>
             <span class="badge badge--dpg">{ep.format}</span>
           </div>
           <p style="margin-bottom: var(--space-3); color: var(--color-text-muted);">{ep.description}</p>
           <p style="font-size: var(--text-sm);">Schema: <code>{ep.schema}</code></p>
-          <a href={ep.path} style="font-size: var(--text-sm); display: inline-block; margin-top: var(--space-3);">Download →</a>
+          <a href={ep.href} style="font-size: var(--text-sm); display: inline-block; margin-top: var(--space-3);">Download →</a>
         </div>
       ))}
     </section>
@@ -84,18 +108,13 @@ import Base from "../../layouts/Base.astro";
       <h2 id="usage-heading" style="margin-bottom: var(--space-4);">Usage Examples</h2>
 
       <h3 style="margin-bottom: var(--space-2);">Fetch all projects (JavaScript)</h3>
-      <pre style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); overflow-x: auto; font-size: var(--text-sm);"><code>const res = await fetch("https://dpiatlas.example.org/api/projects.json");
-const &#123; projects &#125; = await res.json();
-console.log(`$&#123;projects.length&#125; projects loaded`);</code></pre>
+      <pre style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); overflow-x: auto; font-size: var(--text-sm);"><code>{fetchProjectsExample}</code></pre>
 
       <h3 style="margin-top: var(--space-6); margin-bottom: var(--space-2);">Load GeoJSON in MapLibre GL JS</h3>
-      <pre style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); overflow-x: auto; font-size: var(--text-sm);"><code>map.addSource("atlas-orgs", &#123;
-  type: "geojson",
-  data: "https://dpiatlas.example.org/api/map.geojson"
-&#125;);</code></pre>
+      <pre style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); overflow-x: auto; font-size: var(--text-sm);"><code>{geoJsonExample}</code></pre>
 
       <h3 style="margin-top: var(--space-6); margin-bottom: var(--space-2);">Download via curl</h3>
-      <pre style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); overflow-x: auto; font-size: var(--text-sm);"><code>curl -O https://dpiatlas.example.org/api/projects.csv</code></pre>
+      <pre style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); overflow-x: auto; font-size: var(--text-sm);"><code>{curlExample}</code></pre>
     </section>
 
     <section aria-labelledby="schema-heading">

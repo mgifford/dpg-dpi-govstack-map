@@ -78,20 +78,25 @@ async function main(): Promise<void> {
 
   // 4. Enrich with GitHub metadata
   console.log("[4/6] Enriching with GitHub metadata…");
-  const enrichedProjects = process.env.SKIP_GITHUB_ENRICHMENT === "true"
-    ? mergedProjects
+  const githubEnrichment = process.env.SKIP_GITHUB_ENRICHMENT === "true"
+    ? { projects: mergedProjects, repositories: seed.repositories }
     : await enrichProjectsBatch(mergedProjects);
 
   // 5. Build final dataset
+  const activeSources = ["manual-seed", "dpg-registry"];
+  if (process.env.SKIP_GITHUB_ENRICHMENT !== "true") {
+    activeSources.push("github-api");
+  }
+
   const dataset: AtlasDataset = {
     generated_at: new Date().toISOString(),
     version: seed.version,
-    sources: ["dpg-registry", "github-api", "manual-seed"],
-    projects: enrichedProjects,
+    sources: activeSources,
+    projects: githubEnrichment.projects,
     organizations: seed.organizations,
     people: seed.people,
     deployments: seed.deployments,
-    repositories: seed.repositories,
+    repositories: githubEnrichment.repositories,
     relationships: seed.relationships,
     standards: seed.standards
   };

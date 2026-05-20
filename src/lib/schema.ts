@@ -226,6 +226,19 @@ export const atlasDatasetSchema = z.object({
   standards: z.array(standardSchema).default([])
 });
 
+export const emptyAtlasDataset: AtlasDataset = {
+  generated_at: "",
+  version: "0.2.0",
+  sources: [],
+  projects: [],
+  organizations: [],
+  people: [],
+  deployments: [],
+  repositories: [],
+  relationships: [],
+  standards: []
+};
+
 export type Project = z.infer<typeof projectSchema>;
 export type Organization = z.infer<typeof organizationSchema>;
 export type Person = z.infer<typeof personSchema>;

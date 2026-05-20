@@ -17,6 +17,8 @@ export interface Props {
   totalCount: number;
 }
 
+import { withBase } from "../lib/paths";
+
 const { options, totalCount } = Astro.props;
 ---
 
@@ -32,7 +34,7 @@ const { options, totalCount } = Astro.props;
     </span>
   </h2>
 
-  <form id="filter-form" method="get" action="/projects/" novalidate>
+  <form id="filter-form" method="get" action={withBase("/projects/")} novalidate>
     <!-- Search -->
     <div class="filter-group">
       <label for="filter-query">Search</label>
@@ -120,11 +122,11 @@ const { options, totalCount } = Astro.props;
   <div style="margin-top: var(--space-5); border-top: 1px solid var(--color-border); padding-top: var(--space-4);">
     <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-2);">Download filtered data</p>
     <div style="display: flex; gap: var(--space-2);">
-      <a href="/api/projects.json" aria-label="Download projects as JSON" style="font-size: var(--text-xs);">JSON</a>
+      <a href={withBase("/api/projects.json")} aria-label="Download projects as JSON" style="font-size: var(--text-xs);">JSON</a>
       <span aria-hidden="true">·</span>
-      <a href="/api/projects.csv" aria-label="Download projects as CSV" style="font-size: var(--text-xs);">CSV</a>
+      <a href={withBase("/api/projects.csv")} aria-label="Download projects as CSV" style="font-size: var(--text-xs);">CSV</a>
       <span aria-hidden="true">·</span>
-      <a href="/api/map.geojson" aria-label="Download map data as GeoJSON" style="font-size: var(--text-xs);">GeoJSON</a>
+      <a href={withBase("/api/map.geojson")} aria-label="Download map data as GeoJSON" style="font-size: var(--text-xs);">GeoJSON</a>
     </div>
   </div>
 </section>

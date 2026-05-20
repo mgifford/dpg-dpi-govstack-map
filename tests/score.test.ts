@@ -4,11 +4,12 @@ import {
   calculateSustainabilityScore,
   classifyMaturity
 } from "../scripts/lib/score";
-import type { Repository } from "../src/lib/schema";
+import { projectSchema, type Repository } from "../src/lib/schema";
 
 const baseRepo: Repository = {
   platform: "github",
   url: "https://github.com/test/repo",
+  license: "MIT",
   stars: 500,
   forks: 80,
   watchers: 30,
@@ -19,11 +20,15 @@ const baseRepo: Repository = {
   latest_release: "v1.0.0",
   latest_commit: "2026-04-01T00:00:00Z",
   commit_frequency: 10, // per week
+  release_frequency: 1,
   bus_factor: 3,
   governance_files: [],
   code_of_conduct: true,
   contributing_guidelines: true,
-  security_policy: false
+  security_policy: false,
+  dependency_health: 80,
+  openssf_score: null,
+  provenance: {}
 };
 
 describe("calculateActivityScore", () => {
@@ -69,7 +74,7 @@ describe("calculateActivityScore", () => {
 });
 
 describe("calculateSustainabilityScore", () => {
-  const baseProject = {
+  const baseProject = projectSchema.parse({
     id: "test",
     name: "Test",
     description: "Test",
@@ -111,8 +116,9 @@ describe("calculateSustainabilityScore", () => {
       security_advisories_open: 0,
       openssf_scorecard: null
     },
+    provenance: {},
     last_updated: new Date().toISOString()
-  };
+  });
 
   it("returns a number between 0 and 100", () => {
     const score = calculateSustainabilityScore(baseProject);

@@ -3,11 +3,11 @@
  * Fetches from https://api.digitalpublicgoods.net/dpgs and normalises to Atlas schema.
  */
 
-import type { Project } from "../src/lib/schema.js";
+import { projectSchema, type Project } from "../src/lib/schema.js";
+import { fetchJsonWithCache } from "./lib/fetch.js";
 import { normalizeCountry, normalizeLicense, slugify } from "./lib/normalize.js";
 
 const DPG_API = "https://api.digitalpublicgoods.net/dpgs";
-const TIMEOUT_MS = 30_000;
 
 interface DpgApiItem {
   id?: string;
@@ -24,21 +24,14 @@ interface DpgApiItem {
 }
 
 export async function fetchDpgProjects(): Promise<Project[]> {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
-  let raw: DpgApiItem[] = [];
+  const raw = await fetchJsonWithCache<DpgApiItem[]>(DPG_API, {
+    cacheKey: "dpg/registry",
+    timeoutMs: 30_000
+  });
 
-  try {
-    const res = await fetch(DPG_API, { signal: controller.signal });
-    if (!res.ok) {
-      throw new Error(`DPG API returned ${res.status}`);
-    }
-    raw = (await res.json()) as DpgApiItem[];
-  } catch (err) {
-    console.warn(`[ingest-dpg] Fetch failed: ${(err as Error).message}. Using empty list.`);
+  if (!raw) {
+    console.warn("[ingest-dpg] Fetch failed and no cache was available. Using empty list.");
     return [];
-  } finally {
-    clearTimeout(timer);
   }
 
   return raw.map((item) => mapDpgItem(item));
@@ -58,8 +51,9 @@ function mapDpgItem(item: DpgApiItem): Project {
   const repoUrls = item.repositoryURL
     ? [item.repositoryURL].filter((u) => u.startsWith("http"))
     : [];
+  const retrievedAt = new Date().toISOString();
 
-  return {
+  return projectSchema.parse({
     id,
     name: item.name,
     description: item.description ?? "",
@@ -101,8 +95,45 @@ function mapDpgItem(item: DpgApiItem): Project {
       security_advisories_open: 0,
       openssf_scorecard: null
     },
-    last_updated: new Date().toISOString()
-  };
+    provenance: {
+      description: [{
+        source: "DPG API",
+        retrieved_at: retrievedAt,
+        confidence: 0.95,
+        kind: "scraped",
+        note: "Imported from the Digital Public Goods Registry API."
+      }],
+      licenses: licenses.length > 0 ? [{
+        source: "DPG API",
+        retrieved_at: retrievedAt,
+        confidence: 0.92,
+        kind: "declared",
+        note: "License values normalized from registry metadata."
+      }] : [],
+      deployment_countries: countries.length > 0 ? [{
+        source: "DPG API",
+        retrieved_at: retrievedAt,
+        confidence: 0.75,
+        kind: "declared",
+        note: "Deployment countries may be incomplete relative to actual public deployments."
+      }] : [],
+      repository_urls: repoUrls.length > 0 ? [{
+        source: "DPG API",
+        retrieved_at: retrievedAt,
+        confidence: 0.9,
+        kind: "declared",
+        note: "Repository URL supplied by the DPG record."
+      }] : [],
+      steward_organizations: orgs.length > 0 ? [{
+        source: "DPG API",
+        retrieved_at: retrievedAt,
+        confidence: 0.8,
+        kind: "declared",
+        note: "Organizations copied from the registry record without local normalization."
+      }] : []
+    },
+    last_updated: retrievedAt
+  });
 }
 
 function mapStage(stage?: string): Project["maturity_level"] {
