@@ -206,6 +206,38 @@
   governance_role: framework-steward
   provenance: {}
 
+- id: openhie-community
+  name: OpenHIE Community
+  type: consortium
+  website: https://ohie.org
+  country: International
+  city: ""
+  coordinates: null
+  associated_projects: []
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: ""
+  linkedin: ""
+  governance_role: framework-steward
+  provenance: {}
+
+- id: openehr-foundation
+  name: openEHR Foundation
+  type: nonprofit
+  website: https://openehr.org
+  country: International
+  city: ""
+  coordinates: null
+  associated_projects: []
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: openEHR
+  linkedin: ""
+  governance_role: standards-steward
+  provenance: {}
+
 - id: niis
   name: Nordic Institute for Interoperability Solutions
   type: nonprofit

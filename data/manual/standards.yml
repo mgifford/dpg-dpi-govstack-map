@@ -69,3 +69,35 @@
   related_projects: [drupal, mosip, dhis2, openmrs, openspp, ckan, dkan, mojaloop]
   tags: [sdg, policy-framework, public-interest, united-nations]
   provenance: {}
+
+- id: openhie
+  name: OpenHIE
+  description: Open health information exchange community and interoperability framework used to connect national digital health components across shared architectural patterns.
+  website: https://ohie.org
+  steward_organizations: [openhie-community]
+  related_projects:
+    [
+      dhis2,
+      openmrs,
+      openimis,
+      rapidpro,
+      bahmni,
+      openlmis,
+      odk,
+      gnu-health,
+      opensrp,
+      openfn,
+      commcare,
+      openelis-global
+    ]
+  tags: [health, interoperability, framework, digital-health]
+  provenance: {}
+
+- id: openehr
+  name: openEHR
+  description: Open specification community for computable electronic health record models and clinical data interoperability.
+  website: https://openehr.org
+  steward_organizations: [openehr-foundation]
+  related_projects: []
+  tags: [health, clinical-modeling, interoperability, standards]
+  provenance: {}

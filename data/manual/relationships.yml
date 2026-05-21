@@ -501,3 +501,107 @@
   evidence: Public e-marketplace systems rely on interoperable registry and trusted government data-exchange capabilities.
   confidence: 0.66
   provenance: {}
+
+- source: dhis2
+  target: openhie
+  type: participates_in
+  strength: 0.88
+  evidence: DHIS2 is widely deployed within OpenHIE-style national health information exchange architectures.
+  confidence: 0.86
+  provenance: {}
+
+- source: openmrs
+  target: openhie
+  type: participates_in
+  strength: 0.9
+  evidence: OpenMRS is a core clinical system frequently positioned within OpenHIE reference architectures.
+  confidence: 0.89
+  provenance: {}
+
+- source: openimis
+  target: openhie
+  type: participates_in
+  strength: 0.78
+  evidence: openIMIS is commonly mapped into OpenHIE-aligned health financing and entitlement workflows.
+  confidence: 0.76
+  provenance: {}
+
+- source: rapidpro
+  target: openhie
+  type: participates_in
+  strength: 0.73
+  evidence: RapidPro is frequently used alongside OpenHIE-aligned health messaging and outreach patterns.
+  confidence: 0.71
+  provenance: {}
+
+- source: bahmni
+  target: openhie
+  type: participates_in
+  strength: 0.72
+  evidence: Bahmni deployments often align with OpenHIE-style interoperability patterns around facility systems and shared services.
+  confidence: 0.69
+  provenance: {}
+
+- source: openlmis
+  target: openhie
+  type: participates_in
+  strength: 0.8
+  evidence: OpenLMIS is regularly treated as an OpenHIE-aligned supply-chain component in national digital health architectures.
+  confidence: 0.78
+  provenance: {}
+
+- source: odk
+  target: openhie
+  type: participates_in
+  strength: 0.67
+  evidence: ODK is often used as an OpenHIE-adjacent field data collection component in public health programmes.
+  confidence: 0.65
+  provenance: {}
+
+- source: gnu-health
+  target: openhie
+  type: participates_in
+  strength: 0.68
+  evidence: GNU Health aligns with OpenHIE-style public health interoperability and shared health information exchange patterns.
+  confidence: 0.66
+  provenance: {}
+
+- source: opensrp
+  target: openhie
+  type: participates_in
+  strength: 0.77
+  evidence: OpenSRP is used in frontline and community health workflows that commonly sit within OpenHIE architectures.
+  confidence: 0.75
+  provenance: {}
+
+- source: openfn
+  target: openhie
+  type: participates_in
+  strength: 0.81
+  evidence: OpenFn supports interoperability and workflow orchestration across systems commonly assembled in OpenHIE-aligned stacks.
+  confidence: 0.79
+  provenance: {}
+
+- source: commcare
+  target: openhie
+  type: participates_in
+  strength: 0.71
+  evidence: CommCare is often connected to OpenHIE-aligned frontline and reporting ecosystems in public health deployments.
+  confidence: 0.69
+  provenance: {}
+
+- source: openelis-global
+  target: openhie
+  type: participates_in
+  strength: 0.82
+  evidence: OpenELIS Global is a laboratory component that fits naturally into OpenHIE reference architectures.
+  confidence: 0.8
+  provenance: {}
+
+- source: openhie
+  target: openehr
+  type: aligned_with
+  strength: 0.64
+  evidence: OpenHIE and openEHR both support interoperable digital health architectures, though they operate at different layers of the ecosystem.
+  confidence: 0.61
+  provenance: {}

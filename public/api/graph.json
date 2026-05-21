@@ -2108,6 +2108,20 @@
       "country": "International"
     },
     {
+      "id": "openhie-community",
+      "label": "OpenHIE Community",
+      "type": "organization",
+      "org_type": "consortium",
+      "country": "International"
+    },
+    {
+      "id": "openehr-foundation",
+      "label": "openEHR Foundation",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "International"
+    },
+    {
       "id": "niis",
       "label": "Nordic Institute for Interoperability Solutions",
       "type": "organization",
@@ -4068,6 +4082,84 @@
       "target": "x-road",
       "type": "aligned_with",
       "strength": 0.68
+    },
+    {
+      "source": "dhis2",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.88
+    },
+    {
+      "source": "openmrs",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.9
+    },
+    {
+      "source": "openimis",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.78
+    },
+    {
+      "source": "rapidpro",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.73
+    },
+    {
+      "source": "bahmni",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.72
+    },
+    {
+      "source": "openlmis",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.8
+    },
+    {
+      "source": "odk",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.67
+    },
+    {
+      "source": "gnu-health",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.68
+    },
+    {
+      "source": "opensrp",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.77
+    },
+    {
+      "source": "openfn",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.81
+    },
+    {
+      "source": "commcare",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.71
+    },
+    {
+      "source": "openelis-global",
+      "target": "openhie",
+      "type": "participates_in",
+      "strength": 0.82
+    },
+    {
+      "source": "openhie",
+      "target": "openehr",
+      "type": "aligned_with",
+      "strength": 0.64
     }
   ]
 }
