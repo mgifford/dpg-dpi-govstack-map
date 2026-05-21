@@ -16,6 +16,8 @@ const maturityClass = `badge badge--${project.maturity_level}`;
 const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
 const footprintCount = project.deployment_countries.length;
 const standardsPreview = project.standards_alignment.slice(0, 2);
+const govstackPreview = project.govstack_building_blocks.slice(0, 2);
+const licenseBadgeClass = `badge badge--license-${project.license_model}`;
 ---
 
 <article class="card project-card" aria-labelledby={`project-title-${project.id}`}>
@@ -26,6 +28,10 @@ const standardsPreview = project.standards_alignment.slice(0, 2);
     <div class="project-card__meta">
       <span class={maturityClass}>{project.maturity_level}</span>
       <span class={typeClass}>{project.project_type}</span>
+      <span class={licenseBadgeClass}>{project.license_model}</span>
+      {project.govstack_listed && (
+        <span class="badge badge--govstack-listed">GovStack listed</span>
+      )}
       {project.category && (
         <span class="badge" style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);">
           {project.category}
@@ -63,6 +69,18 @@ const standardsPreview = project.standards_alignment.slice(0, 2);
   {standardsPreview.length > 0 && (
     <p class="project-card__standards" aria-label="Standards alignment preview">
       {standardsPreview.join(" · ")}
+    </p>
+  )}
+
+  {govstackPreview.length > 0 && (
+    <p class="project-card__standards" aria-label="GovStack building blocks">
+      GovStack: {govstackPreview.join(" · ")}
+    </p>
+  )}
+
+  {project.licensing_concerns && (
+    <p class="project-card__countries" style="color: var(--color-warning);">
+      License note: {project.licensing_concerns}
     </p>
   )}
 

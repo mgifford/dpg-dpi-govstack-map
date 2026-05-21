@@ -21,6 +21,7 @@ export async function getStaticPaths() {
 
 interface Props { project: Project; dataset: AtlasDataset; }
 const { project, dataset } = Astro.props;
+const licenseBadgeClass = `badge badge--license-${project.license_model}`;
 
 const scoreRows = [
   {
@@ -216,6 +217,64 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
           </div>
         </section>
 
+        {(project.govstack_building_blocks.length > 0 || project.govstack_listed) && (
+          <section aria-labelledby="govstack-heading" style="margin-bottom: var(--space-10);">
+            <h2 id="govstack-heading" style="margin-bottom: var(--space-4);">GovStack Alignment</h2>
+            <p style="margin-bottom: var(--space-4); color: var(--color-text-muted); max-width: 72ch;">
+              This view shows where the project maps to GovStack building-block terminology so people can compare interoperable components across the atlas.
+            </p>
+            <div class="detail-panel-grid">
+              <div class="card" style="padding: var(--space-5);">
+                <h3 style="font-size: var(--text-base); margin-bottom: var(--space-3);">Building Blocks</h3>
+                {project.govstack_building_blocks.length > 0 ? (
+                  <div style="display: flex; flex-wrap: wrap; gap: var(--space-2);">
+                    {project.govstack_building_blocks.map((block) => (
+                      <span class="badge badge--govstack-block">{block}</span>
+                    ))}
+                  </div>
+                ) : (
+                  <p style="color: var(--color-text-muted);">No building-block mapping recorded yet.</p>
+                )}
+              </div>
+              <div class="card" style="padding: var(--space-5);">
+                <h3 style="font-size: var(--text-base); margin-bottom: var(--space-3);">Marketplace Status</h3>
+                <p style="margin-bottom: var(--space-2);">
+                  <span class={`badge ${project.govstack_listed ? "badge--govstack-listed" : "badge--stagnant"}`}>
+                    {project.govstack_listed ? "Listed on GovStack" : "Atlas functional mapping"}
+                  </span>
+                </p>
+                {project.govstack_compliance_level != null && (
+                  <p style="margin-bottom: var(--space-2); color: var(--color-text-muted);">
+                    GovStack compliance level: <strong>{project.govstack_compliance_level}</strong>
+                  </p>
+                )}
+                <p style="color: var(--color-text-muted);">
+                  {project.govstack_notes || "GovStack mapping has not been annotated yet."}
+                </p>
+              </div>
+            </div>
+          </section>
+        )}
+
+        <section aria-labelledby="licensing-heading" style="margin-bottom: var(--space-10);">
+          <h2 id="licensing-heading" style="margin-bottom: var(--space-4);">Licensing</h2>
+          <div class="detail-panel-grid">
+            <div class="card" style="padding: var(--space-5);">
+              <h3 style="font-size: var(--text-base); margin-bottom: var(--space-3);">License Posture</h3>
+              <p style="margin-bottom: var(--space-3);"><span class={licenseBadgeClass}>{project.license_model}</span></p>
+              <p style="color: var(--color-text-muted);">
+                {project.licenses.length > 0 ? project.licenses.join(", ") : "No SPDX-style open license recorded in the atlas dataset."}
+              </p>
+            </div>
+            <div class="card" style="padding: var(--space-5); border-color: var(--color-warning);">
+              <h3 style="font-size: var(--text-base); margin-bottom: var(--space-3);">Procurement Note</h3>
+              <p style="color: var(--color-text-muted);">
+                {project.licensing_concerns || "No special licensing concern is currently recorded. For any marketplace listing, verify commercial terms, service dependencies, and feature restrictions before procurement."}
+              </p>
+            </div>
+          </div>
+        </section>
+
         <!-- Deployments -->
         {deployments.length > 0 && (
           <section aria-labelledby="deployments-heading" style="margin-bottom: var(--space-10);">
@@ -313,6 +372,16 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
               <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Licenses</dt>
               <dd>{project.licenses.join(", ") || "Unknown"}</dd>
             </div>
+            <div>
+              <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">License posture</dt>
+              <dd><span class={licenseBadgeClass}>{project.license_model}</span></dd>
+            </div>
+            {project.govstack_building_blocks.length > 0 && (
+              <div>
+                <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">GovStack</dt>
+                <dd>{project.govstack_building_blocks.join(", ")}</dd>
+              </div>
+            )}
             <div>
               <dt style="font-weight: 600; color: var(--color-text-muted); margin-bottom: var(--space-1);">Governance</dt>
               <dd>{project.governance_model}</dd>

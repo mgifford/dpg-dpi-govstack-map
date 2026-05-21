@@ -431,6 +431,75 @@
         "popup_label": "OpenLMIS Initiative — Seattle, United States",
         "popup_detail": "Projects: OpenLMIS"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      },
+      "properties": {
+        "id": "scs-community",
+        "name": "Sovereign Cloud Stack Community",
+        "entity_type": "organization",
+        "org_type": "consortium",
+        "country": "Germany",
+        "city": "Berlin",
+        "associated_projects": [
+          "sovereign-cloud-stack"
+        ],
+        "popup_label": "Sovereign Cloud Stack Community — Berlin, Germany",
+        "popup_detail": "Projects: Sovereign Cloud Stack"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1214,
+          52.0907
+        ]
+      },
+      "properties": {
+        "id": "baserow-company",
+        "name": "Baserow",
+        "entity_type": "organization",
+        "org_type": "company",
+        "country": "Netherlands",
+        "city": "Utrecht",
+        "associated_projects": [
+          "baserow"
+        ],
+        "popup_label": "Baserow — Utrecht, Netherlands",
+        "popup_detail": "Projects: Baserow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      },
+      "properties": {
+        "id": "mifos-initiative",
+        "name": "Mifos Initiative",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "United States",
+        "city": "Washington",
+        "associated_projects": [
+          "mifos-payment-hub-ee"
+        ],
+        "popup_label": "Mifos Initiative — Washington, United States",
+        "popup_detail": "Projects: Mifos Payment Hub Enterprise Edition"
+      }
     }
   ]
 }

@@ -229,3 +229,51 @@
   evidence: Supply chain and clinical systems are often connected in public health deployments.
   confidence: 0.8
   provenance: {}
+
+- source: scs-community
+  target: sovereign-cloud-stack
+  type: governed_by
+  strength: 0.91
+  evidence: The SCS community stewards the Sovereign Cloud Stack ecosystem.
+  confidence: 0.9
+  provenance: {}
+
+- source: baserow-company
+  target: baserow
+  type: maintained_by
+  strength: 0.88
+  evidence: Baserow is maintained by the core company and community.
+  confidence: 0.86
+  provenance: {}
+
+- source: mifos-initiative
+  target: mifos-payment-hub-ee
+  type: governed_by
+  strength: 0.86
+  evidence: Mifos Initiative publicly stewards the payment hub offering.
+  confidence: 0.83
+  provenance: {}
+
+- source: sovereign-cloud-stack
+  target: x-road
+  type: aligned_with
+  strength: 0.71
+  evidence: Sovereign cloud infrastructure complements interoperable data exchange layers.
+  confidence: 0.69
+  provenance: {}
+
+- source: baserow
+  target: openimis
+  type: aligned_with
+  strength: 0.68
+  evidence: Both can play registry-oriented roles in public-sector data workflows.
+  confidence: 0.65
+  provenance: {}
+
+- source: mifos-payment-hub-ee
+  target: mojaloop
+  type: aligned_with
+  strength: 0.77
+  evidence: Both support interoperable payment orchestration and rails.
+  confidence: 0.75
+  provenance: {}

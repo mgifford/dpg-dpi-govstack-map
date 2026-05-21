@@ -5,6 +5,8 @@ export interface FilterOptions {
   projectTypes: string[];
   governanceModels: string[];
   licenses: string[];
+  govstackBlocks: string[];
+  licenseModels: string[];
   maturities: string[];
 }
 
@@ -14,6 +16,8 @@ export interface ProjectFilterState {
   projectType: string;
   governanceModel: string;
   license: string;
+  govstackBlock: string;
+  licenseModel: string;
   maturity: string;
 }
 
@@ -23,6 +27,8 @@ export const defaultFilterState: ProjectFilterState = {
   projectType: "all",
   governanceModel: "all",
   license: "all",
+  govstackBlock: "all",
+  licenseModel: "all",
   maturity: "all"
 };
 
@@ -47,6 +53,15 @@ export function applyProjectFilters(projects: Project[], state: ProjectFilterSta
     if (state.license !== "all" && !project.licenses.includes(state.license)) {
       return false;
     }
+    if (
+      state.govstackBlock !== "all" &&
+      !project.govstack_building_blocks.includes(state.govstackBlock)
+    ) {
+      return false;
+    }
+    if (state.licenseModel !== "all" && project.license_model !== state.licenseModel) {
+      return false;
+    }
     if (state.maturity !== "all" && project.maturity_level !== state.maturity) {
       return false;
     }
@@ -64,6 +79,8 @@ export function deriveFilterOptions(dataset: AtlasDataset): FilterOptions {
     projectTypes: unique(dataset.projects.map((p) => p.project_type)),
     governanceModels: unique(dataset.projects.map((p) => p.governance_model)),
     licenses: unique(dataset.projects.flatMap((p) => p.licenses)),
+    govstackBlocks: unique(dataset.projects.flatMap((p) => p.govstack_building_blocks)),
+    licenseModels: unique(dataset.projects.map((p) => p.license_model)),
     maturities: unique(dataset.projects.map((p) => p.maturity_level))
   };
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T00:35:38.642Z",
-  "count": 18,
+  "generated_at": "2026-05-21T12:52:07.182Z",
+  "count": 21,
   "projects": [
     {
       "id": "drupal",
@@ -38,6 +38,8 @@
       "licenses": [
         "GPL-2.0-or-later"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "mixed",
       "standards_alignment": [
@@ -48,6 +50,9 @@
       "interoperability_frameworks": [
         "OpenAPI"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "United Kingdom",
         "United States",
@@ -196,6 +201,8 @@
       "licenses": [
         "MPL-2.0"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
       "standards_alignment": [
@@ -207,6 +214,11 @@
         "GovStack",
         "G2P Connect"
       ],
+      "govstack_building_blocks": [
+        "Identity"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping to the GovStack Identity building block.",
       "deployment_countries": [
         "Philippines",
         "Morocco",
@@ -347,6 +359,8 @@
       "licenses": [
         "BSD-3-Clause"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "academic",
       "funding_model": "grant",
       "standards_alignment": [
@@ -357,6 +371,9 @@
       "interoperability_frameworks": [
         "OpenHIE"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "Uganda",
         "Tanzania",
@@ -488,6 +505,8 @@
       "licenses": [
         "MPL-2.0"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "mixed",
       "standards_alignment": [
@@ -497,6 +516,9 @@
       "interoperability_frameworks": [
         "OpenHIE"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "Rwanda",
         "Kenya",
@@ -623,6 +645,8 @@
       "licenses": [
         "AGPL-3.0-only"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "grant",
       "standards_alignment": [
@@ -632,6 +656,12 @@
         "G2P Connect",
         "GovStack"
       ],
+      "govstack_building_blocks": [
+        "Digital Registries",
+        "Workflow"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping for social registries and workflow orchestration.",
       "deployment_countries": [
         "Colombia",
         "Kenya",
@@ -758,6 +788,8 @@
       "licenses": [
         "AGPL-3.0-only"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "mixed",
       "standards_alignment": [
@@ -767,6 +799,9 @@
       "interoperability_frameworks": [
         "DCAT"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "United Kingdom",
         "Canada",
@@ -894,6 +929,8 @@
       "licenses": [
         "GPL-2.0-or-later"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "company-led",
       "funding_model": "services",
       "standards_alignment": [
@@ -903,6 +940,9 @@
       "interoperability_frameworks": [
         "DCAT"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "United States"
       ],
@@ -1026,6 +1066,8 @@
       "licenses": [
         "Apache-2.0"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
       "standards_alignment": [
@@ -1035,6 +1077,11 @@
       "interoperability_frameworks": [
         "G2P Connect"
       ],
+      "govstack_building_blocks": [
+        "Payment"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping to the GovStack Payment building block.",
       "deployment_countries": [
         "Tanzania",
         "Uganda",
@@ -1165,6 +1212,8 @@
       "licenses": [
         "MIT"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "public",
       "standards_alignment": [
@@ -1174,6 +1223,12 @@
       "interoperability_frameworks": [
         "GovStack"
       ],
+      "govstack_building_blocks": [
+        "Information Mediator"
+      ],
+      "govstack_listed": true,
+      "govstack_compliance_level": 2,
+      "govstack_notes": "Listed on the GovStack software marketplace as an Information Mediator solution.",
       "deployment_countries": [
         "Estonia",
         "Finland",
@@ -1302,6 +1357,8 @@
       "licenses": [
         "MPL-2.0"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "grant",
       "standards_alignment": [
@@ -1311,6 +1368,11 @@
       "interoperability_frameworks": [
         "GovStack"
       ],
+      "govstack_building_blocks": [
+        "Registration"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping to the GovStack Registration building block.",
       "deployment_countries": [
         "Sierra Leone",
         "Bangladesh",
@@ -1437,6 +1499,8 @@
       "licenses": [
         "AGPL-3.0-only"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "consortium",
       "funding_model": "grant",
       "standards_alignment": [
@@ -1446,6 +1510,12 @@
       "interoperability_frameworks": [
         "OpenHIE"
       ],
+      "govstack_building_blocks": [
+        "Digital Registries"
+      ],
+      "govstack_listed": true,
+      "govstack_compliance_level": 2,
+      "govstack_notes": "Listed on the GovStack software marketplace under Digital Registries.",
       "deployment_countries": [
         "Nepal",
         "Tanzania",
@@ -1573,6 +1643,8 @@
       "licenses": [
         "BSD-3-Clause"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "company-led",
       "funding_model": "services",
       "standards_alignment": [
@@ -1581,6 +1653,12 @@
       "interoperability_frameworks": [
         "OpenHIE"
       ],
+      "govstack_building_blocks": [
+        "Messaging",
+        "Workflow"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping for citizen messaging and workflow orchestration.",
       "deployment_countries": [
         "Rwanda",
         "Uganda",
@@ -1708,6 +1786,8 @@
       "licenses": [
         "AGPL-3.0-only"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "mixed",
       "standards_alignment": [
@@ -1717,6 +1797,9 @@
       "interoperability_frameworks": [
         "OpenHIE"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "India",
         "Nepal",
@@ -1843,6 +1926,8 @@
       "licenses": [
         "MIT"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
       "standards_alignment": [
@@ -1852,6 +1937,13 @@
       "interoperability_frameworks": [
         "GovStack"
       ],
+      "govstack_building_blocks": [
+        "Workflow",
+        "Registration",
+        "Digital Registries APIs"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping for service workflows, registration flows, and registry-facing APIs.",
       "deployment_countries": [
         "India"
       ],
@@ -1976,6 +2068,8 @@
       "licenses": [
         "MIT"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
       "standards_alignment": [
@@ -1985,6 +2079,9 @@
       "interoperability_frameworks": [
         "GovStack"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "India",
         "Sierra Leone"
@@ -2110,6 +2207,8 @@
       "licenses": [
         "MPL-2.0"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
       "standards_alignment": [
@@ -2120,6 +2219,13 @@
         "G2P Connect",
         "GovStack"
       ],
+      "govstack_building_blocks": [
+        "Digital Registries",
+        "Payment",
+        "Workflow"
+      ],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping for social registries and G2P delivery orchestration.",
       "deployment_countries": [
         "Sierra Leone",
         "Togo"
@@ -2247,12 +2353,17 @@
       "licenses": [
         "GPL-3.0-only"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "intergovernmental",
       "funding_model": "grant",
       "standards_alignment": [
         "OpenAPI"
       ],
       "interoperability_frameworks": [],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "Jordan",
         "Palestine",
@@ -2376,6 +2487,8 @@
       "licenses": [
         "AGPL-3.0-only"
       ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "grant",
       "standards_alignment": [
@@ -2385,6 +2498,9 @@
       "interoperability_frameworks": [
         "OpenHIE"
       ],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
       "deployment_countries": [
         "Tanzania",
         "Zambia",
@@ -2475,6 +2591,415 @@
       "accessibility_maturity": "growing",
       "sustainability_maturity": "leading",
       "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "sovereign-cloud-stack",
+      "name": "Sovereign Cloud Stack",
+      "description": "Open source cloud infrastructure stack focused on sovereignty, interoperability, and vendor-neutral public-sector cloud deployment.",
+      "category": "Cloud Infrastructure",
+      "subcategory": "Sovereign Cloud Platform",
+      "project_type": "GovTech",
+      "categories": [
+        "Cloud Infrastructure",
+        "DPI"
+      ],
+      "subcategories": [
+        "Sovereign Cloud Platform"
+      ],
+      "project_types": [
+        "GovTech"
+      ],
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "sovereignty",
+        "interoperability"
+      ],
+      "website": "https://scs.community/de/",
+      "project_page": "https://govstack.global/software/",
+      "repository_urls": [
+        "https://github.com/SovereignCloudStack"
+      ],
+      "documentation_urls": [
+        "https://docs.scs.community"
+      ],
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "consortium",
+      "funding_model": "public",
+      "standards_alignment": [
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "govstack_building_blocks": [
+        "Cloud Infrastructure"
+      ],
+      "govstack_listed": true,
+      "govstack_compliance_level": 2,
+      "govstack_notes": "Listed on the GovStack software marketplace under Cloud Infrastructure.",
+      "deployment_countries": [],
+      "steward_organizations": [
+        "scs-community"
+      ],
+      "maintainers": [
+        "SCS community"
+      ],
+      "related_projects": [
+        "x-road"
+      ],
+      "sdgs": [
+        "SDG-9",
+        "SDG-16"
+      ],
+      "dpi_domains": [
+        "cloud-infrastructure"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 72,
+      "activity_score": 70,
+      "ecosystem_score": 74,
+      "accessibility_score": 49,
+      "community_health": {
+        "commits_last_12_months": 980,
+        "contributors_last_12_months": 57,
+        "issue_closure_rate": 0.71,
+        "median_issue_response_hours": 38,
+        "releases_last_12_months": 3,
+        "contributor_diversity_index": 0.59,
+        "governance_maturity": 78,
+        "documentation_quality": 76,
+        "onboarding_quality": 70,
+        "dependency_freshness": 74,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.5
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 70,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 78,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 72,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 0,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 49,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 72,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 40,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 20,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 71,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 76,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "nascent",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "baserow",
+      "name": "Baserow",
+      "description": "Low-code data platform used to organize structured data and business processes, including registry-like public-sector use cases.",
+      "category": "Digital Registries",
+      "subcategory": "Low-Code Registry Platform",
+      "project_type": "GovTech",
+      "categories": [
+        "Digital Registries",
+        "GovTech"
+      ],
+      "subcategories": [
+        "Low-Code Registry Platform"
+      ],
+      "project_types": [
+        "GovTech"
+      ],
+      "tags": [
+        "registries",
+        "low-code",
+        "data",
+        "automation"
+      ],
+      "website": "https://baserow.io",
+      "project_page": "https://govstack.global/software/",
+      "repository_urls": [
+        "https://github.com/bram2w/baserow"
+      ],
+      "documentation_urls": [
+        "https://baserow.io/docs"
+      ],
+      "licenses": [],
+      "license_model": "mixed",
+      "licensing_concerns": "GovStack lists Baserow, but its commercial and enterprise layers should be reviewed carefully before procurement.",
+      "governance_model": "company-led",
+      "funding_model": "services",
+      "standards_alignment": [
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "govstack_building_blocks": [
+        "Digital Registries"
+      ],
+      "govstack_listed": true,
+      "govstack_compliance_level": 2,
+      "govstack_notes": "Listed on the GovStack software marketplace under Digital Registries.",
+      "deployment_countries": [],
+      "steward_organizations": [
+        "baserow-company"
+      ],
+      "maintainers": [
+        "Baserow team"
+      ],
+      "related_projects": [
+        "openimis",
+        "digit"
+      ],
+      "sdgs": [
+        "SDG-16"
+      ],
+      "dpi_domains": [
+        "digital-registries"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 69,
+      "activity_score": 73,
+      "ecosystem_score": 67,
+      "accessibility_score": 52,
+      "community_health": {
+        "commits_last_12_months": 1670,
+        "contributors_last_12_months": 63,
+        "issue_closure_rate": 0.74,
+        "median_issue_response_hours": 27,
+        "releases_last_12_months": 7,
+        "contributor_diversity_index": 0.61,
+        "governance_maturity": 64,
+        "documentation_quality": 80,
+        "onboarding_quality": 77,
+        "dependency_freshness": 81,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.8
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 73,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 64,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 69,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 0,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 52,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 69,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 40,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 0,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 74,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 80,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "nascent",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "mifos-payment-hub-ee",
+      "name": "Mifos Payment Hub Enterprise Edition",
+      "description": "Payment orchestration platform positioned for digital and real-time payments in interoperable public-service and financial-inclusion ecosystems.",
+      "category": "Financial Inclusion",
+      "subcategory": "Payment Orchestration",
+      "project_type": "GovTech",
+      "categories": [
+        "Financial Inclusion",
+        "DPI"
+      ],
+      "subcategories": [
+        "Payment Orchestration"
+      ],
+      "project_types": [
+        "GovTech"
+      ],
+      "tags": [
+        "payments",
+        "orchestration",
+        "fintech",
+        "interoperability"
+      ],
+      "website": "https://payments.mifos.org/",
+      "project_page": "https://govstack.global/software/",
+      "repository_urls": [],
+      "documentation_urls": [],
+      "licenses": [],
+      "license_model": "mixed",
+      "licensing_concerns": "The enterprise-edition branding suggests commercial packaging; confirm source access, redistribution, and support terms before procurement.",
+      "governance_model": "nonprofit",
+      "funding_model": "services",
+      "standards_alignment": [
+        "ISO 20022",
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "govstack_building_blocks": [
+        "Payment"
+      ],
+      "govstack_listed": true,
+      "govstack_compliance_level": 2,
+      "govstack_notes": "Listed on the GovStack software marketplace under Payment.",
+      "deployment_countries": [],
+      "steward_organizations": [
+        "mifos-initiative"
+      ],
+      "maintainers": [
+        "Mifos Payment Hub team"
+      ],
+      "related_projects": [
+        "mojaloop",
+        "openg2p"
+      ],
+      "sdgs": [
+        "SDG-1",
+        "SDG-8",
+        "SDG-10"
+      ],
+      "dpi_domains": [
+        "digital-payments"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 71,
+      "activity_score": 67,
+      "ecosystem_score": 73,
+      "accessibility_score": 46,
+      "community_health": {
+        "commits_last_12_months": 320,
+        "contributors_last_12_months": 14,
+        "issue_closure_rate": 0.63,
+        "median_issue_response_hours": 49,
+        "releases_last_12_months": 2,
+        "contributor_diversity_index": 0.45,
+        "governance_maturity": 73,
+        "documentation_quality": 72,
+        "onboarding_quality": 60,
+        "dependency_freshness": 68,
+        "security_advisories_open": 0,
+        "openssf_scorecard": null
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 67,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 73,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 71,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 0,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 46,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 71,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 0,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 63,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 72,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "emerging",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "nascent",
       "provenance": {},
       "last_updated": "2026-05-21T00:00:00.000Z"
     }

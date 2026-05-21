@@ -9,6 +9,8 @@ export interface FilterOptions {
   projectTypes: string[];
   governanceModels: string[];
   licenses: string[];
+  govstackBlocks: string[];
+  licenseModels: string[];
   maturities: string[];
 }
 
@@ -104,6 +106,24 @@ const { options, totalCount } = Astro.props;
       </select>
     </div>
 
+    <div class="filter-group">
+      <label for="filter-license-model">License Posture</label>
+      <select id="filter-license-model" name="licenseModel" aria-controls="project-list">
+        {options.licenseModels.map((model) => (
+          <option value={model}>{model === "all" ? "All postures" : model}</option>
+        ))}
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="filter-govstack">GovStack Building Block</label>
+      <select id="filter-govstack" name="govstackBlock" aria-controls="project-list">
+        {options.govstackBlocks.map((block) => (
+          <option value={block}>{block === "all" ? "All building blocks" : block}</option>
+        ))}
+      </select>
+    </div>
+
     <!-- Fallback submit (hidden when JS enhances to live filter) -->
     <button type="submit" id="filter-submit" style="width: 100%; padding: var(--space-3); background: var(--color-brand); color: #fff; border: none; border-radius: var(--radius-md); cursor: pointer; font-weight: 600; font-size: var(--text-sm);">
       Apply Filters
@@ -156,6 +176,8 @@ const { options, totalCount } = Astro.props;
       const maturity = data.get("maturity") as string ?? "all";
       const governance = data.get("governance") as string ?? "all";
       const license = data.get("license") as string ?? "all";
+      const licenseModel = data.get("licenseModel") as string ?? "all";
+      const govstackBlock = data.get("govstackBlock") as string ?? "all";
 
       let visible = 0;
       const cards = list!.querySelectorAll<HTMLElement>("[data-project]");
@@ -168,6 +190,8 @@ const { options, totalCount } = Astro.props;
         const cardMaturity = card.dataset.maturity ?? "";
         const cardGovernance = card.dataset.governance ?? "";
         const cardLicenses = (card.dataset.licenses ?? "").split("|");
+        const cardLicenseModel = card.dataset.licenseModel ?? "";
+        const cardGovstackBlocks = (card.dataset.govstackBlocks ?? "").split("|");
 
         const matchesQuery = !q || `${name} ${desc} ${tags}`.includes(q);
         const matchesCountry = country === "all" || countries.includes(country);
@@ -175,8 +199,10 @@ const { options, totalCount } = Astro.props;
         const matchesMaturity = maturity === "all" || cardMaturity === maturity;
         const matchesGov = governance === "all" || cardGovernance === governance;
         const matchesLicense = license === "all" || cardLicenses.includes(license);
+        const matchesLicenseModel = licenseModel === "all" || cardLicenseModel === licenseModel;
+        const matchesGovstack = govstackBlock === "all" || cardGovstackBlocks.includes(govstackBlock);
 
-        const show = matchesQuery && matchesCountry && matchesType && matchesMaturity && matchesGov && matchesLicense;
+        const show = matchesQuery && matchesCountry && matchesType && matchesMaturity && matchesGov && matchesLicense && matchesLicenseModel && matchesGovstack;
         card.hidden = !show;
         if (show) visible++;
       });

@@ -86,6 +86,8 @@ describe("projectSchema", () => {
     const result = projectSchema.parse(minimal);
     expect(result.subcategory).toBe("");
     expect(result.tags).toEqual([]);
+    expect(result.license_model).toBe("open-source");
+    expect(result.govstack_building_blocks).toEqual([]);
   });
 
   it("accepts null openssf_scorecard", () => {

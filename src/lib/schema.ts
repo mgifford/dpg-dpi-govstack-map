@@ -33,6 +33,29 @@ export const maturityScoresSchema = z.object({
 
 export const maturityBandSchema = z.enum(["nascent", "emerging", "growing", "mature", "leading"]);
 
+export const govstackBuildingBlockSchema = z.enum([
+  "Cloud Infrastructure",
+  "Consent",
+  "Digital Registries",
+  "Digital Registries APIs",
+  "E-Marketplace",
+  "GIS",
+  "Identity",
+  "Information Mediator",
+  "Messaging",
+  "Payment",
+  "Registration",
+  "Workflow"
+]);
+
+export const licenseModelSchema = z.enum([
+  "open-source",
+  "source-available",
+  "mixed",
+  "proprietary",
+  "unknown"
+]);
+
 export const projectSchema = z
   .object({
     id: z.string(),
@@ -50,10 +73,16 @@ export const projectSchema = z
     repository_urls: z.array(linkSchema).default([]),
     documentation_urls: z.array(linkSchema).default([]),
     licenses: z.array(z.string()).default([]),
+    license_model: licenseModelSchema.optional(),
+    licensing_concerns: z.string().default(""),
     governance_model: z.string().default("unknown"),
     funding_model: z.string().default("unknown"),
     standards_alignment: z.array(z.string()).default([]),
     interoperability_frameworks: z.array(z.string()).default([]),
+    govstack_building_blocks: z.array(govstackBuildingBlockSchema).default([]),
+    govstack_listed: z.boolean().default(false),
+    govstack_compliance_level: z.number().min(1).max(2).optional().nullable(),
+    govstack_notes: z.string().default(""),
     deployment_countries: z.array(z.string()).default([]),
     steward_organizations: z.array(z.string()).default([]),
     maintainers: z.array(z.string()).default([]),
@@ -97,6 +126,8 @@ export const projectSchema = z
           : [],
     project_types:
       project.project_types.length > 0 ? project.project_types : [project.project_type],
+    license_model:
+      project.license_model ?? (project.licenses.length > 0 ? "open-source" : "unknown"),
     maturity_scores: project.maturity_scores ?? {
       code: { score: project.activity_score, rationale: "Derived from activity metrics." },
       governance: {

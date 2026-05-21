@@ -145,6 +145,30 @@
       "activity": 76
     },
     {
+      "id": "sovereign-cloud-stack",
+      "label": "Sovereign Cloud Stack",
+      "type": "project",
+      "category": "Cloud Infrastructure",
+      "maturity": "growing",
+      "activity": 70
+    },
+    {
+      "id": "baserow",
+      "label": "Baserow",
+      "type": "project",
+      "category": "Digital Registries",
+      "maturity": "growing",
+      "activity": 73
+    },
+    {
+      "id": "mifos-payment-hub-ee",
+      "label": "Mifos Payment Hub Enterprise Edition",
+      "type": "project",
+      "category": "Financial Inclusion",
+      "maturity": "growing",
+      "activity": 67
+    },
+    {
       "id": "drupal-association",
       "label": "Drupal Association",
       "type": "organization",
@@ -301,6 +325,27 @@
     {
       "id": "openlmis-initiative",
       "label": "OpenLMIS Initiative",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "United States"
+    },
+    {
+      "id": "scs-community",
+      "label": "Sovereign Cloud Stack Community",
+      "type": "organization",
+      "org_type": "consortium",
+      "country": "Germany"
+    },
+    {
+      "id": "baserow-company",
+      "label": "Baserow",
+      "type": "organization",
+      "org_type": "company",
+      "country": "Netherlands"
+    },
+    {
+      "id": "mifos-initiative",
+      "label": "Mifos Initiative",
       "type": "organization",
       "org_type": "nonprofit",
       "country": "United States"
@@ -480,6 +525,42 @@
       "target": "openmrs",
       "type": "integrates_with",
       "strength": 0.81
+    },
+    {
+      "source": "scs-community",
+      "target": "sovereign-cloud-stack",
+      "type": "governed_by",
+      "strength": 0.91
+    },
+    {
+      "source": "baserow-company",
+      "target": "baserow",
+      "type": "maintained_by",
+      "strength": 0.88
+    },
+    {
+      "source": "mifos-initiative",
+      "target": "mifos-payment-hub-ee",
+      "type": "governed_by",
+      "strength": 0.86
+    },
+    {
+      "source": "sovereign-cloud-stack",
+      "target": "x-road",
+      "type": "aligned_with",
+      "strength": 0.71
+    },
+    {
+      "source": "baserow",
+      "target": "openimis",
+      "type": "aligned_with",
+      "strength": 0.68
+    },
+    {
+      "source": "mifos-payment-hub-ee",
+      "target": "mojaloop",
+      "type": "aligned_with",
+      "strength": 0.77
     }
   ]
 }

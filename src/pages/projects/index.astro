@@ -32,6 +32,17 @@ const categoryHighlights = Array.from(
 const footprintLeaders = [...projects]
   .sort((a, b) => b.deployment_countries.length - a.deployment_countries.length || b.ecosystem_score - a.ecosystem_score)
   .slice(0, 5);
+
+const govstackHighlights = Array.from(
+  projects.reduce((acc, project) => {
+    for (const block of project.govstack_building_blocks) {
+      acc.set(block, (acc.get(block) ?? 0) + 1);
+    }
+    return acc;
+  }, new Map<string, number>())
+)
+  .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+  .slice(0, 6);
 ---
 
 <Base title="Projects" description="Browse all Digital Public Infrastructure and DPG projects in the atlas." currentPage="/projects/">
@@ -54,6 +65,13 @@ const footprintLeaders = [...projects]
             <a class="catalog-chip" href={`?q=${encodeURIComponent(category.name)}`}>{category.name} <span aria-hidden="true">{category.count}</span></a>
           ))}
         </div>
+        {govstackHighlights.length > 0 && (
+          <div class="catalog-chip-list" style="margin-top: var(--space-3);">
+            {govstackHighlights.map(([block, count]) => (
+              <a class="catalog-chip" href={`?govstackBlock=${encodeURIComponent(block)}`}>GovStack: {block} <span aria-hidden="true">{count}</span></a>
+            ))}
+          </div>
+        )}
       </div>
       <div class="catalog-overview__side">
         <label for="sort-projects" style="font-size: var(--text-sm); font-weight: 600; margin-bottom: var(--space-2); display: block;">Sort projects</label>
@@ -104,6 +122,8 @@ const footprintLeaders = [...projects]
               data-activity={project.activity_score}
               data-deployments={project.deployment_countries.length}
               data-category={project.category}
+              data-govstack-blocks={project.govstack_building_blocks.join("|")}
+              data-license-model={project.license_model}
             >
               <ProjectCard project={project} />
             </div>

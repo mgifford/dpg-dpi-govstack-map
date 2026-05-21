@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T00:35:38.642Z",
-  "count": 23,
+  "generated_at": "2026-05-21T12:52:07.182Z",
+  "count": 26,
   "organizations": [
     {
       "id": "drupal-association",
@@ -515,6 +515,76 @@
       "funders": [],
       "staff": [],
       "github_org": "OpenLMIS",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "scs-community",
+      "name": "Sovereign Cloud Stack Community",
+      "type": "consortium",
+      "website": "https://scs.community/de/",
+      "country": "Germany",
+      "city": "Berlin",
+      "coordinates": {
+        "lat": 52.52,
+        "lon": 13.405
+      },
+      "associated_projects": [
+        "sovereign-cloud-stack"
+      ],
+      "partnerships": [
+        "niis"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "SovereignCloudStack",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "baserow-company",
+      "name": "Baserow",
+      "type": "company",
+      "website": "https://baserow.io",
+      "country": "Netherlands",
+      "city": "Utrecht",
+      "coordinates": {
+        "lat": 52.0907,
+        "lon": 5.1214
+      },
+      "associated_projects": [
+        "baserow"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "bram2w",
+      "linkedin": "",
+      "governance_role": "maintainer",
+      "provenance": {}
+    },
+    {
+      "id": "mifos-initiative",
+      "name": "Mifos Initiative",
+      "type": "nonprofit",
+      "website": "https://mifos.org",
+      "country": "United States",
+      "city": "Washington",
+      "coordinates": {
+        "lat": 38.9072,
+        "lon": -77.0369
+      },
+      "associated_projects": [
+        "mifos-payment-hub-ee"
+      ],
+      "partnerships": [
+        "mojaloop-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "openMF",
       "linkedin": "",
       "governance_role": "steward",
       "provenance": {}
