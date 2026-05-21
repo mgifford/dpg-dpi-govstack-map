@@ -159,6 +159,28 @@ Use that workflow when:
 - adding GovStack building-block mappings and procurement notes
 - regenerating the published Atlas dataset after a GovStack curation pass
 
+## DPG Intake Workflow
+
+Digital Public Goods intake is partly automated through the live registry importer and partly documented as a curation workflow. The working method, source hierarchy, and open-source filtering rules are documented in [docs/DPG_INTAKE.md](docs/DPG_INTAKE.md).
+
+Use that workflow when:
+
+- reviewing projects imported from the Digital Public Goods Registry or Digital Public Goods Alliance ecosystem
+- deciding whether a project should remain in the Atlas when source or license evidence is weak
+- adding ecosystem-specific DPI software that is not already captured by the live DPG registry
+- keeping the Atlas biased toward open-source DPI software rather than proprietary marketplace listings
+
+## DPI Intake Workflow
+
+There is no single authoritative global list of all DPI software that the Atlas can safely ingest as open-source. Instead, DPI intake should use a layered approach across trusted ecosystem lists and public source evidence. The workflow is documented in [docs/DPI_INTAKE.md](docs/DPI_INTAKE.md).
+
+Use that workflow when:
+
+- bringing DPI software into the Atlas from multiple ecosystem-specific sources
+- deciding whether a project belongs in the broader DPI layer even if it is not in the DPG registry
+- filtering out proprietary or weakly evidenced tools
+- deciding whether a new ecosystem source deserves a dedicated importer or should stay curated manually
+
 ---
 
 ## Tech Stack

@@ -49,7 +49,31 @@ Use [docs/GOVSTACK_INTAKE.md](docs/GOVSTACK_INTAKE.md) for the full workflow. Th
 - add or update the steward organization record if needed
 - regenerate the dataset and published API files before opening a PR
 
-### 4. Fix accessibility issues
+### 4. Curate DPG or DPGA software
+
+Digital Public Goods intake is a mix of automated import and manual review.
+
+Use [docs/DPG_INTAKE.md](docs/DPG_INTAKE.md) for the full workflow. The short version is:
+
+- treat the live DPG registry as the primary discovery source
+- require public source and license evidence before treating a project as straightforward open-source
+- keep clearly proprietary entries out of the Atlas unless there is an explicit reason to track them for comparison
+- use manual curation for DPI-adjacent ecosystem software that is not already covered by the registry importer
+- regenerate the dataset after any manual corrections or additions
+
+### 5. Curate broader DPI software
+
+Broader DPI intake is cross-ecosystem and should not assume there is one complete source list.
+
+Use [docs/DPI_INTAKE.md](docs/DPI_INTAKE.md) for the full workflow. The short version is:
+
+- start from trusted ecosystem lists such as DPG, GovStack, MOSIP, Mojaloop, OpenHIE-related projects, and other public-interest software catalogues
+- require public repository and license evidence before treating a tool as open-source DPI
+- avoid pulling in proprietary software as normal Atlas entries
+- use manual curation first, and only build a dedicated importer when a source is stable and structured enough to trust
+- regenerate the dataset after changes
+
+### 6. Fix accessibility issues
 
 Open an issue tagged `accessibility`. Include:
 
@@ -57,11 +81,11 @@ Open an issue tagged `accessibility`. Include:
 - Browser and assistive technology combination
 - Steps to reproduce
 
-### 5. Improve ingestion scripts
+### 7. Improve ingestion scripts
 
 Scripts live in `scripts/`. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for design intent.
 
-### 6. Improve the frontend
+### 8. Improve the frontend
 
 Components are in `src/components/`, pages in `src/pages/`.
 All changes must maintain WCAG 2.2 AA conformance.
