@@ -1,7 +1,7 @@
 import AxeBuilder from "@axe-core/playwright";
 import { chromium } from "playwright";
 
-const baseUrl = process.env.AUDIT_BASE_URL || "http://127.0.0.1:4321";
+const baseUrl = process.env.AUDIT_BASE_URL || "http://127.0.0.1:4321/dpg-dpi-govstack-map/";
 const routes = [
   "/",
   "/projects/",

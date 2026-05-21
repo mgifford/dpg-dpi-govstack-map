@@ -25,6 +25,11 @@ const nodes: GraphNode[] = [
     id: o.id,
     label: o.name,
     type: "organization"
+  })),
+  ...dataset.standards.map((s): GraphNode => ({
+    id: s.id,
+    label: s.name,
+    type: "standard"
   }))
 ];
 
@@ -63,6 +68,10 @@ const edges: GraphEdge[] = dataset.relationships.map((r): GraphEdge => ({
       <div style="display: flex; align-items: center; gap: var(--space-2);">
         <span style="width: 14px; height: 14px; background: #92400e; border-radius: 50%; display: inline-block;" aria-hidden="true"></span>
         Emerging project
+      </div>
+      <div style="display: flex; align-items: center; gap: var(--space-2);">
+        <span style="width: 14px; height: 14px; background: #7c3aed; border-radius: 50%; display: inline-block;" aria-hidden="true"></span>
+        Standard or framework
       </div>
     </div>
 

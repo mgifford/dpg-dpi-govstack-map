@@ -17,9 +17,9 @@
     "test": "vitest run",
     "audit:axe": "node scripts/audit/axe.mjs",
     "audit:pa11y": "pa11y-ci --config .pa11yci.json",
-    "audit:lighthouse": "lhci autorun --config .lighthouserc.cjs",
-    "audit:links": "linkinator http://127.0.0.1:4321 --recurse --silent --skip '^https?://(?!127\\.0\\.0\\.1:4321)'",
-    "audit:site": "start-server-and-test 'npm run preview -- --host 127.0.0.1 --port 4321' http://127.0.0.1:4321 'npm run audit:axe && npm run audit:pa11y && npm run audit:lighthouse && npm run audit:links'"
+    "audit:lighthouse": "CHROME_PATH=$(node -e \"console.log(require('playwright').chromium.executablePath())\") lhci autorun --config .lighthouserc.cjs",
+    "audit:links": "linkinator http://127.0.0.1:4321/dpg-dpi-govstack-map --recurse --silent --skip '^https?://(?!127\\.0\\.0\\.1:4321)'",
+    "audit:site": "start-server-and-test 'npm run preview -- --host 127.0.0.1 --port 4321' http://127.0.0.1:4321/dpg-dpi-govstack-map 'npm run audit:axe && npm run audit:pa11y && npm run audit:lighthouse && npm run audit:links'"
   },
   "engines": {
     "node": ">=22.12.0"

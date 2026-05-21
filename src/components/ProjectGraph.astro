@@ -8,7 +8,7 @@
 export interface GraphNode {
   id: string;
   label: string;
-  type: "project" | "organization";
+  type: "project" | "organization" | "standard";
   maturity?: string;
 }
 
@@ -26,7 +26,6 @@ export interface Props {
 }
 
 const { nodes, edges, height = "560px" } = Astro.props;
-const graphJson = JSON.stringify({ nodes, edges });
 ---
 
 <!-- Skip graph -->
@@ -95,7 +94,25 @@ const graphJson = JSON.stringify({ nodes, edges });
   </section>
 </div>
 
-<script define:vars={{ graphJson }}>
+<script is:inline type="application/json" id="graph-data">{JSON.stringify({ nodes, edges })}</script>
+
+<script>
+  import cytoscape from "cytoscape";
+
+  type RuntimeGraphNode = {
+    id: string;
+    label: string;
+    type: "project" | "organization" | "standard";
+    maturity?: string;
+  };
+
+  type RuntimeGraphEdge = {
+    source: string;
+    target: string;
+    type: string;
+    strength: number;
+  };
+
 (function () {
   // Tab switching
   const tabVisual = document.getElementById("tab-graph-visual");
@@ -103,8 +120,9 @@ const graphJson = JSON.stringify({ nodes, edges });
   const visualPanel = document.getElementById("graph-visual-panel");
   const listPanel = document.getElementById("graph-list-panel");
 
-  function showTab(active) {
+  function showTab(active: "visual" | "list") {
     const isVisual = active === "visual";
+    if (!tabVisual || !tabListBtn || !visualPanel || !listPanel) return;
     tabVisual.setAttribute("aria-selected", String(isVisual));
     tabListBtn.setAttribute("aria-selected", String(!isVisual));
     visualPanel.hidden = !isVisual;
@@ -113,24 +131,21 @@ const graphJson = JSON.stringify({ nodes, edges });
   tabVisual?.addEventListener("click", () => showTab("visual"));
   tabListBtn?.addEventListener("click", () => showTab("list"));
   document.getElementById("graph-tabs")?.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowRight") { tabListBtn.focus(); showTab("list"); }
-    if (e.key === "ArrowLeft")  { tabVisual.focus();  showTab("visual"); }
+    if (e.key === "ArrowRight" && tabListBtn) { tabListBtn.focus(); showTab("list"); }
+    if (e.key === "ArrowLeft" && tabVisual)  { tabVisual.focus();  showTab("visual"); }
   });
 
   // Reduce motion check
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Load Cytoscape.js
-  const script = document.createElement("script");
-  script.src = "https://unpkg.com/cytoscape@3.29.2/dist/cytoscape.min.js";
-  script.onload = initGraph;
-  document.head.appendChild(script);
+  initGraph();
 
   function initGraph() {
-    const { nodes, edges } = JSON.parse(graphJson);
+    const graphData = document.getElementById("graph-data")?.textContent ?? "{\"nodes\":[],\"edges\":[]}";
+    const { nodes, edges } = JSON.parse(graphData) as { nodes: RuntimeGraphNode[]; edges: RuntimeGraphEdge[] };
     const container = document.getElementById("atlas-graph");
     const srSelected = document.getElementById("graph-selected");
-    if (!container || typeof cytoscape === "undefined") return;
+    if (!container) return;
 
     const isDark = document.documentElement.getAttribute("data-theme") === "dark";
 
@@ -145,7 +160,7 @@ const graphJson = JSON.stringify({ nodes, edges });
     const cy = cytoscape({
       container,
       elements: [
-        ...nodes.map((n) => ({
+        ...nodes.map((n: RuntimeGraphNode) => ({
           data: {
             id: n.id,
             label: n.label,
@@ -153,7 +168,7 @@ const graphJson = JSON.stringify({ nodes, edges });
             maturity: n.maturity ?? ""
           }
         })),
-        ...edges.map((e, i) => ({
+        ...edges.map((e: RuntimeGraphEdge, i: number) => ({
           data: {
             id: `e${i}`,
             source: e.source,
@@ -171,16 +186,18 @@ const graphJson = JSON.stringify({ nodes, edges });
             "font-size": "11px",
             "text-valign": "bottom",
             "text-halign": "center",
-            "text-margin-y": "4px",
-            "background-color": (ele) => {
+            "text-margin-y": 4,
+            "background-color": (ele: any) => {
               if (ele.data("type") === "organization") return isDark ? "#58a6ff" : "#005fcc";
-              const c = maturityColors[ele.data("maturity")] ?? "#666";
+              if (ele.data("type") === "standard") return isDark ? "#a78bfa" : "#7c3aed";
+              const maturity = ele.data("maturity") as keyof typeof maturityColors;
+              const c = maturityColors[maturity] ?? "#666";
               return c;
             },
             "border-width": 2,
             "border-color": isDark ? "#30363d" : "#fff",
-            width: (ele) => ele.data("type") === "organization" ? 30 : 22,
-            height: (ele) => ele.data("type") === "organization" ? 30 : 22,
+            width: (ele: any) => ele.data("type") === "organization" ? 30 : ele.data("type") === "standard" ? 26 : 22,
+            height: (ele: any) => ele.data("type") === "organization" ? 30 : ele.data("type") === "standard" ? 26 : 22,
             color: isDark ? "#e6edf3" : "#1a1a2e"
           }
         },
@@ -194,7 +211,7 @@ const graphJson = JSON.stringify({ nodes, edges });
         {
           selector: "edge",
           style: {
-            width: (ele) => Math.max(1, ele.data("strength") * 4),
+            width: (ele: any) => Math.max(1, ele.data("strength") * 4),
             "line-color": isDark ? "#30363d" : "#d0d7de",
             "target-arrow-color": isDark ? "#30363d" : "#d0d7de",
             "target-arrow-shape": "triangle",
@@ -245,18 +262,20 @@ const graphJson = JSON.stringify({ nodes, edges });
     container.addEventListener("keydown", (e) => {
       const selected = cy.$("node:selected");
       const allNodes = cy.nodes();
-      const idx = selected.length > 0 ? allNodes.indexOf(selected[0]) : -1;
+      const nodeList = allNodes.toArray();
+      if (nodeList.length === 0) return;
+      const idx = selected.length > 0 ? nodeList.findIndex((node) => node.id() === selected[0].id()) : -1;
 
       if (e.key === "ArrowRight" || e.key === "Tab") {
         e.preventDefault();
-        const next = allNodes[(idx + 1) % allNodes.length];
+        const next = nodeList[(idx + 1) % nodeList.length];
         cy.elements().unselect();
         next.select();
         cy.animate({ center: { eles: next }, zoom: 2 }, { duration: prefersReducedMotion ? 0 : 300 });
       }
       if (e.key === "ArrowLeft") {
         e.preventDefault();
-        const prev = allNodes[(idx - 1 + allNodes.length) % allNodes.length];
+        const prev = nodeList[(idx - 1 + nodeList.length) % nodeList.length];
         cy.elements().unselect();
         prev.select();
         cy.animate({ center: { eles: prev }, zoom: 2 }, { duration: prefersReducedMotion ? 0 : 300 });

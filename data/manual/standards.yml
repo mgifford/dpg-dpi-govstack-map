@@ -33,3 +33,39 @@
   related_projects: [mojaloop]
   tags: [payments, finance, standards]
   provenance: {}
+
+- id: wcag-2-2
+  name: WCAG 2.2 for the Web
+  description: W3C accessibility standard for making web content more perceivable, operable, understandable, and robust.
+  website: https://www.w3.org/TR/WCAG22/
+  steward_organizations: [w3c]
+  related_projects: [drupal]
+  tags: [accessibility, web, standards, w3c]
+  provenance: {}
+
+- id: privacy-principles
+  name: W3C Privacy Principles
+  description: W3C guidance for privacy-preserving web architecture and product design, relevant to identity, health, and public-service systems.
+  website: https://www.w3.org/TR/privacy-principles/
+  steward_organizations: [w3c]
+  related_projects: []
+  tags: [privacy, web, governance, w3c]
+  provenance: {}
+
+- id: web-sustainability-guidelines
+  name: W3C Web Sustainability Guidelines
+  description: W3C guidance for building web experiences that reduce environmental impact and strengthen long-term sustainability practices.
+  website: https://www.w3.org/TR/web-sustainability-guidelines/
+  steward_organizations: [w3c]
+  related_projects: []
+  tags: [sustainability, web, governance, w3c]
+  provenance: {}
+
+- id: un-sdgs
+  name: UN Sustainable Development Goals
+  description: Global development framework frequently used to describe the public-interest outcomes and policy relevance of digital public goods.
+  website: https://sdgs.un.org/goals
+  steward_organizations: [united-nations]
+  related_projects: [drupal, mosip, dhis2, openmrs, openspp, ckan, dkan, mojaloop]
+  tags: [sdg, policy-framework, public-interest, united-nations]
+  provenance: {}

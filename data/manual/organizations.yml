@@ -189,3 +189,19 @@
   linkedin: ""
   governance_role: standards-steward
   provenance: {}
+
+- id: united-nations
+  name: United Nations
+  type: intergovernmental
+  website: https://www.un.org
+  country: International
+  city: New York
+  coordinates: { lat: 40.7484, lon: -73.968 }
+  associated_projects: []
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: ""
+  linkedin: ""
+  governance_role: framework-steward
+  provenance: {}

@@ -147,6 +147,13 @@
       "type": "organization",
       "org_type": "standards-body",
       "country": "Switzerland"
+    },
+    {
+      "id": "united-nations",
+      "label": "United Nations",
+      "type": "organization",
+      "org_type": "intergovernmental",
+      "country": "International"
     }
   ],
   "edges": [

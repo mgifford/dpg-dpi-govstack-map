@@ -8,13 +8,13 @@
     }
   },
   "urls": [
-    "http://127.0.0.1:4321/",
-    "http://127.0.0.1:4321/projects/",
-    "http://127.0.0.1:4321/organizations/",
-    "http://127.0.0.1:4321/compare/",
-    "http://127.0.0.1:4321/map/",
-    "http://127.0.0.1:4321/deployments/",
-    "http://127.0.0.1:4321/standards/",
-    "http://127.0.0.1:4321/accessibility/"
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/projects/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/organizations/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/compare/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/map/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/deployments/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/standards/",
+    "http://127.0.0.1:4321/dpg-dpi-govstack-map/accessibility/"
   ]
 }
