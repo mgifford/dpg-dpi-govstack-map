@@ -270,6 +270,167 @@
         "popup_label": "United Nations — New York, International",
         "popup_detail": "Projects: "
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7536,
+          59.437
+        ]
+      },
+      "properties": {
+        "id": "niis",
+        "name": "Nordic Institute for Interoperability Solutions",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "associated_projects": [
+          "x-road"
+        ],
+        "popup_label": "Nordic Institute for Interoperability Solutions — Tallinn, Estonia",
+        "popup_detail": "Projects: X-Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3832,
+          43.6532
+        ]
+      },
+      "properties": {
+        "id": "viamo",
+        "name": "Viamo",
+        "entity_type": "organization",
+        "org_type": "company",
+        "country": "Canada",
+        "city": "Toronto",
+        "associated_projects": [
+          "rapidpro"
+        ],
+        "popup_label": "Viamo — Toronto, Canada",
+        "popup_detail": "Projects: RapidPro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "properties": {
+        "id": "bahmni-coalition",
+        "name": "Bahmni Coalition",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "India",
+        "city": "Bengaluru",
+        "associated_projects": [
+          "bahmni"
+        ],
+        "popup_label": "Bahmni Coalition — Bengaluru, India",
+        "popup_detail": "Projects: Bahmni"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "properties": {
+        "id": "egov-foundation",
+        "name": "eGov Foundation",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "India",
+        "city": "Bengaluru",
+        "associated_projects": [
+          "digit"
+        ],
+        "popup_label": "eGov Foundation — Bengaluru, India",
+        "popup_detail": "Projects: DIGIT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "properties": {
+        "id": "ekstep-foundation",
+        "name": "EkStep Foundation",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "India",
+        "city": "Bengaluru",
+        "associated_projects": [
+          "sunbird"
+        ],
+        "popup_label": "EkStep Foundation — Bengaluru, India",
+        "popup_detail": "Projects: Sunbird"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": "unesco",
+        "name": "UNESCO",
+        "entity_type": "organization",
+        "org_type": "intergovernmental",
+        "country": "International",
+        "city": "Paris",
+        "associated_projects": [
+          "openemis"
+        ],
+        "popup_label": "UNESCO — Paris, International",
+        "popup_detail": "Projects: OpenEMIS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ]
+      },
+      "properties": {
+        "id": "openlmis-initiative",
+        "name": "OpenLMIS Initiative",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "United States",
+        "city": "Seattle",
+        "associated_projects": [
+          "openlmis"
+        ],
+        "popup_label": "OpenLMIS Initiative — Seattle, United States",
+        "popup_detail": "Projects: OpenLMIS"
+      }
     }
   ]
 }

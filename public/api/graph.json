@@ -65,6 +65,86 @@
       "activity": 80
     },
     {
+      "id": "x-road",
+      "label": "X-Road",
+      "type": "project",
+      "category": "Interoperability",
+      "maturity": "mature",
+      "activity": 84
+    },
+    {
+      "id": "opencrvs",
+      "label": "OpenCRVS",
+      "type": "project",
+      "category": "Civil Registration",
+      "maturity": "growing",
+      "activity": 71
+    },
+    {
+      "id": "openimis",
+      "label": "openIMIS",
+      "type": "project",
+      "category": "Health Financing",
+      "maturity": "growing",
+      "activity": 69
+    },
+    {
+      "id": "rapidpro",
+      "label": "RapidPro",
+      "type": "project",
+      "category": "Citizen Engagement",
+      "maturity": "mature",
+      "activity": 83
+    },
+    {
+      "id": "bahmni",
+      "label": "Bahmni",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "mature",
+      "activity": 72
+    },
+    {
+      "id": "digit",
+      "label": "DIGIT",
+      "type": "project",
+      "category": "Government Platforms",
+      "maturity": "growing",
+      "activity": 77
+    },
+    {
+      "id": "sunbird",
+      "label": "Sunbird",
+      "type": "project",
+      "category": "Education",
+      "maturity": "growing",
+      "activity": 74
+    },
+    {
+      "id": "openg2p",
+      "label": "OpenG2P",
+      "type": "project",
+      "category": "Social Protection",
+      "maturity": "growing",
+      "activity": 68
+    },
+    {
+      "id": "openemis",
+      "label": "OpenEMIS",
+      "type": "project",
+      "category": "Education",
+      "maturity": "growing",
+      "activity": 63
+    },
+    {
+      "id": "openlmis",
+      "label": "OpenLMIS",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "mature",
+      "activity": 76
+    },
+    {
       "id": "drupal-association",
       "label": "Drupal Association",
       "type": "organization",
@@ -154,6 +234,76 @@
       "type": "organization",
       "org_type": "intergovernmental",
       "country": "International"
+    },
+    {
+      "id": "niis",
+      "label": "Nordic Institute for Interoperability Solutions",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "Estonia"
+    },
+    {
+      "id": "opencrvs",
+      "label": "OpenCRVS",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "International"
+    },
+    {
+      "id": "openimis-initiative",
+      "label": "openIMIS Initiative",
+      "type": "organization",
+      "org_type": "consortium",
+      "country": "International"
+    },
+    {
+      "id": "viamo",
+      "label": "Viamo",
+      "type": "organization",
+      "org_type": "company",
+      "country": "Canada"
+    },
+    {
+      "id": "bahmni-coalition",
+      "label": "Bahmni Coalition",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "India"
+    },
+    {
+      "id": "egov-foundation",
+      "label": "eGov Foundation",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "India"
+    },
+    {
+      "id": "ekstep-foundation",
+      "label": "EkStep Foundation",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "India"
+    },
+    {
+      "id": "openg2p-foundation",
+      "label": "OpenG2P",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "International"
+    },
+    {
+      "id": "unesco",
+      "label": "UNESCO",
+      "type": "organization",
+      "org_type": "intergovernmental",
+      "country": "International"
+    },
+    {
+      "id": "openlmis-initiative",
+      "label": "OpenLMIS Initiative",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "United States"
     }
   ],
   "edges": [
@@ -216,6 +366,120 @@
       "target": "dhis2",
       "type": "maintained_by",
       "strength": 0.92
+    },
+    {
+      "source": "niis",
+      "target": "x-road",
+      "type": "governed_by",
+      "strength": 0.95
+    },
+    {
+      "source": "opencrvs",
+      "target": "opencrvs",
+      "type": "governed_by",
+      "strength": 0.88
+    },
+    {
+      "source": "openimis-initiative",
+      "target": "openimis",
+      "type": "governed_by",
+      "strength": 0.87
+    },
+    {
+      "source": "viamo",
+      "target": "rapidpro",
+      "type": "maintained_by",
+      "strength": 0.84
+    },
+    {
+      "source": "bahmni-coalition",
+      "target": "bahmni",
+      "type": "governed_by",
+      "strength": 0.85
+    },
+    {
+      "source": "egov-foundation",
+      "target": "digit",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "ekstep-foundation",
+      "target": "sunbird",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "openg2p-foundation",
+      "target": "openg2p",
+      "type": "governed_by",
+      "strength": 0.89
+    },
+    {
+      "source": "unesco",
+      "target": "openemis",
+      "type": "governed_by",
+      "strength": 0.88
+    },
+    {
+      "source": "openlmis-initiative",
+      "target": "openlmis",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "x-road",
+      "target": "mosip",
+      "type": "aligned_with",
+      "strength": 0.73
+    },
+    {
+      "source": "opencrvs",
+      "target": "mosip",
+      "type": "integrates_with",
+      "strength": 0.82
+    },
+    {
+      "source": "openimis",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.84
+    },
+    {
+      "source": "rapidpro",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.78
+    },
+    {
+      "source": "bahmni",
+      "target": "openmrs",
+      "type": "implements",
+      "strength": 0.96
+    },
+    {
+      "source": "digit",
+      "target": "sunbird",
+      "type": "aligned_with",
+      "strength": 0.75
+    },
+    {
+      "source": "openg2p",
+      "target": "openspp",
+      "type": "aligned_with",
+      "strength": 0.85
+    },
+    {
+      "source": "openemis",
+      "target": "sunbird",
+      "type": "aligned_with",
+      "strength": 0.72
+    },
+    {
+      "source": "openlmis",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.81
     }
   ]
 }

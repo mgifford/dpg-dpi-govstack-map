@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T00:07:17.396Z",
+  "generated_at": "2026-05-21T00:35:38.642Z",
   "version": "0.2.0",
   "sources": [
     "manual-seed",
@@ -1134,6 +1134,1353 @@
       "procurement_readiness": "mature",
       "provenance": {},
       "last_updated": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "x-road",
+      "name": "X-Road",
+      "description": "Open source data exchange layer used by governments to connect registries, agencies, and trusted public-sector services across institutional boundaries.",
+      "category": "Interoperability",
+      "subcategory": "Data Exchange",
+      "project_type": "DPG",
+      "categories": [
+        "Interoperability",
+        "DPI"
+      ],
+      "subcategories": [
+        "Data Exchange"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "interoperability",
+        "registries",
+        "government",
+        "secure-data-exchange"
+      ],
+      "website": "https://x-road.global",
+      "project_page": "https://x-road.global",
+      "repository_urls": [
+        "https://github.com/nordic-institute/X-Road"
+      ],
+      "documentation_urls": [
+        "https://docs.x-road.global"
+      ],
+      "licenses": [
+        "MIT"
+      ],
+      "governance_model": "foundation",
+      "funding_model": "public",
+      "standards_alignment": [
+        "OpenAPI",
+        "X-Road protocol"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "deployment_countries": [
+        "Estonia",
+        "Finland",
+        "Iceland",
+        "Faroe Islands"
+      ],
+      "steward_organizations": [
+        "niis"
+      ],
+      "maintainers": [
+        "NIIS engineering team"
+      ],
+      "related_projects": [
+        "mosip",
+        "digit"
+      ],
+      "sdgs": [
+        "SDG-9",
+        "SDG-16"
+      ],
+      "dpi_domains": [
+        "interoperability"
+      ],
+      "maturity_level": "mature",
+      "sustainability_score": 88,
+      "activity_score": 84,
+      "ecosystem_score": 90,
+      "accessibility_score": 62,
+      "community_health": {
+        "commits_last_12_months": 1860,
+        "contributors_last_12_months": 68,
+        "issue_closure_rate": 0.79,
+        "median_issue_response_hours": 26,
+        "releases_last_12_months": 5,
+        "contributor_diversity_index": 0.67,
+        "governance_maturity": 90,
+        "documentation_quality": 86,
+        "onboarding_quality": 74,
+        "dependency_freshness": 82,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 7.4
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 84,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 90,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 88,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 62,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 88,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 79,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 86,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "leading",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "opencrvs",
+      "name": "OpenCRVS",
+      "description": "Open source civil registration platform for governments managing birth, death, and vital statistics workflows as national digital public services.",
+      "category": "Civil Registration",
+      "subcategory": "Vital Statistics",
+      "project_type": "DPG",
+      "categories": [
+        "Civil Registration",
+        "DPI"
+      ],
+      "subcategories": [
+        "Vital Statistics"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "civil-registration",
+        "identity",
+        "government",
+        "crvs"
+      ],
+      "website": "https://www.opencrvs.org",
+      "project_page": "https://www.opencrvs.org",
+      "repository_urls": [
+        "https://github.com/opencrvs/opencrvs-core"
+      ],
+      "documentation_urls": [
+        "https://documentation.opencrvs.org"
+      ],
+      "licenses": [
+        "MPL-2.0"
+      ],
+      "governance_model": "community",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "OpenAPI",
+        "HL7 FHIR"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "deployment_countries": [
+        "Sierra Leone",
+        "Bangladesh",
+        "Rwanda"
+      ],
+      "steward_organizations": [
+        "opencrvs"
+      ],
+      "maintainers": [
+        "OpenCRVS maintainers"
+      ],
+      "related_projects": [
+        "mosip",
+        "openg2p"
+      ],
+      "sdgs": [
+        "SDG-16",
+        "SDG-3"
+      ],
+      "dpi_domains": [
+        "civil-registration",
+        "digital-identity"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 74,
+      "activity_score": 71,
+      "ecosystem_score": 79,
+      "accessibility_score": 58,
+      "community_health": {
+        "commits_last_12_months": 980,
+        "contributors_last_12_months": 36,
+        "issue_closure_rate": 0.7,
+        "median_issue_response_hours": 34,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.58,
+        "governance_maturity": 76,
+        "documentation_quality": 80,
+        "onboarding_quality": 71,
+        "dependency_freshness": 73,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.5
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 71,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 76,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 74,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 58,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 74,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 70,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 80,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "openimis",
+      "name": "openIMIS",
+      "description": "Open source health financing and insurance management platform for governments administering entitlement, enrollment, and claims workflows.",
+      "category": "Health Financing",
+      "subcategory": "Insurance Management",
+      "project_type": "DPG",
+      "categories": [
+        "Health Financing",
+        "DPI"
+      ],
+      "subcategories": [
+        "Insurance Management"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "health-financing",
+        "insurance",
+        "claims",
+        "government"
+      ],
+      "website": "https://openimis.org",
+      "project_page": "https://openimis.org",
+      "repository_urls": [
+        "https://github.com/openimis/openimis-fe_js"
+      ],
+      "documentation_urls": [],
+      "licenses": [
+        "AGPL-3.0-only"
+      ],
+      "governance_model": "consortium",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "FHIR",
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [
+        "OpenHIE"
+      ],
+      "deployment_countries": [
+        "Nepal",
+        "Tanzania",
+        "Cameroon"
+      ],
+      "steward_organizations": [
+        "openimis-initiative"
+      ],
+      "maintainers": [
+        "openIMIS community"
+      ],
+      "related_projects": [
+        "openmrs",
+        "dhis2",
+        "openlmis"
+      ],
+      "sdgs": [
+        "SDG-3"
+      ],
+      "dpi_domains": [
+        "health"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 76,
+      "activity_score": 69,
+      "ecosystem_score": 75,
+      "accessibility_score": 54,
+      "community_health": {
+        "commits_last_12_months": 890,
+        "contributors_last_12_months": 29,
+        "issue_closure_rate": 0.68,
+        "median_issue_response_hours": 39,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.57,
+        "governance_maturity": 74,
+        "documentation_quality": 77,
+        "onboarding_quality": 69,
+        "dependency_freshness": 71,
+        "security_advisories_open": 1,
+        "openssf_scorecard": 6.1
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 69,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 74,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 76,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 54,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 76,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 85,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 68,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 77,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "rapidpro",
+      "name": "RapidPro",
+      "description": "Open source workflow engine for large-scale messaging, case flows, and citizen engagement used in public health and social programs.",
+      "category": "Citizen Engagement",
+      "subcategory": "Messaging Workflows",
+      "project_type": "DPG",
+      "categories": [
+        "Citizen Engagement",
+        "Civic Technology"
+      ],
+      "subcategories": [
+        "Messaging Workflows"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "messaging",
+        "workflows",
+        "health",
+        "outreach"
+      ],
+      "website": "https://rapidpro.io",
+      "project_page": "https://rapidpro.io",
+      "repository_urls": [
+        "https://github.com/rapidpro/rapidpro"
+      ],
+      "documentation_urls": [
+        "https://rapidpro.github.io/rapidpro/"
+      ],
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "governance_model": "company-led",
+      "funding_model": "services",
+      "standards_alignment": [
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [
+        "OpenHIE"
+      ],
+      "deployment_countries": [
+        "Rwanda",
+        "Uganda",
+        "Zambia",
+        "Malawi"
+      ],
+      "steward_organizations": [
+        "viamo"
+      ],
+      "maintainers": [
+        "RapidPro maintainers"
+      ],
+      "related_projects": [
+        "dhis2",
+        "openmrs"
+      ],
+      "sdgs": [
+        "SDG-3",
+        "SDG-5"
+      ],
+      "dpi_domains": [
+        "citizen-communication",
+        "health"
+      ],
+      "maturity_level": "mature",
+      "sustainability_score": 78,
+      "activity_score": 83,
+      "ecosystem_score": 80,
+      "accessibility_score": 57,
+      "community_health": {
+        "commits_last_12_months": 1430,
+        "contributors_last_12_months": 44,
+        "issue_closure_rate": 0.75,
+        "median_issue_response_hours": 28,
+        "releases_last_12_months": 6,
+        "contributor_diversity_index": 0.6,
+        "governance_maturity": 73,
+        "documentation_quality": 81,
+        "onboarding_quality": 75,
+        "dependency_freshness": 78,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.9
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 83,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 73,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 78,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 57,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 78,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 40,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 75,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 81,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "bahmni",
+      "name": "Bahmni",
+      "description": "Open source hospital and health systems distribution built on OpenMRS for public-sector clinical, laboratory, and hospital workflows.",
+      "category": "Health Information",
+      "subcategory": "Hospital Information System",
+      "project_type": "GovTech",
+      "categories": [
+        "Health Information",
+        "GovTech"
+      ],
+      "subcategories": [
+        "Hospital Information System"
+      ],
+      "project_types": [
+        "GovTech"
+      ],
+      "tags": [
+        "hospital",
+        "emr",
+        "health",
+        "interoperability"
+      ],
+      "website": "https://www.bahmni.org",
+      "project_page": "https://www.bahmni.org",
+      "repository_urls": [
+        "https://github.com/Bahmni/bahmni-standard"
+      ],
+      "documentation_urls": [],
+      "licenses": [
+        "AGPL-3.0-only"
+      ],
+      "governance_model": "community",
+      "funding_model": "mixed",
+      "standards_alignment": [
+        "FHIR",
+        "HL7"
+      ],
+      "interoperability_frameworks": [
+        "OpenHIE"
+      ],
+      "deployment_countries": [
+        "India",
+        "Nepal",
+        "Bangladesh"
+      ],
+      "steward_organizations": [
+        "bahmni-coalition"
+      ],
+      "maintainers": [
+        "Bahmni contributors"
+      ],
+      "related_projects": [
+        "openmrs",
+        "dhis2"
+      ],
+      "sdgs": [
+        "SDG-3"
+      ],
+      "dpi_domains": [
+        "health"
+      ],
+      "maturity_level": "mature",
+      "sustainability_score": 77,
+      "activity_score": 72,
+      "ecosystem_score": 74,
+      "accessibility_score": 52,
+      "community_health": {
+        "commits_last_12_months": 910,
+        "contributors_last_12_months": 35,
+        "issue_closure_rate": 0.7,
+        "median_issue_response_hours": 37,
+        "releases_last_12_months": 3,
+        "contributor_diversity_index": 0.55,
+        "governance_maturity": 75,
+        "documentation_quality": 76,
+        "onboarding_quality": 68,
+        "dependency_freshness": 69,
+        "security_advisories_open": 1,
+        "openssf_scorecard": 6
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 72,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 75,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 77,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 52,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 77,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 85,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 70,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 76,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "digit",
+      "name": "DIGIT",
+      "description": "Modular digital public infrastructure stack for government service delivery, registries, workflow orchestration, and municipal operations.",
+      "category": "Government Platforms",
+      "subcategory": "Service Delivery Stack",
+      "project_type": "GovTech",
+      "categories": [
+        "Government Platforms",
+        "DPI"
+      ],
+      "subcategories": [
+        "Service Delivery Stack"
+      ],
+      "project_types": [
+        "GovTech"
+      ],
+      "tags": [
+        "service-delivery",
+        "municipal",
+        "workflow",
+        "registries"
+      ],
+      "website": "https://www.digit.org",
+      "project_page": "https://www.digit.org",
+      "repository_urls": [
+        "https://github.com/egovernments/DIGIT-OSS"
+      ],
+      "documentation_urls": [
+        "https://docs.digit.org"
+      ],
+      "licenses": [
+        "MIT"
+      ],
+      "governance_model": "foundation",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "OpenAPI",
+        "JSON Schema"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "deployment_countries": [
+        "India"
+      ],
+      "steward_organizations": [
+        "egov-foundation"
+      ],
+      "maintainers": [
+        "DIGIT maintainers"
+      ],
+      "related_projects": [
+        "x-road",
+        "sunbird",
+        "openg2p"
+      ],
+      "sdgs": [
+        "SDG-11",
+        "SDG-16"
+      ],
+      "dpi_domains": [
+        "government-service-delivery"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 79,
+      "activity_score": 77,
+      "ecosystem_score": 81,
+      "accessibility_score": 60,
+      "community_health": {
+        "commits_last_12_months": 1610,
+        "contributors_last_12_months": 58,
+        "issue_closure_rate": 0.74,
+        "median_issue_response_hours": 31,
+        "releases_last_12_months": 5,
+        "contributor_diversity_index": 0.63,
+        "governance_maturity": 82,
+        "documentation_quality": 84,
+        "onboarding_quality": 76,
+        "dependency_freshness": 79,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 7
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 77,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 82,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 79,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 12,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 60,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 79,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 30,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 74,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 84,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "emerging",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "sunbird",
+      "name": "Sunbird",
+      "description": "Open source digital learning and public education platform used to build national and state-scale learning ecosystems.",
+      "category": "Education",
+      "subcategory": "Digital Learning Platform",
+      "project_type": "DPG",
+      "categories": [
+        "Education",
+        "DPI"
+      ],
+      "subcategories": [
+        "Digital Learning Platform"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "education",
+        "learning",
+        "content",
+        "public-sector"
+      ],
+      "website": "https://sunbird.org",
+      "project_page": "https://sunbird.org",
+      "repository_urls": [
+        "https://github.com/Sunbird-Ed/SunbirdEd"
+      ],
+      "documentation_urls": [],
+      "licenses": [
+        "MIT"
+      ],
+      "governance_model": "foundation",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "OpenAPI",
+        "LTI"
+      ],
+      "interoperability_frameworks": [
+        "GovStack"
+      ],
+      "deployment_countries": [
+        "India",
+        "Sierra Leone"
+      ],
+      "steward_organizations": [
+        "ekstep-foundation"
+      ],
+      "maintainers": [
+        "Sunbird community"
+      ],
+      "related_projects": [
+        "digit",
+        "openemis"
+      ],
+      "sdgs": [
+        "SDG-4"
+      ],
+      "dpi_domains": [
+        "education"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 76,
+      "activity_score": 74,
+      "ecosystem_score": 78,
+      "accessibility_score": 59,
+      "community_health": {
+        "commits_last_12_months": 1190,
+        "contributors_last_12_months": 41,
+        "issue_closure_rate": 0.72,
+        "median_issue_response_hours": 36,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.59,
+        "governance_maturity": 80,
+        "documentation_quality": 79,
+        "onboarding_quality": 72,
+        "dependency_freshness": 75,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.6
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 74,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 80,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 76,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 24,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 59,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 76,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 40,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 72,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 79,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "openg2p",
+      "name": "OpenG2P",
+      "description": "Open source building blocks for digital social protection and government-to-person payment programs, registries, and beneficiary management.",
+      "category": "Social Protection",
+      "subcategory": "G2P Delivery",
+      "project_type": "GovTech",
+      "categories": [
+        "Social Protection",
+        "DPI"
+      ],
+      "subcategories": [
+        "G2P Delivery"
+      ],
+      "project_types": [
+        "GovTech"
+      ],
+      "tags": [
+        "social-protection",
+        "g2p",
+        "registries",
+        "payments"
+      ],
+      "website": "https://www.openg2p.org",
+      "project_page": "https://www.openg2p.org",
+      "repository_urls": [
+        "https://github.com/OpenG2P/openg2p-registry"
+      ],
+      "documentation_urls": [
+        "https://docs.openg2p.org"
+      ],
+      "licenses": [
+        "MPL-2.0"
+      ],
+      "governance_model": "foundation",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "OpenAPI",
+        "G2P Connect"
+      ],
+      "interoperability_frameworks": [
+        "G2P Connect",
+        "GovStack"
+      ],
+      "deployment_countries": [
+        "Sierra Leone",
+        "Togo"
+      ],
+      "steward_organizations": [
+        "openg2p-foundation"
+      ],
+      "maintainers": [
+        "OpenG2P maintainers"
+      ],
+      "related_projects": [
+        "openspp",
+        "mojaloop",
+        "mosip"
+      ],
+      "sdgs": [
+        "SDG-1",
+        "SDG-10",
+        "SDG-16"
+      ],
+      "dpi_domains": [
+        "social-protection",
+        "digital-payments"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 73,
+      "activity_score": 68,
+      "ecosystem_score": 77,
+      "accessibility_score": 55,
+      "community_health": {
+        "commits_last_12_months": 820,
+        "contributors_last_12_months": 27,
+        "issue_closure_rate": 0.69,
+        "median_issue_response_hours": 41,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.56,
+        "governance_maturity": 77,
+        "documentation_quality": 80,
+        "onboarding_quality": 71,
+        "dependency_freshness": 72,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.2
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 68,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 77,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 73,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 24,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 55,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 73,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 80,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 40,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 69,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 80,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "openemis",
+      "name": "OpenEMIS",
+      "description": "Open source education management information system designed for ministries of education managing school data, planning, and administrative reporting.",
+      "category": "Education",
+      "subcategory": "Education Management Information System",
+      "project_type": "DPG",
+      "categories": [
+        "Education",
+        "GovTech"
+      ],
+      "subcategories": [
+        "Education Management Information System"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "education",
+        "emis",
+        "ministries",
+        "data"
+      ],
+      "website": "https://www.openemis.org",
+      "project_page": "https://www.openemis.org",
+      "repository_urls": [
+        "https://github.com/open-emis/openemis-core"
+      ],
+      "documentation_urls": [],
+      "licenses": [
+        "GPL-3.0-only"
+      ],
+      "governance_model": "intergovernmental",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [],
+      "deployment_countries": [
+        "Jordan",
+        "Palestine",
+        "Maldives"
+      ],
+      "steward_organizations": [
+        "unesco"
+      ],
+      "maintainers": [
+        "OpenEMIS team"
+      ],
+      "related_projects": [
+        "sunbird"
+      ],
+      "sdgs": [
+        "SDG-4"
+      ],
+      "dpi_domains": [
+        "education"
+      ],
+      "maturity_level": "growing",
+      "sustainability_score": 71,
+      "activity_score": 63,
+      "ecosystem_score": 72,
+      "accessibility_score": 57,
+      "community_health": {
+        "commits_last_12_months": 520,
+        "contributors_last_12_months": 18,
+        "issue_closure_rate": 0.64,
+        "median_issue_response_hours": 46,
+        "releases_last_12_months": 3,
+        "contributor_diversity_index": 0.49,
+        "governance_maturity": 78,
+        "documentation_quality": 75,
+        "onboarding_quality": 65,
+        "dependency_freshness": 67,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 5.8
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 63,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 78,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 71,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 57,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 71,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 20,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 64,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 75,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "openlmis",
+      "name": "OpenLMIS",
+      "description": "Open source logistics management information system for public health supply chains, inventory visibility, and medicine availability workflows.",
+      "category": "Health Information",
+      "subcategory": "Supply Chain Management",
+      "project_type": "DPG",
+      "categories": [
+        "Health Information",
+        "DPI"
+      ],
+      "subcategories": [
+        "Supply Chain Management"
+      ],
+      "project_types": [
+        "DPG"
+      ],
+      "tags": [
+        "supply-chain",
+        "health",
+        "logistics",
+        "medicines"
+      ],
+      "website": "https://openlmis.org",
+      "project_page": "https://openlmis.org",
+      "repository_urls": [
+        "https://github.com/OpenLMIS/openlmis-ref-distro"
+      ],
+      "documentation_urls": [],
+      "licenses": [
+        "AGPL-3.0-only"
+      ],
+      "governance_model": "community",
+      "funding_model": "grant",
+      "standards_alignment": [
+        "FHIR",
+        "OpenAPI"
+      ],
+      "interoperability_frameworks": [
+        "OpenHIE"
+      ],
+      "deployment_countries": [
+        "Tanzania",
+        "Zambia",
+        "Mozambique"
+      ],
+      "steward_organizations": [
+        "openlmis-initiative"
+      ],
+      "maintainers": [
+        "OpenLMIS community"
+      ],
+      "related_projects": [
+        "openmrs",
+        "dhis2",
+        "openimis"
+      ],
+      "sdgs": [
+        "SDG-3"
+      ],
+      "dpi_domains": [
+        "health"
+      ],
+      "maturity_level": "mature",
+      "sustainability_score": 81,
+      "activity_score": 76,
+      "ecosystem_score": 79,
+      "accessibility_score": 56,
+      "community_health": {
+        "commits_last_12_months": 1320,
+        "contributors_last_12_months": 49,
+        "issue_closure_rate": 0.73,
+        "median_issue_response_hours": 33,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.62,
+        "governance_maturity": 79,
+        "documentation_quality": 81,
+        "onboarding_quality": 74,
+        "dependency_freshness": 76,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.7
+      },
+      "maturity_scores": {
+        "code": {
+          "score": 76,
+          "rationale": "Derived from activity metrics."
+        },
+        "governance": {
+          "score": 79,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 81,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 56,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 81,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 73,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 81,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "leading",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
     }
   ],
   "organizations": [
@@ -1427,6 +2774,232 @@
       "linkedin": "",
       "governance_role": "framework-steward",
       "provenance": {}
+    },
+    {
+      "id": "niis",
+      "name": "Nordic Institute for Interoperability Solutions",
+      "type": "nonprofit",
+      "website": "https://www.niis.org",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "coordinates": {
+        "lat": 59.437,
+        "lon": 24.7536
+      },
+      "associated_projects": [
+        "x-road"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "nordic-institute",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "opencrvs",
+      "name": "OpenCRVS",
+      "type": "nonprofit",
+      "website": "https://www.opencrvs.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "opencrvs"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opencrvs",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openimis-initiative",
+      "name": "openIMIS Initiative",
+      "type": "consortium",
+      "website": "https://openimis.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "openimis"
+      ],
+      "partnerships": [
+        "openlmis-initiative"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "openimis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "viamo",
+      "name": "Viamo",
+      "type": "company",
+      "website": "https://viamo.io",
+      "country": "Canada",
+      "city": "Toronto",
+      "coordinates": {
+        "lat": 43.6532,
+        "lon": -79.3832
+      },
+      "associated_projects": [
+        "rapidpro"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "rapidpro",
+      "linkedin": "",
+      "governance_role": "maintainer",
+      "provenance": {}
+    },
+    {
+      "id": "bahmni-coalition",
+      "name": "Bahmni Coalition",
+      "type": "nonprofit",
+      "website": "https://www.bahmni.org",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "bahmni"
+      ],
+      "partnerships": [
+        "openmrs-inc"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "Bahmni",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "egov-foundation",
+      "name": "eGov Foundation",
+      "type": "nonprofit",
+      "website": "https://www.egov.org.in",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "digit"
+      ],
+      "partnerships": [
+        "ekstep-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "egovernments",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "ekstep-foundation",
+      "name": "EkStep Foundation",
+      "type": "nonprofit",
+      "website": "https://ekstep.org",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "sunbird"
+      ],
+      "partnerships": [
+        "egov-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "Sunbird-Ed",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openg2p-foundation",
+      "name": "OpenG2P",
+      "type": "nonprofit",
+      "website": "https://www.openg2p.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "openg2p"
+      ],
+      "partnerships": [
+        "openspp-association",
+        "mojaloop-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenG2P",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "unesco",
+      "name": "UNESCO",
+      "type": "intergovernmental",
+      "website": "https://www.unesco.org",
+      "country": "International",
+      "city": "Paris",
+      "coordinates": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "associated_projects": [
+        "openemis"
+      ],
+      "partnerships": [
+        "united-nations"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "open-emis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openlmis-initiative",
+      "name": "OpenLMIS Initiative",
+      "type": "nonprofit",
+      "website": "https://openlmis.org",
+      "country": "United States",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 47.6062,
+        "lon": -122.3321
+      },
+      "associated_projects": [
+        "openlmis"
+      ],
+      "partnerships": [
+        "openimis-initiative"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenLMIS",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
     }
   ],
   "people": [],
@@ -1526,6 +3099,126 @@
       "confidence": 0.75,
       "source": "Mojaloop public case studies",
       "provenance": {}
+    },
+    {
+      "country": "Estonia",
+      "government": "Government of Estonia",
+      "ministry": "Cross-government digital services",
+      "project": "x-road",
+      "deployment_type": "secure data exchange layer",
+      "implementation_partner": "NIIS ecosystem",
+      "deployment_status": "active",
+      "confidence": 0.97,
+      "source": "X-Road public documentation and Estonia digital government materials",
+      "provenance": {}
+    },
+    {
+      "country": "Sierra Leone",
+      "government": "Government of Sierra Leone",
+      "ministry": "Civil Registration Authority",
+      "project": "opencrvs",
+      "deployment_type": "civil registration and vital statistics",
+      "implementation_partner": "OpenCRVS partners",
+      "deployment_status": "active",
+      "confidence": 0.8,
+      "source": "OpenCRVS public implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Nepal",
+      "government": "Government of Nepal",
+      "ministry": "Health financing programs",
+      "project": "openimis",
+      "deployment_type": "health insurance administration",
+      "implementation_partner": "openIMIS implementation partners",
+      "deployment_status": "active",
+      "confidence": 0.7,
+      "source": "openIMIS public country implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Rwanda",
+      "government": "Government of Rwanda",
+      "ministry": "Public health programs",
+      "project": "rapidpro",
+      "deployment_type": "citizen messaging and health workflows",
+      "implementation_partner": "RapidPro ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.72,
+      "source": "RapidPro public case studies",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "State health systems",
+      "ministry": "Public hospitals",
+      "project": "bahmni",
+      "deployment_type": "hospital information system",
+      "implementation_partner": "Bahmni implementers",
+      "deployment_status": "active",
+      "confidence": 0.74,
+      "source": "Bahmni public implementation examples",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "Government of India and state governments",
+      "ministry": "Municipal and service delivery departments",
+      "project": "digit",
+      "deployment_type": "service delivery platform",
+      "implementation_partner": "eGov Foundation ecosystem",
+      "deployment_status": "active",
+      "confidence": 0.82,
+      "source": "DIGIT public deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "Government education programs",
+      "ministry": "School education departments",
+      "project": "sunbird",
+      "deployment_type": "digital learning platform",
+      "implementation_partner": "Sunbird ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.78,
+      "source": "Sunbird public deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "Sierra Leone",
+      "government": "Government of Sierra Leone",
+      "ministry": "Social protection programs",
+      "project": "openg2p",
+      "deployment_type": "social protection delivery",
+      "implementation_partner": "OpenG2P ecosystem partners",
+      "deployment_status": "pilot",
+      "confidence": 0.62,
+      "source": "OpenG2P public implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Jordan",
+      "government": "Hashemite Kingdom of Jordan",
+      "ministry": "Ministry of Education",
+      "project": "openemis",
+      "deployment_type": "education management information system",
+      "implementation_partner": "UNESCO and implementation partners",
+      "deployment_status": "active",
+      "confidence": 0.73,
+      "source": "OpenEMIS public country deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "Tanzania",
+      "government": "Government of Tanzania",
+      "ministry": "Medical stores and public health supply chain",
+      "project": "openlmis",
+      "deployment_type": "health supply chain management",
+      "implementation_partner": "OpenLMIS ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.77,
+      "source": "OpenLMIS public implementation case studies",
+      "provenance": {}
     }
   ],
   "repositories": [],
@@ -1618,6 +3311,177 @@
       "strength": 0.92,
       "evidence": "University of Oslo is the institutional home for DHIS2.",
       "confidence": 0.96,
+      "provenance": {}
+    },
+    {
+      "source": "niis",
+      "target": "x-road",
+      "type": "governed_by",
+      "strength": 0.95,
+      "evidence": "NIIS stewards the X-Road ecosystem and release process.",
+      "confidence": 0.95,
+      "provenance": {}
+    },
+    {
+      "source": "opencrvs",
+      "target": "opencrvs",
+      "type": "governed_by",
+      "strength": 0.88,
+      "evidence": "OpenCRVS publicly stewards the platform and documentation.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "openimis-initiative",
+      "target": "openimis",
+      "type": "governed_by",
+      "strength": 0.87,
+      "evidence": "openIMIS is maintained through a multi-organization initiative model.",
+      "confidence": 0.86,
+      "provenance": {}
+    },
+    {
+      "source": "viamo",
+      "target": "rapidpro",
+      "type": "maintained_by",
+      "strength": 0.84,
+      "evidence": "Viamo is a core maintainer and public home for RapidPro.",
+      "confidence": 0.84,
+      "provenance": {}
+    },
+    {
+      "source": "bahmni-coalition",
+      "target": "bahmni",
+      "type": "governed_by",
+      "strength": 0.85,
+      "evidence": "Bahmni is stewarded through a coalition and community model.",
+      "confidence": 0.82,
+      "provenance": {}
+    },
+    {
+      "source": "egov-foundation",
+      "target": "digit",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "eGov Foundation maintains the DIGIT stack and its documentation.",
+      "confidence": 0.9,
+      "provenance": {}
+    },
+    {
+      "source": "ekstep-foundation",
+      "target": "sunbird",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "EkStep Foundation is the institutional home for Sunbird.",
+      "confidence": 0.89,
+      "provenance": {}
+    },
+    {
+      "source": "openg2p-foundation",
+      "target": "openg2p",
+      "type": "governed_by",
+      "strength": 0.89,
+      "evidence": "OpenG2P coordinates the platform roadmap and documentation.",
+      "confidence": 0.87,
+      "provenance": {}
+    },
+    {
+      "source": "unesco",
+      "target": "openemis",
+      "type": "governed_by",
+      "strength": 0.88,
+      "evidence": "UNESCO is the institutional steward behind OpenEMIS.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "openlmis-initiative",
+      "target": "openlmis",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "OpenLMIS is maintained through its public community initiative.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "x-road",
+      "target": "mosip",
+      "type": "aligned_with",
+      "strength": 0.73,
+      "evidence": "Both support foundational interoperability and trusted registry exchange in government systems.",
+      "confidence": 0.74,
+      "provenance": {}
+    },
+    {
+      "source": "opencrvs",
+      "target": "mosip",
+      "type": "integrates_with",
+      "strength": 0.82,
+      "evidence": "Civil registration and foundational identity are complementary public digital infrastructure layers.",
+      "confidence": 0.79,
+      "provenance": {}
+    },
+    {
+      "source": "openimis",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.84,
+      "evidence": "Health financing and clinical records often interoperate in national health architectures.",
+      "confidence": 0.82,
+      "provenance": {}
+    },
+    {
+      "source": "rapidpro",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.78,
+      "evidence": "Messaging workflows are commonly connected to public health data systems.",
+      "confidence": 0.77,
+      "provenance": {}
+    },
+    {
+      "source": "bahmni",
+      "target": "openmrs",
+      "type": "implements",
+      "strength": 0.96,
+      "evidence": "Bahmni is built on OpenMRS and extends it for hospital workflows.",
+      "confidence": 0.97,
+      "provenance": {}
+    },
+    {
+      "source": "digit",
+      "target": "sunbird",
+      "type": "aligned_with",
+      "strength": 0.75,
+      "evidence": "Both are modular public digital building blocks with large-scale government deployments in India.",
+      "confidence": 0.74,
+      "provenance": {}
+    },
+    {
+      "source": "openg2p",
+      "target": "openspp",
+      "type": "aligned_with",
+      "strength": 0.85,
+      "evidence": "Both target social protection program delivery and registry workflows.",
+      "confidence": 0.83,
+      "provenance": {}
+    },
+    {
+      "source": "openemis",
+      "target": "sunbird",
+      "type": "aligned_with",
+      "strength": 0.72,
+      "evidence": "Both support public education systems, though at different layers of the stack.",
+      "confidence": 0.71,
+      "provenance": {}
+    },
+    {
+      "source": "openlmis",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.81,
+      "evidence": "Supply chain and clinical systems are often connected in public health deployments.",
+      "confidence": 0.8,
       "provenance": {}
     }
   ],

@@ -17,6 +17,21 @@ try {
 
 const projects = dataset.projects;
 const filterOptions: FilterOptions = deriveFilterOptions(dataset);
+const categoryHighlights = Array.from(
+  projects.reduce((acc, project) => {
+    const entry = acc.get(project.category) ?? { name: project.category, count: 0 };
+    entry.count += 1;
+    acc.set(project.category, entry);
+    return acc;
+  }, new Map<string, { name: string; count: number }>())
+)
+  .map(([, value]) => value)
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  .slice(0, 6);
+
+const footprintLeaders = [...projects]
+  .sort((a, b) => b.deployment_countries.length - a.deployment_countries.length || b.ecosystem_score - a.ecosystem_score)
+  .slice(0, 5);
 ---
 
 <Base title="Projects" description="Browse all Digital Public Infrastructure and DPG projects in the atlas." currentPage="/projects/">
@@ -27,6 +42,32 @@ const filterOptions: FilterOptions = deriveFilterOptions(dataset);
         {projects.length} projects in the registry. Updated monthly.
       </p>
     </header>
+
+    <section class="catalog-overview" aria-labelledby="catalog-overview-heading">
+      <div>
+        <h2 id="catalog-overview-heading" style="font-size: var(--text-lg); margin-bottom: var(--space-3);">Catalog Explorer</h2>
+        <p style="color: var(--color-text-muted); max-width: 62ch;">
+          Search, filter, and now sort the catalog. Quick links below preload the client-side explorer using the URL so collections can be shared.
+        </p>
+        <div class="catalog-chip-list" style="margin-top: var(--space-4);">
+          {categoryHighlights.map((category) => (
+            <a class="catalog-chip" href={`?q=${encodeURIComponent(category.name)}`}>{category.name} <span aria-hidden="true">{category.count}</span></a>
+          ))}
+        </div>
+      </div>
+      <div class="catalog-overview__side">
+        <label for="sort-projects" style="font-size: var(--text-sm); font-weight: 600; margin-bottom: var(--space-2); display: block;">Sort projects</label>
+        <select id="sort-projects" name="sort" style="width: 100%; margin-bottom: var(--space-4);">
+          <option value="ecosystem-desc">Ecosystem score</option>
+          <option value="activity-desc">Activity score</option>
+          <option value="deployments-desc">Deployment footprint</option>
+          <option value="name-asc">Name</option>
+        </select>
+        <p style="font-size: var(--text-xs); color: var(--color-text-muted);">
+          Leading footprint now: {footprintLeaders.map((project) => project.name).join(", ")}.
+        </p>
+      </div>
+    </section>
 
     <div class="sidebar-layout">
       <!-- Filter sidebar -->
@@ -59,6 +100,10 @@ const filterOptions: FilterOptions = deriveFilterOptions(dataset);
               data-maturity={project.maturity_level}
               data-governance={project.governance_model}
               data-licenses={project.licenses.join("|")}
+              data-ecosystem={project.ecosystem_score}
+              data-activity={project.activity_score}
+              data-deployments={project.deployment_countries.length}
+              data-category={project.category}
             >
               <ProjectCard project={project} />
             </div>
@@ -81,14 +126,91 @@ const filterOptions: FilterOptions = deriveFilterOptions(dataset);
   const noResults = document.getElementById("no-results");
   const clearBtn = document.getElementById("clear-filters-inline");
   const filterReset = document.getElementById("filter-reset") as HTMLButtonElement | null;
+  const filterForm = document.getElementById("filter-form") as HTMLFormElement | null;
+  const sortSelect = document.getElementById("sort-projects") as HTMLSelectElement | null;
+  const filterCount = document.getElementById("filter-count");
+  const resultsSummary = document.getElementById("results-summary");
 
   clearBtn?.addEventListener("click", () => { filterReset?.click(); });
 
   if (list && noResults) {
-    const observer = new MutationObserver(() => {
+    const applySort = () => {
+      if (!sortSelect) return;
+      const cards = Array.from(list.querySelectorAll<HTMLElement>("[data-project]"));
+      const value = sortSelect.value;
+      cards.sort((left, right) => {
+        if (value === "name-asc") {
+          return (left.dataset.name ?? "").localeCompare(right.dataset.name ?? "");
+        }
+        if (value === "activity-desc") {
+          return Number(right.dataset.activity ?? 0) - Number(left.dataset.activity ?? 0);
+        }
+        if (value === "deployments-desc") {
+          return Number(right.dataset.deployments ?? 0) - Number(left.dataset.deployments ?? 0);
+        }
+        return Number(right.dataset.ecosystem ?? 0) - Number(left.dataset.ecosystem ?? 0);
+      });
+      cards.forEach((card) => list.append(card));
+    };
+
+    const syncUrl = () => {
+      if (!filterForm) return;
+      const params = new URLSearchParams();
+      const formData = new FormData(filterForm);
+      for (const [key, rawValue] of formData.entries()) {
+        const value = String(rawValue).trim();
+        if (!value || value === "all") continue;
+        params.set(key, value);
+      }
+      if (sortSelect && sortSelect.value !== "ecosystem-desc") {
+        params.set("sort", sortSelect.value);
+      }
+      const next = params.toString();
+      const url = next ? `${window.location.pathname}?${next}` : window.location.pathname;
+      window.history.replaceState({}, "", url);
+    };
+
+    const syncResults = () => {
       const visibleCards = list.querySelectorAll("[data-project]:not([hidden])");
-      noResults.hidden = visibleCards.length > 0;
+      const count = visibleCards.length;
+      noResults.hidden = count > 0;
+      if (filterCount) {
+        filterCount.textContent = `— ${count} project${count !== 1 ? "s" : ""}`;
+      }
+      if (resultsSummary) {
+        resultsSummary.textContent = `Showing ${count} project${count !== 1 ? "s" : ""}`;
+      }
+    };
+
+    const hydrateFromUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+      if (!filterForm) return;
+      for (const [key, value] of params.entries()) {
+        const input = filterForm.elements.namedItem(key);
+        if (input instanceof HTMLInputElement || input instanceof HTMLSelectElement) {
+          input.value = value;
+        }
+      }
+      if (sortSelect && params.get("sort")) {
+        sortSelect.value = params.get("sort")!;
+      }
+    };
+
+    hydrateFromUrl();
+    sortSelect?.addEventListener("input", () => {
+      applySort();
+      syncUrl();
+    });
+
+    const observer = new MutationObserver(() => {
+      syncResults();
     });
     observer.observe(list, { childList: false, subtree: true, attributes: true, attributeFilter: ["hidden"] });
+
+    requestAnimationFrame(() => {
+      applySort();
+      syncResults();
+      syncUrl();
+    });
   }
 </script>

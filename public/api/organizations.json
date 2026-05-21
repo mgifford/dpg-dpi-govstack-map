@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T00:07:17.396Z",
-  "count": 13,
+  "generated_at": "2026-05-21T00:35:38.642Z",
+  "count": 23,
   "organizations": [
     {
       "id": "drupal-association",
@@ -291,6 +291,232 @@
       "github_org": "",
       "linkedin": "",
       "governance_role": "framework-steward",
+      "provenance": {}
+    },
+    {
+      "id": "niis",
+      "name": "Nordic Institute for Interoperability Solutions",
+      "type": "nonprofit",
+      "website": "https://www.niis.org",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "coordinates": {
+        "lat": 59.437,
+        "lon": 24.7536
+      },
+      "associated_projects": [
+        "x-road"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "nordic-institute",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "opencrvs",
+      "name": "OpenCRVS",
+      "type": "nonprofit",
+      "website": "https://www.opencrvs.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "opencrvs"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opencrvs",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openimis-initiative",
+      "name": "openIMIS Initiative",
+      "type": "consortium",
+      "website": "https://openimis.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "openimis"
+      ],
+      "partnerships": [
+        "openlmis-initiative"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "openimis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "viamo",
+      "name": "Viamo",
+      "type": "company",
+      "website": "https://viamo.io",
+      "country": "Canada",
+      "city": "Toronto",
+      "coordinates": {
+        "lat": 43.6532,
+        "lon": -79.3832
+      },
+      "associated_projects": [
+        "rapidpro"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "rapidpro",
+      "linkedin": "",
+      "governance_role": "maintainer",
+      "provenance": {}
+    },
+    {
+      "id": "bahmni-coalition",
+      "name": "Bahmni Coalition",
+      "type": "nonprofit",
+      "website": "https://www.bahmni.org",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "bahmni"
+      ],
+      "partnerships": [
+        "openmrs-inc"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "Bahmni",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "egov-foundation",
+      "name": "eGov Foundation",
+      "type": "nonprofit",
+      "website": "https://www.egov.org.in",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "digit"
+      ],
+      "partnerships": [
+        "ekstep-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "egovernments",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "ekstep-foundation",
+      "name": "EkStep Foundation",
+      "type": "nonprofit",
+      "website": "https://ekstep.org",
+      "country": "India",
+      "city": "Bengaluru",
+      "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "associated_projects": [
+        "sunbird"
+      ],
+      "partnerships": [
+        "egov-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "Sunbird-Ed",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openg2p-foundation",
+      "name": "OpenG2P",
+      "type": "nonprofit",
+      "website": "https://www.openg2p.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "openg2p"
+      ],
+      "partnerships": [
+        "openspp-association",
+        "mojaloop-foundation"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenG2P",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "unesco",
+      "name": "UNESCO",
+      "type": "intergovernmental",
+      "website": "https://www.unesco.org",
+      "country": "International",
+      "city": "Paris",
+      "coordinates": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "associated_projects": [
+        "openemis"
+      ],
+      "partnerships": [
+        "united-nations"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "open-emis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openlmis-initiative",
+      "name": "OpenLMIS Initiative",
+      "type": "nonprofit",
+      "website": "https://openlmis.org",
+      "country": "United States",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 47.6062,
+        "lon": -122.3321
+      },
+      "associated_projects": [
+        "openlmis"
+      ],
+      "partnerships": [
+        "openimis-initiative"
+      ],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenLMIS",
+      "linkedin": "",
+      "governance_role": "steward",
       "provenance": {}
     }
   ]

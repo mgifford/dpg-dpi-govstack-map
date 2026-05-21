@@ -22,6 +22,53 @@ export async function getStaticPaths() {
 interface Props { project: Project; dataset: AtlasDataset; }
 const { project, dataset } = Astro.props;
 
+const scoreRows = [
+  {
+    label: "Activity Score",
+    value: project.activity_score,
+    rationale: project.maturity_scores?.code.rationale ?? "",
+    provenanceKey: "activity_score"
+  },
+  {
+    label: "Sustainability Score",
+    value: project.sustainability_score,
+    rationale: project.maturity_scores?.sustainability.rationale ?? "",
+    provenanceKey: "sustainability_score"
+  },
+  {
+    label: "Ecosystem Score",
+    value: project.ecosystem_score,
+    rationale: "Phase-one ecosystem score reflecting adoption breadth and ecosystem relevance.",
+    provenanceKey: "ecosystem_score"
+  },
+  {
+    label: "Accessibility Score",
+    value: project.accessibility_score,
+    rationale: project.maturity_scores?.accessibility.rationale ?? "",
+    provenanceKey: "accessibility_score"
+  },
+  {
+    label: "Governance Maturity",
+    value: project.community_health.governance_maturity,
+    rationale: project.maturity_scores?.governance.rationale ?? "",
+    provenanceKey: "community_health.governance_maturity"
+  },
+  {
+    label: "Documentation Quality",
+    value: project.community_health.documentation_quality,
+    rationale: project.maturity_scores?.documentation.rationale ?? "",
+    provenanceKey: "community_health.documentation_quality"
+  },
+  {
+    label: "OpenSSF Scorecard",
+    value: project.community_health.openssf_scorecard,
+    rationale: "Shown as a direct score when present; in phase one some values are still manually seeded rather than automatically refreshed.",
+    provenanceKey: "community_health.openssf_scorecard"
+  }
+].filter((row) => row.value != null);
+
+const deploymentNotes = project.provenance.deployments ?? project.provenance.deployment_countries ?? [];
+
 // Find related projects
 const relatedProjects = dataset.projects.filter(
   (p) => project.related_projects.includes(p.id)
@@ -132,10 +179,52 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
           )}
         </section>
 
+        <section aria-labelledby="score-method-heading" style="margin-bottom: var(--space-10);">
+          <h2 id="score-method-heading" style="margin-bottom: var(--space-4);">Why These Scores</h2>
+          <p style="margin-bottom: var(--space-4); color: var(--color-text-muted); max-width: 72ch;">
+            These values come from the Atlas dataset record for this project, not from page-local calculations. In phase one,
+            many values are manually curated seed scores with attached rationales and should be treated as explainable estimates
+            rather than final automated rankings.
+          </p>
+          <div style="overflow-x: auto;">
+            <table class="data-table" aria-label="Score rationale and provenance">
+              <thead>
+                <tr>
+                  <th scope="col">Metric</th>
+                  <th scope="col">Value</th>
+                  <th scope="col">Current rationale</th>
+                  <th scope="col">Current source</th>
+                </tr>
+              </thead>
+              <tbody>
+                {scoreRows.map((row) => {
+                  const entries = project.provenance[row.provenanceKey] ?? [];
+                  const sourceSummary = entries.length > 0
+                    ? entries.map((entry) => `${entry.source}${entry.note ? `: ${entry.note}` : ""}`).join(" ")
+                    : "No explicit provenance entry yet; value currently comes from the project dataset record.";
+                  return (
+                    <tr>
+                      <th scope="row">{row.label}</th>
+                      <td>{typeof row.value === "number" ? row.value : `${row.value}`}</td>
+                      <td>{row.rationale || "No rationale recorded yet."}</td>
+                      <td>{sourceSummary}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         <!-- Deployments -->
         {deployments.length > 0 && (
           <section aria-labelledby="deployments-heading" style="margin-bottom: var(--space-10);">
             <h2 id="deployments-heading" style="margin-bottom: var(--space-4);">Deployments</h2>
+            {deploymentNotes.length > 0 && (
+              <p style="margin-bottom: var(--space-4); color: var(--color-text-muted); max-width: 72ch;">
+                {deploymentNotes.map((entry) => entry.note || entry.source).join(" ")}
+              </p>
+            )}
             <table class="data-table">
               <thead>
                 <tr>
@@ -144,6 +233,7 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
                   <th scope="col">Type</th>
                   <th scope="col">Status</th>
                   <th scope="col">Partner</th>
+                  <th scope="col">Evidence</th>
                 </tr>
               </thead>
               <tbody>
@@ -154,6 +244,12 @@ const deployments = dataset.deployments.filter((d) => d.project === project.id);
                     <td>{d.deployment_type}</td>
                     <td><span class={`badge badge--${d.deployment_status === "active" ? "mature" : d.deployment_status === "pilot" ? "growing" : "emerging"}`}>{d.deployment_status}</span></td>
                     <td>{d.implementation_partner}</td>
+                    <td>
+                      <div style="display: flex; flex-direction: column; gap: 2px; font-size: var(--text-xs);">
+                        <span>{d.source || "Unspecified source"}</span>
+                        <span style="color: var(--color-text-muted);">Confidence: {Math.round(d.confidence * 100)}%</span>
+                      </div>
+                    </td>
                   </tr>
                 ))}
               </tbody>

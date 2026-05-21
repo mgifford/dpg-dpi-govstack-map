@@ -25,6 +25,25 @@ const stats = {
   countries: new Set(dataset.projects.flatMap((p) => p.deployment_countries)).size,
   relationships: dataset.relationships.length,
 };
+
+const categoryCollections = Array.from(
+  dataset.projects.reduce((acc, project) => {
+    const entry = acc.get(project.category) ?? { name: project.category, count: 0, sampleProjects: [] as string[] };
+    entry.count += 1;
+    if (entry.sampleProjects.length < 3) {
+      entry.sampleProjects.push(project.name);
+    }
+    acc.set(project.category, entry);
+    return acc;
+  }, new Map<string, { name: string; count: number; sampleProjects: string[] }>())
+)
+  .map(([, value]) => value)
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  .slice(0, 6);
+
+const deploymentLeaders = [...dataset.projects]
+  .sort((a, b) => b.deployment_countries.length - a.deployment_countries.length || b.ecosystem_score - a.ecosystem_score)
+  .slice(0, 5);
 ---
 
 <Base title="Home" description="A globally searchable registry and atlas of Digital Public Infrastructure, Digital Public Goods, and GovTech projects." currentPage="/">
@@ -94,6 +113,56 @@ const stats = {
       {featuredProjects.map((project) => (
         <ProjectCard project={project} />
       ))}
+    </div>
+  </section>
+
+  <section class="container" style="padding-bottom: var(--space-12);" aria-labelledby="collections-heading">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--space-8); gap: var(--space-4); flex-wrap: wrap;">
+      <div>
+        <h2 id="collections-heading">Ecosystem Collections</h2>
+        <p style="color: var(--color-text-muted); margin-top: var(--space-2); max-width: 64ch;">
+          Browse the atlas by the strongest clusters already visible in the data. These links land on pre-filtered catalog views.
+        </p>
+      </div>
+      <a href={withBase("/projects/")} style="font-size: var(--text-sm); font-weight: 600;">Open the full catalog →</a>
+    </div>
+    <div class="collection-grid">
+      {categoryCollections.map((collection) => (
+        <article class="card collection-card">
+          <p class="collection-card__eyebrow">{collection.count} projects</p>
+          <h3 style="margin-bottom: var(--space-3);">{collection.name}</h3>
+          <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
+            {collection.sampleProjects.join(", ")}
+          </p>
+          <a href={withBase(`/projects/?q=${encodeURIComponent(collection.name)}`)} style="font-weight: 600;">Explore {collection.name} →</a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); padding-block: var(--space-12);" aria-labelledby="leaders-heading">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--space-8); gap: var(--space-4); flex-wrap: wrap;">
+        <div>
+          <h2 id="leaders-heading">Deployment Leaders</h2>
+          <p style="color: var(--color-text-muted); margin-top: var(--space-2); max-width: 64ch;">
+            Projects with the widest known country footprint in the current atlas dataset.
+          </p>
+        </div>
+      </div>
+      <div class="leader-list" role="list">
+        {deploymentLeaders.map((project) => (
+          <article class="card leader-card" role="listitem">
+            <p class="collection-card__eyebrow">{project.deployment_countries.length} countries</p>
+            <h3 style="margin-bottom: var(--space-2);"><a href={withBase(`/projects/${project.id}/`)}>{project.name}</a></h3>
+            <p style="color: var(--color-text-muted); margin-bottom: var(--space-3);">{project.category}</p>
+            <p style="font-size: var(--text-sm); color: var(--color-text-muted);">
+              {project.deployment_countries.slice(0, 4).join(", ")}
+              {project.deployment_countries.length > 4 && ` +${project.deployment_countries.length - 4} more`}
+            </p>
+          </article>
+        ))}
+      </div>
     </div>
   </section>
 

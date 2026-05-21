@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T00:07:17.396Z",
-  "count": 10,
+  "generated_at": "2026-05-21T00:35:38.642Z",
+  "count": 29,
   "relationships": [
     {
       "source": "drupal",
@@ -90,6 +90,177 @@
       "strength": 0.92,
       "evidence": "University of Oslo is the institutional home for DHIS2.",
       "confidence": 0.96,
+      "provenance": {}
+    },
+    {
+      "source": "niis",
+      "target": "x-road",
+      "type": "governed_by",
+      "strength": 0.95,
+      "evidence": "NIIS stewards the X-Road ecosystem and release process.",
+      "confidence": 0.95,
+      "provenance": {}
+    },
+    {
+      "source": "opencrvs",
+      "target": "opencrvs",
+      "type": "governed_by",
+      "strength": 0.88,
+      "evidence": "OpenCRVS publicly stewards the platform and documentation.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "openimis-initiative",
+      "target": "openimis",
+      "type": "governed_by",
+      "strength": 0.87,
+      "evidence": "openIMIS is maintained through a multi-organization initiative model.",
+      "confidence": 0.86,
+      "provenance": {}
+    },
+    {
+      "source": "viamo",
+      "target": "rapidpro",
+      "type": "maintained_by",
+      "strength": 0.84,
+      "evidence": "Viamo is a core maintainer and public home for RapidPro.",
+      "confidence": 0.84,
+      "provenance": {}
+    },
+    {
+      "source": "bahmni-coalition",
+      "target": "bahmni",
+      "type": "governed_by",
+      "strength": 0.85,
+      "evidence": "Bahmni is stewarded through a coalition and community model.",
+      "confidence": 0.82,
+      "provenance": {}
+    },
+    {
+      "source": "egov-foundation",
+      "target": "digit",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "eGov Foundation maintains the DIGIT stack and its documentation.",
+      "confidence": 0.9,
+      "provenance": {}
+    },
+    {
+      "source": "ekstep-foundation",
+      "target": "sunbird",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "EkStep Foundation is the institutional home for Sunbird.",
+      "confidence": 0.89,
+      "provenance": {}
+    },
+    {
+      "source": "openg2p-foundation",
+      "target": "openg2p",
+      "type": "governed_by",
+      "strength": 0.89,
+      "evidence": "OpenG2P coordinates the platform roadmap and documentation.",
+      "confidence": 0.87,
+      "provenance": {}
+    },
+    {
+      "source": "unesco",
+      "target": "openemis",
+      "type": "governed_by",
+      "strength": 0.88,
+      "evidence": "UNESCO is the institutional steward behind OpenEMIS.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "openlmis-initiative",
+      "target": "openlmis",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "OpenLMIS is maintained through its public community initiative.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "x-road",
+      "target": "mosip",
+      "type": "aligned_with",
+      "strength": 0.73,
+      "evidence": "Both support foundational interoperability and trusted registry exchange in government systems.",
+      "confidence": 0.74,
+      "provenance": {}
+    },
+    {
+      "source": "opencrvs",
+      "target": "mosip",
+      "type": "integrates_with",
+      "strength": 0.82,
+      "evidence": "Civil registration and foundational identity are complementary public digital infrastructure layers.",
+      "confidence": 0.79,
+      "provenance": {}
+    },
+    {
+      "source": "openimis",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.84,
+      "evidence": "Health financing and clinical records often interoperate in national health architectures.",
+      "confidence": 0.82,
+      "provenance": {}
+    },
+    {
+      "source": "rapidpro",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.78,
+      "evidence": "Messaging workflows are commonly connected to public health data systems.",
+      "confidence": 0.77,
+      "provenance": {}
+    },
+    {
+      "source": "bahmni",
+      "target": "openmrs",
+      "type": "implements",
+      "strength": 0.96,
+      "evidence": "Bahmni is built on OpenMRS and extends it for hospital workflows.",
+      "confidence": 0.97,
+      "provenance": {}
+    },
+    {
+      "source": "digit",
+      "target": "sunbird",
+      "type": "aligned_with",
+      "strength": 0.75,
+      "evidence": "Both are modular public digital building blocks with large-scale government deployments in India.",
+      "confidence": 0.74,
+      "provenance": {}
+    },
+    {
+      "source": "openg2p",
+      "target": "openspp",
+      "type": "aligned_with",
+      "strength": 0.85,
+      "evidence": "Both target social protection program delivery and registry workflows.",
+      "confidence": 0.83,
+      "provenance": {}
+    },
+    {
+      "source": "openemis",
+      "target": "sunbird",
+      "type": "aligned_with",
+      "strength": 0.72,
+      "evidence": "Both support public education systems, though at different layers of the stack.",
+      "confidence": 0.71,
+      "provenance": {}
+    },
+    {
+      "source": "openlmis",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.81,
+      "evidence": "Supply chain and clinical systems are often connected in public health deployments.",
+      "confidence": 0.8,
       "provenance": {}
     }
   ]

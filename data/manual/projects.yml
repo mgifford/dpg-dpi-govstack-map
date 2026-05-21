@@ -453,3 +453,508 @@
   procurement_readiness: mature
   provenance: {}
   last_updated: 2026-05-20T00:00:00.000Z
+
+- id: x-road
+  name: X-Road
+  description: Open source data exchange layer used by governments to connect registries, agencies, and trusted public-sector services across institutional boundaries.
+  category: Interoperability
+  subcategory: Data Exchange
+  project_type: DPG
+  categories: [Interoperability, DPI]
+  subcategories: [Data Exchange]
+  project_types: [DPG]
+  website: https://x-road.global
+  project_page: https://x-road.global
+  repository_urls:
+    - https://github.com/nordic-institute/X-Road
+  documentation_urls:
+    - https://docs.x-road.global
+  licenses: [MIT]
+  tags: [interoperability, registries, government, secure-data-exchange]
+  governance_model: foundation
+  funding_model: public
+  steward_organizations: [niis]
+  maintainers: [NIIS engineering team]
+  deployment_countries: [Estonia, Finland, Iceland, Faroe Islands]
+  related_projects: [mosip, digit]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [OpenAPI, X-Road protocol]
+  sdgs: [SDG-9, SDG-16]
+  dpi_domains: [interoperability]
+  maturity_level: mature
+  sustainability_score: 88
+  activity_score: 84
+  ecosystem_score: 90
+  accessibility_score: 62
+  community_health:
+    commits_last_12_months: 1860
+    contributors_last_12_months: 68
+    issue_closure_rate: 0.79
+    median_issue_response_hours: 26
+    releases_last_12_months: 5
+    contributor_diversity_index: 0.67
+    governance_maturity: 90
+    documentation_quality: 86
+    onboarding_quality: 74
+    dependency_freshness: 82
+    security_advisories_open: 0
+    openssf_scorecard: 7.4
+  accessibility_maturity: growing
+  sustainability_maturity: leading
+  procurement_readiness: mature
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: opencrvs
+  name: OpenCRVS
+  description: Open source civil registration platform for governments managing birth, death, and vital statistics workflows as national digital public services.
+  category: Civil Registration
+  subcategory: Vital Statistics
+  project_type: DPG
+  categories: [Civil Registration, DPI]
+  subcategories: [Vital Statistics]
+  project_types: [DPG]
+  website: https://www.opencrvs.org
+  project_page: https://www.opencrvs.org
+  repository_urls:
+    - https://github.com/opencrvs/opencrvs-core
+  documentation_urls:
+    - https://documentation.opencrvs.org
+  licenses: [MPL-2.0]
+  tags: [civil-registration, identity, government, crvs]
+  governance_model: community
+  funding_model: grant
+  steward_organizations: [opencrvs]
+  maintainers: [OpenCRVS maintainers]
+  deployment_countries: [Sierra Leone, Bangladesh, Rwanda]
+  related_projects: [mosip, openg2p]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [OpenAPI, HL7 FHIR]
+  sdgs: [SDG-16, SDG-3]
+  dpi_domains: [civil-registration, digital-identity]
+  maturity_level: growing
+  sustainability_score: 74
+  activity_score: 71
+  ecosystem_score: 79
+  accessibility_score: 58
+  community_health:
+    commits_last_12_months: 980
+    contributors_last_12_months: 36
+    issue_closure_rate: 0.7
+    median_issue_response_hours: 34
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.58
+    governance_maturity: 76
+    documentation_quality: 80
+    onboarding_quality: 71
+    dependency_freshness: 73
+    security_advisories_open: 0
+    openssf_scorecard: 6.5
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: openimis
+  name: openIMIS
+  description: Open source health financing and insurance management platform for governments administering entitlement, enrollment, and claims workflows.
+  category: Health Financing
+  subcategory: Insurance Management
+  project_type: DPG
+  categories: [Health Financing, DPI]
+  subcategories: [Insurance Management]
+  project_types: [DPG]
+  website: https://openimis.org
+  project_page: https://openimis.org
+  repository_urls:
+    - https://github.com/openimis/openimis-fe_js
+  documentation_urls: []
+  licenses: [AGPL-3.0-only]
+  tags: [health-financing, insurance, claims, government]
+  governance_model: consortium
+  funding_model: grant
+  steward_organizations: [openimis-initiative]
+  maintainers: [openIMIS community]
+  deployment_countries: [Nepal, Tanzania, Cameroon]
+  related_projects: [openmrs, dhis2, openlmis]
+  interoperability_frameworks: [OpenHIE]
+  standards_alignment: [FHIR, OpenAPI]
+  sdgs: [SDG-3]
+  dpi_domains: [health]
+  maturity_level: growing
+  sustainability_score: 76
+  activity_score: 69
+  ecosystem_score: 75
+  accessibility_score: 54
+  community_health:
+    commits_last_12_months: 890
+    contributors_last_12_months: 29
+    issue_closure_rate: 0.68
+    median_issue_response_hours: 39
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.57
+    governance_maturity: 74
+    documentation_quality: 77
+    onboarding_quality: 69
+    dependency_freshness: 71
+    security_advisories_open: 1
+    openssf_scorecard: 6.1
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: rapidpro
+  name: RapidPro
+  description: Open source workflow engine for large-scale messaging, case flows, and citizen engagement used in public health and social programs.
+  category: Citizen Engagement
+  subcategory: Messaging Workflows
+  project_type: DPG
+  categories: [Citizen Engagement, Civic Technology]
+  subcategories: [Messaging Workflows]
+  project_types: [DPG]
+  website: https://rapidpro.io
+  project_page: https://rapidpro.io
+  repository_urls:
+    - https://github.com/rapidpro/rapidpro
+  documentation_urls:
+    - https://rapidpro.github.io/rapidpro/
+  licenses: [BSD-3-Clause]
+  tags: [messaging, workflows, health, outreach]
+  governance_model: company-led
+  funding_model: services
+  steward_organizations: [viamo]
+  maintainers: [RapidPro maintainers]
+  deployment_countries: [Rwanda, Uganda, Zambia, Malawi]
+  related_projects: [dhis2, openmrs]
+  interoperability_frameworks: [OpenHIE]
+  standards_alignment: [OpenAPI]
+  sdgs: [SDG-3, SDG-5]
+  dpi_domains: [citizen-communication, health]
+  maturity_level: mature
+  sustainability_score: 78
+  activity_score: 83
+  ecosystem_score: 80
+  accessibility_score: 57
+  community_health:
+    commits_last_12_months: 1430
+    contributors_last_12_months: 44
+    issue_closure_rate: 0.75
+    median_issue_response_hours: 28
+    releases_last_12_months: 6
+    contributor_diversity_index: 0.6
+    governance_maturity: 73
+    documentation_quality: 81
+    onboarding_quality: 75
+    dependency_freshness: 78
+    security_advisories_open: 0
+    openssf_scorecard: 6.9
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: mature
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: bahmni
+  name: Bahmni
+  description: Open source hospital and health systems distribution built on OpenMRS for public-sector clinical, laboratory, and hospital workflows.
+  category: Health Information
+  subcategory: Hospital Information System
+  project_type: GovTech
+  categories: [Health Information, GovTech]
+  subcategories: [Hospital Information System]
+  project_types: [GovTech]
+  website: https://www.bahmni.org
+  project_page: https://www.bahmni.org
+  repository_urls:
+    - https://github.com/Bahmni/bahmni-standard
+  documentation_urls: []
+  licenses: [AGPL-3.0-only]
+  tags: [hospital, emr, health, interoperability]
+  governance_model: community
+  funding_model: mixed
+  steward_organizations: [bahmni-coalition]
+  maintainers: [Bahmni contributors]
+  deployment_countries: [India, Nepal, Bangladesh]
+  related_projects: [openmrs, dhis2]
+  interoperability_frameworks: [OpenHIE]
+  standards_alignment: [FHIR, HL7]
+  sdgs: [SDG-3]
+  dpi_domains: [health]
+  maturity_level: mature
+  sustainability_score: 77
+  activity_score: 72
+  ecosystem_score: 74
+  accessibility_score: 52
+  community_health:
+    commits_last_12_months: 910
+    contributors_last_12_months: 35
+    issue_closure_rate: 0.7
+    median_issue_response_hours: 37
+    releases_last_12_months: 3
+    contributor_diversity_index: 0.55
+    governance_maturity: 75
+    documentation_quality: 76
+    onboarding_quality: 68
+    dependency_freshness: 69
+    security_advisories_open: 1
+    openssf_scorecard: 6.0
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: digit
+  name: DIGIT
+  description: Modular digital public infrastructure stack for government service delivery, registries, workflow orchestration, and municipal operations.
+  category: Government Platforms
+  subcategory: Service Delivery Stack
+  project_type: GovTech
+  categories: [Government Platforms, DPI]
+  subcategories: [Service Delivery Stack]
+  project_types: [GovTech]
+  website: https://www.digit.org
+  project_page: https://www.digit.org
+  repository_urls:
+    - https://github.com/egovernments/DIGIT-OSS
+  documentation_urls:
+    - https://docs.digit.org
+  licenses: [MIT]
+  tags: [service-delivery, municipal, workflow, registries]
+  governance_model: foundation
+  funding_model: grant
+  steward_organizations: [egov-foundation]
+  maintainers: [DIGIT maintainers]
+  deployment_countries: [India]
+  related_projects: [x-road, sunbird, openg2p]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [OpenAPI, JSON Schema]
+  sdgs: [SDG-11, SDG-16]
+  dpi_domains: [government-service-delivery]
+  maturity_level: growing
+  sustainability_score: 79
+  activity_score: 77
+  ecosystem_score: 81
+  accessibility_score: 60
+  community_health:
+    commits_last_12_months: 1610
+    contributors_last_12_months: 58
+    issue_closure_rate: 0.74
+    median_issue_response_hours: 31
+    releases_last_12_months: 5
+    contributor_diversity_index: 0.63
+    governance_maturity: 82
+    documentation_quality: 84
+    onboarding_quality: 76
+    dependency_freshness: 79
+    security_advisories_open: 0
+    openssf_scorecard: 7.0
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: emerging
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: sunbird
+  name: Sunbird
+  description: Open source digital learning and public education platform used to build national and state-scale learning ecosystems.
+  category: Education
+  subcategory: Digital Learning Platform
+  project_type: DPG
+  categories: [Education, DPI]
+  subcategories: [Digital Learning Platform]
+  project_types: [DPG]
+  website: https://sunbird.org
+  project_page: https://sunbird.org
+  repository_urls:
+    - https://github.com/Sunbird-Ed/SunbirdEd
+  documentation_urls: []
+  licenses: [MIT]
+  tags: [education, learning, content, public-sector]
+  governance_model: foundation
+  funding_model: grant
+  steward_organizations: [ekstep-foundation]
+  maintainers: [Sunbird community]
+  deployment_countries: [India, Sierra Leone]
+  related_projects: [digit, openemis]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [OpenAPI, LTI]
+  sdgs: [SDG-4]
+  dpi_domains: [education]
+  maturity_level: growing
+  sustainability_score: 76
+  activity_score: 74
+  ecosystem_score: 78
+  accessibility_score: 59
+  community_health:
+    commits_last_12_months: 1190
+    contributors_last_12_months: 41
+    issue_closure_rate: 0.72
+    median_issue_response_hours: 36
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.59
+    governance_maturity: 80
+    documentation_quality: 79
+    onboarding_quality: 72
+    dependency_freshness: 75
+    security_advisories_open: 0
+    openssf_scorecard: 6.6
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: openg2p
+  name: OpenG2P
+  description: Open source building blocks for digital social protection and government-to-person payment programs, registries, and beneficiary management.
+  category: Social Protection
+  subcategory: G2P Delivery
+  project_type: GovTech
+  categories: [Social Protection, DPI]
+  subcategories: [G2P Delivery]
+  project_types: [GovTech]
+  website: https://www.openg2p.org
+  project_page: https://www.openg2p.org
+  repository_urls:
+    - https://github.com/OpenG2P/openg2p-registry
+  documentation_urls:
+    - https://docs.openg2p.org
+  licenses: [MPL-2.0]
+  tags: [social-protection, g2p, registries, payments]
+  governance_model: foundation
+  funding_model: grant
+  steward_organizations: [openg2p-foundation]
+  maintainers: [OpenG2P maintainers]
+  deployment_countries: [Sierra Leone, Togo]
+  related_projects: [openspp, mojaloop, mosip]
+  interoperability_frameworks: [G2P Connect, GovStack]
+  standards_alignment: [OpenAPI, G2P Connect]
+  sdgs: [SDG-1, SDG-10, SDG-16]
+  dpi_domains: [social-protection, digital-payments]
+  maturity_level: growing
+  sustainability_score: 73
+  activity_score: 68
+  ecosystem_score: 77
+  accessibility_score: 55
+  community_health:
+    commits_last_12_months: 820
+    contributors_last_12_months: 27
+    issue_closure_rate: 0.69
+    median_issue_response_hours: 41
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.56
+    governance_maturity: 77
+    documentation_quality: 80
+    onboarding_quality: 71
+    dependency_freshness: 72
+    security_advisories_open: 0
+    openssf_scorecard: 6.2
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: openemis
+  name: OpenEMIS
+  description: Open source education management information system designed for ministries of education managing school data, planning, and administrative reporting.
+  category: Education
+  subcategory: Education Management Information System
+  project_type: DPG
+  categories: [Education, GovTech]
+  subcategories: [Education Management Information System]
+  project_types: [DPG]
+  website: https://www.openemis.org
+  project_page: https://www.openemis.org
+  repository_urls:
+    - https://github.com/open-emis/openemis-core
+  documentation_urls: []
+  licenses: [GPL-3.0-only]
+  tags: [education, emis, ministries, data]
+  governance_model: intergovernmental
+  funding_model: grant
+  steward_organizations: [unesco]
+  maintainers: [OpenEMIS team]
+  deployment_countries: [Jordan, Palestine, Maldives]
+  related_projects: [sunbird]
+  interoperability_frameworks: []
+  standards_alignment: [OpenAPI]
+  sdgs: [SDG-4]
+  dpi_domains: [education]
+  maturity_level: growing
+  sustainability_score: 71
+  activity_score: 63
+  ecosystem_score: 72
+  accessibility_score: 57
+  community_health:
+    commits_last_12_months: 520
+    contributors_last_12_months: 18
+    issue_closure_rate: 0.64
+    median_issue_response_hours: 46
+    releases_last_12_months: 3
+    contributor_diversity_index: 0.49
+    governance_maturity: 78
+    documentation_quality: 75
+    onboarding_quality: 65
+    dependency_freshness: 67
+    security_advisories_open: 0
+    openssf_scorecard: 5.8
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: openlmis
+  name: OpenLMIS
+  description: Open source logistics management information system for public health supply chains, inventory visibility, and medicine availability workflows.
+  category: Health Information
+  subcategory: Supply Chain Management
+  project_type: DPG
+  categories: [Health Information, DPI]
+  subcategories: [Supply Chain Management]
+  project_types: [DPG]
+  website: https://openlmis.org
+  project_page: https://openlmis.org
+  repository_urls:
+    - https://github.com/OpenLMIS/openlmis-ref-distro
+  documentation_urls: []
+  licenses: [AGPL-3.0-only]
+  tags: [supply-chain, health, logistics, medicines]
+  governance_model: community
+  funding_model: grant
+  steward_organizations: [openlmis-initiative]
+  maintainers: [OpenLMIS community]
+  deployment_countries: [Tanzania, Zambia, Mozambique]
+  related_projects: [openmrs, dhis2, openimis]
+  interoperability_frameworks: [OpenHIE]
+  standards_alignment: [FHIR, OpenAPI]
+  sdgs: [SDG-3]
+  dpi_domains: [health]
+  maturity_level: mature
+  sustainability_score: 81
+  activity_score: 76
+  ecosystem_score: 79
+  accessibility_score: 56
+  community_health:
+    commits_last_12_months: 1320
+    contributors_last_12_months: 49
+    issue_closure_rate: 0.73
+    median_issue_response_hours: 33
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.62
+    governance_maturity: 79
+    documentation_quality: 81
+    onboarding_quality: 74
+    dependency_freshness: 76
+    security_advisories_open: 0
+    openssf_scorecard: 6.7
+  accessibility_maturity: growing
+  sustainability_maturity: leading
+  procurement_readiness: growing
+  provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z

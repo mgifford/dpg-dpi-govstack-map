@@ -14,6 +14,8 @@ const { project } = Astro.props;
 
 const maturityClass = `badge badge--${project.maturity_level}`;
 const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
+const footprintCount = project.deployment_countries.length;
+const standardsPreview = project.standards_alignment.slice(0, 2);
 ---
 
 <article class="card project-card" aria-labelledby={`project-title-${project.id}`}>
@@ -34,6 +36,12 @@ const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
 
   <p class="project-card__desc">{project.description}</p>
 
+  <div class="project-card__stats" aria-label="Project summary">
+    <span><strong>{footprintCount}</strong> known countries</span>
+    <span><strong>{project.community_health.contributors_last_12_months}</strong> contributors</span>
+    <span><strong>{project.community_health.releases_last_12_months}</strong> releases</span>
+  </div>
+
   <!-- Score bars — accessible with labelled values -->
   <div aria-label="Project scores" style="display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-4);">
     <div class="score-bar">
@@ -52,10 +60,16 @@ const typeClass = `badge badge--${project.project_type.toLowerCase()}`;
     </div>
   </div>
 
+  {standardsPreview.length > 0 && (
+    <p class="project-card__standards" aria-label="Standards alignment preview">
+      {standardsPreview.join(" · ")}
+    </p>
+  )}
+
   <!-- Countries -->
   {project.deployment_countries.length > 0 && (
-    <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-3);">
-      <span aria-label="Deployed in">🌍</span>{" "}
+    <p class="project-card__countries">
+      <span style="font-weight: 600; color: var(--color-text);">Footprint:</span>{" "}
       {project.deployment_countries.slice(0, 4).join(", ")}
       {project.deployment_countries.length > 4 && ` +${project.deployment_countries.length - 4} more`}
     </p>

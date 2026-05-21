@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T00:07:17.396Z",
-  "count": 8,
+  "generated_at": "2026-05-21T00:35:38.642Z",
+  "count": 18,
   "deployments": [
     {
       "country": "United Kingdom",
@@ -96,6 +96,126 @@
       "deployment_status": "active",
       "confidence": 0.75,
       "source": "Mojaloop public case studies",
+      "provenance": {}
+    },
+    {
+      "country": "Estonia",
+      "government": "Government of Estonia",
+      "ministry": "Cross-government digital services",
+      "project": "x-road",
+      "deployment_type": "secure data exchange layer",
+      "implementation_partner": "NIIS ecosystem",
+      "deployment_status": "active",
+      "confidence": 0.97,
+      "source": "X-Road public documentation and Estonia digital government materials",
+      "provenance": {}
+    },
+    {
+      "country": "Sierra Leone",
+      "government": "Government of Sierra Leone",
+      "ministry": "Civil Registration Authority",
+      "project": "opencrvs",
+      "deployment_type": "civil registration and vital statistics",
+      "implementation_partner": "OpenCRVS partners",
+      "deployment_status": "active",
+      "confidence": 0.8,
+      "source": "OpenCRVS public implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Nepal",
+      "government": "Government of Nepal",
+      "ministry": "Health financing programs",
+      "project": "openimis",
+      "deployment_type": "health insurance administration",
+      "implementation_partner": "openIMIS implementation partners",
+      "deployment_status": "active",
+      "confidence": 0.7,
+      "source": "openIMIS public country implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Rwanda",
+      "government": "Government of Rwanda",
+      "ministry": "Public health programs",
+      "project": "rapidpro",
+      "deployment_type": "citizen messaging and health workflows",
+      "implementation_partner": "RapidPro ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.72,
+      "source": "RapidPro public case studies",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "State health systems",
+      "ministry": "Public hospitals",
+      "project": "bahmni",
+      "deployment_type": "hospital information system",
+      "implementation_partner": "Bahmni implementers",
+      "deployment_status": "active",
+      "confidence": 0.74,
+      "source": "Bahmni public implementation examples",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "Government of India and state governments",
+      "ministry": "Municipal and service delivery departments",
+      "project": "digit",
+      "deployment_type": "service delivery platform",
+      "implementation_partner": "eGov Foundation ecosystem",
+      "deployment_status": "active",
+      "confidence": 0.82,
+      "source": "DIGIT public deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "Government education programs",
+      "ministry": "School education departments",
+      "project": "sunbird",
+      "deployment_type": "digital learning platform",
+      "implementation_partner": "Sunbird ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.78,
+      "source": "Sunbird public deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "Sierra Leone",
+      "government": "Government of Sierra Leone",
+      "ministry": "Social protection programs",
+      "project": "openg2p",
+      "deployment_type": "social protection delivery",
+      "implementation_partner": "OpenG2P ecosystem partners",
+      "deployment_status": "pilot",
+      "confidence": 0.62,
+      "source": "OpenG2P public implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Jordan",
+      "government": "Hashemite Kingdom of Jordan",
+      "ministry": "Ministry of Education",
+      "project": "openemis",
+      "deployment_type": "education management information system",
+      "implementation_partner": "UNESCO and implementation partners",
+      "deployment_status": "active",
+      "confidence": 0.73,
+      "source": "OpenEMIS public country deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "Tanzania",
+      "government": "Government of Tanzania",
+      "ministry": "Medical stores and public health supply chain",
+      "project": "openlmis",
+      "deployment_type": "health supply chain management",
+      "implementation_partner": "OpenLMIS ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.77,
+      "source": "OpenLMIS public implementation case studies",
       "provenance": {}
     }
   ]
