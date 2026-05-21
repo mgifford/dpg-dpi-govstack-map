@@ -3,13 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6784,
-          45.5152
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-122.6784, 45.5152] },
       "properties": {
         "id": "drupal-association",
         "name": "Drupal Association",
@@ -17,22 +11,14 @@
         "org_type": "nonprofit",
         "country": "United States",
         "city": "Portland",
-        "associated_projects": [
-          "drupal"
-        ],
+        "associated_projects": ["drupal"],
         "popup_label": "Drupal Association — Portland, United States",
         "popup_detail": "Projects: Drupal"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.6633,
-          12.8406
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [77.6633, 12.8406] },
       "properties": {
         "id": "iiit-bangalore",
         "name": "IIIT Bangalore",
@@ -40,22 +26,14 @@
         "org_type": "academic",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": [
-          "mosip"
-        ],
+        "associated_projects": ["mosip"],
         "popup_label": "IIIT Bangalore — Bengaluru, India",
         "popup_detail": "Projects: MOSIP"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.5946,
-          12.9716
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [77.5946, 12.9716] },
       "properties": {
         "id": "mosip-foundation",
         "name": "MOSIP Foundation",
@@ -63,22 +41,14 @@
         "org_type": "nonprofit",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": [
-          "mosip"
-        ],
+        "associated_projects": ["mosip"],
         "popup_label": "MOSIP Foundation — Bengaluru, India",
         "popup_detail": "Projects: MOSIP"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.723,
-          59.939
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [10.723, 59.939] },
       "properties": {
         "id": "university-of-oslo",
         "name": "University of Oslo",
@@ -86,22 +56,14 @@
         "org_type": "academic",
         "country": "Norway",
         "city": "Oslo",
-        "associated_projects": [
-          "dhis2"
-        ],
+        "associated_projects": ["dhis2"],
         "popup_label": "University of Oslo — Oslo, Norway",
         "popup_detail": "Projects: DHIS2"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.1581,
-          39.7684
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-86.1581, 39.7684] },
       "properties": {
         "id": "openmrs-inc",
         "name": "OpenMRS Inc.",
@@ -109,22 +71,14 @@
         "org_type": "nonprofit",
         "country": "United States",
         "city": "Indianapolis",
-        "associated_projects": [
-          "openmrs"
-        ],
+        "associated_projects": ["openmrs"],
         "popup_label": "OpenMRS Inc. — Indianapolis, United States",
         "popup_detail": "Projects: OpenMRS"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.8172,
-          -1.2864
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [36.8172, -1.2864] },
       "properties": {
         "id": "openspp-association",
         "name": "OpenSPP Association",
@@ -132,22 +86,14 @@
         "org_type": "nonprofit",
         "country": "Kenya",
         "city": "Nairobi",
-        "associated_projects": [
-          "openspp"
-        ],
+        "associated_projects": ["openspp"],
         "popup_label": "OpenSPP Association — Nairobi, Kenya",
         "popup_detail": "Projects: OpenSPP"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1276,
-          51.5072
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-0.1276, 51.5072] },
       "properties": {
         "id": "ckan-association",
         "name": "CKAN Association",
@@ -155,22 +101,14 @@
         "org_type": "nonprofit",
         "country": "United Kingdom",
         "city": "London",
-        "associated_projects": [
-          "ckan"
-        ],
+        "associated_projects": ["ckan"],
         "popup_label": "CKAN Association — London, United Kingdom",
         "popup_detail": "Projects: CKAN"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.273,
-          37.8715
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-122.273, 37.8715] },
       "properties": {
         "id": "civicactions",
         "name": "CivicActions",
@@ -178,22 +116,14 @@
         "org_type": "company",
         "country": "United States",
         "city": "Berkeley",
-        "associated_projects": [
-          "dkan"
-        ],
+        "associated_projects": ["dkan"],
         "popup_label": "CivicActions — Berkeley, United States",
         "popup_detail": "Projects: DKAN"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.8198,
-          1.3521
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [103.8198, 1.3521] },
       "properties": {
         "id": "mojaloop-foundation",
         "name": "Mojaloop Foundation",
@@ -201,22 +131,14 @@
         "org_type": "nonprofit",
         "country": "Singapore",
         "city": "Singapore",
-        "associated_projects": [
-          "mojaloop"
-        ],
+        "associated_projects": ["mojaloop"],
         "popup_label": "Mojaloop Foundation — Singapore, Singapore",
         "popup_detail": "Projects: Mojaloop"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.743,
-          42.2808
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-83.743, 42.2808] },
       "properties": {
         "id": "hl7",
         "name": "Health Level Seven International",
@@ -231,13 +153,7 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.1432,
-          46.2044
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [6.1432, 46.2044] },
       "properties": {
         "id": "iso",
         "name": "International Organization for Standardization",
@@ -252,13 +168,7 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.968,
-          40.7484
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-73.968, 40.7484] },
       "properties": {
         "id": "united-nations",
         "name": "United Nations",
@@ -273,13 +183,7 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.7536,
-          59.437
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [24.7536, 59.437] },
       "properties": {
         "id": "niis",
         "name": "Nordic Institute for Interoperability Solutions",
@@ -287,22 +191,14 @@
         "org_type": "nonprofit",
         "country": "Estonia",
         "city": "Tallinn",
-        "associated_projects": [
-          "x-road"
-        ],
+        "associated_projects": ["x-road"],
         "popup_label": "Nordic Institute for Interoperability Solutions — Tallinn, Estonia",
         "popup_detail": "Projects: X-Road"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.3832,
-          43.6532
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-79.3832, 43.6532] },
       "properties": {
         "id": "viamo",
         "name": "Viamo",
@@ -310,22 +206,14 @@
         "org_type": "company",
         "country": "Canada",
         "city": "Toronto",
-        "associated_projects": [
-          "rapidpro"
-        ],
+        "associated_projects": ["rapidpro"],
         "popup_label": "Viamo — Toronto, Canada",
         "popup_detail": "Projects: RapidPro"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.5946,
-          12.9716
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [77.5946, 12.9716] },
       "properties": {
         "id": "bahmni-coalition",
         "name": "Bahmni Coalition",
@@ -333,22 +221,14 @@
         "org_type": "nonprofit",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": [
-          "bahmni"
-        ],
+        "associated_projects": ["bahmni"],
         "popup_label": "Bahmni Coalition — Bengaluru, India",
         "popup_detail": "Projects: Bahmni"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.5946,
-          12.9716
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [77.5946, 12.9716] },
       "properties": {
         "id": "egov-foundation",
         "name": "eGov Foundation",
@@ -356,22 +236,14 @@
         "org_type": "nonprofit",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": [
-          "digit"
-        ],
+        "associated_projects": ["digit"],
         "popup_label": "eGov Foundation — Bengaluru, India",
         "popup_detail": "Projects: DIGIT"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.5946,
-          12.9716
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [77.5946, 12.9716] },
       "properties": {
         "id": "ekstep-foundation",
         "name": "EkStep Foundation",
@@ -379,22 +251,14 @@
         "org_type": "nonprofit",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": [
-          "sunbird"
-        ],
+        "associated_projects": ["sunbird"],
         "popup_label": "EkStep Foundation — Bengaluru, India",
         "popup_detail": "Projects: Sunbird"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.3522,
-          48.8566
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [2.3522, 48.8566] },
       "properties": {
         "id": "unesco",
         "name": "UNESCO",
@@ -402,22 +266,14 @@
         "org_type": "intergovernmental",
         "country": "International",
         "city": "Paris",
-        "associated_projects": [
-          "openemis"
-        ],
+        "associated_projects": ["openemis"],
         "popup_label": "UNESCO — Paris, International",
         "popup_detail": "Projects: OpenEMIS"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3321,
-          47.6062
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-122.3321, 47.6062] },
       "properties": {
         "id": "openlmis-initiative",
         "name": "OpenLMIS Initiative",
@@ -425,22 +281,14 @@
         "org_type": "nonprofit",
         "country": "United States",
         "city": "Seattle",
-        "associated_projects": [
-          "openlmis"
-        ],
+        "associated_projects": ["openlmis"],
         "popup_label": "OpenLMIS Initiative — Seattle, United States",
         "popup_detail": "Projects: OpenLMIS"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.405,
-          52.52
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [13.405, 52.52] },
       "properties": {
         "id": "scs-community",
         "name": "Sovereign Cloud Stack Community",
@@ -448,22 +296,14 @@
         "org_type": "consortium",
         "country": "Germany",
         "city": "Berlin",
-        "associated_projects": [
-          "sovereign-cloud-stack"
-        ],
+        "associated_projects": ["sovereign-cloud-stack"],
         "popup_label": "Sovereign Cloud Stack Community — Berlin, Germany",
         "popup_detail": "Projects: Sovereign Cloud Stack"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.1214,
-          52.0907
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [5.1214, 52.0907] },
       "properties": {
         "id": "baserow-company",
         "name": "Baserow",
@@ -471,22 +311,14 @@
         "org_type": "company",
         "country": "Netherlands",
         "city": "Utrecht",
-        "associated_projects": [
-          "baserow"
-        ],
+        "associated_projects": ["baserow"],
         "popup_label": "Baserow — Utrecht, Netherlands",
         "popup_detail": "Projects: Baserow"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ]
-      },
+      "geometry": { "type": "Point", "coordinates": [-77.0369, 38.9072] },
       "properties": {
         "id": "mifos-initiative",
         "name": "Mifos Initiative",
@@ -494,9 +326,7 @@
         "org_type": "nonprofit",
         "country": "United States",
         "city": "Washington",
-        "associated_projects": [
-          "mifos-payment-hub-ee"
-        ],
+        "associated_projects": ["mifos-payment-hub-ee"],
         "popup_label": "Mifos Initiative — Washington, United States",
         "popup_detail": "Projects: Mifos Payment Hub Enterprise Edition"
       }

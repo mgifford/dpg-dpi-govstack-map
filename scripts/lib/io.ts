@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { format } from "prettier";
 
 export async function readJsonFile<T>(filePath: string): Promise<T> {
   const raw = await readFile(filePath, "utf8");
@@ -8,7 +9,8 @@ export async function readJsonFile<T>(filePath: string): Promise<T> {
 
 export async function writeJsonFile(filePath: string, data: unknown): Promise<void> {
   await mkdir(path.dirname(filePath), { recursive: true });
-  await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+  const formatted = await format(JSON.stringify(data), { parser: "json" });
+  await writeFile(filePath, formatted, "utf8");
 }
 
 export function nowIso(): string {

@@ -9,17 +9,10 @@
       "website": "https://www.drupal.org/association",
       "country": "United States",
       "city": "Portland",
-      "coordinates": {
-        "lat": 45.5152,
-        "lon": -122.6784
-      },
-      "associated_projects": [
-        "drupal"
-      ],
+      "coordinates": { "lat": 45.5152, "lon": -122.6784 },
+      "associated_projects": ["drupal"],
       "partnerships": [],
-      "funders": [
-        "member-sponsors"
-      ],
+      "funders": ["member-sponsors"],
       "staff": [],
       "github_org": "drupal",
       "linkedin": "https://www.linkedin.com/company/drupal-association/",
@@ -33,16 +26,9 @@
       "website": "https://iiitb.ac.in",
       "country": "India",
       "city": "Bengaluru",
-      "coordinates": {
-        "lat": 12.8406,
-        "lon": 77.6633
-      },
-      "associated_projects": [
-        "mosip"
-      ],
-      "partnerships": [
-        "mosip-foundation"
-      ],
+      "coordinates": { "lat": 12.8406, "lon": 77.6633 },
+      "associated_projects": ["mosip"],
+      "partnerships": ["mosip-foundation"],
       "funders": [],
       "staff": [],
       "github_org": "mosip",
@@ -57,16 +43,9 @@
       "website": "https://mosip.io",
       "country": "India",
       "city": "Bengaluru",
-      "coordinates": {
-        "lat": 12.9716,
-        "lon": 77.5946
-      },
-      "associated_projects": [
-        "mosip"
-      ],
-      "partnerships": [
-        "iiit-bangalore"
-      ],
+      "coordinates": { "lat": 12.9716, "lon": 77.5946 },
+      "associated_projects": ["mosip"],
+      "partnerships": ["iiit-bangalore"],
       "funders": [],
       "staff": [],
       "github_org": "mosip",
@@ -81,13 +60,8 @@
       "website": "https://www.uio.no",
       "country": "Norway",
       "city": "Oslo",
-      "coordinates": {
-        "lat": 59.939,
-        "lon": 10.723
-      },
-      "associated_projects": [
-        "dhis2"
-      ],
+      "coordinates": { "lat": 59.939, "lon": 10.723 },
+      "associated_projects": ["dhis2"],
       "partnerships": [],
       "funders": [],
       "staff": [],
@@ -103,16 +77,9 @@
       "website": "https://openmrs.org",
       "country": "United States",
       "city": "Indianapolis",
-      "coordinates": {
-        "lat": 39.7684,
-        "lon": -86.1581
-      },
-      "associated_projects": [
-        "openmrs"
-      ],
-      "partnerships": [
-        "university-of-oslo"
-      ],
+      "coordinates": { "lat": 39.7684, "lon": -86.1581 },
+      "associated_projects": ["openmrs"],
+      "partnerships": ["university-of-oslo"],
       "funders": [],
       "staff": [],
       "github_org": "openmrs",
@@ -127,16 +94,9 @@
       "website": "https://openspp.org",
       "country": "Kenya",
       "city": "Nairobi",
-      "coordinates": {
-        "lat": -1.2864,
-        "lon": 36.8172
-      },
-      "associated_projects": [
-        "openspp"
-      ],
-      "partnerships": [
-        "mojaloop-foundation"
-      ],
+      "coordinates": { "lat": -1.2864, "lon": 36.8172 },
+      "associated_projects": ["openspp"],
+      "partnerships": ["mojaloop-foundation"],
       "funders": [],
       "staff": [],
       "github_org": "openspp",
@@ -151,16 +111,9 @@
       "website": "https://ckan.org/community/",
       "country": "United Kingdom",
       "city": "London",
-      "coordinates": {
-        "lat": 51.5072,
-        "lon": -0.1276
-      },
-      "associated_projects": [
-        "ckan"
-      ],
-      "partnerships": [
-        "civicactions"
-      ],
+      "coordinates": { "lat": 51.5072, "lon": -0.1276 },
+      "associated_projects": ["ckan"],
+      "partnerships": ["civicactions"],
       "funders": [],
       "staff": [],
       "github_org": "ckan",
@@ -175,16 +128,9 @@
       "website": "https://civicactions.com",
       "country": "United States",
       "city": "Berkeley",
-      "coordinates": {
-        "lat": 37.8715,
-        "lon": -122.273
-      },
-      "associated_projects": [
-        "dkan"
-      ],
-      "partnerships": [
-        "ckan-association"
-      ],
+      "coordinates": { "lat": 37.8715, "lon": -122.273 },
+      "associated_projects": ["dkan"],
+      "partnerships": ["ckan-association"],
       "funders": [],
       "staff": [],
       "github_org": "GetDKAN",
@@ -199,16 +145,9 @@
       "website": "https://mojaloop.io",
       "country": "Singapore",
       "city": "Singapore",
-      "coordinates": {
-        "lat": 1.3521,
-        "lon": 103.8198
-      },
-      "associated_projects": [
-        "mojaloop"
-      ],
-      "partnerships": [
-        "openspp-association"
-      ],
+      "coordinates": { "lat": 1.3521, "lon": 103.8198 },
+      "associated_projects": ["mojaloop"],
+      "partnerships": ["openspp-association"],
       "funders": [],
       "staff": [],
       "github_org": "mojaloop",
@@ -240,10 +179,7 @@
       "website": "https://www.hl7.org",
       "country": "International",
       "city": "Ann Arbor",
-      "coordinates": {
-        "lat": 42.2808,
-        "lon": -83.743
-      },
+      "coordinates": { "lat": 42.2808, "lon": -83.743 },
       "associated_projects": [],
       "partnerships": [],
       "funders": [],
@@ -260,10 +196,7 @@
       "website": "https://www.iso.org",
       "country": "Switzerland",
       "city": "Geneva",
-      "coordinates": {
-        "lat": 46.2044,
-        "lon": 6.1432
-      },
+      "coordinates": { "lat": 46.2044, "lon": 6.1432 },
       "associated_projects": [],
       "partnerships": [],
       "funders": [],
@@ -280,10 +213,7 @@
       "website": "https://www.un.org",
       "country": "International",
       "city": "New York",
-      "coordinates": {
-        "lat": 40.7484,
-        "lon": -73.968
-      },
+      "coordinates": { "lat": 40.7484, "lon": -73.968 },
       "associated_projects": [],
       "partnerships": [],
       "funders": [],
@@ -300,13 +230,8 @@
       "website": "https://www.niis.org",
       "country": "Estonia",
       "city": "Tallinn",
-      "coordinates": {
-        "lat": 59.437,
-        "lon": 24.7536
-      },
-      "associated_projects": [
-        "x-road"
-      ],
+      "coordinates": { "lat": 59.437, "lon": 24.7536 },
+      "associated_projects": ["x-road"],
       "partnerships": [],
       "funders": [],
       "staff": [],
@@ -323,9 +248,7 @@
       "country": "International",
       "city": "",
       "coordinates": null,
-      "associated_projects": [
-        "opencrvs"
-      ],
+      "associated_projects": ["opencrvs"],
       "partnerships": [],
       "funders": [],
       "staff": [],
@@ -342,12 +265,8 @@
       "country": "International",
       "city": "",
       "coordinates": null,
-      "associated_projects": [
-        "openimis"
-      ],
-      "partnerships": [
-        "openlmis-initiative"
-      ],
+      "associated_projects": ["openimis"],
+      "partnerships": ["openlmis-initiative"],
       "funders": [],
       "staff": [],
       "github_org": "openimis",
@@ -362,13 +281,8 @@
       "website": "https://viamo.io",
       "country": "Canada",
       "city": "Toronto",
-      "coordinates": {
-        "lat": 43.6532,
-        "lon": -79.3832
-      },
-      "associated_projects": [
-        "rapidpro"
-      ],
+      "coordinates": { "lat": 43.6532, "lon": -79.3832 },
+      "associated_projects": ["rapidpro"],
       "partnerships": [],
       "funders": [],
       "staff": [],
@@ -384,16 +298,9 @@
       "website": "https://www.bahmni.org",
       "country": "India",
       "city": "Bengaluru",
-      "coordinates": {
-        "lat": 12.9716,
-        "lon": 77.5946
-      },
-      "associated_projects": [
-        "bahmni"
-      ],
-      "partnerships": [
-        "openmrs-inc"
-      ],
+      "coordinates": { "lat": 12.9716, "lon": 77.5946 },
+      "associated_projects": ["bahmni"],
+      "partnerships": ["openmrs-inc"],
       "funders": [],
       "staff": [],
       "github_org": "Bahmni",
@@ -408,16 +315,9 @@
       "website": "https://www.egov.org.in",
       "country": "India",
       "city": "Bengaluru",
-      "coordinates": {
-        "lat": 12.9716,
-        "lon": 77.5946
-      },
-      "associated_projects": [
-        "digit"
-      ],
-      "partnerships": [
-        "ekstep-foundation"
-      ],
+      "coordinates": { "lat": 12.9716, "lon": 77.5946 },
+      "associated_projects": ["digit"],
+      "partnerships": ["ekstep-foundation"],
       "funders": [],
       "staff": [],
       "github_org": "egovernments",
@@ -432,16 +332,9 @@
       "website": "https://ekstep.org",
       "country": "India",
       "city": "Bengaluru",
-      "coordinates": {
-        "lat": 12.9716,
-        "lon": 77.5946
-      },
-      "associated_projects": [
-        "sunbird"
-      ],
-      "partnerships": [
-        "egov-foundation"
-      ],
+      "coordinates": { "lat": 12.9716, "lon": 77.5946 },
+      "associated_projects": ["sunbird"],
+      "partnerships": ["egov-foundation"],
       "funders": [],
       "staff": [],
       "github_org": "Sunbird-Ed",
@@ -457,13 +350,8 @@
       "country": "International",
       "city": "",
       "coordinates": null,
-      "associated_projects": [
-        "openg2p"
-      ],
-      "partnerships": [
-        "openspp-association",
-        "mojaloop-foundation"
-      ],
+      "associated_projects": ["openg2p"],
+      "partnerships": ["openspp-association", "mojaloop-foundation"],
       "funders": [],
       "staff": [],
       "github_org": "OpenG2P",
@@ -478,16 +366,9 @@
       "website": "https://www.unesco.org",
       "country": "International",
       "city": "Paris",
-      "coordinates": {
-        "lat": 48.8566,
-        "lon": 2.3522
-      },
-      "associated_projects": [
-        "openemis"
-      ],
-      "partnerships": [
-        "united-nations"
-      ],
+      "coordinates": { "lat": 48.8566, "lon": 2.3522 },
+      "associated_projects": ["openemis"],
+      "partnerships": ["united-nations"],
       "funders": [],
       "staff": [],
       "github_org": "open-emis",
@@ -502,16 +383,9 @@
       "website": "https://openlmis.org",
       "country": "United States",
       "city": "Seattle",
-      "coordinates": {
-        "lat": 47.6062,
-        "lon": -122.3321
-      },
-      "associated_projects": [
-        "openlmis"
-      ],
-      "partnerships": [
-        "openimis-initiative"
-      ],
+      "coordinates": { "lat": 47.6062, "lon": -122.3321 },
+      "associated_projects": ["openlmis"],
+      "partnerships": ["openimis-initiative"],
       "funders": [],
       "staff": [],
       "github_org": "OpenLMIS",
@@ -526,16 +400,9 @@
       "website": "https://scs.community/de/",
       "country": "Germany",
       "city": "Berlin",
-      "coordinates": {
-        "lat": 52.52,
-        "lon": 13.405
-      },
-      "associated_projects": [
-        "sovereign-cloud-stack"
-      ],
-      "partnerships": [
-        "niis"
-      ],
+      "coordinates": { "lat": 52.52, "lon": 13.405 },
+      "associated_projects": ["sovereign-cloud-stack"],
+      "partnerships": ["niis"],
       "funders": [],
       "staff": [],
       "github_org": "SovereignCloudStack",
@@ -550,13 +417,8 @@
       "website": "https://baserow.io",
       "country": "Netherlands",
       "city": "Utrecht",
-      "coordinates": {
-        "lat": 52.0907,
-        "lon": 5.1214
-      },
-      "associated_projects": [
-        "baserow"
-      ],
+      "coordinates": { "lat": 52.0907, "lon": 5.1214 },
+      "associated_projects": ["baserow"],
       "partnerships": [],
       "funders": [],
       "staff": [],
@@ -572,16 +434,9 @@
       "website": "https://mifos.org",
       "country": "United States",
       "city": "Washington",
-      "coordinates": {
-        "lat": 38.9072,
-        "lon": -77.0369
-      },
-      "associated_projects": [
-        "mifos-payment-hub-ee"
-      ],
-      "partnerships": [
-        "mojaloop-foundation"
-      ],
+      "coordinates": { "lat": 38.9072, "lon": -77.0369 },
+      "associated_projects": ["mifos-payment-hub-ee"],
+      "partnerships": ["mojaloop-foundation"],
       "funders": [],
       "staff": [],
       "github_org": "openMF",

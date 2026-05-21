@@ -11,15 +11,12 @@
 import path from "node:path";
 import { writeFile, mkdir } from "node:fs/promises";
 import type { AtlasDataset, Project, Organization } from "../src/lib/schema.js";
+import { writeJsonFile } from "./lib/io.js";
 
 const OUT_DIR = path.resolve("public/api");
 
 async function ensureDir(dir: string): Promise<void> {
   await mkdir(dir, { recursive: true });
-}
-
-function toJson(data: unknown): string {
-  return `${JSON.stringify(data, null, 2)}\n`;
 }
 
 // ── GeoJSON ────────────────────────────────────────────────────────────────
@@ -149,53 +146,41 @@ export async function generateDatasets(dataset: AtlasDataset): Promise<void> {
 
   const writes: Promise<void>[] = [
     // Full atlas
-    writeFile(path.join(OUT_DIR, "atlas.json"), toJson(dataset)),
+    writeJsonFile(path.join(OUT_DIR, "atlas.json"), dataset),
 
     // Sliced endpoints
-    writeFile(
-      path.join(OUT_DIR, "projects.json"),
-      toJson({
-        generated_at: dataset.generated_at,
-        count: dataset.projects.length,
-        projects: dataset.projects
-      })
-    ),
-    writeFile(
-      path.join(OUT_DIR, "organizations.json"),
-      toJson({
-        generated_at: dataset.generated_at,
-        count: dataset.organizations.length,
-        organizations: dataset.organizations
-      })
-    ),
-    writeFile(
-      path.join(OUT_DIR, "relationships.json"),
-      toJson({
-        generated_at: dataset.generated_at,
-        count: dataset.relationships.length,
-        relationships: dataset.relationships
-      })
-    ),
-    writeFile(
-      path.join(OUT_DIR, "deployments.json"),
-      toJson({
-        generated_at: dataset.generated_at,
-        count: dataset.deployments.length,
-        deployments: dataset.deployments
-      })
-    ),
+    writeJsonFile(path.join(OUT_DIR, "projects.json"), {
+      generated_at: dataset.generated_at,
+      count: dataset.projects.length,
+      projects: dataset.projects
+    }),
+    writeJsonFile(path.join(OUT_DIR, "organizations.json"), {
+      generated_at: dataset.generated_at,
+      count: dataset.organizations.length,
+      organizations: dataset.organizations
+    }),
+    writeJsonFile(path.join(OUT_DIR, "relationships.json"), {
+      generated_at: dataset.generated_at,
+      count: dataset.relationships.length,
+      relationships: dataset.relationships
+    }),
+    writeJsonFile(path.join(OUT_DIR, "deployments.json"), {
+      generated_at: dataset.generated_at,
+      count: dataset.deployments.length,
+      deployments: dataset.deployments
+    }),
 
     // GeoJSON
-    writeFile(
+    writeJsonFile(
       path.join(OUT_DIR, "map.geojson"),
-      toJson(buildGeoJson(dataset.projects, dataset.organizations))
+      buildGeoJson(dataset.projects, dataset.organizations)
     ),
 
     // CSV
     writeFile(path.join(OUT_DIR, "projects.csv"), buildCsv(dataset.projects)),
 
     // Graph
-    writeFile(path.join(OUT_DIR, "graph.json"), toJson(buildGraphData(dataset)))
+    writeJsonFile(path.join(OUT_DIR, "graph.json"), buildGraphData(dataset))
   ];
 
   await Promise.all(writes);

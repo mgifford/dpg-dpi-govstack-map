@@ -7,7 +7,7 @@
  *   GITHUB_TOKEN=xxx npm run ingest
  */
 
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset } from "../src/lib/schema.js";
 import { atlasDatasetSchema } from "../src/lib/schema.js";
@@ -15,6 +15,7 @@ import { fetchDpgProjects } from "./ingest-dpg.js";
 import { enrichProjectsBatch } from "./enrich-github.js";
 import { generateDatasets } from "./generate-datasets.js";
 import { generateSearchIndex } from "./generate-search-index.js";
+import { writeJsonFile } from "./lib/io.js";
 import { loadManualDataset } from "./lib/manual.js";
 
 const SEED_PATH = path.resolve("data/processed/atlas.json");
@@ -107,7 +108,7 @@ async function main(): Promise<void> {
 
   // 6. Persist updated dataset
   console.log("[5/6] Persisting dataset…");
-  await writeFile(OUT_PATH, `${JSON.stringify(dataset, null, 2)}\n`);
+  await writeJsonFile(OUT_PATH, dataset);
 
   // 7. Generate static API outputs
   console.log("[6/6] Generating static API outputs and search index…");

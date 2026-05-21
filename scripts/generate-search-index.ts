@@ -3,16 +3,13 @@
  * Outputs: public/api/search-index.json
  */
 
-import path from "node:path";
-import { writeFile, mkdir } from "node:fs/promises";
 import lunr from "lunr";
 import type { AtlasDataset } from "../src/lib/schema.js";
+import { writeJsonFile } from "./lib/io.js";
 
-const OUT_PATH = path.resolve("public/api/search-index.json");
+const OUT_PATH = "public/api/search-index.json";
 
 export async function generateSearchIndex(dataset: AtlasDataset): Promise<void> {
-  await mkdir(path.dirname(OUT_PATH), { recursive: true });
-
   // Build a flat document list for Lunr
   const documents = dataset.projects.map((p) => ({
     id: p.id,
@@ -62,7 +59,7 @@ export async function generateSearchIndex(dataset: AtlasDataset): Promise<void> 
     };
   }
 
-  await writeFile(OUT_PATH, `${JSON.stringify({ index: index.toJSON(), meta }, null, 2)}\n`);
+  await writeJsonFile(OUT_PATH, { index: index.toJSON(), meta });
 
   console.log(`[generate-search-index] Wrote search index for ${documents.length} projects`);
 }

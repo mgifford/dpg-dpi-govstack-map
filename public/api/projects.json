@@ -9,74 +9,30 @@
       "category": "Government Platforms",
       "subcategory": "Content Management",
       "project_type": "Government OSS",
-      "categories": [
-        "Government Platforms",
-        "Civic Technology"
-      ],
-      "subcategories": [
-        "Content Management",
-        "Service Delivery"
-      ],
-      "project_types": [
-        "Government OSS",
-        "Civic Tech"
-      ],
-      "tags": [
-        "cms",
-        "govtech",
-        "accessibility",
-        "open-source"
-      ],
+      "categories": ["Government Platforms", "Civic Technology"],
+      "subcategories": ["Content Management", "Service Delivery"],
+      "project_types": ["Government OSS", "Civic Tech"],
+      "tags": ["cms", "govtech", "accessibility", "open-source"],
       "website": "https://drupal.org",
       "project_page": "https://www.drupal.org/about",
-      "repository_urls": [
-        "https://github.com/drupal/drupal"
-      ],
-      "documentation_urls": [
-        "https://www.drupal.org/documentation"
-      ],
-      "licenses": [
-        "GPL-2.0-or-later"
-      ],
+      "repository_urls": ["https://github.com/drupal/drupal"],
+      "documentation_urls": ["https://www.drupal.org/documentation"],
+      "licenses": ["GPL-2.0-or-later"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "mixed",
-      "standards_alignment": [
-        "WAI-ARIA",
-        "WCAG 2.2",
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "OpenAPI"
-      ],
+      "standards_alignment": ["WAI-ARIA", "WCAG 2.2", "OpenAPI"],
+      "interoperability_frameworks": ["OpenAPI"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "United Kingdom",
-        "United States",
-        "Australia",
-        "France",
-        "Germany"
-      ],
-      "steward_organizations": [
-        "drupal-association"
-      ],
-      "maintainers": [
-        "Drupal core maintainers"
-      ],
-      "related_projects": [
-        "ckan",
-        "dkan"
-      ],
-      "sdgs": [
-        "SDG-16",
-        "SDG-9"
-      ],
-      "dpi_domains": [
-        "government-service-delivery"
-      ],
+      "deployment_countries": ["United Kingdom", "United States", "Australia", "France", "Germany"],
+      "steward_organizations": ["drupal-association"],
+      "maintainers": ["Drupal core maintainers"],
+      "related_projects": ["ckan", "dkan"],
+      "sdgs": ["SDG-16", "SDG-9"],
+      "dpi_domains": ["government-service-delivery"],
       "maturity_level": "mature",
       "sustainability_score": 91,
       "activity_score": 88,
@@ -174,49 +130,22 @@
       "category": "Digital Identity",
       "subcategory": "Foundational ID",
       "project_type": "DPG",
-      "categories": [
-        "Digital Identity",
-        "DPI"
-      ],
-      "subcategories": [
-        "Foundational ID"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "identity",
-        "govstack",
-        "interoperability",
-        "biometrics"
-      ],
+      "categories": ["Digital Identity", "DPI"],
+      "subcategories": ["Foundational ID"],
+      "project_types": ["DPG"],
+      "tags": ["identity", "govstack", "interoperability", "biometrics"],
       "website": "https://mosip.io",
       "project_page": "https://digitalpublicgoods.net/r/mosip",
-      "repository_urls": [
-        "https://github.com/mosip/mosip-platform"
-      ],
-      "documentation_urls": [
-        "https://docs.mosip.io"
-      ],
-      "licenses": [
-        "MPL-2.0"
-      ],
+      "repository_urls": ["https://github.com/mosip/mosip-platform"],
+      "documentation_urls": ["https://docs.mosip.io"],
+      "licenses": ["MPL-2.0"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
-      "standards_alignment": [
-        "W3C DID",
-        "OpenID Connect",
-        "ISO/IEC 19794"
-      ],
-      "interoperability_frameworks": [
-        "GovStack",
-        "G2P Connect"
-      ],
-      "govstack_building_blocks": [
-        "Identity"
-      ],
+      "standards_alignment": ["W3C DID", "OpenID Connect", "ISO/IEC 19794"],
+      "interoperability_frameworks": ["GovStack", "G2P Connect"],
+      "govstack_building_blocks": ["Identity"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping to the GovStack Identity building block.",
       "deployment_countries": [
@@ -227,23 +156,11 @@
         "Sri Lanka",
         "Togo"
       ],
-      "steward_organizations": [
-        "iiit-bangalore",
-        "mosip-foundation"
-      ],
-      "maintainers": [
-        "MOSIP core team"
-      ],
-      "related_projects": [
-        "openspp",
-        "mojaloop"
-      ],
-      "sdgs": [
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "digital-identity"
-      ],
+      "steward_organizations": ["iiit-bangalore", "mosip-foundation"],
+      "maintainers": ["MOSIP core team"],
+      "related_projects": ["openspp", "mojaloop"],
+      "sdgs": ["SDG-16"],
+      "dpi_domains": ["digital-identity"],
       "maturity_level": "mature",
       "sustainability_score": 82,
       "activity_score": 78,
@@ -332,45 +249,21 @@
       "category": "Health Information",
       "subcategory": "HMIS",
       "project_type": "DPG",
-      "categories": [
-        "Health Information",
-        "DPI"
-      ],
-      "subcategories": [
-        "HMIS"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "health",
-        "analytics",
-        "reporting",
-        "govstack"
-      ],
+      "categories": ["Health Information", "DPI"],
+      "subcategories": ["HMIS"],
+      "project_types": ["DPG"],
+      "tags": ["health", "analytics", "reporting", "govstack"],
       "website": "https://dhis2.org",
       "project_page": "https://digitalpublicgoods.net/r/dhis2",
-      "repository_urls": [
-        "https://github.com/dhis2/dhis2-core"
-      ],
-      "documentation_urls": [
-        "https://docs.dhis2.org"
-      ],
-      "licenses": [
-        "BSD-3-Clause"
-      ],
+      "repository_urls": ["https://github.com/dhis2/dhis2-core"],
+      "documentation_urls": ["https://docs.dhis2.org"],
+      "licenses": ["BSD-3-Clause"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "academic",
       "funding_model": "grant",
-      "standards_alignment": [
-        "FHIR",
-        "HL7",
-        "ADX"
-      ],
-      "interoperability_frameworks": [
-        "OpenHIE"
-      ],
+      "standards_alignment": ["FHIR", "HL7", "ADX"],
+      "interoperability_frameworks": ["OpenHIE"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
@@ -386,21 +279,11 @@
         "Zambia",
         "Zimbabwe"
       ],
-      "steward_organizations": [
-        "university-of-oslo"
-      ],
-      "maintainers": [
-        "HISP Centre"
-      ],
-      "related_projects": [
-        "openmrs"
-      ],
-      "sdgs": [
-        "SDG-3"
-      ],
-      "dpi_domains": [
-        "health"
-      ],
+      "steward_organizations": ["university-of-oslo"],
+      "maintainers": ["HISP Centre"],
+      "related_projects": ["openmrs"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
       "maturity_level": "mature",
       "sustainability_score": 90,
       "activity_score": 92,
@@ -421,10 +304,7 @@
         "openssf_scorecard": 7.2
       },
       "maturity_scores": {
-        "code": {
-          "score": 92,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 92, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 92,
           "rationale": "Derived from governance transparency indicators."
@@ -479,68 +359,30 @@
       "category": "Health Information",
       "subcategory": "Electronic Medical Records",
       "project_type": "DPG",
-      "categories": [
-        "Health Information",
-        "Civic Technology"
-      ],
-      "subcategories": [
-        "Electronic Medical Records"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "health",
-        "emr",
-        "interoperability"
-      ],
+      "categories": ["Health Information", "Civic Technology"],
+      "subcategories": ["Electronic Medical Records"],
+      "project_types": ["DPG"],
+      "tags": ["health", "emr", "interoperability"],
       "website": "https://openmrs.org",
       "project_page": "https://digitalpublicgoods.net/r/openmrs",
-      "repository_urls": [
-        "https://github.com/openmrs/openmrs-core"
-      ],
-      "documentation_urls": [
-        "https://openmrs.atlassian.net/wiki/spaces/docs/overview"
-      ],
-      "licenses": [
-        "MPL-2.0"
-      ],
+      "repository_urls": ["https://github.com/openmrs/openmrs-core"],
+      "documentation_urls": ["https://openmrs.atlassian.net/wiki/spaces/docs/overview"],
+      "licenses": ["MPL-2.0"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "mixed",
-      "standards_alignment": [
-        "FHIR",
-        "HL7"
-      ],
-      "interoperability_frameworks": [
-        "OpenHIE"
-      ],
+      "standards_alignment": ["FHIR", "HL7"],
+      "interoperability_frameworks": ["OpenHIE"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "Rwanda",
-        "Kenya",
-        "Uganda",
-        "Haiti",
-        "Liberia"
-      ],
-      "steward_organizations": [
-        "openmrs-inc"
-      ],
-      "maintainers": [
-        "OpenMRS community"
-      ],
-      "related_projects": [
-        "dhis2"
-      ],
-      "sdgs": [
-        "SDG-3"
-      ],
-      "dpi_domains": [
-        "health"
-      ],
+      "deployment_countries": ["Rwanda", "Kenya", "Uganda", "Haiti", "Liberia"],
+      "steward_organizations": ["openmrs-inc"],
+      "maintainers": ["OpenMRS community"],
+      "related_projects": ["dhis2"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
       "maturity_level": "mature",
       "sustainability_score": 84,
       "activity_score": 79,
@@ -561,10 +403,7 @@
         "openssf_scorecard": 6.4
       },
       "maturity_scores": {
-        "code": {
-          "score": 79,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 79, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 83,
           "rationale": "Derived from governance transparency indicators."
@@ -619,71 +458,30 @@
       "category": "Social Protection",
       "subcategory": "Program Delivery",
       "project_type": "GovTech",
-      "categories": [
-        "Social Protection",
-        "DPI"
-      ],
-      "subcategories": [
-        "Program Delivery"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "social-protection",
-        "g2p",
-        "case-management"
-      ],
+      "categories": ["Social Protection", "DPI"],
+      "subcategories": ["Program Delivery"],
+      "project_types": ["GovTech"],
+      "tags": ["social-protection", "g2p", "case-management"],
       "website": "https://openspp.org",
       "project_page": "https://www.openspp.org",
-      "repository_urls": [
-        "https://github.com/openspp/openspp-modules"
-      ],
-      "documentation_urls": [
-        "https://documentation.openspp.org"
-      ],
-      "licenses": [
-        "AGPL-3.0-only"
-      ],
+      "repository_urls": ["https://github.com/openspp/openspp-modules"],
+      "documentation_urls": ["https://documentation.openspp.org"],
+      "licenses": ["AGPL-3.0-only"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "grant",
-      "standards_alignment": [
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "G2P Connect",
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Digital Registries",
-        "Workflow"
-      ],
+      "standards_alignment": ["OpenAPI"],
+      "interoperability_frameworks": ["G2P Connect", "GovStack"],
+      "govstack_building_blocks": ["Digital Registries", "Workflow"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping for social registries and workflow orchestration.",
-      "deployment_countries": [
-        "Colombia",
-        "Kenya",
-        "Philippines"
-      ],
-      "steward_organizations": [
-        "openspp-association"
-      ],
-      "maintainers": [
-        "OpenSPP maintainers"
-      ],
-      "related_projects": [
-        "mosip",
-        "mojaloop"
-      ],
-      "sdgs": [
-        "SDG-1",
-        "SDG-10"
-      ],
-      "dpi_domains": [
-        "social-protection"
-      ],
+      "deployment_countries": ["Colombia", "Kenya", "Philippines"],
+      "steward_organizations": ["openspp-association"],
+      "maintainers": ["OpenSPP maintainers"],
+      "related_projects": ["mosip", "mojaloop"],
+      "sdgs": ["SDG-1", "SDG-10"],
+      "dpi_domains": ["social-protection"],
       "maturity_level": "growing",
       "sustainability_score": 70,
       "activity_score": 66,
@@ -704,10 +502,7 @@
         "openssf_scorecard": 5.8
       },
       "maturity_scores": {
-        "code": {
-          "score": 66,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 66, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 70,
           "rationale": "Derived from governance transparency indicators."
@@ -762,69 +557,30 @@
       "category": "Open Government",
       "subcategory": "Open Data Catalogue",
       "project_type": "Government OSS",
-      "categories": [
-        "Open Government",
-        "Civic Technology"
-      ],
-      "subcategories": [
-        "Open Data Catalogue"
-      ],
-      "project_types": [
-        "Government OSS"
-      ],
-      "tags": [
-        "open-data",
-        "transparency",
-        "civic-tech"
-      ],
+      "categories": ["Open Government", "Civic Technology"],
+      "subcategories": ["Open Data Catalogue"],
+      "project_types": ["Government OSS"],
+      "tags": ["open-data", "transparency", "civic-tech"],
       "website": "https://ckan.org",
       "project_page": "https://ckan.org",
-      "repository_urls": [
-        "https://github.com/ckan/ckan"
-      ],
-      "documentation_urls": [
-        "https://docs.ckan.org"
-      ],
-      "licenses": [
-        "AGPL-3.0-only"
-      ],
+      "repository_urls": ["https://github.com/ckan/ckan"],
+      "documentation_urls": ["https://docs.ckan.org"],
+      "licenses": ["AGPL-3.0-only"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "mixed",
-      "standards_alignment": [
-        "DCAT",
-        "RDF"
-      ],
-      "interoperability_frameworks": [
-        "DCAT"
-      ],
+      "standards_alignment": ["DCAT", "RDF"],
+      "interoperability_frameworks": ["DCAT"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "United Kingdom",
-        "Canada",
-        "Germany",
-        "Argentina",
-        "Mexico"
-      ],
-      "steward_organizations": [
-        "ckan-association"
-      ],
-      "maintainers": [
-        "CKAN core team"
-      ],
-      "related_projects": [
-        "dkan",
-        "drupal"
-      ],
-      "sdgs": [
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "open-government"
-      ],
+      "deployment_countries": ["United Kingdom", "Canada", "Germany", "Argentina", "Mexico"],
+      "steward_organizations": ["ckan-association"],
+      "maintainers": ["CKAN core team"],
+      "related_projects": ["dkan", "drupal"],
+      "sdgs": ["SDG-16"],
+      "dpi_domains": ["open-government"],
       "maturity_level": "mature",
       "sustainability_score": 85,
       "activity_score": 76,
@@ -845,10 +601,7 @@
         "openssf_scorecard": 6.3
       },
       "maturity_scores": {
-        "code": {
-          "score": 76,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 76, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 84,
           "rationale": "Derived from governance transparency indicators."
@@ -903,65 +656,30 @@
       "category": "Open Government",
       "subcategory": "Open Data Platform",
       "project_type": "Government OSS",
-      "categories": [
-        "Open Government",
-        "Government Platforms"
-      ],
-      "subcategories": [
-        "Open Data Platform"
-      ],
-      "project_types": [
-        "Government OSS"
-      ],
-      "tags": [
-        "open-data",
-        "drupal",
-        "catalogues"
-      ],
+      "categories": ["Open Government", "Government Platforms"],
+      "subcategories": ["Open Data Platform"],
+      "project_types": ["Government OSS"],
+      "tags": ["open-data", "drupal", "catalogues"],
       "website": "https://getdkan.org",
       "project_page": "https://getdkan.org",
-      "repository_urls": [
-        "https://github.com/GetDKAN/dkan"
-      ],
-      "documentation_urls": [
-        "https://getdkan.github.io/dkan-documentation/"
-      ],
-      "licenses": [
-        "GPL-2.0-or-later"
-      ],
+      "repository_urls": ["https://github.com/GetDKAN/dkan"],
+      "documentation_urls": ["https://getdkan.github.io/dkan-documentation/"],
+      "licenses": ["GPL-2.0-or-later"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "company-led",
       "funding_model": "services",
-      "standards_alignment": [
-        "DCAT",
-        "JSON-LD"
-      ],
-      "interoperability_frameworks": [
-        "DCAT"
-      ],
+      "standards_alignment": ["DCAT", "JSON-LD"],
+      "interoperability_frameworks": ["DCAT"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "United States"
-      ],
-      "steward_organizations": [
-        "civicactions"
-      ],
-      "maintainers": [
-        "DKAN maintainers"
-      ],
-      "related_projects": [
-        "ckan",
-        "drupal"
-      ],
-      "sdgs": [
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "open-government"
-      ],
+      "deployment_countries": ["United States"],
+      "steward_organizations": ["civicactions"],
+      "maintainers": ["DKAN maintainers"],
+      "related_projects": ["ckan", "drupal"],
+      "sdgs": ["SDG-16"],
+      "dpi_domains": ["open-government"],
       "maturity_level": "growing",
       "sustainability_score": 68,
       "activity_score": 61,
@@ -982,10 +700,7 @@
         "openssf_scorecard": 5.4
       },
       "maturity_scores": {
-        "code": {
-          "score": 61,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 61, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 62,
           "rationale": "Derived from governance transparency indicators."
@@ -1040,73 +755,30 @@
       "category": "Financial Inclusion",
       "subcategory": "Payments",
       "project_type": "DPG",
-      "categories": [
-        "Financial Inclusion",
-        "DPI"
-      ],
-      "subcategories": [
-        "Payments"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "payments",
-        "interoperability",
-        "fintech"
-      ],
+      "categories": ["Financial Inclusion", "DPI"],
+      "subcategories": ["Payments"],
+      "project_types": ["DPG"],
+      "tags": ["payments", "interoperability", "fintech"],
       "website": "https://mojaloop.io",
       "project_page": "https://digitalpublicgoods.net/r/mojaloop",
-      "repository_urls": [
-        "https://github.com/mojaloop/project"
-      ],
-      "documentation_urls": [
-        "https://docs.mojaloop.io"
-      ],
-      "licenses": [
-        "Apache-2.0"
-      ],
+      "repository_urls": ["https://github.com/mojaloop/project"],
+      "documentation_urls": ["https://docs.mojaloop.io"],
+      "licenses": ["Apache-2.0"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
-      "standards_alignment": [
-        "ISO 20022",
-        "Level One Project"
-      ],
-      "interoperability_frameworks": [
-        "G2P Connect"
-      ],
-      "govstack_building_blocks": [
-        "Payment"
-      ],
+      "standards_alignment": ["ISO 20022", "Level One Project"],
+      "interoperability_frameworks": ["G2P Connect"],
+      "govstack_building_blocks": ["Payment"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping to the GovStack Payment building block.",
-      "deployment_countries": [
-        "Tanzania",
-        "Uganda",
-        "Ghana",
-        "Maldives",
-        "Kenya"
-      ],
-      "steward_organizations": [
-        "mojaloop-foundation"
-      ],
-      "maintainers": [
-        "Mojaloop technical team"
-      ],
-      "related_projects": [
-        "openspp",
-        "mosip"
-      ],
-      "sdgs": [
-        "SDG-1",
-        "SDG-8",
-        "SDG-10"
-      ],
-      "dpi_domains": [
-        "digital-payments"
-      ],
+      "deployment_countries": ["Tanzania", "Uganda", "Ghana", "Maldives", "Kenya"],
+      "steward_organizations": ["mojaloop-foundation"],
+      "maintainers": ["Mojaloop technical team"],
+      "related_projects": ["openspp", "mosip"],
+      "sdgs": ["SDG-1", "SDG-8", "SDG-10"],
+      "dpi_domains": ["digital-payments"],
       "maturity_level": "mature",
       "sustainability_score": 85,
       "activity_score": 80,
@@ -1127,10 +799,7 @@
         "openssf_scorecard": 7.5
       },
       "maturity_scores": {
-        "code": {
-          "score": 80,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 80, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 85,
           "rationale": "Derived from governance transparency indicators."
@@ -1185,73 +854,31 @@
       "category": "Interoperability",
       "subcategory": "Data Exchange",
       "project_type": "DPG",
-      "categories": [
-        "Interoperability",
-        "DPI"
-      ],
-      "subcategories": [
-        "Data Exchange"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "interoperability",
-        "registries",
-        "government",
-        "secure-data-exchange"
-      ],
+      "categories": ["Interoperability", "DPI"],
+      "subcategories": ["Data Exchange"],
+      "project_types": ["DPG"],
+      "tags": ["interoperability", "registries", "government", "secure-data-exchange"],
       "website": "https://x-road.global",
       "project_page": "https://x-road.global",
-      "repository_urls": [
-        "https://github.com/nordic-institute/X-Road"
-      ],
-      "documentation_urls": [
-        "https://docs.x-road.global"
-      ],
-      "licenses": [
-        "MIT"
-      ],
+      "repository_urls": ["https://github.com/nordic-institute/X-Road"],
+      "documentation_urls": ["https://docs.x-road.global"],
+      "licenses": ["MIT"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "public",
-      "standards_alignment": [
-        "OpenAPI",
-        "X-Road protocol"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Information Mediator"
-      ],
+      "standards_alignment": ["OpenAPI", "X-Road protocol"],
+      "interoperability_frameworks": ["GovStack"],
+      "govstack_building_blocks": ["Information Mediator"],
       "govstack_listed": true,
       "govstack_compliance_level": 2,
       "govstack_notes": "Listed on the GovStack software marketplace as an Information Mediator solution.",
-      "deployment_countries": [
-        "Estonia",
-        "Finland",
-        "Iceland",
-        "Faroe Islands"
-      ],
-      "steward_organizations": [
-        "niis"
-      ],
-      "maintainers": [
-        "NIIS engineering team"
-      ],
-      "related_projects": [
-        "mosip",
-        "digit"
-      ],
-      "sdgs": [
-        "SDG-9",
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "interoperability"
-      ],
+      "deployment_countries": ["Estonia", "Finland", "Iceland", "Faroe Islands"],
+      "steward_organizations": ["niis"],
+      "maintainers": ["NIIS engineering team"],
+      "related_projects": ["mosip", "digit"],
+      "sdgs": ["SDG-9", "SDG-16"],
+      "dpi_domains": ["interoperability"],
       "maturity_level": "mature",
       "sustainability_score": 88,
       "activity_score": 84,
@@ -1272,10 +899,7 @@
         "openssf_scorecard": 7.4
       },
       "maturity_scores": {
-        "code": {
-          "score": 84,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 84, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 90,
           "rationale": "Derived from governance transparency indicators."
@@ -1330,72 +954,30 @@
       "category": "Civil Registration",
       "subcategory": "Vital Statistics",
       "project_type": "DPG",
-      "categories": [
-        "Civil Registration",
-        "DPI"
-      ],
-      "subcategories": [
-        "Vital Statistics"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "civil-registration",
-        "identity",
-        "government",
-        "crvs"
-      ],
+      "categories": ["Civil Registration", "DPI"],
+      "subcategories": ["Vital Statistics"],
+      "project_types": ["DPG"],
+      "tags": ["civil-registration", "identity", "government", "crvs"],
       "website": "https://www.opencrvs.org",
       "project_page": "https://www.opencrvs.org",
-      "repository_urls": [
-        "https://github.com/opencrvs/opencrvs-core"
-      ],
-      "documentation_urls": [
-        "https://documentation.opencrvs.org"
-      ],
-      "licenses": [
-        "MPL-2.0"
-      ],
+      "repository_urls": ["https://github.com/opencrvs/opencrvs-core"],
+      "documentation_urls": ["https://documentation.opencrvs.org"],
+      "licenses": ["MPL-2.0"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "grant",
-      "standards_alignment": [
-        "OpenAPI",
-        "HL7 FHIR"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Registration"
-      ],
+      "standards_alignment": ["OpenAPI", "HL7 FHIR"],
+      "interoperability_frameworks": ["GovStack"],
+      "govstack_building_blocks": ["Registration"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping to the GovStack Registration building block.",
-      "deployment_countries": [
-        "Sierra Leone",
-        "Bangladesh",
-        "Rwanda"
-      ],
-      "steward_organizations": [
-        "opencrvs"
-      ],
-      "maintainers": [
-        "OpenCRVS maintainers"
-      ],
-      "related_projects": [
-        "mosip",
-        "openg2p"
-      ],
-      "sdgs": [
-        "SDG-16",
-        "SDG-3"
-      ],
-      "dpi_domains": [
-        "civil-registration",
-        "digital-identity"
-      ],
+      "deployment_countries": ["Sierra Leone", "Bangladesh", "Rwanda"],
+      "steward_organizations": ["opencrvs"],
+      "maintainers": ["OpenCRVS maintainers"],
+      "related_projects": ["mosip", "openg2p"],
+      "sdgs": ["SDG-16", "SDG-3"],
+      "dpi_domains": ["civil-registration", "digital-identity"],
       "maturity_level": "growing",
       "sustainability_score": 74,
       "activity_score": 71,
@@ -1416,10 +998,7 @@
         "openssf_scorecard": 6.5
       },
       "maturity_scores": {
-        "code": {
-          "score": 71,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 71, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 76,
           "rationale": "Derived from governance transparency indicators."
@@ -1474,70 +1053,31 @@
       "category": "Health Financing",
       "subcategory": "Insurance Management",
       "project_type": "DPG",
-      "categories": [
-        "Health Financing",
-        "DPI"
-      ],
-      "subcategories": [
-        "Insurance Management"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "health-financing",
-        "insurance",
-        "claims",
-        "government"
-      ],
+      "categories": ["Health Financing", "DPI"],
+      "subcategories": ["Insurance Management"],
+      "project_types": ["DPG"],
+      "tags": ["health-financing", "insurance", "claims", "government"],
       "website": "https://openimis.org",
       "project_page": "https://openimis.org",
-      "repository_urls": [
-        "https://github.com/openimis/openimis-fe_js"
-      ],
+      "repository_urls": ["https://github.com/openimis/openimis-fe_js"],
       "documentation_urls": [],
-      "licenses": [
-        "AGPL-3.0-only"
-      ],
+      "licenses": ["AGPL-3.0-only"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "consortium",
       "funding_model": "grant",
-      "standards_alignment": [
-        "FHIR",
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "OpenHIE"
-      ],
-      "govstack_building_blocks": [
-        "Digital Registries"
-      ],
+      "standards_alignment": ["FHIR", "OpenAPI"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": ["Digital Registries"],
       "govstack_listed": true,
       "govstack_compliance_level": 2,
       "govstack_notes": "Listed on the GovStack software marketplace under Digital Registries.",
-      "deployment_countries": [
-        "Nepal",
-        "Tanzania",
-        "Cameroon"
-      ],
-      "steward_organizations": [
-        "openimis-initiative"
-      ],
-      "maintainers": [
-        "openIMIS community"
-      ],
-      "related_projects": [
-        "openmrs",
-        "dhis2",
-        "openlmis"
-      ],
-      "sdgs": [
-        "SDG-3"
-      ],
-      "dpi_domains": [
-        "health"
-      ],
+      "deployment_countries": ["Nepal", "Tanzania", "Cameroon"],
+      "steward_organizations": ["openimis-initiative"],
+      "maintainers": ["openIMIS community"],
+      "related_projects": ["openmrs", "dhis2", "openlmis"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
       "maturity_level": "growing",
       "sustainability_score": 76,
       "activity_score": 69,
@@ -1558,10 +1098,7 @@
         "openssf_scorecard": 6.1
       },
       "maturity_scores": {
-        "code": {
-          "score": 69,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 69, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 74,
           "rationale": "Derived from governance transparency indicators."
@@ -1616,73 +1153,30 @@
       "category": "Citizen Engagement",
       "subcategory": "Messaging Workflows",
       "project_type": "DPG",
-      "categories": [
-        "Citizen Engagement",
-        "Civic Technology"
-      ],
-      "subcategories": [
-        "Messaging Workflows"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "messaging",
-        "workflows",
-        "health",
-        "outreach"
-      ],
+      "categories": ["Citizen Engagement", "Civic Technology"],
+      "subcategories": ["Messaging Workflows"],
+      "project_types": ["DPG"],
+      "tags": ["messaging", "workflows", "health", "outreach"],
       "website": "https://rapidpro.io",
       "project_page": "https://rapidpro.io",
-      "repository_urls": [
-        "https://github.com/rapidpro/rapidpro"
-      ],
-      "documentation_urls": [
-        "https://rapidpro.github.io/rapidpro/"
-      ],
-      "licenses": [
-        "BSD-3-Clause"
-      ],
+      "repository_urls": ["https://github.com/rapidpro/rapidpro"],
+      "documentation_urls": ["https://rapidpro.github.io/rapidpro/"],
+      "licenses": ["BSD-3-Clause"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "company-led",
       "funding_model": "services",
-      "standards_alignment": [
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "OpenHIE"
-      ],
-      "govstack_building_blocks": [
-        "Messaging",
-        "Workflow"
-      ],
+      "standards_alignment": ["OpenAPI"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": ["Messaging", "Workflow"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping for citizen messaging and workflow orchestration.",
-      "deployment_countries": [
-        "Rwanda",
-        "Uganda",
-        "Zambia",
-        "Malawi"
-      ],
-      "steward_organizations": [
-        "viamo"
-      ],
-      "maintainers": [
-        "RapidPro maintainers"
-      ],
-      "related_projects": [
-        "dhis2",
-        "openmrs"
-      ],
-      "sdgs": [
-        "SDG-3",
-        "SDG-5"
-      ],
-      "dpi_domains": [
-        "citizen-communication",
-        "health"
-      ],
+      "deployment_countries": ["Rwanda", "Uganda", "Zambia", "Malawi"],
+      "steward_organizations": ["viamo"],
+      "maintainers": ["RapidPro maintainers"],
+      "related_projects": ["dhis2", "openmrs"],
+      "sdgs": ["SDG-3", "SDG-5"],
+      "dpi_domains": ["citizen-communication", "health"],
       "maturity_level": "mature",
       "sustainability_score": 78,
       "activity_score": 83,
@@ -1703,10 +1197,7 @@
         "openssf_scorecard": 6.9
       },
       "maturity_scores": {
-        "code": {
-          "score": 83,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 83, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 73,
           "rationale": "Derived from governance transparency indicators."
@@ -1761,66 +1252,30 @@
       "category": "Health Information",
       "subcategory": "Hospital Information System",
       "project_type": "GovTech",
-      "categories": [
-        "Health Information",
-        "GovTech"
-      ],
-      "subcategories": [
-        "Hospital Information System"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "hospital",
-        "emr",
-        "health",
-        "interoperability"
-      ],
+      "categories": ["Health Information", "GovTech"],
+      "subcategories": ["Hospital Information System"],
+      "project_types": ["GovTech"],
+      "tags": ["hospital", "emr", "health", "interoperability"],
       "website": "https://www.bahmni.org",
       "project_page": "https://www.bahmni.org",
-      "repository_urls": [
-        "https://github.com/Bahmni/bahmni-standard"
-      ],
+      "repository_urls": ["https://github.com/Bahmni/bahmni-standard"],
       "documentation_urls": [],
-      "licenses": [
-        "AGPL-3.0-only"
-      ],
+      "licenses": ["AGPL-3.0-only"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "mixed",
-      "standards_alignment": [
-        "FHIR",
-        "HL7"
-      ],
-      "interoperability_frameworks": [
-        "OpenHIE"
-      ],
+      "standards_alignment": ["FHIR", "HL7"],
+      "interoperability_frameworks": ["OpenHIE"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "India",
-        "Nepal",
-        "Bangladesh"
-      ],
-      "steward_organizations": [
-        "bahmni-coalition"
-      ],
-      "maintainers": [
-        "Bahmni contributors"
-      ],
-      "related_projects": [
-        "openmrs",
-        "dhis2"
-      ],
-      "sdgs": [
-        "SDG-3"
-      ],
-      "dpi_domains": [
-        "health"
-      ],
+      "deployment_countries": ["India", "Nepal", "Bangladesh"],
+      "steward_organizations": ["bahmni-coalition"],
+      "maintainers": ["Bahmni contributors"],
+      "related_projects": ["openmrs", "dhis2"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
       "maturity_level": "mature",
       "sustainability_score": 77,
       "activity_score": 72,
@@ -1841,10 +1296,7 @@
         "openssf_scorecard": 6
       },
       "maturity_scores": {
-        "code": {
-          "score": 72,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 72, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 75,
           "rationale": "Derived from governance transparency indicators."
@@ -1899,72 +1351,30 @@
       "category": "Government Platforms",
       "subcategory": "Service Delivery Stack",
       "project_type": "GovTech",
-      "categories": [
-        "Government Platforms",
-        "DPI"
-      ],
-      "subcategories": [
-        "Service Delivery Stack"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "service-delivery",
-        "municipal",
-        "workflow",
-        "registries"
-      ],
+      "categories": ["Government Platforms", "DPI"],
+      "subcategories": ["Service Delivery Stack"],
+      "project_types": ["GovTech"],
+      "tags": ["service-delivery", "municipal", "workflow", "registries"],
       "website": "https://www.digit.org",
       "project_page": "https://www.digit.org",
-      "repository_urls": [
-        "https://github.com/egovernments/DIGIT-OSS"
-      ],
-      "documentation_urls": [
-        "https://docs.digit.org"
-      ],
-      "licenses": [
-        "MIT"
-      ],
+      "repository_urls": ["https://github.com/egovernments/DIGIT-OSS"],
+      "documentation_urls": ["https://docs.digit.org"],
+      "licenses": ["MIT"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
-      "standards_alignment": [
-        "OpenAPI",
-        "JSON Schema"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Workflow",
-        "Registration",
-        "Digital Registries APIs"
-      ],
+      "standards_alignment": ["OpenAPI", "JSON Schema"],
+      "interoperability_frameworks": ["GovStack"],
+      "govstack_building_blocks": ["Workflow", "Registration", "Digital Registries APIs"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping for service workflows, registration flows, and registry-facing APIs.",
-      "deployment_countries": [
-        "India"
-      ],
-      "steward_organizations": [
-        "egov-foundation"
-      ],
-      "maintainers": [
-        "DIGIT maintainers"
-      ],
-      "related_projects": [
-        "x-road",
-        "sunbird",
-        "openg2p"
-      ],
-      "sdgs": [
-        "SDG-11",
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "government-service-delivery"
-      ],
+      "deployment_countries": ["India"],
+      "steward_organizations": ["egov-foundation"],
+      "maintainers": ["DIGIT maintainers"],
+      "related_projects": ["x-road", "sunbird", "openg2p"],
+      "sdgs": ["SDG-11", "SDG-16"],
+      "dpi_domains": ["government-service-delivery"],
       "maturity_level": "growing",
       "sustainability_score": 79,
       "activity_score": 77,
@@ -1985,10 +1395,7 @@
         "openssf_scorecard": 7
       },
       "maturity_scores": {
-        "code": {
-          "score": 77,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 77, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 82,
           "rationale": "Derived from governance transparency indicators."
@@ -2043,65 +1450,30 @@
       "category": "Education",
       "subcategory": "Digital Learning Platform",
       "project_type": "DPG",
-      "categories": [
-        "Education",
-        "DPI"
-      ],
-      "subcategories": [
-        "Digital Learning Platform"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "education",
-        "learning",
-        "content",
-        "public-sector"
-      ],
+      "categories": ["Education", "DPI"],
+      "subcategories": ["Digital Learning Platform"],
+      "project_types": ["DPG"],
+      "tags": ["education", "learning", "content", "public-sector"],
       "website": "https://sunbird.org",
       "project_page": "https://sunbird.org",
-      "repository_urls": [
-        "https://github.com/Sunbird-Ed/SunbirdEd"
-      ],
+      "repository_urls": ["https://github.com/Sunbird-Ed/SunbirdEd"],
       "documentation_urls": [],
-      "licenses": [
-        "MIT"
-      ],
+      "licenses": ["MIT"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
-      "standards_alignment": [
-        "OpenAPI",
-        "LTI"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
+      "standards_alignment": ["OpenAPI", "LTI"],
+      "interoperability_frameworks": ["GovStack"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "India",
-        "Sierra Leone"
-      ],
-      "steward_organizations": [
-        "ekstep-foundation"
-      ],
-      "maintainers": [
-        "Sunbird community"
-      ],
-      "related_projects": [
-        "digit",
-        "openemis"
-      ],
-      "sdgs": [
-        "SDG-4"
-      ],
-      "dpi_domains": [
-        "education"
-      ],
+      "deployment_countries": ["India", "Sierra Leone"],
+      "steward_organizations": ["ekstep-foundation"],
+      "maintainers": ["Sunbird community"],
+      "related_projects": ["digit", "openemis"],
+      "sdgs": ["SDG-4"],
+      "dpi_domains": ["education"],
       "maturity_level": "growing",
       "sustainability_score": 76,
       "activity_score": 74,
@@ -2122,10 +1494,7 @@
         "openssf_scorecard": 6.6
       },
       "maturity_scores": {
-        "code": {
-          "score": 74,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 74, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 80,
           "rationale": "Derived from governance transparency indicators."
@@ -2180,76 +1549,30 @@
       "category": "Social Protection",
       "subcategory": "G2P Delivery",
       "project_type": "GovTech",
-      "categories": [
-        "Social Protection",
-        "DPI"
-      ],
-      "subcategories": [
-        "G2P Delivery"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "social-protection",
-        "g2p",
-        "registries",
-        "payments"
-      ],
+      "categories": ["Social Protection", "DPI"],
+      "subcategories": ["G2P Delivery"],
+      "project_types": ["GovTech"],
+      "tags": ["social-protection", "g2p", "registries", "payments"],
       "website": "https://www.openg2p.org",
       "project_page": "https://www.openg2p.org",
-      "repository_urls": [
-        "https://github.com/OpenG2P/openg2p-registry"
-      ],
-      "documentation_urls": [
-        "https://docs.openg2p.org"
-      ],
-      "licenses": [
-        "MPL-2.0"
-      ],
+      "repository_urls": ["https://github.com/OpenG2P/openg2p-registry"],
+      "documentation_urls": ["https://docs.openg2p.org"],
+      "licenses": ["MPL-2.0"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "foundation",
       "funding_model": "grant",
-      "standards_alignment": [
-        "OpenAPI",
-        "G2P Connect"
-      ],
-      "interoperability_frameworks": [
-        "G2P Connect",
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Digital Registries",
-        "Payment",
-        "Workflow"
-      ],
+      "standards_alignment": ["OpenAPI", "G2P Connect"],
+      "interoperability_frameworks": ["G2P Connect", "GovStack"],
+      "govstack_building_blocks": ["Digital Registries", "Payment", "Workflow"],
       "govstack_listed": false,
       "govstack_notes": "Atlas functional mapping for social registries and G2P delivery orchestration.",
-      "deployment_countries": [
-        "Sierra Leone",
-        "Togo"
-      ],
-      "steward_organizations": [
-        "openg2p-foundation"
-      ],
-      "maintainers": [
-        "OpenG2P maintainers"
-      ],
-      "related_projects": [
-        "openspp",
-        "mojaloop",
-        "mosip"
-      ],
-      "sdgs": [
-        "SDG-1",
-        "SDG-10",
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "social-protection",
-        "digital-payments"
-      ],
+      "deployment_countries": ["Sierra Leone", "Togo"],
+      "steward_organizations": ["openg2p-foundation"],
+      "maintainers": ["OpenG2P maintainers"],
+      "related_projects": ["openspp", "mojaloop", "mosip"],
+      "sdgs": ["SDG-1", "SDG-10", "SDG-16"],
+      "dpi_domains": ["social-protection", "digital-payments"],
       "maturity_level": "growing",
       "sustainability_score": 73,
       "activity_score": 68,
@@ -2270,10 +1593,7 @@
         "openssf_scorecard": 6.2
       },
       "maturity_scores": {
-        "code": {
-          "score": 68,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 68, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 77,
           "rationale": "Derived from governance transparency indicators."
@@ -2328,62 +1648,30 @@
       "category": "Education",
       "subcategory": "Education Management Information System",
       "project_type": "DPG",
-      "categories": [
-        "Education",
-        "GovTech"
-      ],
-      "subcategories": [
-        "Education Management Information System"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "education",
-        "emis",
-        "ministries",
-        "data"
-      ],
+      "categories": ["Education", "GovTech"],
+      "subcategories": ["Education Management Information System"],
+      "project_types": ["DPG"],
+      "tags": ["education", "emis", "ministries", "data"],
       "website": "https://www.openemis.org",
       "project_page": "https://www.openemis.org",
-      "repository_urls": [
-        "https://github.com/open-emis/openemis-core"
-      ],
+      "repository_urls": ["https://github.com/open-emis/openemis-core"],
       "documentation_urls": [],
-      "licenses": [
-        "GPL-3.0-only"
-      ],
+      "licenses": ["GPL-3.0-only"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "intergovernmental",
       "funding_model": "grant",
-      "standards_alignment": [
-        "OpenAPI"
-      ],
+      "standards_alignment": ["OpenAPI"],
       "interoperability_frameworks": [],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "Jordan",
-        "Palestine",
-        "Maldives"
-      ],
-      "steward_organizations": [
-        "unesco"
-      ],
-      "maintainers": [
-        "OpenEMIS team"
-      ],
-      "related_projects": [
-        "sunbird"
-      ],
-      "sdgs": [
-        "SDG-4"
-      ],
-      "dpi_domains": [
-        "education"
-      ],
+      "deployment_countries": ["Jordan", "Palestine", "Maldives"],
+      "steward_organizations": ["unesco"],
+      "maintainers": ["OpenEMIS team"],
+      "related_projects": ["sunbird"],
+      "sdgs": ["SDG-4"],
+      "dpi_domains": ["education"],
       "maturity_level": "growing",
       "sustainability_score": 71,
       "activity_score": 63,
@@ -2404,10 +1692,7 @@
         "openssf_scorecard": 5.8
       },
       "maturity_scores": {
-        "code": {
-          "score": 63,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 63, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 78,
           "rationale": "Derived from governance transparency indicators."
@@ -2462,67 +1747,30 @@
       "category": "Health Information",
       "subcategory": "Supply Chain Management",
       "project_type": "DPG",
-      "categories": [
-        "Health Information",
-        "DPI"
-      ],
-      "subcategories": [
-        "Supply Chain Management"
-      ],
-      "project_types": [
-        "DPG"
-      ],
-      "tags": [
-        "supply-chain",
-        "health",
-        "logistics",
-        "medicines"
-      ],
+      "categories": ["Health Information", "DPI"],
+      "subcategories": ["Supply Chain Management"],
+      "project_types": ["DPG"],
+      "tags": ["supply-chain", "health", "logistics", "medicines"],
       "website": "https://openlmis.org",
       "project_page": "https://openlmis.org",
-      "repository_urls": [
-        "https://github.com/OpenLMIS/openlmis-ref-distro"
-      ],
+      "repository_urls": ["https://github.com/OpenLMIS/openlmis-ref-distro"],
       "documentation_urls": [],
-      "licenses": [
-        "AGPL-3.0-only"
-      ],
+      "licenses": ["AGPL-3.0-only"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "community",
       "funding_model": "grant",
-      "standards_alignment": [
-        "FHIR",
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "OpenHIE"
-      ],
+      "standards_alignment": ["FHIR", "OpenAPI"],
+      "interoperability_frameworks": ["OpenHIE"],
       "govstack_building_blocks": [],
       "govstack_listed": false,
       "govstack_notes": "",
-      "deployment_countries": [
-        "Tanzania",
-        "Zambia",
-        "Mozambique"
-      ],
-      "steward_organizations": [
-        "openlmis-initiative"
-      ],
-      "maintainers": [
-        "OpenLMIS community"
-      ],
-      "related_projects": [
-        "openmrs",
-        "dhis2",
-        "openimis"
-      ],
-      "sdgs": [
-        "SDG-3"
-      ],
-      "dpi_domains": [
-        "health"
-      ],
+      "deployment_countries": ["Tanzania", "Zambia", "Mozambique"],
+      "steward_organizations": ["openlmis-initiative"],
+      "maintainers": ["OpenLMIS community"],
+      "related_projects": ["openmrs", "dhis2", "openimis"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
       "maturity_level": "mature",
       "sustainability_score": 81,
       "activity_score": 76,
@@ -2543,10 +1791,7 @@
         "openssf_scorecard": 6.7
       },
       "maturity_scores": {
-        "code": {
-          "score": 76,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 76, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 79,
           "rationale": "Derived from governance transparency indicators."
@@ -2601,66 +1846,31 @@
       "category": "Cloud Infrastructure",
       "subcategory": "Sovereign Cloud Platform",
       "project_type": "GovTech",
-      "categories": [
-        "Cloud Infrastructure",
-        "DPI"
-      ],
-      "subcategories": [
-        "Sovereign Cloud Platform"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "cloud",
-        "infrastructure",
-        "sovereignty",
-        "interoperability"
-      ],
+      "categories": ["Cloud Infrastructure", "DPI"],
+      "subcategories": ["Sovereign Cloud Platform"],
+      "project_types": ["GovTech"],
+      "tags": ["cloud", "infrastructure", "sovereignty", "interoperability"],
       "website": "https://scs.community/de/",
       "project_page": "https://govstack.global/software/",
-      "repository_urls": [
-        "https://github.com/SovereignCloudStack"
-      ],
-      "documentation_urls": [
-        "https://docs.scs.community"
-      ],
-      "licenses": [
-        "Apache-2.0"
-      ],
+      "repository_urls": ["https://github.com/SovereignCloudStack"],
+      "documentation_urls": ["https://docs.scs.community"],
+      "licenses": ["Apache-2.0"],
       "license_model": "open-source",
       "licensing_concerns": "",
       "governance_model": "consortium",
       "funding_model": "public",
-      "standards_alignment": [
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Cloud Infrastructure"
-      ],
+      "standards_alignment": ["OpenAPI"],
+      "interoperability_frameworks": ["GovStack"],
+      "govstack_building_blocks": ["Cloud Infrastructure"],
       "govstack_listed": true,
       "govstack_compliance_level": 2,
       "govstack_notes": "Listed on the GovStack software marketplace under Cloud Infrastructure.",
       "deployment_countries": [],
-      "steward_organizations": [
-        "scs-community"
-      ],
-      "maintainers": [
-        "SCS community"
-      ],
-      "related_projects": [
-        "x-road"
-      ],
-      "sdgs": [
-        "SDG-9",
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "cloud-infrastructure"
-      ],
+      "steward_organizations": ["scs-community"],
+      "maintainers": ["SCS community"],
+      "related_projects": ["x-road"],
+      "sdgs": ["SDG-9", "SDG-16"],
+      "dpi_domains": ["cloud-infrastructure"],
       "maturity_level": "growing",
       "sustainability_score": 72,
       "activity_score": 70,
@@ -2681,10 +1891,7 @@
         "openssf_scorecard": 6.5
       },
       "maturity_scores": {
-        "code": {
-          "score": 70,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 70, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 78,
           "rationale": "Derived from governance transparency indicators."
@@ -2739,64 +1946,31 @@
       "category": "Digital Registries",
       "subcategory": "Low-Code Registry Platform",
       "project_type": "GovTech",
-      "categories": [
-        "Digital Registries",
-        "GovTech"
-      ],
-      "subcategories": [
-        "Low-Code Registry Platform"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "registries",
-        "low-code",
-        "data",
-        "automation"
-      ],
+      "categories": ["Digital Registries", "GovTech"],
+      "subcategories": ["Low-Code Registry Platform"],
+      "project_types": ["GovTech"],
+      "tags": ["registries", "low-code", "data", "automation"],
       "website": "https://baserow.io",
       "project_page": "https://govstack.global/software/",
-      "repository_urls": [
-        "https://github.com/bram2w/baserow"
-      ],
-      "documentation_urls": [
-        "https://baserow.io/docs"
-      ],
+      "repository_urls": ["https://github.com/bram2w/baserow"],
+      "documentation_urls": ["https://baserow.io/docs"],
       "licenses": [],
       "license_model": "mixed",
       "licensing_concerns": "GovStack lists Baserow, but its commercial and enterprise layers should be reviewed carefully before procurement.",
       "governance_model": "company-led",
       "funding_model": "services",
-      "standards_alignment": [
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Digital Registries"
-      ],
+      "standards_alignment": ["OpenAPI"],
+      "interoperability_frameworks": ["GovStack"],
+      "govstack_building_blocks": ["Digital Registries"],
       "govstack_listed": true,
       "govstack_compliance_level": 2,
       "govstack_notes": "Listed on the GovStack software marketplace under Digital Registries.",
       "deployment_countries": [],
-      "steward_organizations": [
-        "baserow-company"
-      ],
-      "maintainers": [
-        "Baserow team"
-      ],
-      "related_projects": [
-        "openimis",
-        "digit"
-      ],
-      "sdgs": [
-        "SDG-16"
-      ],
-      "dpi_domains": [
-        "digital-registries"
-      ],
+      "steward_organizations": ["baserow-company"],
+      "maintainers": ["Baserow team"],
+      "related_projects": ["openimis", "digit"],
+      "sdgs": ["SDG-16"],
+      "dpi_domains": ["digital-registries"],
       "maturity_level": "growing",
       "sustainability_score": 69,
       "activity_score": 73,
@@ -2817,10 +1991,7 @@
         "openssf_scorecard": 6.8
       },
       "maturity_scores": {
-        "code": {
-          "score": 73,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 73, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 64,
           "rationale": "Derived from governance transparency indicators."
@@ -2875,22 +2046,10 @@
       "category": "Financial Inclusion",
       "subcategory": "Payment Orchestration",
       "project_type": "GovTech",
-      "categories": [
-        "Financial Inclusion",
-        "DPI"
-      ],
-      "subcategories": [
-        "Payment Orchestration"
-      ],
-      "project_types": [
-        "GovTech"
-      ],
-      "tags": [
-        "payments",
-        "orchestration",
-        "fintech",
-        "interoperability"
-      ],
+      "categories": ["Financial Inclusion", "DPI"],
+      "subcategories": ["Payment Orchestration"],
+      "project_types": ["GovTech"],
+      "tags": ["payments", "orchestration", "fintech", "interoperability"],
       "website": "https://payments.mifos.org/",
       "project_page": "https://govstack.global/software/",
       "repository_urls": [],
@@ -2900,38 +2059,18 @@
       "licensing_concerns": "The enterprise-edition branding suggests commercial packaging; confirm source access, redistribution, and support terms before procurement.",
       "governance_model": "nonprofit",
       "funding_model": "services",
-      "standards_alignment": [
-        "ISO 20022",
-        "OpenAPI"
-      ],
-      "interoperability_frameworks": [
-        "GovStack"
-      ],
-      "govstack_building_blocks": [
-        "Payment"
-      ],
+      "standards_alignment": ["ISO 20022", "OpenAPI"],
+      "interoperability_frameworks": ["GovStack"],
+      "govstack_building_blocks": ["Payment"],
       "govstack_listed": true,
       "govstack_compliance_level": 2,
       "govstack_notes": "Listed on the GovStack software marketplace under Payment.",
       "deployment_countries": [],
-      "steward_organizations": [
-        "mifos-initiative"
-      ],
-      "maintainers": [
-        "Mifos Payment Hub team"
-      ],
-      "related_projects": [
-        "mojaloop",
-        "openg2p"
-      ],
-      "sdgs": [
-        "SDG-1",
-        "SDG-8",
-        "SDG-10"
-      ],
-      "dpi_domains": [
-        "digital-payments"
-      ],
+      "steward_organizations": ["mifos-initiative"],
+      "maintainers": ["Mifos Payment Hub team"],
+      "related_projects": ["mojaloop", "openg2p"],
+      "sdgs": ["SDG-1", "SDG-8", "SDG-10"],
+      "dpi_domains": ["digital-payments"],
       "maturity_level": "growing",
       "sustainability_score": 71,
       "activity_score": 67,
@@ -2952,10 +2091,7 @@
         "openssf_scorecard": null
       },
       "maturity_scores": {
-        "code": {
-          "score": 67,
-          "rationale": "Derived from activity metrics."
-        },
+        "code": { "score": 67, "rationale": "Derived from activity metrics." },
         "governance": {
           "score": 73,
           "rationale": "Derived from governance transparency indicators."
