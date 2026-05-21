@@ -7,3 +7,4 @@ coverage/
 *.log
 public/api/*.tmp.json
 data/raw/*.tmp.json
+docs/2510.04603v1.pdf

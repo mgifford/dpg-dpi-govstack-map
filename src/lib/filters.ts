@@ -1,5 +1,8 @@
 import type { AtlasDataset, Project } from "./schema";
 
+type GovstackBlockFilter = Project["govstack_building_blocks"][number] | "all";
+type LicenseModelFilter = Project["license_model"] | "all";
+
 export interface FilterOptions {
   countries: string[];
   projectTypes: string[];
@@ -16,8 +19,8 @@ export interface ProjectFilterState {
   projectType: string;
   governanceModel: string;
   license: string;
-  govstackBlock: string;
-  licenseModel: string;
+  govstackBlock: GovstackBlockFilter;
+  licenseModel: LicenseModelFilter;
   maturity: string;
 }
 
