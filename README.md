@@ -148,6 +148,17 @@ Data enrichment via:
 - OpenCollective
 - Public package registries
 
+## GovStack Intake Workflow
+
+GovStack software is currently handled as a curated intake workflow rather than a fully automated importer. The working method, evidence standards, and update steps are documented in [docs/GOVSTACK_INTAKE.md](docs/GOVSTACK_INTAKE.md).
+
+Use that workflow when:
+
+- reviewing new software from the GovStack marketplace
+- deciding whether a listing should be tracked as open-source, mixed, or proprietary
+- adding GovStack building-block mappings and procurement notes
+- regenerating the published Atlas dataset after a GovStack curation pass
+
 ---
 
 ## Tech Stack
