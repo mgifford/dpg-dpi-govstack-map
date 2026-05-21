@@ -437,3 +437,67 @@
   evidence: Both support digital financial-service back-end and payment infrastructure use cases.
   confidence: 0.77
   provenance: {}
+
+- source: camunda
+  target: camunda-platform
+  type: governed_by
+  strength: 0.9
+  evidence: Camunda publicly stewards the platform roadmap, documentation, and core workflow tooling.
+  confidence: 0.88
+  provenance: {}
+
+- source: diia-engine-programme
+  target: diia-engine
+  type: governed_by
+  strength: 0.89
+  evidence: The Diia.Engine programme is the public institutional steward for the platform and its documentation.
+  confidence: 0.87
+  provenance: {}
+
+- source: prozorro-sale
+  target: prozorro-sale
+  type: governed_by
+  strength: 0.88
+  evidence: Prozorro.Sale is institutionally stewarded through its public enterprise and platform governance model.
+  confidence: 0.85
+  provenance: {}
+
+- source: camunda-platform
+  target: digit
+  type: aligned_with
+  strength: 0.77
+  evidence: Both support workflow orchestration for government service delivery and multi-step public-sector process automation.
+  confidence: 0.75
+  provenance: {}
+
+- source: camunda-platform
+  target: rapidpro
+  type: aligned_with
+  strength: 0.71
+  evidence: Both provide workflow automation patterns that can coordinate citizen-facing service and outreach processes.
+  confidence: 0.69
+  provenance: {}
+
+- source: diia-engine
+  target: digit
+  type: aligned_with
+  strength: 0.8
+  evidence: Both are modular government platforms centered on registries, workflow orchestration, and reusable digital public-service components.
+  confidence: 0.79
+  provenance: {}
+
+- source: diia-engine
+  target: x-road
+  type: aligned_with
+  strength: 0.72
+  evidence: Both support interoperable government service architectures built around trusted registry and data exchange patterns.
+  confidence: 0.7
+  provenance: {}
+
+- source: prozorro-sale
+  target: x-road
+  type: aligned_with
+  strength: 0.68
+  evidence: Public e-marketplace systems rely on interoperable registry and trusted government data-exchange capabilities.
+  confidence: 0.66
+  provenance: {}

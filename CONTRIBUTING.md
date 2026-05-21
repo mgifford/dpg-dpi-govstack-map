@@ -106,8 +106,8 @@ If you are working on GitHub metadata enrichment, provide `GITHUB_TOKEN` or `ATL
 3. Make changes in manual sources, scripts, or frontend files as appropriate
 4. Regenerate artifacts when data changes: `SKIP_GITHUB_ENRICHMENT=true npm run ingest`
 5. Run validation: `npm run validate:data && npm run check && npm run build`
-4. Open a pull request with a clear description
-5. A maintainer will review within 5 business days
+6. Open a pull request with a clear description
+7. A maintainer will review within 5 business days
 
 ---
 

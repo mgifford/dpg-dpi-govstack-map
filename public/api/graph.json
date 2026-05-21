@@ -4020,6 +4020,54 @@
       "target": "mifos-payment-hub-ee",
       "type": "aligned_with",
       "strength": 0.79
+    },
+    {
+      "source": "camunda",
+      "target": "camunda-platform",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "diia-engine-programme",
+      "target": "diia-engine",
+      "type": "governed_by",
+      "strength": 0.89
+    },
+    {
+      "source": "prozorro-sale",
+      "target": "prozorro-sale",
+      "type": "governed_by",
+      "strength": 0.88
+    },
+    {
+      "source": "camunda-platform",
+      "target": "digit",
+      "type": "aligned_with",
+      "strength": 0.77
+    },
+    {
+      "source": "camunda-platform",
+      "target": "rapidpro",
+      "type": "aligned_with",
+      "strength": 0.71
+    },
+    {
+      "source": "diia-engine",
+      "target": "digit",
+      "type": "aligned_with",
+      "strength": 0.8
+    },
+    {
+      "source": "diia-engine",
+      "target": "x-road",
+      "type": "aligned_with",
+      "strength": 0.72
+    },
+    {
+      "source": "prozorro-sale",
+      "target": "x-road",
+      "type": "aligned_with",
+      "strength": 0.68
     }
   ]
 }
