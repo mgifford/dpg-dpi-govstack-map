@@ -195,3 +195,58 @@
   confidence: 0.77
   source: OpenLMIS public implementation case studies
   provenance: {}
+
+- country: Uganda
+  government: Government of Uganda
+  ministry: Ministry of Health
+  project: odk
+  implementation_partner: ODK ecosystem partners
+  deployment_type: field data collection and reporting
+  deployment_status: active
+  confidence: 0.68
+  source: public ODK implementation examples in health programs
+  provenance: {}
+
+- country: Lebanon
+  government: Government of Lebanon
+  ministry: Ministry of Public Health and partner programs
+  project: kobotoolbox
+  implementation_partner: KoboToolbox ecosystem partners
+  deployment_type: assessment and monitoring workflows
+  deployment_status: active
+  confidence: 0.61
+  source: public KoboToolbox public-interest deployment examples
+  provenance: {}
+
+- country: Argentina
+  government: Province of Jujuy
+  ministry: Public health system
+  project: gnu-health
+  implementation_partner: GNU Health ecosystem partners
+  deployment_type: hospital and public health information system
+  deployment_status: active
+  confidence: 0.72
+  source: GNU Health public deployment materials
+  provenance: {}
+
+- country: Zambia
+  government: Government of Zambia
+  ministry: Ministry of Health
+  project: opensrp
+  implementation_partner: Ona and ecosystem partners
+  deployment_type: frontline digital health workflows
+  deployment_status: active
+  confidence: 0.66
+  source: public OpenSRP implementation materials
+  provenance: {}
+
+- country: Sierra Leone
+  government: Government of Sierra Leone
+  ministry: Ministry of Health
+  project: openfn
+  implementation_partner: OpenFn ecosystem partners
+  deployment_type: health data interoperability workflows
+  deployment_status: active
+  confidence: 0.69
+  source: public OpenFn health interoperability case studies
+  provenance: {}

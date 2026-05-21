@@ -330,6 +330,66 @@
         "popup_label": "Mifos Initiative — Washington, United States",
         "popup_detail": "Projects: Mifos Payment Hub Enterprise Edition"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3832, 43.6532] },
+      "properties": {
+        "id": "kobotoolbox",
+        "name": "KoboToolbox",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "Canada",
+        "city": "Toronto",
+        "associated_projects": ["kobotoolbox"],
+        "popup_label": "KoboToolbox — Toronto, Canada",
+        "popup_detail": "Projects: KoboToolbox"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-15.4363, 28.1235] },
+      "properties": {
+        "id": "gnu-solidario",
+        "name": "GNU Solidario",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "Spain",
+        "city": "Las Palmas de Gran Canaria",
+        "associated_projects": ["gnu-health"],
+        "popup_label": "GNU Solidario — Las Palmas de Gran Canaria, Spain",
+        "popup_detail": "Projects: GNU Health"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [36.8172, -1.2864] },
+      "properties": {
+        "id": "ona",
+        "name": "Ona",
+        "entity_type": "organization",
+        "org_type": "company",
+        "country": "Kenya",
+        "city": "Nairobi",
+        "associated_projects": ["opensrp"],
+        "popup_label": "Ona — Nairobi, Kenya",
+        "popup_detail": "Projects: OpenSRP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.006, 40.7128] },
+      "properties": {
+        "id": "openfn",
+        "name": "OpenFn",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "United States",
+        "city": "New York",
+        "associated_projects": ["openfn"],
+        "popup_label": "OpenFn — New York, United States",
+        "popup_detail": "Projects: OpenFn"
+      }
     }
   ]
 }

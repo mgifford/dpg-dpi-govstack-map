@@ -169,6 +169,46 @@
       "activity": 67
     },
     {
+      "id": "odk",
+      "label": "ODK",
+      "type": "project",
+      "category": "Data Collection",
+      "maturity": "mature",
+      "activity": 87
+    },
+    {
+      "id": "kobotoolbox",
+      "label": "KoboToolbox",
+      "type": "project",
+      "category": "Data Collection",
+      "maturity": "mature",
+      "activity": 75
+    },
+    {
+      "id": "gnu-health",
+      "label": "GNU Health",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "mature",
+      "activity": 68
+    },
+    {
+      "id": "opensrp",
+      "label": "OpenSRP",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "growing",
+      "activity": 71
+    },
+    {
+      "id": "openfn",
+      "label": "OpenFn",
+      "type": "project",
+      "category": "Interoperability",
+      "maturity": "growing",
+      "activity": 74
+    },
+    {
       "id": "drupal-association",
       "label": "Drupal Association",
       "type": "organization",
@@ -346,6 +386,41 @@
     {
       "id": "mifos-initiative",
       "label": "Mifos Initiative",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "United States"
+    },
+    {
+      "id": "odk-community",
+      "label": "ODK Community",
+      "type": "organization",
+      "org_type": "community",
+      "country": "International"
+    },
+    {
+      "id": "kobotoolbox",
+      "label": "KoboToolbox",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "Canada"
+    },
+    {
+      "id": "gnu-solidario",
+      "label": "GNU Solidario",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "Spain"
+    },
+    {
+      "id": "ona",
+      "label": "Ona",
+      "type": "organization",
+      "org_type": "company",
+      "country": "Kenya"
+    },
+    {
+      "id": "openfn",
+      "label": "OpenFn",
       "type": "organization",
       "org_type": "nonprofit",
       "country": "United States"
@@ -561,6 +636,66 @@
       "target": "mojaloop",
       "type": "aligned_with",
       "strength": 0.77
+    },
+    {
+      "source": "odk-community",
+      "target": "odk",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "kobotoolbox",
+      "target": "kobotoolbox",
+      "type": "governed_by",
+      "strength": 0.87
+    },
+    {
+      "source": "gnu-solidario",
+      "target": "gnu-health",
+      "type": "governed_by",
+      "strength": 0.9
+    },
+    {
+      "source": "ona",
+      "target": "opensrp",
+      "type": "maintained_by",
+      "strength": 0.84
+    },
+    {
+      "source": "openfn",
+      "target": "openfn",
+      "type": "governed_by",
+      "strength": 0.86
+    },
+    {
+      "source": "odk",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.76
+    },
+    {
+      "source": "kobotoolbox",
+      "target": "odk",
+      "type": "aligned_with",
+      "strength": 0.73
+    },
+    {
+      "source": "gnu-health",
+      "target": "openmrs",
+      "type": "aligned_with",
+      "strength": 0.71
+    },
+    {
+      "source": "opensrp",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.82
+    },
+    {
+      "source": "openfn",
+      "target": "opensrp",
+      "type": "integrates_with",
+      "strength": 0.84
     }
   ]
 }

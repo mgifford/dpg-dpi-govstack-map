@@ -413,3 +413,83 @@
   linkedin: ""
   governance_role: steward
   provenance: {}
+
+- id: odk-community
+  name: ODK Community
+  type: community
+  website: https://getodk.org
+  country: International
+  city: ""
+  coordinates: null
+  associated_projects: [odk]
+  partnerships: [openfn]
+  funders: []
+  staff: []
+  github_org: getodk
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: kobotoolbox
+  name: KoboToolbox
+  type: nonprofit
+  website: https://www.kobotoolbox.org
+  country: Canada
+  city: Toronto
+  coordinates: { lat: 43.6532, lon: -79.3832 }
+  associated_projects: [kobotoolbox]
+  partnerships: [odk-community]
+  funders: []
+  staff: []
+  github_org: kobotoolbox
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: gnu-solidario
+  name: GNU Solidario
+  type: nonprofit
+  website: https://www.gnuhealth.org
+  country: Spain
+  city: Las Palmas de Gran Canaria
+  coordinates: { lat: 28.1235, lon: -15.4363 }
+  associated_projects: [gnu-health]
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: gnuhealth
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: ona
+  name: Ona
+  type: company
+  website: https://ona.io
+  country: Kenya
+  city: Nairobi
+  coordinates: { lat: -1.2864, lon: 36.8172 }
+  associated_projects: [opensrp]
+  partnerships: [openfn]
+  funders: []
+  staff: []
+  github_org: opensrp
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: openfn
+  name: OpenFn
+  type: nonprofit
+  website: https://www.openfn.org
+  country: United States
+  city: New York
+  coordinates: { lat: 40.7128, lon: -74.006 }
+  associated_projects: [openfn]
+  partnerships: [ona, odk-community]
+  funders: []
+  staff: []
+  github_org: OpenFn
+  linkedin: ""
+  governance_role: steward
+  provenance: {}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T12:52:07.182Z",
+  "generated_at": "2026-05-21T15:12:13.624Z",
   "version": "0.2.0",
   "sources": ["manual-seed", "dpg-registry"],
   "projects": [
@@ -2139,6 +2139,501 @@
       "procurement_readiness": "nascent",
       "provenance": {},
       "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "odk",
+      "name": "ODK",
+      "description": "Open source digital data collection platform used by governments and public-interest programs for field surveys, service monitoring, and frontline reporting.",
+      "category": "Data Collection",
+      "subcategory": "Mobile Forms",
+      "project_type": "DPG",
+      "categories": ["Data Collection", "DPI"],
+      "subcategories": ["Mobile Forms", "Field Operations"],
+      "project_types": ["DPG"],
+      "tags": ["forms", "surveys", "health", "field-data"],
+      "website": "https://getodk.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/getodk/collect", "https://github.com/getodk/central"],
+      "documentation_urls": ["https://docs.getodk.org"],
+      "licenses": ["Apache-2.0"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "community",
+      "funding_model": "mixed",
+      "standards_alignment": ["OpenAPI"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Uganda", "Kenya", "Nepal", "Nigeria", "Sierra Leone"],
+      "steward_organizations": ["odk-community"],
+      "maintainers": ["ODK core maintainers"],
+      "related_projects": ["dhis2", "openfn", "kobotoolbox"],
+      "sdgs": ["SDG-3", "SDG-16"],
+      "dpi_domains": ["health", "government-service-delivery"],
+      "maturity_level": "mature",
+      "sustainability_score": 85,
+      "activity_score": 87,
+      "ecosystem_score": 86,
+      "accessibility_score": 61,
+      "community_health": {
+        "commits_last_12_months": 1980,
+        "contributors_last_12_months": 112,
+        "issue_closure_rate": 0.79,
+        "median_issue_response_hours": 24,
+        "releases_last_12_months": 7,
+        "contributor_diversity_index": 0.72,
+        "governance_maturity": 82,
+        "documentation_quality": 89,
+        "onboarding_quality": 84,
+        "dependency_freshness": 83,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 7.1
+      },
+      "maturity_scores": {
+        "code": { "score": 87, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 82,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 85,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 60,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 61,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 85,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 40,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 70,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 79,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 89,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "leading",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "kobotoolbox",
+      "name": "KoboToolbox",
+      "description": "Open source survey and assessment platform used for public-sector data collection, crisis response, monitoring, and service delivery evidence gathering.",
+      "category": "Data Collection",
+      "subcategory": "Assessment Platform",
+      "project_type": "DPG",
+      "categories": ["Data Collection", "Civic Technology"],
+      "subcategories": ["Assessment Platform", "Monitoring"],
+      "project_types": ["DPG"],
+      "tags": ["surveys", "humanitarian", "monitoring", "mobile-data"],
+      "website": "https://www.kobotoolbox.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/kobotoolbox/kpi"],
+      "documentation_urls": ["https://support.kobotoolbox.org"],
+      "licenses": ["AGPL-3.0-only"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "nonprofit",
+      "funding_model": "grant",
+      "standards_alignment": ["OpenAPI"],
+      "interoperability_frameworks": ["OpenAPI"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Lebanon", "Ukraine", "Kenya", "Nepal"],
+      "steward_organizations": ["kobotoolbox"],
+      "maintainers": ["KoboToolbox maintainers"],
+      "related_projects": ["odk", "rapidpro"],
+      "sdgs": ["SDG-3", "SDG-16"],
+      "dpi_domains": ["government-service-delivery"],
+      "maturity_level": "mature",
+      "sustainability_score": 78,
+      "activity_score": 75,
+      "ecosystem_score": 79,
+      "accessibility_score": 57,
+      "community_health": {
+        "commits_last_12_months": 910,
+        "contributors_last_12_months": 48,
+        "issue_closure_rate": 0.72,
+        "median_issue_response_hours": 33,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.63,
+        "governance_maturity": 76,
+        "documentation_quality": 82,
+        "onboarding_quality": 76,
+        "dependency_freshness": 74,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.4
+      },
+      "maturity_scores": {
+        "code": { "score": 75, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 76,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 78,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 57,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 78,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 40,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 72,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 82,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "gnu-health",
+      "name": "GNU Health",
+      "description": "Open source health and hospital information system supporting public health, medical records, and social medicine workflows in government and public institutions.",
+      "category": "Health Information",
+      "subcategory": "Public Health and HMIS",
+      "project_type": "DPG",
+      "categories": ["Health Information", "DPI"],
+      "subcategories": ["Public Health and HMIS"],
+      "project_types": ["DPG"],
+      "tags": ["health", "hospital", "public-health", "emr"],
+      "website": "https://www.gnuhealth.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/gnuhealth/health"],
+      "documentation_urls": ["https://docs.gnuhealth.org"],
+      "licenses": ["GPL-3.0-or-later"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "nonprofit",
+      "funding_model": "mixed",
+      "standards_alignment": ["FHIR", "HL7"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Argentina", "Brazil", "Spain"],
+      "steward_organizations": ["gnu-solidario"],
+      "maintainers": ["GNU Health community"],
+      "related_projects": ["openmrs", "dhis2"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
+      "maturity_level": "mature",
+      "sustainability_score": 77,
+      "activity_score": 68,
+      "ecosystem_score": 71,
+      "accessibility_score": 54,
+      "community_health": {
+        "commits_last_12_months": 640,
+        "contributors_last_12_months": 28,
+        "issue_closure_rate": 0.7,
+        "median_issue_response_hours": 45,
+        "releases_last_12_months": 3,
+        "contributor_diversity_index": 0.51,
+        "governance_maturity": 78,
+        "documentation_quality": 79,
+        "onboarding_quality": 69,
+        "dependency_freshness": 71,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 5.9
+      },
+      "maturity_scores": {
+        "code": { "score": 68, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 78,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 77,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 54,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 77,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 70,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 79,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "opensrp",
+      "name": "OpenSRP",
+      "description": "Open source service-delivery and frontline health platform used to support community health workflows, registries, and public-sector program execution.",
+      "category": "Health Information",
+      "subcategory": "Frontline Service Delivery",
+      "project_type": "DPG",
+      "categories": ["Health Information", "DPI"],
+      "subcategories": ["Frontline Service Delivery", "Workflow"],
+      "project_types": ["DPG"],
+      "tags": ["health", "frontline", "workflow", "registries"],
+      "website": "https://smartregister.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/opensrp/opensrp-client-core"],
+      "documentation_urls": ["https://docs.smartregister.org"],
+      "licenses": ["MPL-2.0"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "nonprofit",
+      "funding_model": "grant",
+      "standards_alignment": ["FHIR", "OpenAPI"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Kenya", "Zambia", "Nigeria", "Pakistan"],
+      "steward_organizations": ["ona"],
+      "maintainers": ["OpenSRP maintainers"],
+      "related_projects": ["dhis2", "openmrs", "openfn"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
+      "maturity_level": "growing",
+      "sustainability_score": 74,
+      "activity_score": 71,
+      "ecosystem_score": 76,
+      "accessibility_score": 50,
+      "community_health": {
+        "commits_last_12_months": 730,
+        "contributors_last_12_months": 34,
+        "issue_closure_rate": 0.68,
+        "median_issue_response_hours": 41,
+        "releases_last_12_months": 3,
+        "contributor_diversity_index": 0.53,
+        "governance_maturity": 73,
+        "documentation_quality": 76,
+        "onboarding_quality": 70,
+        "dependency_freshness": 72,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 5.8
+      },
+      "maturity_scores": {
+        "code": { "score": 71, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 73,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 74,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 50,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 74,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 68,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 76,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "openfn",
+      "name": "OpenFn",
+      "description": "Open source integration and workflow automation platform used to connect public-service systems, data exchanges, and frontline digital tools.",
+      "category": "Interoperability",
+      "subcategory": "Workflow Automation",
+      "project_type": "DPG",
+      "categories": ["Interoperability", "DPI"],
+      "subcategories": ["Workflow Automation", "Integration"],
+      "project_types": ["DPG"],
+      "tags": ["integration", "workflows", "interoperability", "data-exchange"],
+      "website": "https://www.openfn.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/OpenFn/kit"],
+      "documentation_urls": ["https://docs.openfn.org"],
+      "licenses": ["AGPL-3.0-only"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "nonprofit",
+      "funding_model": "mixed",
+      "standards_alignment": ["OpenAPI", "JSON Schema"],
+      "interoperability_frameworks": ["OpenHIE", "OpenAPI"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Sierra Leone", "Kenya", "Ethiopia"],
+      "steward_organizations": ["openfn"],
+      "maintainers": ["OpenFn core team"],
+      "related_projects": ["dhis2", "opensrp", "odk"],
+      "sdgs": ["SDG-3", "SDG-16"],
+      "dpi_domains": ["interoperability", "health"],
+      "maturity_level": "growing",
+      "sustainability_score": 76,
+      "activity_score": 74,
+      "ecosystem_score": 78,
+      "accessibility_score": 59,
+      "community_health": {
+        "commits_last_12_months": 870,
+        "contributors_last_12_months": 39,
+        "issue_closure_rate": 0.75,
+        "median_issue_response_hours": 29,
+        "releases_last_12_months": 5,
+        "contributor_diversity_index": 0.58,
+        "governance_maturity": 77,
+        "documentation_quality": 84,
+        "onboarding_quality": 78,
+        "dependency_freshness": 79,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.7
+      },
+      "maturity_scores": {
+        "code": { "score": 74, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 77,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 76,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 59,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 76,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 80,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 75,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 84,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
     }
   ],
   "organizations": [
@@ -2583,6 +3078,91 @@
       "linkedin": "",
       "governance_role": "steward",
       "provenance": {}
+    },
+    {
+      "id": "odk-community",
+      "name": "ODK Community",
+      "type": "community",
+      "website": "https://getodk.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["odk"],
+      "partnerships": ["openfn"],
+      "funders": [],
+      "staff": [],
+      "github_org": "getodk",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "kobotoolbox",
+      "name": "KoboToolbox",
+      "type": "nonprofit",
+      "website": "https://www.kobotoolbox.org",
+      "country": "Canada",
+      "city": "Toronto",
+      "coordinates": { "lat": 43.6532, "lon": -79.3832 },
+      "associated_projects": ["kobotoolbox"],
+      "partnerships": ["odk-community"],
+      "funders": [],
+      "staff": [],
+      "github_org": "kobotoolbox",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "gnu-solidario",
+      "name": "GNU Solidario",
+      "type": "nonprofit",
+      "website": "https://www.gnuhealth.org",
+      "country": "Spain",
+      "city": "Las Palmas de Gran Canaria",
+      "coordinates": { "lat": 28.1235, "lon": -15.4363 },
+      "associated_projects": ["gnu-health"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "gnuhealth",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "ona",
+      "name": "Ona",
+      "type": "company",
+      "website": "https://ona.io",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "coordinates": { "lat": -1.2864, "lon": 36.8172 },
+      "associated_projects": ["opensrp"],
+      "partnerships": ["openfn"],
+      "funders": [],
+      "staff": [],
+      "github_org": "opensrp",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openfn",
+      "name": "OpenFn",
+      "type": "nonprofit",
+      "website": "https://www.openfn.org",
+      "country": "United States",
+      "city": "New York",
+      "coordinates": { "lat": 40.7128, "lon": -74.006 },
+      "associated_projects": ["openfn"],
+      "partnerships": ["ona", "odk-community"],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenFn",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
     }
   ],
   "people": [],
@@ -2801,6 +3381,66 @@
       "deployment_status": "active",
       "confidence": 0.77,
       "source": "OpenLMIS public implementation case studies",
+      "provenance": {}
+    },
+    {
+      "country": "Uganda",
+      "government": "Government of Uganda",
+      "ministry": "Ministry of Health",
+      "project": "odk",
+      "deployment_type": "field data collection and reporting",
+      "implementation_partner": "ODK ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.68,
+      "source": "public ODK implementation examples in health programs",
+      "provenance": {}
+    },
+    {
+      "country": "Lebanon",
+      "government": "Government of Lebanon",
+      "ministry": "Ministry of Public Health and partner programs",
+      "project": "kobotoolbox",
+      "deployment_type": "assessment and monitoring workflows",
+      "implementation_partner": "KoboToolbox ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.61,
+      "source": "public KoboToolbox public-interest deployment examples",
+      "provenance": {}
+    },
+    {
+      "country": "Argentina",
+      "government": "Province of Jujuy",
+      "ministry": "Public health system",
+      "project": "gnu-health",
+      "deployment_type": "hospital and public health information system",
+      "implementation_partner": "GNU Health ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.72,
+      "source": "GNU Health public deployment materials",
+      "provenance": {}
+    },
+    {
+      "country": "Zambia",
+      "government": "Government of Zambia",
+      "ministry": "Ministry of Health",
+      "project": "opensrp",
+      "deployment_type": "frontline digital health workflows",
+      "implementation_partner": "Ona and ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.66,
+      "source": "public OpenSRP implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Sierra Leone",
+      "government": "Government of Sierra Leone",
+      "ministry": "Ministry of Health",
+      "project": "openfn",
+      "deployment_type": "health data interoperability workflows",
+      "implementation_partner": "OpenFn ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.69,
+      "source": "public OpenFn health interoperability case studies",
       "provenance": {}
     }
   ],
@@ -3119,6 +3759,96 @@
       "strength": 0.77,
       "evidence": "Both support interoperable payment orchestration and rails.",
       "confidence": 0.75,
+      "provenance": {}
+    },
+    {
+      "source": "odk-community",
+      "target": "odk",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "The ODK community stewards the platform, releases, and public documentation.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "kobotoolbox",
+      "target": "kobotoolbox",
+      "type": "governed_by",
+      "strength": 0.87,
+      "evidence": "KoboToolbox publicly stewards the platform roadmap and hosted ecosystem.",
+      "confidence": 0.84,
+      "provenance": {}
+    },
+    {
+      "source": "gnu-solidario",
+      "target": "gnu-health",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "GNU Solidario is the public steward and institutional home for GNU Health.",
+      "confidence": 0.89,
+      "provenance": {}
+    },
+    {
+      "source": "ona",
+      "target": "opensrp",
+      "type": "maintained_by",
+      "strength": 0.84,
+      "evidence": "Ona has been a core maintainer and implementation partner for OpenSRP deployments.",
+      "confidence": 0.81,
+      "provenance": {}
+    },
+    {
+      "source": "openfn",
+      "target": "openfn",
+      "type": "governed_by",
+      "strength": 0.86,
+      "evidence": "OpenFn publicly stewards the integration platform and its documentation.",
+      "confidence": 0.83,
+      "provenance": {}
+    },
+    {
+      "source": "odk",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.76,
+      "evidence": "Field data collection workflows commonly feed national health reporting systems.",
+      "confidence": 0.74,
+      "provenance": {}
+    },
+    {
+      "source": "kobotoolbox",
+      "target": "odk",
+      "type": "aligned_with",
+      "strength": 0.73,
+      "evidence": "Both projects support mobile and offline-first public-interest data collection.",
+      "confidence": 0.72,
+      "provenance": {}
+    },
+    {
+      "source": "gnu-health",
+      "target": "openmrs",
+      "type": "aligned_with",
+      "strength": 0.71,
+      "evidence": "Both provide open source clinical and public health platform capabilities.",
+      "confidence": 0.7,
+      "provenance": {}
+    },
+    {
+      "source": "opensrp",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.82,
+      "evidence": "Frontline service workflows commonly interoperate with aggregate reporting systems.",
+      "confidence": 0.8,
+      "provenance": {}
+    },
+    {
+      "source": "openfn",
+      "target": "opensrp",
+      "type": "integrates_with",
+      "strength": 0.84,
+      "evidence": "OpenFn is used to orchestrate data exchange between frontline and reporting systems.",
+      "confidence": 0.82,
       "provenance": {}
     }
   ],

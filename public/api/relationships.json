@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T12:52:07.182Z",
-  "count": 35,
+  "generated_at": "2026-05-21T15:12:13.624Z",
+  "count": 45,
   "relationships": [
     {
       "source": "drupal",
@@ -315,6 +315,96 @@
       "strength": 0.77,
       "evidence": "Both support interoperable payment orchestration and rails.",
       "confidence": 0.75,
+      "provenance": {}
+    },
+    {
+      "source": "odk-community",
+      "target": "odk",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "The ODK community stewards the platform, releases, and public documentation.",
+      "confidence": 0.88,
+      "provenance": {}
+    },
+    {
+      "source": "kobotoolbox",
+      "target": "kobotoolbox",
+      "type": "governed_by",
+      "strength": 0.87,
+      "evidence": "KoboToolbox publicly stewards the platform roadmap and hosted ecosystem.",
+      "confidence": 0.84,
+      "provenance": {}
+    },
+    {
+      "source": "gnu-solidario",
+      "target": "gnu-health",
+      "type": "governed_by",
+      "strength": 0.9,
+      "evidence": "GNU Solidario is the public steward and institutional home for GNU Health.",
+      "confidence": 0.89,
+      "provenance": {}
+    },
+    {
+      "source": "ona",
+      "target": "opensrp",
+      "type": "maintained_by",
+      "strength": 0.84,
+      "evidence": "Ona has been a core maintainer and implementation partner for OpenSRP deployments.",
+      "confidence": 0.81,
+      "provenance": {}
+    },
+    {
+      "source": "openfn",
+      "target": "openfn",
+      "type": "governed_by",
+      "strength": 0.86,
+      "evidence": "OpenFn publicly stewards the integration platform and its documentation.",
+      "confidence": 0.83,
+      "provenance": {}
+    },
+    {
+      "source": "odk",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.76,
+      "evidence": "Field data collection workflows commonly feed national health reporting systems.",
+      "confidence": 0.74,
+      "provenance": {}
+    },
+    {
+      "source": "kobotoolbox",
+      "target": "odk",
+      "type": "aligned_with",
+      "strength": 0.73,
+      "evidence": "Both projects support mobile and offline-first public-interest data collection.",
+      "confidence": 0.72,
+      "provenance": {}
+    },
+    {
+      "source": "gnu-health",
+      "target": "openmrs",
+      "type": "aligned_with",
+      "strength": 0.71,
+      "evidence": "Both provide open source clinical and public health platform capabilities.",
+      "confidence": 0.7,
+      "provenance": {}
+    },
+    {
+      "source": "opensrp",
+      "target": "dhis2",
+      "type": "integrates_with",
+      "strength": 0.82,
+      "evidence": "Frontline service workflows commonly interoperate with aggregate reporting systems.",
+      "confidence": 0.8,
+      "provenance": {}
+    },
+    {
+      "source": "openfn",
+      "target": "opensrp",
+      "type": "integrates_with",
+      "strength": 0.84,
+      "evidence": "OpenFn is used to orchestrate data exchange between frontline and reporting systems.",
+      "confidence": 0.82,
       "provenance": {}
     }
   ]
