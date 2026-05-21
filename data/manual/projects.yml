@@ -278,7 +278,9 @@
   interoperability_frameworks: [G2P Connect, GovStack]
   standards_alignment: [OpenAPI]
   govstack_building_blocks: [Digital Registries, Workflow]
-  govstack_notes: Atlas functional mapping for social registries and workflow orchestration.
+  govstack_listed: true
+  govstack_compliance_level: 2
+  govstack_notes: Listed on the GovStack software marketplace for digital registries and workflow-oriented social protection delivery.
   sdgs: [SDG-1, SDG-10]
   dpi_domains: [social-protection]
   maturity_level: growing
@@ -541,7 +543,9 @@
   interoperability_frameworks: [GovStack]
   standards_alignment: [OpenAPI, HL7 FHIR]
   govstack_building_blocks: [Registration]
-  govstack_notes: Atlas functional mapping to the GovStack Registration building block.
+  govstack_listed: true
+  govstack_compliance_level: 2
+  govstack_notes: Listed on the GovStack software marketplace under Registration.
   sdgs: [SDG-16, SDG-3]
   dpi_domains: [civil-registration, digital-identity]
   maturity_level: growing
@@ -1146,6 +1150,193 @@
   sustainability_maturity: mature
   procurement_readiness: nascent
   provenance: {}
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: camunda-platform
+  name: Camunda Platform
+  description: Workflow and decision automation platform used to orchestrate public-service processes, approvals, and BPMN-driven case flows across government systems.
+  category: Workflow Automation
+  subcategory: BPMN Orchestration
+  project_type: GovTech
+  categories: [Workflow Automation, DPI]
+  subcategories: [BPMN Orchestration]
+  project_types: [GovTech]
+  website: https://camunda.com/
+  project_page: https://govstack.global/software/
+  repository_urls:
+    - https://github.com/camunda/camunda-bpm-platform
+  documentation_urls:
+    - https://docs.camunda.org
+  licenses: [Apache-2.0]
+  license_model: mixed
+  licensing_concerns: GovStack lists Camunda Platform, but current Camunda offerings combine open-source components with commercial platform tiers and support packaging that should be reviewed before procurement.
+  tags: [workflow, bpm, orchestration, decisioning, government]
+  governance_model: company-led
+  funding_model: services
+  steward_organizations: [camunda]
+  maintainers: [Camunda engineering team]
+  deployment_countries: []
+  related_projects: [digit, rapidpro, openspp]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [BPMN 2.0, DMN, OpenAPI]
+  govstack_building_blocks: [Workflow]
+  govstack_listed: true
+  govstack_compliance_level: 2
+  govstack_notes: Listed on the GovStack software marketplace under Workflow.
+  sdgs: [SDG-9, SDG-16]
+  dpi_domains: [government-service-delivery, workflow]
+  maturity_level: mature
+  sustainability_score: 84
+  activity_score: 80
+  ecosystem_score: 82
+  accessibility_score: 48
+  community_health:
+    commits_last_12_months: 2400
+    contributors_last_12_months: 95
+    issue_closure_rate: 0.76
+    median_issue_response_hours: 30
+    releases_last_12_months: 6
+    contributor_diversity_index: 0.64
+    governance_maturity: 76
+    documentation_quality: 83
+    onboarding_quality: 72
+    dependency_freshness: 79
+    security_advisories_open: 0
+    openssf_scorecard: 6.9
+  accessibility_maturity: growing
+  sustainability_maturity: leading
+  procurement_readiness: mature
+  provenance:
+    repository_urls:
+      - source: https://api.github.com/repos/camunda/camunda-bpm-platform
+        retrieved_at: 2026-05-21T22:00:00.000Z
+        confidence: 0.79
+        kind: manual
+        note: Public Camunda repository metadata reports Apache-2.0, but marketplace procurement still requires review of commercial platform tiers.
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: diia-engine
+  name: Diia.Engine
+  description: Open source platform for building digital public services, registries, and workflow-driven government transactions with reusable components.
+  category: Government Platforms
+  subcategory: Registry and Workflow Platform
+  project_type: GovTech
+  categories: [Government Platforms, DPI]
+  subcategories: [Registry and Workflow Platform]
+  project_types: [GovTech]
+  website: https://diia.gov.ua/en/engine
+  project_page: https://govstack.global/software/
+  repository_urls:
+    - https://github.com/diia-engine/diia-engine-documentation
+  documentation_urls:
+    - https://github.com/diia-engine/diia-engine-documentation
+  licenses: [Apache-2.0]
+  license_model: open-source
+  tags: [registries, workflow, public-services, government, ukraine]
+  governance_model: government-led
+  funding_model: public
+  steward_organizations: [diia-engine-programme]
+  maintainers: [Diia.Engine maintainers]
+  deployment_countries: [Ukraine]
+  related_projects: [digit, openspp, x-road]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [OpenAPI]
+  govstack_building_blocks: [Digital Registries, Workflow]
+  govstack_listed: true
+  govstack_compliance_level: 2
+  govstack_notes: Listed on the GovStack software marketplace for registry and workflow capabilities.
+  sdgs: [SDG-9, SDG-16]
+  dpi_domains: [government-service-delivery, digital-registries]
+  maturity_level: growing
+  sustainability_score: 74
+  activity_score: 71
+  ecosystem_score: 75
+  accessibility_score: 50
+  community_health:
+    commits_last_12_months: 980
+    contributors_last_12_months: 42
+    issue_closure_rate: 0.7
+    median_issue_response_hours: 35
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.53
+    governance_maturity: 81
+    documentation_quality: 78
+    onboarding_quality: 69
+    dependency_freshness: 74
+    security_advisories_open: 0
+    openssf_scorecard: null
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: growing
+  provenance:
+    repository_urls:
+      - source: https://api.github.com/repos/diia-engine/diia-engine-documentation
+        retrieved_at: 2026-05-21T22:00:00.000Z
+        confidence: 0.76
+        kind: manual
+        note: Public Diia.Engine repository metadata reports Apache-2.0.
+  last_updated: 2026-05-21T00:00:00.000Z
+
+- id: prozorro-sale
+  name: Prozorro.Sale
+  description: Open source auction and public-asset sale platform supporting transparent e-marketplace and disposal workflows for government and public institutions.
+  category: Public Procurement
+  subcategory: E-Auctions Marketplace
+  project_type: GovTech
+  categories: [Public Procurement, DPI]
+  subcategories: [E-Auctions Marketplace]
+  project_types: [GovTech]
+  website: https://prozorro.sale/en/
+  project_page: https://govstack.global/software/
+  repository_urls:
+    - https://github.com/Prozorro-Sale-UA/openprocurement.api
+  documentation_urls:
+    - https://github.com/Prozorro-Sale-UA/standards
+  licenses: [Apache-2.0]
+  license_model: open-source
+  tags: [procurement, auctions, marketplace, transparency, government]
+  governance_model: public-enterprise
+  funding_model: public
+  steward_organizations: [prozorro-sale]
+  maintainers: [Prozorro.Sale engineering team]
+  deployment_countries: [Ukraine]
+  related_projects: [openimis, x-road]
+  interoperability_frameworks: [GovStack]
+  standards_alignment: [OpenAPI, OCDS]
+  govstack_building_blocks: [E-Marketplace]
+  govstack_listed: true
+  govstack_compliance_level: 2
+  govstack_notes: Listed on the GovStack software marketplace under E-Marketplace.
+  sdgs: [SDG-9, SDG-16]
+  dpi_domains: [public-procurement]
+  maturity_level: mature
+  sustainability_score: 79
+  activity_score: 73
+  ecosystem_score: 78
+  accessibility_score: 49
+  community_health:
+    commits_last_12_months: 760
+    contributors_last_12_months: 26
+    issue_closure_rate: 0.72
+    median_issue_response_hours: 32
+    releases_last_12_months: 4
+    contributor_diversity_index: 0.47
+    governance_maturity: 82
+    documentation_quality: 76
+    onboarding_quality: 67
+    dependency_freshness: 72
+    security_advisories_open: 0
+    openssf_scorecard: null
+  accessibility_maturity: growing
+  sustainability_maturity: mature
+  procurement_readiness: mature
+  provenance:
+    repository_urls:
+      - source: https://api.github.com/repos/Prozorro-Sale-UA/openprocurement.api
+        retrieved_at: 2026-05-21T22:00:00.000Z
+        confidence: 0.78
+        kind: manual
+        note: Public Prozorro.Sale repository metadata reports Apache-2.0.
   last_updated: 2026-05-21T00:00:00.000Z
 
 - id: odk

@@ -318,6 +318,54 @@
   governance_role: steward
   provenance: {}
 
+- id: camunda
+  name: Camunda
+  type: company
+  website: https://camunda.com/
+  country: Germany
+  city: Berlin
+  coordinates: { lat: 52.52, lon: 13.405 }
+  associated_projects: [camunda-platform]
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: camunda
+  linkedin: https://www.linkedin.com/company/camunda/
+  governance_role: steward
+  provenance: {}
+
+- id: diia-engine-programme
+  name: Diia.Engine Programme
+  type: government
+  website: https://diia.gov.ua/en/engine
+  country: Ukraine
+  city: Kyiv
+  coordinates: { lat: 50.4501, lon: 30.5234 }
+  associated_projects: [diia-engine]
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: diia-engine
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: prozorro-sale
+  name: Prozorro.Sale
+  type: public-enterprise
+  website: https://prozorro.sale/en/
+  country: Ukraine
+  city: Kyiv
+  coordinates: { lat: 50.4501, lon: 30.5234 }
+  associated_projects: [prozorro-sale]
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: Prozorro-Sale-UA
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
 - id: openg2p-foundation
   name: OpenG2P
   type: nonprofit

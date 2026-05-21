@@ -169,6 +169,30 @@
       "activity": 67
     },
     {
+      "id": "camunda-platform",
+      "label": "Camunda Platform",
+      "type": "project",
+      "category": "Workflow Automation",
+      "maturity": "mature",
+      "activity": 80
+    },
+    {
+      "id": "diia-engine",
+      "label": "Diia.Engine",
+      "type": "project",
+      "category": "Government Platforms",
+      "maturity": "growing",
+      "activity": 71
+    },
+    {
+      "id": "prozorro-sale",
+      "label": "Prozorro.Sale",
+      "type": "project",
+      "category": "Public Procurement",
+      "maturity": "mature",
+      "activity": 73
+    },
+    {
       "id": "odk",
       "label": "ODK",
       "type": "project",
@@ -2131,6 +2155,27 @@
       "type": "organization",
       "org_type": "nonprofit",
       "country": "India"
+    },
+    {
+      "id": "camunda",
+      "label": "Camunda",
+      "type": "organization",
+      "org_type": "company",
+      "country": "Germany"
+    },
+    {
+      "id": "diia-engine-programme",
+      "label": "Diia.Engine Programme",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Ukraine"
+    },
+    {
+      "id": "prozorro-sale",
+      "label": "Prozorro.Sale",
+      "type": "organization",
+      "org_type": "public-enterprise",
+      "country": "Ukraine"
     },
     {
       "id": "openg2p-foundation",
