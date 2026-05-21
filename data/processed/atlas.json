@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T15:12:13.624Z",
+  "generated_at": "2026-05-21T15:31:17.859Z",
   "version": "0.2.0",
   "sources": ["manual-seed", "dpg-registry"],
   "projects": [
@@ -2634,6 +2634,501 @@
       "procurement_readiness": "growing",
       "provenance": {},
       "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "commcare",
+      "name": "CommCare",
+      "description": "Open source digital case management and mobile workflow platform used by governments and public-health programs for frontline service delivery and reporting.",
+      "category": "Health Information",
+      "subcategory": "Frontline Case Management",
+      "project_type": "DPG",
+      "categories": ["Health Information", "DPI"],
+      "subcategories": ["Frontline Case Management", "Workflow"],
+      "project_types": ["DPG"],
+      "tags": ["frontline", "case-management", "mobile", "health"],
+      "website": "https://www.dimagi.com/commcare/",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/dimagi/commcare-hq"],
+      "documentation_urls": ["https://commcare-hq.readthedocs.io"],
+      "licenses": ["BSD-3-Clause"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "company",
+      "funding_model": "services",
+      "standards_alignment": ["FHIR", "OpenAPI"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["India", "Zambia", "Tanzania", "Nigeria", "Malawi"],
+      "steward_organizations": ["dimagi"],
+      "maintainers": ["Dimagi CommCare team"],
+      "related_projects": ["opensrp", "dhis2", "rapidpro"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health", "government-service-delivery"],
+      "maturity_level": "mature",
+      "sustainability_score": 81,
+      "activity_score": 84,
+      "ecosystem_score": 82,
+      "accessibility_score": 58,
+      "community_health": {
+        "commits_last_12_months": 1460,
+        "contributors_last_12_months": 67,
+        "issue_closure_rate": 0.74,
+        "median_issue_response_hours": 30,
+        "releases_last_12_months": 6,
+        "contributor_diversity_index": 0.61,
+        "governance_maturity": 78,
+        "documentation_quality": 85,
+        "onboarding_quality": 79,
+        "dependency_freshness": 77,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 6.6
+      },
+      "maturity_scores": {
+        "code": { "score": 84, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 78,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 81,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 60,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 58,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 81,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 70,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 74,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 85,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "leading",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "openelis-global",
+      "name": "OpenELIS Global",
+      "description": "Open source laboratory information system used in national and public health settings to support diagnostics, reporting, and health-system interoperability.",
+      "category": "Health Information",
+      "subcategory": "Laboratory Information System",
+      "project_type": "DPG",
+      "categories": ["Health Information", "DPI"],
+      "subcategories": ["Laboratory Information System"],
+      "project_types": ["DPG"],
+      "tags": ["lab", "diagnostics", "health", "interoperability"],
+      "website": "https://www.openelis-global.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/Bahmni/OpenElis"],
+      "documentation_urls": ["https://openelis-global.org/documentation/"],
+      "licenses": ["GPL-3.0-or-later"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "nonprofit",
+      "funding_model": "grant",
+      "standards_alignment": ["FHIR", "HL7"],
+      "interoperability_frameworks": ["OpenHIE"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Haiti", "Côte d'Ivoire", "Cameroon", "Sierra Leone"],
+      "steward_organizations": ["openelis-global-foundation"],
+      "maintainers": ["OpenELIS Global maintainers"],
+      "related_projects": ["openmrs", "dhis2", "gnu-health"],
+      "sdgs": ["SDG-3"],
+      "dpi_domains": ["health"],
+      "maturity_level": "growing",
+      "sustainability_score": 72,
+      "activity_score": 66,
+      "ecosystem_score": 74,
+      "accessibility_score": 49,
+      "community_health": {
+        "commits_last_12_months": 520,
+        "contributors_last_12_months": 24,
+        "issue_closure_rate": 0.67,
+        "median_issue_response_hours": 46,
+        "releases_last_12_months": 2,
+        "contributor_diversity_index": 0.49,
+        "governance_maturity": 72,
+        "documentation_quality": 74,
+        "onboarding_quality": 66,
+        "dependency_freshness": 69,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 5.5
+      },
+      "maturity_scores": {
+        "code": { "score": 66, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 72,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 72,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 49,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 72,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 67,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 74,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "ushahidi",
+      "name": "Ushahidi",
+      "description": "Open source crowdsourcing and crisis-mapping platform used for public reporting, election monitoring, accountability, and emergency response workflows.",
+      "category": "Civic Technology",
+      "subcategory": "Participatory Reporting",
+      "project_type": "DPG",
+      "categories": ["Civic Technology", "Open Government"],
+      "subcategories": ["Participatory Reporting", "Mapping"],
+      "project_types": ["DPG"],
+      "tags": ["mapping", "civic-tech", "participation", "crisis-response"],
+      "website": "https://www.ushahidi.com",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/ushahidi/platform"],
+      "documentation_urls": ["https://docs.ushahidi.com"],
+      "licenses": ["AGPL-3.0-only"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "nonprofit",
+      "funding_model": "mixed",
+      "standards_alignment": ["GeoJSON", "OpenAPI"],
+      "interoperability_frameworks": ["OpenAPI"],
+      "govstack_building_blocks": [],
+      "govstack_listed": false,
+      "govstack_notes": "",
+      "deployment_countries": ["Kenya", "Nepal", "Haiti", "Ukraine"],
+      "steward_organizations": ["ushahidi-org"],
+      "maintainers": ["Ushahidi maintainers"],
+      "related_projects": ["odk", "kobotoolbox"],
+      "sdgs": ["SDG-16"],
+      "dpi_domains": ["open-government", "government-service-delivery"],
+      "maturity_level": "mature",
+      "sustainability_score": 75,
+      "activity_score": 69,
+      "ecosystem_score": 77,
+      "accessibility_score": 55,
+      "community_health": {
+        "commits_last_12_months": 610,
+        "contributors_last_12_months": 29,
+        "issue_closure_rate": 0.7,
+        "median_issue_response_hours": 39,
+        "releases_last_12_months": 3,
+        "contributor_diversity_index": 0.56,
+        "governance_maturity": 79,
+        "documentation_quality": 77,
+        "onboarding_quality": 70,
+        "dependency_freshness": 68,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 5.9
+      },
+      "maturity_scores": {
+        "code": { "score": 69, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 79,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 75,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 55,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 75,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 70,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 77,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "growing",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "opentenure",
+      "name": "OpenTenure",
+      "description": "Open source land tenure and parcel documentation platform designed to support public-sector land administration, community mapping, and registry workflows.",
+      "category": "Land Administration",
+      "subcategory": "Tenure Documentation",
+      "project_type": "DPG",
+      "categories": ["Land Administration", "DPI"],
+      "subcategories": ["Tenure Documentation", "Digital Registries"],
+      "project_types": ["DPG"],
+      "tags": ["land", "registries", "cadastre", "mapping"],
+      "website": "https://www.fao.org/in-action/solutions-for-open-land-administration/en/",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/OpenTenure/opentenure-android-client"],
+      "documentation_urls": ["https://github.com/OpenTenure"],
+      "licenses": ["MPL-2.0"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "intergovernmental",
+      "funding_model": "grant",
+      "standards_alignment": ["GeoJSON", "OpenAPI"],
+      "interoperability_frameworks": ["OpenAPI"],
+      "govstack_building_blocks": ["Digital Registries", "GIS"],
+      "govstack_listed": false,
+      "govstack_notes": "Atlas functional mapping to land and parcel registry workflows that align with registries and GIS needs.",
+      "deployment_countries": ["Uganda", "Kenya", "Rwanda"],
+      "steward_organizations": ["fao"],
+      "maintainers": ["OpenTenure maintainers"],
+      "related_projects": ["digit", "x-road"],
+      "sdgs": ["SDG-1", "SDG-16"],
+      "dpi_domains": ["digital-registries", "government-service-delivery"],
+      "maturity_level": "growing",
+      "sustainability_score": 68,
+      "activity_score": 58,
+      "ecosystem_score": 70,
+      "accessibility_score": 47,
+      "community_health": {
+        "commits_last_12_months": 310,
+        "contributors_last_12_months": 15,
+        "issue_closure_rate": 0.62,
+        "median_issue_response_hours": 56,
+        "releases_last_12_months": 1,
+        "contributor_diversity_index": 0.42,
+        "governance_maturity": 75,
+        "documentation_quality": 71,
+        "onboarding_quality": 62,
+        "dependency_freshness": 65,
+        "security_advisories_open": 0,
+        "openssf_scorecard": null
+      },
+      "maturity_scores": {
+        "code": { "score": 58, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 75,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 68,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 36,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 47,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 68,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 50,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 62,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 71,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "emerging",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "growing",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "apache-fineract",
+      "name": "Apache Fineract",
+      "description": "Open source core banking platform used to support financial inclusion, public-interest lending, and digital financial service infrastructure.",
+      "category": "Financial Inclusion",
+      "subcategory": "Core Banking",
+      "project_type": "DPG",
+      "categories": ["Financial Inclusion", "DPI"],
+      "subcategories": ["Core Banking", "Financial Infrastructure"],
+      "project_types": ["DPG"],
+      "tags": ["banking", "financial-inclusion", "payments", "core-banking"],
+      "website": "https://fineract.apache.org",
+      "project_page": "https://digitalpublicgoods.net",
+      "repository_urls": ["https://github.com/apache/fineract"],
+      "documentation_urls": ["https://fineract.apache.org/docs/current/"],
+      "licenses": ["Apache-2.0"],
+      "license_model": "open-source",
+      "licensing_concerns": "",
+      "governance_model": "foundation",
+      "funding_model": "mixed",
+      "standards_alignment": ["ISO 20022", "OpenAPI"],
+      "interoperability_frameworks": ["OpenAPI"],
+      "govstack_building_blocks": ["Payment"],
+      "govstack_listed": false,
+      "govstack_notes": "Functional alignment with payment and financial-service orchestration layers.",
+      "deployment_countries": ["India", "Kenya", "Philippines", "Indonesia"],
+      "steward_organizations": ["apache-software-foundation"],
+      "maintainers": ["Apache Fineract community"],
+      "related_projects": ["mifos-payment-hub-ee", "mojaloop"],
+      "sdgs": ["SDG-1", "SDG-8", "SDG-10"],
+      "dpi_domains": ["digital-payments", "financial-inclusion"],
+      "maturity_level": "mature",
+      "sustainability_score": 79,
+      "activity_score": 81,
+      "ecosystem_score": 80,
+      "accessibility_score": 48,
+      "community_health": {
+        "commits_last_12_months": 1180,
+        "contributors_last_12_months": 52,
+        "issue_closure_rate": 0.73,
+        "median_issue_response_hours": 34,
+        "releases_last_12_months": 4,
+        "contributor_diversity_index": 0.57,
+        "governance_maturity": 88,
+        "documentation_quality": 80,
+        "onboarding_quality": 73,
+        "dependency_freshness": 78,
+        "security_advisories_open": 0,
+        "openssf_scorecard": 7
+      },
+      "maturity_scores": {
+        "code": { "score": 81, "rationale": "Derived from activity metrics." },
+        "governance": {
+          "score": 88,
+          "rationale": "Derived from governance transparency indicators."
+        },
+        "stewardship": {
+          "score": 79,
+          "rationale": "Derived from sustainability inputs until manual stewardship data is added."
+        },
+        "public_sector": {
+          "score": 48,
+          "rationale": "Estimated from known deployments."
+        },
+        "accessibility": {
+          "score": 48,
+          "rationale": "Derived from current accessibility score."
+        },
+        "sustainability": {
+          "score": 79,
+          "rationale": "Derived from sustainability score."
+        },
+        "security": {
+          "score": 100,
+          "rationale": "Derived from open security advisories."
+        },
+        "interoperability": {
+          "score": 60,
+          "rationale": "Estimated from standards and interoperability frameworks."
+        },
+        "procurement": {
+          "score": 60,
+          "rationale": "Estimated from deployments and licensing clarity."
+        },
+        "community": {
+          "score": 73,
+          "rationale": "Derived from closure rate and contributor health."
+        },
+        "documentation": {
+          "score": 80,
+          "rationale": "Derived from documentation quality."
+        }
+      },
+      "accessibility_maturity": "emerging",
+      "sustainability_maturity": "mature",
+      "procurement_readiness": "mature",
+      "provenance": {},
+      "last_updated": "2026-05-21T00:00:00.000Z"
     }
   ],
   "organizations": [
@@ -3163,6 +3658,91 @@
       "linkedin": "",
       "governance_role": "steward",
       "provenance": {}
+    },
+    {
+      "id": "dimagi",
+      "name": "Dimagi",
+      "type": "company",
+      "website": "https://www.dimagi.com",
+      "country": "United States",
+      "city": "Cambridge",
+      "coordinates": { "lat": 42.3736, "lon": -71.1097 },
+      "associated_projects": ["commcare"],
+      "partnerships": ["ona"],
+      "funders": [],
+      "staff": [],
+      "github_org": "dimagi",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "openelis-global-foundation",
+      "name": "OpenELIS Global",
+      "type": "nonprofit",
+      "website": "https://www.openelis-global.org",
+      "country": "International",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openelis-global"],
+      "partnerships": ["openmrs-inc"],
+      "funders": [],
+      "staff": [],
+      "github_org": "Bahmni",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "ushahidi-org",
+      "name": "Ushahidi",
+      "type": "nonprofit",
+      "website": "https://www.ushahidi.com",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "coordinates": { "lat": -1.2864, "lon": 36.8172 },
+      "associated_projects": ["ushahidi"],
+      "partnerships": ["kobotoolbox"],
+      "funders": [],
+      "staff": [],
+      "github_org": "ushahidi",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "fao",
+      "name": "Food and Agriculture Organization of the United Nations",
+      "type": "intergovernmental",
+      "website": "https://www.fao.org",
+      "country": "International",
+      "city": "Rome",
+      "coordinates": { "lat": 41.9028, "lon": 12.4964 },
+      "associated_projects": ["opentenure"],
+      "partnerships": ["united-nations"],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenTenure",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
+    },
+    {
+      "id": "apache-software-foundation",
+      "name": "Apache Software Foundation",
+      "type": "foundation",
+      "website": "https://www.apache.org",
+      "country": "United States",
+      "city": "Forest Hill",
+      "coordinates": { "lat": 39.5857, "lon": -76.3877 },
+      "associated_projects": ["apache-fineract"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "apache",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {}
     }
   ],
   "people": [],
@@ -3441,6 +4021,66 @@
       "deployment_status": "active",
       "confidence": 0.69,
       "source": "public OpenFn health interoperability case studies",
+      "provenance": {}
+    },
+    {
+      "country": "Zambia",
+      "government": "Government of Zambia",
+      "ministry": "Ministry of Health",
+      "project": "commcare",
+      "deployment_type": "frontline case management and reporting",
+      "implementation_partner": "Dimagi and ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.68,
+      "source": "public CommCare implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Haiti",
+      "government": "Government of Haiti",
+      "ministry": "National public health laboratory network",
+      "project": "openelis-global",
+      "deployment_type": "laboratory information management",
+      "implementation_partner": "OpenELIS Global ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.64,
+      "source": "public OpenELIS Global implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "Kenya",
+      "government": "Independent public accountability and election-monitoring initiatives",
+      "ministry": "Civic and electoral monitoring partners",
+      "project": "ushahidi",
+      "deployment_type": "participatory reporting and crisis mapping",
+      "implementation_partner": "Ushahidi ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.72,
+      "source": "public Ushahidi deployment examples",
+      "provenance": {}
+    },
+    {
+      "country": "Uganda",
+      "government": "Government of Uganda",
+      "ministry": "Local land administration initiatives",
+      "project": "opentenure",
+      "deployment_type": "land tenure documentation",
+      "implementation_partner": "FAO and ecosystem partners",
+      "deployment_status": "pilot",
+      "confidence": 0.58,
+      "source": "public OpenTenure implementation materials",
+      "provenance": {}
+    },
+    {
+      "country": "India",
+      "government": "Financial inclusion and lending programs",
+      "ministry": "Public-interest finance and service-delivery ecosystems",
+      "project": "apache-fineract",
+      "deployment_type": "core banking and financial inclusion systems",
+      "implementation_partner": "Apache Fineract ecosystem partners",
+      "deployment_status": "active",
+      "confidence": 0.63,
+      "source": "public Apache Fineract use-case materials",
       "provenance": {}
     }
   ],
@@ -3849,6 +4489,96 @@
       "strength": 0.84,
       "evidence": "OpenFn is used to orchestrate data exchange between frontline and reporting systems.",
       "confidence": 0.82,
+      "provenance": {}
+    },
+    {
+      "source": "dimagi",
+      "target": "commcare",
+      "type": "maintained_by",
+      "strength": 0.88,
+      "evidence": "Dimagi is the primary steward and maintainer of the CommCare platform.",
+      "confidence": 0.86,
+      "provenance": {}
+    },
+    {
+      "source": "openelis-global-foundation",
+      "target": "openelis-global",
+      "type": "governed_by",
+      "strength": 0.84,
+      "evidence": "OpenELIS Global is publicly stewarded through its dedicated organizational home and implementation network.",
+      "confidence": 0.8,
+      "provenance": {}
+    },
+    {
+      "source": "ushahidi-org",
+      "target": "ushahidi",
+      "type": "governed_by",
+      "strength": 0.89,
+      "evidence": "Ushahidi publicly stewards the platform, roadmap, and associated documentation.",
+      "confidence": 0.87,
+      "provenance": {}
+    },
+    {
+      "source": "fao",
+      "target": "opentenure",
+      "type": "governed_by",
+      "strength": 0.87,
+      "evidence": "FAO is the institutional steward for the OpenTenure initiative and supporting materials.",
+      "confidence": 0.85,
+      "provenance": {}
+    },
+    {
+      "source": "apache-software-foundation",
+      "target": "apache-fineract",
+      "type": "governed_by",
+      "strength": 0.93,
+      "evidence": "Apache Fineract is governed through Apache Software Foundation project processes.",
+      "confidence": 0.94,
+      "provenance": {}
+    },
+    {
+      "source": "commcare",
+      "target": "rapidpro",
+      "type": "aligned_with",
+      "strength": 0.74,
+      "evidence": "Both support mobile-first frontline workflows and public-service outreach.",
+      "confidence": 0.73,
+      "provenance": {}
+    },
+    {
+      "source": "openelis-global",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.86,
+      "evidence": "Laboratory systems commonly interoperate with clinical record systems in public health architectures.",
+      "confidence": 0.84,
+      "provenance": {}
+    },
+    {
+      "source": "ushahidi",
+      "target": "odk",
+      "type": "aligned_with",
+      "strength": 0.7,
+      "evidence": "Both support public-interest reporting and data collection in crisis and accountability settings.",
+      "confidence": 0.69,
+      "provenance": {}
+    },
+    {
+      "source": "opentenure",
+      "target": "digit",
+      "type": "aligned_with",
+      "strength": 0.68,
+      "evidence": "Both can support public-sector registry and service-delivery workflows around local administration.",
+      "confidence": 0.67,
+      "provenance": {}
+    },
+    {
+      "source": "apache-fineract",
+      "target": "mifos-payment-hub-ee",
+      "type": "aligned_with",
+      "strength": 0.79,
+      "evidence": "Both support digital financial-service back-end and payment infrastructure use cases.",
+      "confidence": 0.77,
       "provenance": {}
     }
   ],

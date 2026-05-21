@@ -357,3 +357,83 @@
   evidence: OpenFn is used to orchestrate data exchange between frontline and reporting systems.
   confidence: 0.82
   provenance: {}
+
+- source: dimagi
+  target: commcare
+  type: maintained_by
+  strength: 0.88
+  evidence: Dimagi is the primary steward and maintainer of the CommCare platform.
+  confidence: 0.86
+  provenance: {}
+
+- source: openelis-global-foundation
+  target: openelis-global
+  type: governed_by
+  strength: 0.84
+  evidence: OpenELIS Global is publicly stewarded through its dedicated organizational home and implementation network.
+  confidence: 0.8
+  provenance: {}
+
+- source: ushahidi-org
+  target: ushahidi
+  type: governed_by
+  strength: 0.89
+  evidence: Ushahidi publicly stewards the platform, roadmap, and associated documentation.
+  confidence: 0.87
+  provenance: {}
+
+- source: fao
+  target: opentenure
+  type: governed_by
+  strength: 0.87
+  evidence: FAO is the institutional steward for the OpenTenure initiative and supporting materials.
+  confidence: 0.85
+  provenance: {}
+
+- source: apache-software-foundation
+  target: apache-fineract
+  type: governed_by
+  strength: 0.93
+  evidence: Apache Fineract is governed through Apache Software Foundation project processes.
+  confidence: 0.94
+  provenance: {}
+
+- source: commcare
+  target: rapidpro
+  type: aligned_with
+  strength: 0.74
+  evidence: Both support mobile-first frontline workflows and public-service outreach.
+  confidence: 0.73
+  provenance: {}
+
+- source: openelis-global
+  target: openmrs
+  type: integrates_with
+  strength: 0.86
+  evidence: Laboratory systems commonly interoperate with clinical record systems in public health architectures.
+  confidence: 0.84
+  provenance: {}
+
+- source: ushahidi
+  target: odk
+  type: aligned_with
+  strength: 0.7
+  evidence: Both support public-interest reporting and data collection in crisis and accountability settings.
+  confidence: 0.69
+  provenance: {}
+
+- source: opentenure
+  target: digit
+  type: aligned_with
+  strength: 0.68
+  evidence: Both can support public-sector registry and service-delivery workflows around local administration.
+  confidence: 0.67
+  provenance: {}
+
+- source: apache-fineract
+  target: mifos-payment-hub-ee
+  type: aligned_with
+  strength: 0.79
+  evidence: Both support digital financial-service back-end and payment infrastructure use cases.
+  confidence: 0.77
+  provenance: {}

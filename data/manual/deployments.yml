@@ -250,3 +250,58 @@
   confidence: 0.69
   source: public OpenFn health interoperability case studies
   provenance: {}
+
+- country: Zambia
+  government: Government of Zambia
+  ministry: Ministry of Health
+  project: commcare
+  implementation_partner: Dimagi and ecosystem partners
+  deployment_type: frontline case management and reporting
+  deployment_status: active
+  confidence: 0.68
+  source: public CommCare implementation materials
+  provenance: {}
+
+- country: Haiti
+  government: Government of Haiti
+  ministry: National public health laboratory network
+  project: openelis-global
+  implementation_partner: OpenELIS Global ecosystem partners
+  deployment_type: laboratory information management
+  deployment_status: active
+  confidence: 0.64
+  source: public OpenELIS Global implementation materials
+  provenance: {}
+
+- country: Kenya
+  government: Independent public accountability and election-monitoring initiatives
+  ministry: Civic and electoral monitoring partners
+  project: ushahidi
+  implementation_partner: Ushahidi ecosystem partners
+  deployment_type: participatory reporting and crisis mapping
+  deployment_status: active
+  confidence: 0.72
+  source: public Ushahidi deployment examples
+  provenance: {}
+
+- country: Uganda
+  government: Government of Uganda
+  ministry: Local land administration initiatives
+  project: opentenure
+  implementation_partner: FAO and ecosystem partners
+  deployment_type: land tenure documentation
+  deployment_status: pilot
+  confidence: 0.58
+  source: public OpenTenure implementation materials
+  provenance: {}
+
+- country: India
+  government: Financial inclusion and lending programs
+  ministry: Public-interest finance and service-delivery ecosystems
+  project: apache-fineract
+  implementation_partner: Apache Fineract ecosystem partners
+  deployment_type: core banking and financial inclusion systems
+  deployment_status: active
+  confidence: 0.63
+  source: public Apache Fineract use-case materials
+  provenance: {}

@@ -209,6 +209,46 @@
       "activity": 74
     },
     {
+      "id": "commcare",
+      "label": "CommCare",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "mature",
+      "activity": 84
+    },
+    {
+      "id": "openelis-global",
+      "label": "OpenELIS Global",
+      "type": "project",
+      "category": "Health Information",
+      "maturity": "growing",
+      "activity": 66
+    },
+    {
+      "id": "ushahidi",
+      "label": "Ushahidi",
+      "type": "project",
+      "category": "Civic Technology",
+      "maturity": "mature",
+      "activity": 69
+    },
+    {
+      "id": "opentenure",
+      "label": "OpenTenure",
+      "type": "project",
+      "category": "Land Administration",
+      "maturity": "growing",
+      "activity": 58
+    },
+    {
+      "id": "apache-fineract",
+      "label": "Apache Fineract",
+      "type": "project",
+      "category": "Financial Inclusion",
+      "maturity": "mature",
+      "activity": 81
+    },
+    {
       "id": "drupal-association",
       "label": "Drupal Association",
       "type": "organization",
@@ -423,6 +463,41 @@
       "label": "OpenFn",
       "type": "organization",
       "org_type": "nonprofit",
+      "country": "United States"
+    },
+    {
+      "id": "dimagi",
+      "label": "Dimagi",
+      "type": "organization",
+      "org_type": "company",
+      "country": "United States"
+    },
+    {
+      "id": "openelis-global-foundation",
+      "label": "OpenELIS Global",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "International"
+    },
+    {
+      "id": "ushahidi-org",
+      "label": "Ushahidi",
+      "type": "organization",
+      "org_type": "nonprofit",
+      "country": "Kenya"
+    },
+    {
+      "id": "fao",
+      "label": "Food and Agriculture Organization of the United Nations",
+      "type": "organization",
+      "org_type": "intergovernmental",
+      "country": "International"
+    },
+    {
+      "id": "apache-software-foundation",
+      "label": "Apache Software Foundation",
+      "type": "organization",
+      "org_type": "foundation",
       "country": "United States"
     }
   ],
@@ -696,6 +771,66 @@
       "target": "opensrp",
       "type": "integrates_with",
       "strength": 0.84
+    },
+    {
+      "source": "dimagi",
+      "target": "commcare",
+      "type": "maintained_by",
+      "strength": 0.88
+    },
+    {
+      "source": "openelis-global-foundation",
+      "target": "openelis-global",
+      "type": "governed_by",
+      "strength": 0.84
+    },
+    {
+      "source": "ushahidi-org",
+      "target": "ushahidi",
+      "type": "governed_by",
+      "strength": 0.89
+    },
+    {
+      "source": "fao",
+      "target": "opentenure",
+      "type": "governed_by",
+      "strength": 0.87
+    },
+    {
+      "source": "apache-software-foundation",
+      "target": "apache-fineract",
+      "type": "governed_by",
+      "strength": 0.93
+    },
+    {
+      "source": "commcare",
+      "target": "rapidpro",
+      "type": "aligned_with",
+      "strength": 0.74
+    },
+    {
+      "source": "openelis-global",
+      "target": "openmrs",
+      "type": "integrates_with",
+      "strength": 0.86
+    },
+    {
+      "source": "ushahidi",
+      "target": "odk",
+      "type": "aligned_with",
+      "strength": 0.7
+    },
+    {
+      "source": "opentenure",
+      "target": "digit",
+      "type": "aligned_with",
+      "strength": 0.68
+    },
+    {
+      "source": "apache-fineract",
+      "target": "mifos-payment-hub-ee",
+      "type": "aligned_with",
+      "strength": 0.79
     }
   ]
 }

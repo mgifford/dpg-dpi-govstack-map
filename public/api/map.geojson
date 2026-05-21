@@ -390,6 +390,66 @@
         "popup_label": "OpenFn — New York, United States",
         "popup_detail": "Projects: OpenFn"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-71.1097, 42.3736] },
+      "properties": {
+        "id": "dimagi",
+        "name": "Dimagi",
+        "entity_type": "organization",
+        "org_type": "company",
+        "country": "United States",
+        "city": "Cambridge",
+        "associated_projects": ["commcare"],
+        "popup_label": "Dimagi — Cambridge, United States",
+        "popup_detail": "Projects: CommCare"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [36.8172, -1.2864] },
+      "properties": {
+        "id": "ushahidi-org",
+        "name": "Ushahidi",
+        "entity_type": "organization",
+        "org_type": "nonprofit",
+        "country": "Kenya",
+        "city": "Nairobi",
+        "associated_projects": ["ushahidi"],
+        "popup_label": "Ushahidi — Nairobi, Kenya",
+        "popup_detail": "Projects: Ushahidi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [12.4964, 41.9028] },
+      "properties": {
+        "id": "fao",
+        "name": "Food and Agriculture Organization of the United Nations",
+        "entity_type": "organization",
+        "org_type": "intergovernmental",
+        "country": "International",
+        "city": "Rome",
+        "associated_projects": ["opentenure"],
+        "popup_label": "Food and Agriculture Organization of the United Nations — Rome, International",
+        "popup_detail": "Projects: OpenTenure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-76.3877, 39.5857] },
+      "properties": {
+        "id": "apache-software-foundation",
+        "name": "Apache Software Foundation",
+        "entity_type": "organization",
+        "org_type": "foundation",
+        "country": "United States",
+        "city": "Forest Hill",
+        "associated_projects": ["apache-fineract"],
+        "popup_label": "Apache Software Foundation — Forest Hill, United States",
+        "popup_detail": "Projects: Apache Fineract"
+      }
     }
   ]
 }

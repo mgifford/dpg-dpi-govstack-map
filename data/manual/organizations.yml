@@ -493,3 +493,83 @@
   linkedin: ""
   governance_role: steward
   provenance: {}
+
+- id: dimagi
+  name: Dimagi
+  type: company
+  website: https://www.dimagi.com
+  country: United States
+  city: Cambridge
+  coordinates: { lat: 42.3736, lon: -71.1097 }
+  associated_projects: [commcare]
+  partnerships: [ona]
+  funders: []
+  staff: []
+  github_org: dimagi
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: openelis-global-foundation
+  name: OpenELIS Global
+  type: nonprofit
+  website: https://www.openelis-global.org
+  country: International
+  city: ""
+  coordinates: null
+  associated_projects: [openelis-global]
+  partnerships: [openmrs-inc]
+  funders: []
+  staff: []
+  github_org: Bahmni
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: ushahidi-org
+  name: Ushahidi
+  type: nonprofit
+  website: https://www.ushahidi.com
+  country: Kenya
+  city: Nairobi
+  coordinates: { lat: -1.2864, lon: 36.8172 }
+  associated_projects: [ushahidi]
+  partnerships: [kobotoolbox]
+  funders: []
+  staff: []
+  github_org: ushahidi
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: fao
+  name: Food and Agriculture Organization of the United Nations
+  type: intergovernmental
+  website: https://www.fao.org
+  country: International
+  city: Rome
+  coordinates: { lat: 41.9028, lon: 12.4964 }
+  associated_projects: [opentenure]
+  partnerships: [united-nations]
+  funders: []
+  staff: []
+  github_org: OpenTenure
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
+
+- id: apache-software-foundation
+  name: Apache Software Foundation
+  type: foundation
+  website: https://www.apache.org
+  country: United States
+  city: Forest Hill
+  coordinates: { lat: 39.5857, lon: -76.3877 }
+  associated_projects: [apache-fineract]
+  partnerships: []
+  funders: []
+  staff: []
+  github_org: apache
+  linkedin: ""
+  governance_role: steward
+  provenance: {}
