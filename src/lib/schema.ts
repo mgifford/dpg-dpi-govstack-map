@@ -264,7 +264,7 @@ export const deploymentSchema = z.object({
 });
 
 export const repositorySchema = z.object({
-  platform: z.literal("github"),
+  platform: z.enum(["github", "gitlab"]),
   url: z.string().url(),
   license: z.string().default(""),
   stars: z.number().min(0),

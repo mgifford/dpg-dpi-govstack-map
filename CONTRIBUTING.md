@@ -73,7 +73,19 @@ Use [docs/DPI_INTAKE.md](docs/DPI_INTAKE.md) for the full workflow. The short ve
 - use manual curation first, and only build a dedicated importer when a source is stable and structured enough to trust
 - regenerate the dataset after changes
 
-### 6. Fix accessibility issues
+### 6. Curate OpenHIE-aligned software
+
+OpenHIE intake is a focused health interoperability workflow rather than a bulk import.
+
+Use [docs/OPENHIE_INTAKE.md](docs/OPENHIE_INTAKE.md) for the full workflow. The short version is:
+
+- treat OpenHIE as a framework and community node, not as a single product
+- only connect projects that have defensible OpenHIE architectural alignment
+- keep OpenEHR related but separate unless a project clearly participates in both communities
+- require public repository and license evidence before promoting a project as open-source digital health infrastructure
+- regenerate the dataset after changes
+
+### 7. Fix accessibility issues
 
 Open an issue tagged `accessibility`. Include:
 
@@ -81,11 +93,11 @@ Open an issue tagged `accessibility`. Include:
 - Browser and assistive technology combination
 - Steps to reproduce
 
-### 7. Improve ingestion scripts
+### 8. Improve ingestion scripts
 
 Scripts live in `scripts/`. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for design intent.
 
-### 8. Improve the frontend
+### 9. Improve the frontend
 
 Components are in `src/components/`, pages in `src/pages/`.
 All changes must maintain WCAG 2.2 AA conformance.

@@ -181,6 +181,17 @@ Use that workflow when:
 - filtering out proprietary or weakly evidenced tools
 - deciding whether a new ecosystem source deserves a dedicated importer or should stay curated manually
 
+## OpenHIE Intake Workflow
+
+OpenHIE-aligned software should be handled through a focused ecosystem workflow because the community is meaningful to the Atlas but does not expose one canonical software API like the DPG registry. The workflow is documented in [docs/OPENHIE_INTAKE.md](docs/OPENHIE_INTAKE.md).
+
+Use that workflow when:
+
+- adding or reviewing OpenHIE-aligned digital health projects
+- connecting health systems to the OpenHIE framework node and related standards
+- distinguishing OpenHIE ecosystem alignment from more specific standards communities such as openEHR
+- keeping the health interoperability layer biased toward verifiable open-source tools
+
 ---
 
 ## Tech Stack
