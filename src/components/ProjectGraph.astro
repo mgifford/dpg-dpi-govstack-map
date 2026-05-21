@@ -94,7 +94,12 @@ const { nodes, edges, height = "560px" } = Astro.props;
   </section>
 </div>
 
-<script is:inline type="application/json" id="graph-data">{JSON.stringify({ nodes, edges })}</script>
+<script
+  is:inline
+  type="application/json"
+  id="graph-data"
+  set:html={JSON.stringify({ nodes, edges })}
+></script>
 
 <script>
   import cytoscape from "cytoscape";

@@ -106,7 +106,12 @@ const { features, height = "560px" } = Astro.props;
   </section>
 </div>
 
-<script is:inline type="application/json" id="map-data">{JSON.stringify(features)}</script>
+<script
+  is:inline
+  type="application/json"
+  id="map-data"
+  set:html={JSON.stringify(features)}
+></script>
 
 <script>
 import L from "leaflet";

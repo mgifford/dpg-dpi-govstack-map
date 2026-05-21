@@ -148,13 +148,14 @@ const navLinks = [
 
     <!-- Theme toggle script (inline, no external dependency) -->
     <script>
+      // @ts-nocheck
       (function () {
         const KEY = "atlas-theme";
         const toggle = document.getElementById("theme-toggle");
         const icon = document.getElementById("theme-icon");
         const html = document.documentElement;
 
-        function applyTheme(theme: string) {
+        function applyTheme(theme) {
           html.setAttribute("data-theme", theme);
           if (icon) icon.textContent = theme === "dark" ? "☀️" : "🌙";
           try { localStorage.setItem(KEY, theme); } catch (_) { /* noop */ }
