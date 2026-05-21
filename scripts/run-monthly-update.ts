@@ -11,7 +11,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { AtlasDataset } from "../src/lib/schema.js";
 import { atlasDatasetSchema } from "../src/lib/schema.js";
-import { fetchDpgProjects } from "./ingest-dpg.js";
+import { fetchDpgDataset } from "./ingest-dpg.js";
 import { enrichProjectsBatch } from "./enrich-github.js";
 import { generateDatasets } from "./generate-datasets.js";
 import { generateSearchIndex } from "./generate-search-index.js";
@@ -56,6 +56,30 @@ function mergeProjects(
   return Array.from(map.values());
 }
 
+function mergeOrganizations(
+  seed: AtlasDataset["organizations"],
+  incoming: AtlasDataset["organizations"]
+): AtlasDataset["organizations"] {
+  const map = new Map(seed.map((organization) => [organization.id, organization]));
+
+  for (const organization of incoming) {
+    const existing = map.get(organization.id);
+    if (!existing) {
+      map.set(organization.id, organization);
+      continue;
+    }
+
+    map.set(organization.id, {
+      ...existing,
+      associated_projects: Array.from(
+        new Set([...existing.associated_projects, ...organization.associated_projects])
+      )
+    });
+  }
+
+  return Array.from(map.values());
+}
+
 async function main(): Promise<void> {
   console.log("=== Digital Public Infrastructure Ecosystem Atlas — Monthly Update ===");
   const startTime = Date.now();
@@ -72,12 +96,13 @@ async function main(): Promise<void> {
 
   // 2. Fetch DPG Registry
   console.log("[2/6] Fetching DPG Registry…");
-  const dpgProjects = await fetchDpgProjects();
-  console.log(`      → ${dpgProjects.length} DPG projects fetched`);
+  const dpgDataset = await fetchDpgDataset();
+  console.log(`      → ${dpgDataset.projects.length} DPG projects fetched`);
 
   // 3. Merge new with seed (seed wins to preserve curated data)
   console.log("[3/6] Merging datasets…");
-  const mergedProjects = mergeProjects(seed.projects, dpgProjects);
+  const mergedProjects = mergeProjects(seed.projects, dpgDataset.projects);
+  const mergedOrganizations = mergeOrganizations(seed.organizations, dpgDataset.organizations);
   console.log(`      → ${mergedProjects.length} projects total`);
 
   // 4. Enrich with GitHub metadata
@@ -98,7 +123,7 @@ async function main(): Promise<void> {
     version: seed.version,
     sources: activeSources,
     projects: githubEnrichment.projects,
-    organizations: seed.organizations,
+    organizations: mergedOrganizations,
     people: seed.people,
     deployments: seed.deployments,
     repositories: githubEnrichment.repositories,

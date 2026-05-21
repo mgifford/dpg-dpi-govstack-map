@@ -249,6 +249,1750 @@
       "activity": 81
     },
     {
+      "id": "aam-digital",
+      "label": "Aam Digital",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 83
+    },
+    {
+      "id": "accessible-kazakhstan",
+      "label": "Accessible Kazakhstan",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 14
+    },
+    {
+      "id": "accessible-medical-records-via-integrated-technologies",
+      "label": "Accessible Medical Records via Integrated Technologies",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 9
+    },
+    {
+      "id": "accessmod",
+      "label": "AccessMod",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 8
+    },
+    {
+      "id": "advocacy-training-for-community-health-workers",
+      "label": "Advocacy Training for Community Health Workers",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "african-storybook",
+      "label": "African Storybook",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 6
+    },
+    {
+      "id": "agris-open-data-set",
+      "label": "AGRIS Open Data Set",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "agritech-observatory",
+      "label": "AgriTech Observatory",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "agrontology",
+      "label": "Agrontology",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "agrovoc-multilingual-thesaurus",
+      "label": "AGROVOC Multilingual Thesaurus",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "aid-management-platform",
+      "label": "Aid Management Platform",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 46
+    },
+    {
+      "id": "altinn",
+      "label": "Altinn",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "android-fhir-sdk",
+      "label": "Android FHIR SDK",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "avni",
+      "label": "Avni",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "bebbo-parenting-app",
+      "label": "Bebbo Parenting App",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 36
+    },
+    {
+      "id": "bisa-health",
+      "label": "Bisa Health",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 8
+    },
+    {
+      "id": "boxtribute",
+      "label": "Boxtribute",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 55
+    },
+    {
+      "id": "camicroscope",
+      "label": "caMicroscope",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "care",
+      "label": "Care | Open Healthcare Network",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "cboard",
+      "label": "Cboard",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "cfr",
+      "label": "cfr",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "chamilo",
+      "label": "Chamilo",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "cider",
+      "label": "Cider",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 14
+    },
+    {
+      "id": "ciel-terminology",
+      "label": "CIEL terminology",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "citylearn",
+      "label": "CityLearn",
+      "type": "project",
+      "category": "Open AI System",
+      "maturity": "mature",
+      "activity": 23
+    },
+    {
+      "id": "climweb-httpsclimtechafricaclimweb",
+      "label": "ClimWeb",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 13
+    },
+    {
+      "id": "code-your-future",
+      "label": "Code Your Future",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "codecarbon",
+      "label": "CodeCarbon",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "coditeach",
+      "label": "CodiTeach",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "community-health-toolkit",
+      "label": "Community Health Toolkit",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "comparia",
+      "label": "Compar:IA",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "connect-for-life",
+      "label": "Connect For Life",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 5
+    },
+    {
+      "id": "consul-democracy",
+      "label": "Consul Democracy",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "convexity-humanitarian-aid-transfer-solution-chats",
+      "label": "Convexity Humanitarian Aid Transfer Solution (CHATS)",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "cqube",
+      "label": "cQube",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 26
+    },
+    {
+      "id": "creative-commons-legal-tools",
+      "label": "Creative Commons Legal Tools",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 45
+    },
+    {
+      "id": "credebl",
+      "label": "CREDEBL",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "crosscut",
+      "label": "Crosscut",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "dalgo",
+      "label": "Dalgo",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "data-norge",
+      "label": "Data Norge",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "data-observation-toolkit",
+      "label": "Data Observation Toolkit",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 12
+    },
+    {
+      "id": "data-to-policy-navigator",
+      "label": "Data to Policy Navigator",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "database-of-greek-and-latin-conjectural-emendations-attested-in-mss",
+      "label": "Database of Greek and Latin Conjectural Emendations Attested in MSS",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 10
+    },
+    {
+      "id": "decidim",
+      "label": "Decidim",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "deon",
+      "label": "Deon",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 21
+    },
+    {
+      "id": "designsystemet",
+      "label": "Designsystemet",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 87
+    },
+    {
+      "id": "provenance-services-with-smart-data-agreements-using-data-exchange-protocols",
+      "label": "DEXA Protocol",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 3
+    },
+    {
+      "id": "dicra",
+      "label": "DiCRA",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 17
+    },
+    {
+      "id": "digital-impact-exchange",
+      "label": "Digital Impact Exchange",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "doptor-open-data",
+      "label": "Doptor Open Data",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "e-heza",
+      "label": "E-Heza",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 33
+    },
+    {
+      "id": "eco-index-biodiversity-dashboards",
+      "label": "Eco-Index Biodiversity Dashboards",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "ekshop-marketplace",
+      "label": "ekShop Marketplace",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 5
+    },
+    {
+      "id": "energy-access-explorer",
+      "label": "Energy Access Explorer",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "epico",
+      "label": "epiCo",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 9
+    },
+    {
+      "id": "ersilia-model-hub",
+      "label": "Ersilia Model Hub",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "everwell-hub",
+      "label": "Everwell Hub",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "fao-agricultural-stress-index-system",
+      "label": "FAO Agricultural Stress Index System",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "fao-digital-services-portfolio",
+      "label": "FAO Digital Services Portfolio",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "global-administrative-unit-layers-gaul-2024",
+      "label": "FAO Global Administrative Unit Layers",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "faolex",
+      "label": "FAOLEX",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "farmos",
+      "label": "farmOS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "farmstack",
+      "label": "FarmStack",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 24
+    },
+    {
+      "id": "fedora-linux",
+      "label": "Fedora Linux",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "feluda",
+      "label": "Feluda",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 44
+    },
+    {
+      "id": "finalsize",
+      "label": "finalsize",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 15
+    },
+    {
+      "id": "ffqms-food-fortification-quality-management-system",
+      "label": "Food Fortification Quality Management System",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 3
+    },
+    {
+      "id": "food-price-monitoring-and-analysis-fpma-tool",
+      "label": "Food Price Monitoring and Analysis Tool",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "formsg",
+      "label": "FormSG",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "fuss-free-upgrade-for-a-digitally-sustainable-school",
+      "label": "FUSS - Free Upgrade for a digitally Sustainable School",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "geoprism-registry",
+      "label": "GeoPrism Registry",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 17
+    },
+    {
+      "id": "ghost",
+      "label": "Ghost",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "glific",
+      "label": "Glific",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 64
+    },
+    {
+      "id": "global-healthsites-mapping-project",
+      "label": "Global Healthsites Mapping Project",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "global-human-settlement-layer",
+      "label": "Global Human Settlement Layer",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "global-open-facility-registry",
+      "label": "Global Open Facility Registry",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 11
+    },
+    {
+      "id": "globaleaks",
+      "label": "GlobaLeaks",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 89
+    },
+    {
+      "id": "godata",
+      "label": "Go.Data",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 28
+    },
+    {
+      "id": "govdirectory",
+      "label": "Govdirectory",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 43
+    },
+    {
+      "id": "green-roads-toolkit",
+      "label": "Green Roads Toolkit",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "grievance-redress-system-grs",
+      "label": "Grievance Redress  System (GRS)",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "hand-in-hand-geospatial-platform",
+      "label": "Hand-in-Hand Geospatial Platform",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "harmony",
+      "label": "Harmony",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 8
+    },
+    {
+      "id": "hcw-at-home",
+      "label": "HCW@Home",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "health-claims-data-exchange-hcx-platform",
+      "label": "Health Claims Data Exchange",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 21
+    },
+    {
+      "id": "hope-humanitarian-cash-operations-and-programme-ecosystem",
+      "label": "HOPE",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "hot-tasking-manager",
+      "label": "HOT Tasking Manager",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "iaso",
+      "label": "IASO",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 81
+    },
+    {
+      "id": "iati-data",
+      "label": "IATI Data",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "if-me",
+      "label": "if me",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "ihris",
+      "label": "iHRIS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 20
+    },
+    {
+      "id": "immunization-calculation-engine",
+      "label": "Immunization Calculation Engine",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 20
+    },
+    {
+      "id": "indonesian-phoneme-recognizer",
+      "label": "Indonesian Phoneme Recognizer",
+      "type": "project",
+      "category": "Open AI System",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "interfacer",
+      "label": "Interfacer",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 17
+    },
+    {
+      "id": "isomer",
+      "label": "Isomer",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 43
+    },
+    {
+      "id": "iverify",
+      "label": "iVerify",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 20
+    },
+    {
+      "id": "ivttoken",
+      "label": "IVTToken",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 3
+    },
+    {
+      "id": "janssen-project",
+      "label": "Janssen Project",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "jellow-aac-communicator",
+      "label": "Jellow AAC Communicator",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 11
+    },
+    {
+      "id": "jembi-master-patient-index",
+      "label": "JemPI",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 26
+    },
+    {
+      "id": "joomla-joomla-content-management-system",
+      "label": "Joomla CMS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "kindly",
+      "label": "Kindly",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 18
+    },
+    {
+      "id": "kolibri",
+      "label": "Kolibri",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "docs-collaborative-text-editing",
+      "label": "LaSuite Docs",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "la-suite-drive-collaborative-file-sharing",
+      "label": "LaSuite Drive",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 55
+    },
+    {
+      "id": "la-suite-meet-simple-video-conferencing",
+      "label": "LaSuite Meet",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 86
+    },
+    {
+      "id": "lei",
+      "label": "LEI",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "lexsitus",
+      "label": "Lexsitus",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "libreoffice",
+      "label": "LibreOffice",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "libresign",
+      "label": "LibreSign",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 88
+    },
+    {
+      "id": "linelist",
+      "label": "linelist",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 14
+    },
+    {
+      "id": "magasin",
+      "label": "magasin",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 60
+    },
+    {
+      "id": "mapbiomas-brazil",
+      "label": "MapBiomas Brazil",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "marine-spatial-planing-sahav",
+      "label": "Marine Spatial Planning - SAHAV",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 5
+    },
+    {
+      "id": "mastodon",
+      "label": "Mastodon",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "mautic",
+      "label": "Mautic",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "measuring-real-power-usage-of-software-applications",
+      "label": "Measuring Real Power Usage of Software Applications",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 3
+    },
+    {
+      "id": "media-cloud",
+      "label": "Media Cloud",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 13
+    },
+    {
+      "id": "medplat",
+      "label": "MEDPlat",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 15
+    },
+    {
+      "id": "met-norway-weather-api",
+      "label": "MET Norway Weather API",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "mifos-payment-hub-ee-ph-ee",
+      "label": "Mifos Payment Hub-EE (PH-EE)",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "mifos-x",
+      "label": "Mifos X",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "modular-open-source-identity-platform",
+      "label": "MOSIP",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 9
+    },
+    {
+      "id": "mozilla-common-voice-dataset",
+      "label": "Mozilla Common Voice dataset",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "mychild-helpline",
+      "label": "MyChild HelpLine",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 4
+    },
+    {
+      "id": "national-carbon-credit-registry",
+      "label": "National Carbon Credit Registry",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 53
+    },
+    {
+      "id": "nextcloud",
+      "label": "Nextcloud Server",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "nise3-skills-and-certification",
+      "label": "NiSE3 Skills and Certification",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 5
+    },
+    {
+      "id": "notesmaster",
+      "label": "NotesMaster",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "oky",
+      "label": "Oky",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 19
+    },
+    {
+      "id": "oobee",
+      "label": "Oobee",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 25
+    },
+    {
+      "id": "open-concept-lab",
+      "label": "Open Concept Lab",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "open-contracting-portal-1",
+      "label": "Open Contracting Portal",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 23
+    },
+    {
+      "id": "open-data-editor",
+      "label": "Open Data Editor",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 27
+    },
+    {
+      "id": "open-food-facts",
+      "label": "Open Food Facts",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "open-health-stack",
+      "label": "Open Health Stack",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "open-supply-hub",
+      "label": "Open Supply Hub",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 35
+    },
+    {
+      "id": "open-sustainable-technology",
+      "label": "Open Sustainable Technology",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "open-terms-archive",
+      "label": "Open Terms Archive",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "open-pryvio",
+      "label": "Open-Pryv.io",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 8
+    },
+    {
+      "id": "openchs",
+      "label": "OpenCHS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "openclinic-ga",
+      "label": "OpenClinic GA",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "openews",
+      "label": "OpenEWS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 28
+    },
+    {
+      "id": "openeyes",
+      "label": "OpenEyes",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "openfisca",
+      "label": "OpenFisca",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 72
+    },
+    {
+      "id": "openhexa",
+      "label": "OpenHexa",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 13
+    },
+    {
+      "id": "openmandriva-lx",
+      "label": "OpenMandriva Lx",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "openrims",
+      "label": "OpenRIMS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 3
+    },
+    {
+      "id": "openrims-pv",
+      "label": "OpenRIMS-PV",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 3
+    },
+    {
+      "id": "openstreetmap",
+      "label": "OpenStreetMap",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "opentelerehab",
+      "label": "OpenTeleRehab",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 27
+    },
+    {
+      "id": "orthanc",
+      "label": "Orthanc",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "oshwa-open-source-hardware-certification-program",
+      "label": "OSHWA Open Source Hardware Certification Data",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "ozone-the-instant-health-information-system",
+      "label": "Ozone",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "peertube",
+      "label": "PeerTube",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "penpot",
+      "label": "Penpot",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "polis",
+      "label": "Pol.is",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "potlock",
+      "label": "POTLOCK",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "preptime-analytics",
+      "label": "PrepTime Analytics",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "avyantra-health-technologies",
+      "label": "PreSco: Neonatal Predictive Scoring Application and Platform",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "primero",
+      "label": "Primero",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "prism",
+      "label": "PRISM",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 56
+    },
+    {
+      "id": "product-catalog-management-tool",
+      "label": "Product Catalog Management Tool",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "productive-forests",
+      "label": "Productive Forests",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "project-aedes",
+      "label": "Project AEDES",
+      "type": "project",
+      "category": "Open AI System",
+      "maturity": "mature",
+      "activity": 6
+    },
+    {
+      "id": "prospect",
+      "label": "Prospect",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "qfield",
+      "label": "QField",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 99
+    },
+    {
+      "id": "qgis",
+      "label": "QGIS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "quantification-analytics-tool",
+      "label": "Quantification Analytics Tool",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "quarkid",
+      "label": "QuarkID",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "querido-diario",
+      "label": "Querido Diário",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "rahat",
+      "label": "Rahat",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 54
+    },
+    {
+      "id": "register-for-organic-agriculture",
+      "label": "Register for Organic Agriculture",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "rights-tracker",
+      "label": "Rights Tracker",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "rocky-linux",
+      "label": "Rocky Linux",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "rural-environmental-registry-registration-module",
+      "label": "Rural Environmental Registry Registration Module",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "safe-you",
+      "label": "Safe YOU",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 8
+    },
+    {
+      "id": "santesuite",
+      "label": "SanteSuite",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 17
+    },
+    {
+      "id": "sentinel-2-10m-land-useland-cover-time-series",
+      "label": "Sentinel-2 10m Land Use/Land Cover Time Series",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "simple",
+      "label": "Simple",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 59
+    },
+    {
+      "id": "simpleaudit",
+      "label": "SimpleAudit",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 6
+    },
+    {
+      "id": "software-heritage",
+      "label": "Software Heritage Archive",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "somleng",
+      "label": "Somleng",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "spice",
+      "label": "SPICE",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "statbus-1",
+      "label": "Statbus",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 62
+    },
+    {
+      "id": "storyweaver",
+      "label": "StoryWeaver",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "sunbird-lern",
+      "label": "Sunbird Lern",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "sunbird-rc",
+      "label": "Sunbird RC",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 68
+    },
+    {
+      "id": "sunbird-saral",
+      "label": "Sunbird Saral",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 20
+    },
+    {
+      "id": "sunbird-serve",
+      "label": "Sunbird SERVE",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 2
+    },
+    {
+      "id": "surveillance-outbreak-response-management-and-analysis-system",
+      "label": "Surveillance Outbreak Response Management and Analysis System",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "suse-linux-enterprise-server",
+      "label": "SUSE Linux Enterprise Server",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "syft",
+      "label": "Syft",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "synthea",
+      "label": "Synthea",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "tazama",
+      "label": "Tazama",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "the-land-portal",
+      "label": "The Land Portal",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "the-turing-way",
+      "label": "The Turing Way",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "tor-browser",
+      "label": "Tor Browser",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "torkel-opsahl-academic-epublisher",
+      "label": "Torkel Opsahl Academic EPublisher",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "trade-trust",
+      "label": "TradeTrust",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 38
+    },
+    {
+      "id": "trubudget",
+      "label": "TruBudget",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 59
+    },
+    {
+      "id": "truenas",
+      "label": "TrueNAS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 26
+    },
+    {
+      "id": "typo3",
+      "label": "TYPO3",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "uli",
+      "label": "Uli",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 33
+    },
+    {
+      "id": "unido-industrial-analytics-platform",
+      "label": "UNIDO Industrial Analytics Platform",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "urban-platform-for-delivery-of-online-governance",
+      "label": "UPYOG",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "urbanpy",
+      "label": "UrbanPy",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 11
+    },
+    {
+      "id": "uwazi",
+      "label": "Uwazi",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 84
+    },
+    {
+      "id": "vaccineledger",
+      "label": "VaccineLedger",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "vips",
+      "label": "VIPS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "vxnaid",
+      "label": "Vxnaid",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 6
+    },
+    {
+      "id": "wapor",
+      "label": "WaPOR",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "wikidata",
+      "label": "Wikidata",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "wikipedia",
+      "label": "Wikipedia",
+      "type": "project",
+      "category": "Open Content",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "wikirateorg",
+      "label": "Wikirate Data",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "wso2-identity-server",
+      "label": "WSO2 Identity Server",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 100
+    },
+    {
+      "id": "xcapit",
+      "label": "Xcapit",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
+      "id": "zamba",
+      "label": "Zamba",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
+      "activity": 23
+    },
+    {
       "id": "drupal-association",
       "label": "Drupal Association",
       "type": "organization",
@@ -499,6 +2243,1406 @@
       "type": "organization",
       "org_type": "foundation",
       "country": "United States"
+    },
+    {
+      "id": "aam-digital-gmbh",
+      "label": "Aam Digital GmbH",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Germany"
+    },
+    {
+      "id": "public-fund-tandau-foundation",
+      "label": "Public fund \"Tandau Foundation\"",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Kazakhstan"
+    },
+    {
+      "id": "piramal-swasthya-management-and-research-institute",
+      "label": "Piramal Swasthya Management and Research Institute",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "university-of-geneva-geohealth-group",
+      "label": "University of Geneva, GeoHealth group",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "Switzerland"
+    },
+    {
+      "id": "community-health-impact-coalition-and-digital-medic-an-initiative-of-the-stanford-center-for-health-education",
+      "label": "Community Health Impact Coalition and Digital Medic, an initiative of the Stanford Center for Health Education",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "United States of America"
+    },
+    {
+      "id": "saide",
+      "label": "Saide",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "South Africa"
+    },
+    {
+      "id": "food-and-agriculture-organization-of-the-united-nations-fao",
+      "label": "Food and Agriculture Organization of the United Nations (FAO)",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Italy"
+    },
+    {
+      "id": "fao-regional-office-for-europe-and-central-asia",
+      "label": "FAO Regional Office for Europe and Central Asia",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Hungary"
+    },
+    {
+      "id": "development-gateway-inc",
+      "label": "Development Gateway, Inc",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "norwegian-digitalisation-agency",
+      "label": "Norwegian Digitalisation Agency",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Norway"
+    },
+    {
+      "id": "google",
+      "label": "Google",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "samanvay-foundation",
+      "label": "Samanvay Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "bahmni",
+      "label": "Bahmni",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "unicef",
+      "label": "UNICEF",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "United States of America"
+    },
+    {
+      "id": "bisa-health",
+      "label": "Bisa Health",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Ghana"
+    },
+    {
+      "id": "boxtribute",
+      "label": "Boxtribute",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Netherlands"
+    },
+    {
+      "id": "emory-university",
+      "label": "Emory University",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "open-healthcare-network",
+      "label": "Open Healthcare Network",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "ottaa-project",
+      "label": "ottaa project",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Argentina"
+    },
+    {
+      "id": "epiverse-trace-pratik-gupte",
+      "label": "Epiverse-TRACE; Pratik Gupte",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "chamilo-association",
+      "label": "Chamilo Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Belgium"
+    },
+    {
+      "id": "regents-of-the-university-of-california",
+      "label": "Regents of the University of California.",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "United States of America"
+    },
+    {
+      "id": "columbia-department-of-biomedical-informatics",
+      "label": "Columbia Department of Biomedical Informatics",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "United States of America"
+    },
+    {
+      "id": "jose-ramon-vazquez-canteli-kingsley-nweye-zoltan-nagy",
+      "label": "Jose Ramon Vazquez-Canteli, Kingsley Nweye, Zoltan Nagy",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "open-knowledge-foundation",
+      "label": "Open Knowledge Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "wmo-and-norcap",
+      "label": "WMO and NORCAP",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Kenya"
+    },
+    {
+      "id": "code-your-future",
+      "label": "Code Your Future",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "code-carbon",
+      "label": "Code Carbon",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "codiplay-founder-zhanadil-taldybayev",
+      "label": "CodiPlay founder (Zhanadil Taldybayev)",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Kazakhstan"
+    },
+    {
+      "id": "medic-mobile-inc",
+      "label": "Medic Mobile, Inc.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Kenya"
+    },
+    {
+      "id": "ministry-of-culture-of-the-government-of-france",
+      "label": "Ministry of Culture of the Government of France",
+      "type": "organization",
+      "org_type": "government",
+      "country": "France"
+    },
+    {
+      "id": "janssen-pharmaceutica-nv-a-company-of-johnson-johnson",
+      "label": "Janssen Pharmaceutica NV. (A company of Johnson & Johnson)",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Belgium"
+    },
+    {
+      "id": "the-original-author-of-the-software-is-the-madrid-city-council-the-consul-democracy-foundation-is-the-owner-and-maintainer-of-the-main-international-github-repository-used-by-all-cities-using-the-software-worldwide",
+      "label": "The original author of the software is the Madrid City Council. The Consul Democracy Foundation is the owner and maintainer of the main international GitHub repository used by all cities using the software worldwide.",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Spain"
+    },
+    {
+      "id": "convexity-technologies-limited",
+      "label": "Convexity Technologies Limited",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Nigeria"
+    },
+    {
+      "id": "creative-commons",
+      "label": "Creative Commons",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "blockster-labs-private-limited",
+      "label": "Blockster Labs Private Limited",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "crosscut",
+      "label": "Crosscut",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "project-tech4dev",
+      "label": "Project Tech4Dev",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "the-norwegian-digitalization-agency",
+      "label": "The Norwegian Digitalization Agency",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Norway"
+    },
+    {
+      "id": "datakind",
+      "label": "DataKind",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "united-nations-development-programme",
+      "label": "United Nations Development Programme",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "United States of America"
+    },
+    {
+      "id": "tonk-nstler-on-the-bund",
+      "label": "Tonkünstler-on-the-Bund",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "decidim-free-software-association",
+      "label": "Decidim Free Software Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Spain"
+    },
+    {
+      "id": "drivendata",
+      "label": "DrivenData",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "the-norwegian-digitalisation-agency",
+      "label": "The Norwegian Digitalisation Agency",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Norway"
+    },
+    {
+      "id": "igrant-io-sweden-lcubed-ab",
+      "label": "iGrant.io, Sweden (LCubed AB)",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Sweden"
+    },
+    {
+      "id": "hisp-centre-university-of-oslo",
+      "label": "HISP Centre, University of Oslo",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "Norway"
+    },
+    {
+      "id": "egovernments-foundation",
+      "label": "eGovernments Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "digital-impact-alliance",
+      "label": "Digital Impact Alliance",
+      "type": "organization",
+      "org_type": "other",
+      "country": "United States of America"
+    },
+    {
+      "id": "aspire-to-innovate-a2i-programme-a-multinational-digital-transformation-catalyst-from-the-government-of-bangladesh",
+      "label": "Aspire to Innovate (a2i) Programme (A Multinational Digital Transformation Catalyst from the Government of Bangladesh)",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Bangladesh"
+    },
+    {
+      "id": "drupal-association-501c3-and-dries-buytaert-drupal-founder",
+      "label": "Drupal Association, 501c3 and Dries Buytaert, Drupal Founder.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Belgium"
+    },
+    {
+      "id": "tip-global-health",
+      "label": "TIP Global Health",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "eco-index",
+      "label": "Eco-Index",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "New Zealand"
+    },
+    {
+      "id": "world-resources-institute",
+      "label": "World Resources Institute",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "epiverse-trace",
+      "label": "Epiverse-TRACE",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "ersilia-open-source-initiative",
+      "label": "Ersilia Open Source Initiative",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "everwell-health-solutions-pvt-ltd",
+      "label": "Everwell Health Solutions Pvt. Ltd.",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "food-and-agriculture-organization-of-the-united-nations",
+      "label": "Food and Agriculture Organization of the United Nations",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Italy"
+    },
+    {
+      "id": "farmos",
+      "label": "farmOS",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "digital-green",
+      "label": "Digital Green",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "fedora-project",
+      "label": "Fedora Project",
+      "type": "organization",
+      "org_type": "unknown",
+      "country": "United States of America"
+    },
+    {
+      "id": "tattle-civic-tech",
+      "label": "Tattle Civic Tech",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "path",
+      "label": "PATH",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "open-government-products-government-technology-agency-of-singapore",
+      "label": "Open Government Products, Government Technology Agency of Singapore",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Singapore"
+    },
+    {
+      "id": "provincia-autonoma-di-bolzano-public-administration",
+      "label": "Provincia Autonoma di Bolzano (public administration)",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Italy"
+    },
+    {
+      "id": "terraframe-inc",
+      "label": "TerraFrame, Inc.",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "ghost-foundation-ltd",
+      "label": "Ghost Foundation Ltd",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Singapore"
+    },
+    {
+      "id": "open-healthsite-consulting",
+      "label": "Open Healthsite Consulting",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "european-commission",
+      "label": "European Commission",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Italy"
+    },
+    {
+      "id": "intrahealth-international",
+      "label": "IntraHealth International",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "globaleaks",
+      "label": "GlobaLeaks",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Italy"
+    },
+    {
+      "id": "world-health-organization-who",
+      "label": "World Health Organization (WHO)",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Switzerland"
+    },
+    {
+      "id": "govdirectory",
+      "label": "Govdirectory",
+      "type": "organization",
+      "org_type": "unknown",
+      "country": "United States of America"
+    },
+    {
+      "id": "asian-development-bank",
+      "label": "Asian Development Bank",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Philippines"
+    },
+    {
+      "id": "zenysis-technologies-inc",
+      "label": "Zenysis Technologies Inc.",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "iabsis-sarl",
+      "label": "Iabsis SARL",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Switzerland"
+    },
+    {
+      "id": "swasth-digital-health-foundation",
+      "label": "Swasth Digital Health Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "humanitarian-openstreetmap-team",
+      "label": "Humanitarian OpenStreetMap Team",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "bluesquare",
+      "label": "Bluesquare",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Belgium"
+    },
+    {
+      "id": "international-aid-transparency-initiative",
+      "label": "International Aid Transparency Initiative",
+      "type": "organization",
+      "org_type": "other",
+      "country": "United States of America"
+    },
+    {
+      "id": "if-me-org",
+      "label": "if-me.org",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "intrahealth",
+      "label": "IntraHealth",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "hln-consulting-llc",
+      "label": "HLN Consulting, LLC",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "pt-bookbot-indonesia",
+      "label": "PT Bookbot Indonesia",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Indonesia"
+    },
+    {
+      "id": "dyne-org-foundation",
+      "label": "Dyne.org Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Netherlands"
+    },
+    {
+      "id": "government-technology-agency-of-singapore",
+      "label": "Government Technology Agency of Singapore",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Singapore"
+    },
+    {
+      "id": "investtools",
+      "label": "Investtools",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Brazil"
+    },
+    {
+      "id": "linux-foundation",
+      "label": "Linux Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "ninaad-digital-technology-private-limited",
+      "label": "NINAAD Digital Technology Private Limited",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "jembi-health-systems-npc",
+      "label": "Jembi Health Systems NPC",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "South Africa"
+    },
+    {
+      "id": "open-source-matters-inc",
+      "label": "Open Source Matters, Inc",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "kobo-inc",
+      "label": "Kobo, Inc",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Canada"
+    },
+    {
+      "id": "learning-equality",
+      "label": "Learning Equality",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "direction-interminist-rielle-du-num-rique-dinum",
+      "label": "Direction Interministérielle du Numérique (DINUM)",
+      "type": "organization",
+      "org_type": "government",
+      "country": "France"
+    },
+    {
+      "id": "global-legal-entity-identifier-foundation",
+      "label": "Global Legal Entity Identifier Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Switzerland"
+    },
+    {
+      "id": "centre-for-international-law-research-and-policy-cilrap",
+      "label": "Centre for International Law Research and Policy (CILRAP)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Belgium"
+    },
+    {
+      "id": "the-document-foundation",
+      "label": "The Document Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "librecode-coop",
+      "label": "LibreCode coop",
+      "type": "organization",
+      "org_type": "unknown",
+      "country": "Brazil"
+    },
+    {
+      "id": "data-org",
+      "label": "data.org",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "unicef-united-nations-children-s-fund",
+      "label": "UNICEF (United Nations Children's Fund)",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Kenya"
+    },
+    {
+      "id": "mapbiomas-network",
+      "label": "MapBiomas Network",
+      "type": "organization",
+      "org_type": "other",
+      "country": "Brazil"
+    },
+    {
+      "id": "national-centre-for-coastal-research-ministry-of-earth-sciences-government-of-india",
+      "label": "National Centre for Coastal Research, Ministry of Earth Sciences, Government of India",
+      "type": "organization",
+      "org_type": "government",
+      "country": "India"
+    },
+    {
+      "id": "mastodon-ggmbh",
+      "label": "Mastodon gGmbH",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "mautic-is-fiscally-hosted-by-open-source-collective-who-hold-the-trademarks-and-brand-on-behalf-of-the-project",
+      "label": "Mautic is fiscally hosted by Open Source Collective, who hold the trademarks and brand on behalf of the project.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "hsbc-global-services-uk-limited",
+      "label": "HSBC GLOBAL SERVICES (UK) LIMITED",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "media-ecosystems-analysis-group-inc-northeastern-university-university-of-massachusetts-amherst",
+      "label": "Media Ecosystems Analysis Group Inc., Northeastern University, University of Massachusetts Amherst",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "United States of America"
+    },
+    {
+      "id": "argu-soft-india-limited",
+      "label": "Argu Soft India Limited",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "norwegian-meteorological-institute",
+      "label": "Norwegian Meteorological Institute",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Norway"
+    },
+    {
+      "id": "the-mifos-initiative",
+      "label": "The Mifos Initiative",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "international-institute-of-information-technology-bangalore",
+      "label": "International Institute of Information Technology Bangalore",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "India"
+    },
+    {
+      "id": "mozilla-foundation",
+      "label": "Mozilla Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "unicef-eastern-caribbean-area-office",
+      "label": "UNICEF Eastern Caribbean Area Office",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Barbados"
+    },
+    {
+      "id": "nextcloud-gmbh",
+      "label": "Nextcloud GmbH",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Germany"
+    },
+    {
+      "id": "notesmaster-caribbean",
+      "label": "Notesmaster Caribbean",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "get-odk-inc",
+      "label": "Get ODK Inc",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "government-technology-agency-singapore",
+      "label": "Government Technology Agency, Singapore",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Singapore"
+    },
+    {
+      "id": "open-concept-lab-llc",
+      "label": "Open Concept Lab LLC",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "open-food-facts",
+      "label": "Open Food Facts",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "google-health",
+      "label": "Google Health",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "open-supply-hub-inc",
+      "label": "Open Supply Hub, Inc.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "prototypes-community",
+      "label": "prototypes Community",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "open-terms-archive-collective",
+      "label": "Open Terms Archive Collective",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "pryv-sa",
+      "label": "Pryv SA",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Switzerland"
+    },
+    {
+      "id": "bitz-it-consulting",
+      "label": "BITZ IT CONSULTING",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Kenya"
+    },
+    {
+      "id": "frank-verbeke-and-commercial-edition-by-post-factum-bv",
+      "label": "Frank Verbeke and Commercial Edition by Post-Factum BV",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Belgium"
+    },
+    {
+      "id": "opencrvs-org",
+      "label": "opencrvs.org",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "the-university-of-washington-steward",
+      "label": "The University of Washington (steward)",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "United States of America"
+    },
+    {
+      "id": "chatterbox-solutions",
+      "label": "Chatterbox Solutions",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Cambodia"
+    },
+    {
+      "id": "apperta-foundation-cic",
+      "label": "Apperta Foundation CIC",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "openfisca-foundation",
+      "label": "OpenFisca Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "open-function-group",
+      "label": "Open Function Group",
+      "type": "organization",
+      "org_type": "private",
+      "country": "South Africa"
+    },
+    {
+      "id": "bluesquare-sa",
+      "label": "Bluesquare SA",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Belgium"
+    },
+    {
+      "id": "deutsche-gesellschaft-f-r-internationale-zusammenarbeit-giz-swiss-agency-for-development-and-cooperation-sdc-as-licence-owner",
+      "label": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)/Swiss Agency for Development and Cooperation (SDC) as licence owner",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Germany"
+    },
+    {
+      "id": "openmandriva-association",
+      "label": "OpenMandriva Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "management-sciences-for-health",
+      "label": "Management Sciences for Health",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "management-sciences-for-health-msh",
+      "label": "Management Sciences for Health (MSH)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "openspp",
+      "label": "OpenSPP",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Singapore"
+    },
+    {
+      "id": "openstreetmap-foundation-llc",
+      "label": "OpenStreetMap Foundation LLC",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "humanity-inclusion",
+      "label": "Humanity & Inclusion",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "university-hospital-of-li-ge-osimis-s-a-and-uclouvain-university",
+      "label": "University Hospital of Liège, Osimis S.A., and UCLouvain university",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "Belgium"
+    },
+    {
+      "id": "open-source-hardware-association",
+      "label": "Open Source Hardware Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "mekom-solutions-pte-ltd",
+      "label": "Mekom Solutions Pte Ltd",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Singapore"
+    },
+    {
+      "id": "framasoft",
+      "label": "Framasoft",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
+      "id": "kaleidos",
+      "label": "Kaleidos",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Spain"
+    },
+    {
+      "id": "math-democracy",
+      "label": "Math & Democracy",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "potluck-foundation-panama-nonprofit-foundation",
+      "label": "Potluck Foundation (Panama Nonprofit Foundation)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "scribble-works",
+      "label": "Scribble Works",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Ghana"
+    },
+    {
+      "id": "avyantra-health-technologies",
+      "label": "Avyantra Health Technologies",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "united-nations-world-food-programme",
+      "label": "United Nations World Food Programme",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Italy"
+    },
+    {
+      "id": "villagereach",
+      "label": "VillageReach",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "bioverse-labs",
+      "label": "Bioverse Labs",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Brazil"
+    },
+    {
+      "id": "cirrolytix-research-services",
+      "label": "Cirrolytix Research Services",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Philippines"
+    },
+    {
+      "id": "access-to-energy-institute-a2ei-and-get-invest",
+      "label": "Access to Energy Institute (A2EI) and GET.invest",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "opengis-ch",
+      "label": "OPENGIS.ch",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Switzerland"
+    },
+    {
+      "id": "qgis-association",
+      "label": "QGIS Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Switzerland"
+    },
+    {
+      "id": "chemonics-international-inc",
+      "label": "Chemonics International, Inc.",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "buenos-aires-city-government",
+      "label": "Buenos Aires City Government",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Argentina"
+    },
+    {
+      "id": "open-knowledge-brasil-okbr",
+      "label": "Open Knowledge Brasil (OKBR)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Brazil"
+    },
+    {
+      "id": "rumsan-associates-private-limited",
+      "label": "Rumsan Associates Private Limited",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Nepal"
+    },
+    {
+      "id": "united-nations-children-s-fund",
+      "label": "United Nations Children's Fund",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "United States of America"
+    },
+    {
+      "id": "organika-association",
+      "label": "ORGANIKA Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Kosovo"
+    },
+    {
+      "id": "human-rights-measurement-initiative-charitable-trust",
+      "label": "Human Rights Measurement Initiative Charitable Trust",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "New Zealand"
+    },
+    {
+      "id": "rocky-enterprise-software-foundation",
+      "label": "Rocky Enterprise Software Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "government-of-brazil-ministry-of-management-and-innovation-in-public-services",
+      "label": "Government of Brazil - Ministry of Management and Innovation in Public Services",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Brazil"
+    },
+    {
+      "id": "impact-innovations-institute-llc",
+      "label": "Impact Innovations Institute LLC",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Armenia"
+    },
+    {
+      "id": "sant-suite-inc",
+      "label": "SantéSuite Inc.",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Canada"
+    },
+    {
+      "id": "impact-observatory",
+      "label": "Impact Observatory",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "resolve-to-save-lives",
+      "label": "Resolve to Save Lives",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "simula-research-laboratory",
+      "label": "Simula Research Laboratory",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Norway"
+    },
+    {
+      "id": "inria-and-fondation-inria",
+      "label": "INRIA and Fondation INRIA",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "France"
+    },
+    {
+      "id": "medtronic-labs",
+      "label": "Medtronic LABS",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "ssb-statistics-norway",
+      "label": "SSB, Statistics Norway",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Norway"
+    },
+    {
+      "id": "pratham-books",
+      "label": "Pratham Books",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "evean-foundation",
+      "label": "eVean Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "sormas-foundation",
+      "label": "SORMAS Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "suse-llc",
+      "label": "SUSE LLC",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Czech Republic"
+    },
+    {
+      "id": "openmined-foundation",
+      "label": "OpenMined Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "the-mitre-corporation",
+      "label": "The MITRE Corporation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "the-linux-foundation",
+      "label": "The Linux Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "stiching-the-land-portal-land-portal-foundation",
+      "label": "Stiching The Land Portal (Land Portal Foundation)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Netherlands"
+    },
+    {
+      "id": "the-project-is-hosted-and-funded-by-the-alan-turing-institute-and-owned-by-the-community-and-led-by-project-leads-dr-kirstie-whitaker-and-dr-malvika-sharan",
+      "label": "The project is hosted and funded by The Alan Turing Institute, and owned by the community and led by project leads, Dr. Kirstie Whitaker and Dr. Malvika Sharan",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "ushahidi-inc",
+      "label": "Ushahidi Inc.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Kenya"
+    },
+    {
+      "id": "tor-project",
+      "label": "Tor Project",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "singapore-infocomm-media-development-authority-imda",
+      "label": "Singapore Infocomm Media Development Authority (IMDA)",
+      "type": "organization",
+      "org_type": "government",
+      "country": "Singapore"
+    },
+    {
+      "id": "kfw-kreditanstalt-f-r-wiederaufbau",
+      "label": "KfW (Kreditanstalt für Wiederaufbau)",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Germany"
+    },
+    {
+      "id": "ixsystems",
+      "label": "iXsystems",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United States of America"
+    },
+    {
+      "id": "typo3-association",
+      "label": "TYPO3 Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "tattle-civic-technologies-pvt-ltd",
+      "label": "Tattle Civic Technologies Pvt Ltd",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "India"
+    },
+    {
+      "id": "united-nations-industrial-development-organization-unido",
+      "label": "United Nations Industrial Development Organization (UNIDO)",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Austria"
+    },
+    {
+      "id": "national-institute-of-urban-affairs",
+      "label": "National Institute of Urban Affairs",
+      "type": "organization",
+      "org_type": "government",
+      "country": "India"
+    },
+    {
+      "id": "inter-american-development-bank",
+      "label": "Inter-American Development Bank",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Brazil"
+    },
+    {
+      "id": "huridocs-human-rights-information-and-documentation-systems",
+      "label": "HURIDOCS (Human Rights Information and Documentation Systems)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Switzerland"
+    },
+    {
+      "id": "statwig",
+      "label": "StaTwig",
+      "type": "organization",
+      "org_type": "private",
+      "country": "India"
+    },
+    {
+      "id": "nibio",
+      "label": "NIBIO",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "Norway"
+    },
+    {
+      "id": "johnson-johnson-global-public-health",
+      "label": "Johnson & Johnson Global Public Health",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "wikimedia-foundation-inc",
+      "label": "Wikimedia Foundation, Inc.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
+      "id": "wikirate-international-e-v",
+      "label": "Wikirate International e.V.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Germany"
+    },
+    {
+      "id": "wso2-llc",
+      "label": "WSO2 LLC",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Netherlands"
+    },
+    {
+      "id": "nordic-institute-for-interoperability-solutions-niis",
+      "label": "Nordic Institute for Interoperability Solutions (NIIS)",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Estonia"
+    },
+    {
+      "id": "xcapit",
+      "label": "Xcapit",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Spain"
     }
   ],
   "edges": [

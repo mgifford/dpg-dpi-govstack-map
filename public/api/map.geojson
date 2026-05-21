@@ -251,9 +251,9 @@
         "org_type": "nonprofit",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": ["sunbird"],
+        "associated_projects": ["sunbird", "cqube", "sunbird-lern", "sunbird-rc", "sunbird-saral"],
         "popup_label": "EkStep Foundation — Bengaluru, India",
-        "popup_detail": "Projects: Sunbird"
+        "popup_detail": "Projects: Sunbird, cQube, Sunbird Lern, Sunbird RC, Sunbird Saral"
       }
     },
     {
@@ -431,9 +431,16 @@
         "org_type": "intergovernmental",
         "country": "International",
         "city": "Rome",
-        "associated_projects": ["opentenure"],
+        "associated_projects": [
+          "opentenure",
+          "fao-digital-services-portfolio",
+          "global-administrative-unit-layers-gaul-2024",
+          "faolex",
+          "hand-in-hand-geospatial-platform",
+          "wapor"
+        ],
         "popup_label": "Food and Agriculture Organization of the United Nations — Rome, International",
-        "popup_detail": "Projects: OpenTenure"
+        "popup_detail": "Projects: OpenTenure, FAO Digital Services Portfolio, FAO Global Administrative Unit Layers, FAOLEX, Hand-in-Hand Geospatial Platform, WaPOR"
       }
     },
     {

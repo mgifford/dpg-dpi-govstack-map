@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T15:31:17.859Z",
-  "count": 36,
+  "generated_at": "2026-05-21T21:55:32.197Z",
+  "count": 236,
   "organizations": [
     {
       "id": "drupal-association",
@@ -333,7 +333,7 @@
       "country": "India",
       "city": "Bengaluru",
       "coordinates": { "lat": 12.9716, "lon": 77.5946 },
-      "associated_projects": ["sunbird"],
+      "associated_projects": ["sunbird", "cqube", "sunbird-lern", "sunbird-rc", "sunbird-saral"],
       "partnerships": ["egov-foundation"],
       "funders": [],
       "staff": [],
@@ -588,7 +588,14 @@
       "country": "International",
       "city": "Rome",
       "coordinates": { "lat": 41.9028, "lon": 12.4964 },
-      "associated_projects": ["opentenure"],
+      "associated_projects": [
+        "opentenure",
+        "fao-digital-services-portfolio",
+        "global-administrative-unit-layers-gaul-2024",
+        "faolex",
+        "hand-in-hand-geospatial-platform",
+        "wapor"
+      ],
       "partnerships": ["united-nations"],
       "funders": [],
       "staff": [],
@@ -613,6 +620,5437 @@
       "linkedin": "",
       "governance_role": "steward",
       "provenance": {}
+    },
+    {
+      "id": "aam-digital-gmbh",
+      "name": "Aam Digital GmbH",
+      "type": "private",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["aam-digital"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Aam-Digital",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.184Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "public-fund-tandau-foundation",
+      "name": "Public fund \"Tandau Foundation\"",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Kazakhstan",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["accessible-kazakhstan"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "qlt2020",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.184Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "piramal-swasthya-management-and-research-institute",
+      "name": "Piramal Swasthya Management and Research Institute",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["accessible-medical-records-via-integrated-technologies"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "PSMRI",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.184Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "university-of-geneva-geohealth-group",
+      "name": "University of Geneva, GeoHealth group",
+      "type": "academic",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["accessmod"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "unige-geohealth",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-health-impact-coalition-and-digital-medic-an-initiative-of-the-stanford-center-for-health-education",
+      "name": "Community Health Impact Coalition and Digital Medic, an initiative of the Stanford Center for Health Education",
+      "type": "academic",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["advocacy-training-for-community-health-workers"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "saide",
+      "name": "Saide",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "South Africa",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["african-storybook"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "global-asp",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "food-and-agriculture-organization-of-the-united-nations-fao",
+      "name": "Food and Agriculture Organization of the United Nations (FAO)",
+      "type": "multilateral",
+      "website": "",
+      "country": "Italy",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "agris-open-data-set",
+        "agrontology",
+        "agrovoc-multilingual-thesaurus"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fao-regional-office-for-europe-and-central-asia",
+      "name": "FAO Regional Office for Europe and Central Asia",
+      "type": "multilateral",
+      "website": "",
+      "country": "Hungary",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["agritech-observatory"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "development-gateway-inc",
+      "name": "Development Gateway, Inc",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["aid-management-platform", "open-contracting-portal-1"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "devgateway",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "norwegian-digitalisation-agency",
+      "name": "Norwegian Digitalisation Agency",
+      "type": "government",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["altinn"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Altinn",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["android-fhir-sdk"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "google",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.185Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "samanvay-foundation",
+      "name": "Samanvay Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["avni"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "avniproject",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bahmni",
+      "name": "Bahmni",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["bahmni"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Bahmni",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unicef",
+      "name": "UNICEF",
+      "type": "multilateral",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "bebbo-parenting-app",
+        "hope-humanitarian-cash-operations-and-programme-ecosystem",
+        "kindly",
+        "oky",
+        "primero"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "primeroIMS",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bisa-health",
+      "name": "Bisa Health",
+      "type": "private",
+      "website": "",
+      "country": "Ghana",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["bisa-health"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "BisaMhealth",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "boxtribute",
+      "name": "Boxtribute",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Netherlands",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["boxtribute"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "boxwise",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "emory-university",
+      "name": "Emory University",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["camicroscope"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "camicroscope",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-healthcare-network",
+      "name": "Open Healthcare Network",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["care"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "coronasafe",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ottaa-project",
+      "name": "ottaa project",
+      "type": "private",
+      "website": "",
+      "country": "Argentina",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["cboard"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "cboard-org",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "epiverse-trace-pratik-gupte",
+      "name": "Epiverse-TRACE; Pratik Gupte",
+      "type": "private",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["cfr"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "chamilo-association",
+      "name": "Chamilo Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["chamilo"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "chamilo",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "regents-of-the-university-of-california",
+      "name": "Regents of the University of California.",
+      "type": "academic",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["cider"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Global-Policy-Lab",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "columbia-department-of-biomedical-informatics",
+      "name": "Columbia Department of Biomedical Informatics",
+      "type": "academic",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ciel-terminology"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jose-ramon-vazquez-canteli-kingsley-nweye-zoltan-nagy",
+      "name": "Jose Ramon Vazquez-Canteli, Kingsley Nweye, Zoltan Nagy",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["citylearn"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "intelligent-environments-lab",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-knowledge-foundation",
+      "name": "Open Knowledge Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ckan", "open-data-editor"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "okfn",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wmo-and-norcap",
+      "name": "WMO and NORCAP",
+      "type": "multilateral",
+      "website": "",
+      "country": "Kenya",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["climweb-httpsclimtechafricaclimweb"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "wmo-raf",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.186Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "code-your-future",
+      "name": "Code Your Future",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["code-your-future"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "CodeYourFuture",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "code-carbon",
+      "name": "Code Carbon",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["codecarbon"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "mlco2",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "codiplay-founder-zhanadil-taldybayev",
+      "name": "CodiPlay founder (Zhanadil Taldybayev)",
+      "type": "private",
+      "website": "",
+      "country": "Kazakhstan",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["coditeach"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "codiplaykz",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "medic-mobile-inc",
+      "name": "Medic Mobile, Inc.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Kenya",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["community-health-toolkit"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "medic",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ministry-of-culture-of-the-government-of-france",
+      "name": "Ministry of Culture of the Government of France",
+      "type": "government",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["comparia"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "betagouv",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "janssen-pharmaceutica-nv-a-company-of-johnson-johnson",
+      "name": "Janssen Pharmaceutica NV. (A company of Johnson & Johnson)",
+      "type": "private",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["connect-for-life"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "johnsonandjohnson",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-original-author-of-the-software-is-the-madrid-city-council-the-consul-democracy-foundation-is-the-owner-and-maintainer-of-the-main-international-github-repository-used-by-all-cities-using-the-software-worldwide",
+      "name": "The original author of the software is the Madrid City Council. The Consul Democracy Foundation is the owner and maintainer of the main international GitHub repository used by all cities using the software worldwide.",
+      "type": "government",
+      "website": "",
+      "country": "Spain",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["consul-democracy"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "consul",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "convexity-technologies-limited",
+      "name": "Convexity Technologies Limited",
+      "type": "private",
+      "website": "",
+      "country": "Nigeria",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["convexity-humanitarian-aid-transfer-solution-chats"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ConvexityTeam",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "creative-commons",
+      "name": "Creative Commons",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["creative-commons-legal-tools"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "creativecommons",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blockster-labs-private-limited",
+      "name": "Blockster Labs Private Limited",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["credebl"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "credebl",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "crosscut",
+      "name": "Crosscut",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["crosscut"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "project-tech4dev",
+      "name": "Project Tech4Dev",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["dalgo", "glific"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "glific",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-norwegian-digitalization-agency",
+      "name": "The Norwegian Digitalization Agency",
+      "type": "government",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["data-norge"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Informasjonsforvaltning",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "datakind",
+      "name": "DataKind",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["data-observation-toolkit"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "datakind",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "united-nations-development-programme",
+      "name": "United Nations Development Programme",
+      "type": "multilateral",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "data-to-policy-navigator",
+        "dicra",
+        "iverify",
+        "national-carbon-credit-registry"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "undp",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tonk-nstler-on-the-bund",
+      "name": "Tonkünstler-on-the-Bund",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "database-of-greek-and-latin-conjectural-emendations-attested-in-mss"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "t18d",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "decidim-free-software-association",
+      "name": "Decidim Free Software Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Spain",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["decidim"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "decidim",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.187Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "drivendata",
+      "name": "DrivenData",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["deon", "zamba"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "drivendataorg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-norwegian-digitalisation-agency",
+      "name": "The Norwegian Digitalisation Agency",
+      "type": "government",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["designsystemet"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "digdir",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "igrant-io-sweden-lcubed-ab",
+      "name": "iGrant.io, Sweden (LCubed AB)",
+      "type": "private",
+      "website": "",
+      "country": "Sweden",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "provenance-services-with-smart-data-agreements-using-data-exchange-protocols"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "decentralised-dataexchange",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hisp-centre-university-of-oslo",
+      "name": "HISP Centre, University of Oslo",
+      "type": "academic",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["dhis2"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "dhis2",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "egovernments-foundation",
+      "name": "eGovernments Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["digit"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "egovernments",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "digital-impact-alliance",
+      "name": "Digital Impact Alliance",
+      "type": "other",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["digital-impact-exchange"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "aspire-to-innovate-a2i-programme-a-multinational-digital-transformation-catalyst-from-the-government-of-bangladesh",
+      "name": "Aspire to Innovate (a2i) Programme (A Multinational Digital Transformation Catalyst from the Government of Bangladesh)",
+      "type": "government",
+      "website": "",
+      "country": "Bangladesh",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "doptor-open-data",
+        "ekshop-marketplace",
+        "grievance-redress-system-grs",
+        "nise3-skills-and-certification"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "a2i-dpg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "drupal-association-501c3-and-dries-buytaert-drupal-founder",
+      "name": "Drupal Association, 501c3 and Dries Buytaert, Drupal Founder.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["drupal"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tip-global-health",
+      "name": "TIP Global Health",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["e-heza"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "TIP-Global-Health",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "eco-index",
+      "name": "Eco-Index",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "New Zealand",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["eco-index-biodiversity-dashboards"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "eco-index",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-resources-institute",
+      "name": "World Resources Institute",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["energy-access-explorer"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "energyaccessexplorer",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "epiverse-trace",
+      "name": "Epiverse-TRACE",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["epico", "finalsize"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "epiverse-trace",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ersilia-open-source-initiative",
+      "name": "Ersilia Open Source Initiative",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ersilia-model-hub"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ersilia-os",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.188Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "everwell-health-solutions-pvt-ltd",
+      "name": "Everwell Health Solutions Pvt. Ltd.",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["everwell-hub"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "food-and-agriculture-organization-of-the-united-nations",
+      "name": "Food and Agriculture Organization of the United Nations",
+      "type": "multilateral",
+      "website": "",
+      "country": "Italy",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "fao-agricultural-stress-index-system",
+        "food-price-monitoring-and-analysis-fpma-tool"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "farmos",
+      "name": "farmOS",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["farmos"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "farmOS",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "digital-green",
+      "name": "Digital Green",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["farmstack"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "digitalgreenorg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fedora-project",
+      "name": "Fedora Project",
+      "type": "unknown",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["fedora-linux"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tattle-civic-tech",
+      "name": "Tattle Civic Tech",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["feluda"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "tattle-made",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "path",
+      "name": "PATH",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ffqms-food-fortification-quality-management-system"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Food-Fortification",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-government-products-government-technology-agency-of-singapore",
+      "name": "Open Government Products, Government Technology Agency of Singapore",
+      "type": "government",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["formsg"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opengovsg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "provincia-autonoma-di-bolzano-public-administration",
+      "name": "Provincia Autonoma di Bolzano (public administration)",
+      "type": "government",
+      "website": "",
+      "country": "Italy",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["fuss-free-upgrade-for-a-digitally-sustainable-school"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "terraframe-inc",
+      "name": "TerraFrame, Inc.",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["geoprism-registry"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "terraframe",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ghost-foundation-ltd",
+      "name": "Ghost Foundation Ltd",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ghost"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "tryghost",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.189Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-healthsite-consulting",
+      "name": "Open Healthsite Consulting",
+      "type": "private",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["global-healthsites-mapping-project"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-commission",
+      "name": "European Commission",
+      "type": "multilateral",
+      "website": "",
+      "country": "Italy",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["global-human-settlement-layer"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intrahealth-international",
+      "name": "IntraHealth International",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["global-open-facility-registry"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "intrahealth",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "globaleaks",
+      "name": "GlobaLeaks",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Italy",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["globaleaks"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "globaleaks",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-health-organization-who",
+      "name": "World Health Organization (WHO)",
+      "type": "multilateral",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["godata"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "WorldHealthOrganization",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "govdirectory",
+      "name": "Govdirectory",
+      "type": "unknown",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["govdirectory"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "govdirectory",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asian-development-bank",
+      "name": "Asian Development Bank",
+      "type": "private",
+      "website": "",
+      "country": "Philippines",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["green-roads-toolkit"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "zenysis-technologies-inc",
+      "name": "Zenysis Technologies Inc.",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["harmony"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Zenysis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iabsis-sarl",
+      "name": "Iabsis SARL",
+      "type": "private",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["hcw-at-home"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "hcw-home",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "swasth-digital-health-foundation",
+      "name": "Swasth Digital Health Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["health-claims-data-exchange-hcx-platform"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Swasth-Digital-Health-Foundation",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "humanitarian-openstreetmap-team",
+      "name": "Humanitarian OpenStreetMap Team",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["hot-tasking-manager"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "hotosm",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bluesquare",
+      "name": "Bluesquare",
+      "type": "private",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["iaso"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "BLSQ",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "international-aid-transparency-initiative",
+      "name": "International Aid Transparency Initiative",
+      "type": "other",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["iati-data"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.190Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "if-me-org",
+      "name": "if-me.org",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["if-me"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ifmeorg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intrahealth",
+      "name": "IntraHealth",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ihris"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "iHRIS",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hln-consulting-llc",
+      "name": "HLN Consulting, LLC",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["immunization-calculation-engine"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "cdsframework",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pt-bookbot-indonesia",
+      "name": "PT Bookbot Indonesia",
+      "type": "private",
+      "website": "",
+      "country": "Indonesia",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["indonesian-phoneme-recognizer"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "bookbot-hive",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dyne-org-foundation",
+      "name": "Dyne.org Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Netherlands",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["interfacer"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "interfacerproject",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "government-technology-agency-of-singapore",
+      "name": "Government Technology Agency of Singapore",
+      "type": "government",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["isomer"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opengovsg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "investtools",
+      "name": "Investtools",
+      "type": "private",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ivttoken"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "investtools",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "linux-foundation",
+      "name": "Linux Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["janssen-project"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "JanssenProject",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ninaad-digital-technology-private-limited",
+      "name": "NINAAD Digital Technology Private Limited",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["jellow-aac-communicator"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "jellow-aac",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jembi-health-systems-npc",
+      "name": "Jembi Health Systems NPC",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "South Africa",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["jembi-master-patient-index"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "jembi",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-source-matters-inc",
+      "name": "Open Source Matters, Inc",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["joomla-joomla-content-management-system"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "joomla",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kobo-inc",
+      "name": "Kobo, Inc",
+      "type": "private",
+      "website": "",
+      "country": "Canada",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["kobotoolbox"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "kobotoolbox",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "learning-equality",
+      "name": "Learning Equality",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["kolibri"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "learningequality",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "direction-interminist-rielle-du-num-rique-dinum",
+      "name": "Direction Interministérielle du Numérique (DINUM)",
+      "type": "government",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": [
+        "docs-collaborative-text-editing",
+        "la-suite-drive-collaborative-file-sharing",
+        "la-suite-meet-simple-video-conferencing"
+      ],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "suitenumerique",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "global-legal-entity-identifier-foundation",
+      "name": "Global Legal Entity Identifier Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["lei"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "centre-for-international-law-research-and-policy-cilrap",
+      "name": "Centre for International Law Research and Policy (CILRAP)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["lexsitus", "torkel-opsahl-academic-epublisher"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-document-foundation",
+      "name": "The Document Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["libreoffice"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "librecode-coop",
+      "name": "LibreCode coop",
+      "type": "unknown",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["libresign"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "LibreSign",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "data-org",
+      "name": "data.org",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["linelist"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "epiverse-trace",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unicef-united-nations-children-s-fund",
+      "name": "UNICEF (United Nations Children's Fund)",
+      "type": "multilateral",
+      "website": "",
+      "country": "Kenya",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["magasin"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "unicef",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.191Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mapbiomas-network",
+      "name": "MapBiomas Network",
+      "type": "other",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["mapbiomas-brazil"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "national-centre-for-coastal-research-ministry-of-earth-sciences-government-of-india",
+      "name": "National Centre for Coastal Research, Ministry of Earth Sciences, Government of India",
+      "type": "government",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["marine-spatial-planing-sahav"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "nccrmoes",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mastodon-ggmbh",
+      "name": "Mastodon gGmbH",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["mastodon"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "mastodon",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mautic-is-fiscally-hosted-by-open-source-collective-who-hold-the-trademarks-and-brand-on-behalf-of-the-project",
+      "name": "Mautic is fiscally hosted by Open Source Collective, who hold the trademarks and brand on behalf of the project.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["mautic"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "mautic",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hsbc-global-services-uk-limited",
+      "name": "HSBC GLOBAL SERVICES (UK) LIMITED",
+      "type": "private",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["measuring-real-power-usage-of-software-applications"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "hsbc",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "media-ecosystems-analysis-group-inc-northeastern-university-university-of-massachusetts-amherst",
+      "name": "Media Ecosystems Analysis Group Inc., Northeastern University, University of Massachusetts Amherst",
+      "type": "academic",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["media-cloud"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "mediacloud",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "argu-soft-india-limited",
+      "name": "Argu Soft India Limited",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["medplat"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ArgusoftOpen",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "norwegian-meteorological-institute",
+      "name": "Norwegian Meteorological Institute",
+      "type": "government",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["met-norway-weather-api"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-mifos-initiative",
+      "name": "The Mifos Initiative",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["mifos-payment-hub-ee-ph-ee", "mifos-x"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openMF",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "international-institute-of-information-technology-bangalore",
+      "name": "International Institute of Information Technology Bangalore",
+      "type": "academic",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["modular-open-source-identity-platform", "openg2p"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openg2p",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mozilla-foundation",
+      "name": "Mozilla Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["mozilla-common-voice-dataset"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unicef-eastern-caribbean-area-office",
+      "name": "UNICEF Eastern Caribbean Area Office",
+      "type": "multilateral",
+      "website": "",
+      "country": "Barbados",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["mychild-helpline"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ecaunicef",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nextcloud-gmbh",
+      "name": "Nextcloud GmbH",
+      "type": "private",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["nextcloud"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "nextcloud",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "notesmaster-caribbean",
+      "name": "Notesmaster Caribbean",
+      "type": "private",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["notesmaster"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "get-odk-inc",
+      "name": "Get ODK Inc",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["odk"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "getodk",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "government-technology-agency-singapore",
+      "name": "Government Technology Agency, Singapore",
+      "type": "government",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["oobee"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "GovTechSG",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.192Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-concept-lab-llc",
+      "name": "Open Concept Lab LLC",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-concept-lab"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenConceptLab",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-food-facts",
+      "name": "Open Food Facts",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-food-facts"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openfoodfacts",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-health",
+      "name": "Google Health",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-health-stack"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "google",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-supply-hub-inc",
+      "name": "Open Supply Hub, Inc.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-supply-hub"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opensupplyhub",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "prototypes-community",
+      "name": "prototypes Community",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-sustainable-technology"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "protontypes",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-terms-archive-collective",
+      "name": "Open Terms Archive Collective",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-terms-archive"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenTermsArchive",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pryv-sa",
+      "name": "Pryv SA",
+      "type": "private",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["open-pryvio"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "pryv",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bitz-it-consulting",
+      "name": "BITZ IT CONSULTING",
+      "type": "private",
+      "website": "",
+      "country": "Kenya",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openchs"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "BITZ-IT-Consulting-LTD",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "frank-verbeke-and-commercial-edition-by-post-factum-bv",
+      "name": "Frank Verbeke and Commercial Edition by Post-Factum BV",
+      "type": "private",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openclinic-ga"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "opencrvs-org",
+      "name": "opencrvs.org",
+      "type": "private",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["opencrvs"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opencrvs",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-university-of-washington-steward",
+      "name": "The University of Washington (steward)",
+      "type": "academic",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openelis-global"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "I-TECH-UW",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "chatterbox-solutions",
+      "name": "Chatterbox Solutions",
+      "type": "private",
+      "website": "",
+      "country": "Cambodia",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openews", "somleng"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "somleng",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "apperta-foundation-cic",
+      "name": "Apperta Foundation CIC",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openeyes"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "AppertaFoundation",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "openfisca-foundation",
+      "name": "OpenFisca Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openfisca"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openfisca",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.193Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-function-group",
+      "name": "Open Function Group",
+      "type": "private",
+      "website": "",
+      "country": "South Africa",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openfn"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenFn",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bluesquare-sa",
+      "name": "Bluesquare SA",
+      "type": "private",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openhexa"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "BLSQ",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-gesellschaft-f-r-internationale-zusammenarbeit-giz-swiss-agency-for-development-and-cooperation-sdc-as-licence-owner",
+      "name": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)/Swiss Agency for Development and Cooperation (SDC) as licence owner",
+      "type": "multilateral",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openimis"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openimis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "openmandriva-association",
+      "name": "OpenMandriva Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openmandriva-lx"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenMandrivaSoftware",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "management-sciences-for-health",
+      "name": "Management Sciences for Health",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openrims"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "MSH",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "management-sciences-for-health-msh",
+      "name": "Management Sciences for Health (MSH)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openrims-pv"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "MSH",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "openspp",
+      "name": "OpenSPP",
+      "type": "private",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openspp"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenSPP",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "openstreetmap-foundation-llc",
+      "name": "OpenStreetMap Foundation LLC",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["openstreetmap"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "humanity-inclusion",
+      "name": "Humanity & Inclusion",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["opentelerehab"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "OpenTeleRehab",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "university-hospital-of-li-ge-osimis-s-a-and-uclouvain-university",
+      "name": "University Hospital of Liège, Osimis S.A., and UCLouvain university",
+      "type": "academic",
+      "website": "",
+      "country": "Belgium",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["orthanc"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-source-hardware-association",
+      "name": "Open Source Hardware Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["oshwa-open-source-hardware-certification-program"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mekom-solutions-pte-ltd",
+      "name": "Mekom Solutions Pte Ltd",
+      "type": "private",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ozone-the-instant-health-information-system"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ozone-his",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "framasoft",
+      "name": "Framasoft",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["peertube"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Chocobozzz",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kaleidos",
+      "name": "Kaleidos",
+      "type": "private",
+      "website": "",
+      "country": "Spain",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["penpot"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "penpot",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "math-democracy",
+      "name": "Math & Democracy",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["polis"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "compdemocracy",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "potluck-foundation-panama-nonprofit-foundation",
+      "name": "Potluck Foundation (Panama Nonprofit Foundation)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["potlock"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "potlock",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scribble-works",
+      "name": "Scribble Works",
+      "type": "private",
+      "website": "",
+      "country": "Ghana",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["preptime-analytics"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Scribble-Works",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "avyantra-health-technologies",
+      "name": "Avyantra Health Technologies",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["avyantra-health-technologies"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "kvklrao",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "united-nations-world-food-programme",
+      "name": "United Nations World Food Programme",
+      "type": "multilateral",
+      "website": "",
+      "country": "Italy",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["prism"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "WFP-VAM",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "villagereach",
+      "name": "VillageReach",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["product-catalog-management-tool"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bioverse-labs",
+      "name": "Bioverse Labs",
+      "type": "private",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["productive-forests"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Bioverse-Labs",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cirrolytix-research-services",
+      "name": "Cirrolytix Research Services",
+      "type": "private",
+      "website": "",
+      "country": "Philippines",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["project-aedes"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Cirrolytix",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "access-to-energy-institute-a2ei-and-get-invest",
+      "name": "Access to Energy Institute (A2EI) and GET.invest",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["prospect"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "opengis-ch",
+      "name": "OPENGIS.ch",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["qfield"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "opengisch",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "qgis-association",
+      "name": "QGIS Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["qgis"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "qgis",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "chemonics-international-inc",
+      "name": "Chemonics International, Inc.",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["quantification-analytics-tool"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "FASP-QAT",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "buenos-aires-city-government",
+      "name": "Buenos Aires City Government",
+      "type": "government",
+      "website": "",
+      "country": "Argentina",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["quarkid"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ssi-quarkid",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-knowledge-brasil-okbr",
+      "name": "Open Knowledge Brasil (OKBR)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["querido-diario"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "okfn-brasil",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.194Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rumsan-associates-private-limited",
+      "name": "Rumsan Associates Private Limited",
+      "type": "private",
+      "website": "",
+      "country": "Nepal",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["rahat"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "rahataid",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "united-nations-children-s-fund",
+      "name": "United Nations Children's Fund",
+      "type": "multilateral",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["rapidpro"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "rapidpro",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "organika-association",
+      "name": "ORGANIKA Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Kosovo",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["register-for-organic-agriculture"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "shoqata-organika",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "human-rights-measurement-initiative-charitable-trust",
+      "name": "Human Rights Measurement Initiative Charitable Trust",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "New Zealand",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["rights-tracker"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rocky-enterprise-software-foundation",
+      "name": "Rocky Enterprise Software Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["rocky-linux"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "government-of-brazil-ministry-of-management-and-innovation-in-public-services",
+      "name": "Government of Brazil - Ministry of Management and Innovation in Public Services",
+      "type": "government",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["rural-environmental-registry-registration-module"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Rural-Environmental-Registry",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "impact-innovations-institute-llc",
+      "name": "Impact Innovations Institute LLC",
+      "type": "private",
+      "website": "",
+      "country": "Armenia",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["safe-you"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "safeyou-space",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sant-suite-inc",
+      "name": "SantéSuite Inc.",
+      "type": "private",
+      "website": "",
+      "country": "Canada",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["santesuite"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "santedb",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "impact-observatory",
+      "name": "Impact Observatory",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["sentinel-2-10m-land-useland-cover-time-series"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "resolve-to-save-lives",
+      "name": "Resolve to Save Lives",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["simple"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "simpledotorg",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "simula-research-laboratory",
+      "name": "Simula Research Laboratory",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["simpleaudit"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "kelkalot",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "inria-and-fondation-inria",
+      "name": "INRIA and Fondation INRIA",
+      "type": "academic",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["software-heritage"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "medtronic-labs",
+      "name": "Medtronic LABS",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["spice"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Medtronic-LABS",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ssb-statistics-norway",
+      "name": "SSB, Statistics Norway",
+      "type": "government",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["statbus-1"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "statisticsnorway",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pratham-books",
+      "name": "Pratham Books",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["storyweaver"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "evean-foundation",
+      "name": "eVean Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["sunbird-serve"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "Sunbird-Serve",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sormas-foundation",
+      "name": "SORMAS Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["surveillance-outbreak-response-management-and-analysis-system"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "SORMAS-Foundation",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "suse-llc",
+      "name": "SUSE LLC",
+      "type": "private",
+      "website": "",
+      "country": "Czech Republic",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["suse-linux-enterprise-server"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "SUSE",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "openmined-foundation",
+      "name": "OpenMined Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["syft"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openmined",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-mitre-corporation",
+      "name": "The MITRE Corporation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["synthea"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "synthetichealth",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-linux-foundation",
+      "name": "The Linux Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["tazama"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "tazama-lf",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stiching-the-land-portal-land-portal-foundation",
+      "name": "Stiching The Land Portal (Land Portal Foundation)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Netherlands",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["the-land-portal"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-project-is-hosted-and-funded-by-the-alan-turing-institute-and-owned-by-the-community-and-led-by-project-leads-dr-kirstie-whitaker-and-dr-malvika-sharan",
+      "name": "The project is hosted and funded by The Alan Turing Institute, and owned by the community and led by project leads, Dr. Kirstie Whitaker and Dr. Malvika Sharan",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United Kingdom",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["the-turing-way"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "the-turing-way",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ushahidi-inc",
+      "name": "Ushahidi Inc.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Kenya",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["ushahidi"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "ushahidi",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tor-project",
+      "name": "Tor Project",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["tor-browser"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "singapore-infocomm-media-development-authority-imda",
+      "name": "Singapore Infocomm Media Development Authority (IMDA)",
+      "type": "government",
+      "website": "",
+      "country": "Singapore",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["trade-trust"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "TradeTrust",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kfw-kreditanstalt-f-r-wiederaufbau",
+      "name": "KfW (Kreditanstalt für Wiederaufbau)",
+      "type": "multilateral",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["trubudget"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "openkfw",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.195Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ixsystems",
+      "name": "iXsystems",
+      "type": "private",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["truenas"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "truenas",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "typo3-association",
+      "name": "TYPO3 Association",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["typo3"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "typo3",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tattle-civic-technologies-pvt-ltd",
+      "name": "Tattle Civic Technologies Pvt Ltd",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["uli"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "tattle-made",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "united-nations-industrial-development-organization-unido",
+      "name": "United Nations Industrial Development Organization (UNIDO)",
+      "type": "multilateral",
+      "website": "",
+      "country": "Austria",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["unido-industrial-analytics-platform"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "national-institute-of-urban-affairs",
+      "name": "National Institute of Urban Affairs",
+      "type": "government",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["urban-platform-for-delivery-of-online-governance"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "upyog",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "inter-american-development-bank",
+      "name": "Inter-American Development Bank",
+      "type": "multilateral",
+      "website": "",
+      "country": "Brazil",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["urbanpy"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "EL-BID",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "huridocs-human-rights-information-and-documentation-systems",
+      "name": "HURIDOCS (Human Rights Information and Documentation Systems)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["uwazi"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "huridocs",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "statwig",
+      "name": "StaTwig",
+      "type": "private",
+      "website": "",
+      "country": "India",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["vaccineledger"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nibio",
+      "name": "NIBIO",
+      "type": "academic",
+      "website": "",
+      "country": "Norway",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["vips"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "johnson-johnson-global-public-health",
+      "name": "Johnson & Johnson Global Public Health",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["vxnaid"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "johnsonandjohnson",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wikimedia-foundation-inc",
+      "name": "Wikimedia Foundation, Inc.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["wikidata", "wikipedia"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wikirate-international-e-v",
+      "name": "Wikirate International e.V.",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Germany",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["wikirateorg"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wso2-llc",
+      "name": "WSO2 LLC",
+      "type": "private",
+      "website": "",
+      "country": "Netherlands",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["wso2-identity-server"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "wso2",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nordic-institute-for-interoperability-solutions-niis",
+      "name": "Nordic Institute for Interoperability Solutions (NIIS)",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Estonia",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["x-road"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "nordic-institute",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "xcapit",
+      "name": "Xcapit",
+      "type": "private",
+      "website": "",
+      "country": "Spain",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["xcapit"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-05-21T21:55:32.196Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
     }
   ]
 }
