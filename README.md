@@ -254,6 +254,34 @@ npm run dev
 # Open http://localhost:3000
 ```
 
+### Spec-Kitty-Driven Development
+
+This repository is moving to Spec-Kitty-driven, spec-first development for non-trivial changes.
+
+- Docs: https://docs.spec-kitty.ai/
+- Install guide: https://docs.spec-kitty.ai/how-to/install-spec-kitty.html
+- Method overview: https://docs.spec-kitty.ai/explanation/spec-driven-development.html
+- Repository workflow: [docs/SPEC_KITTY.md](docs/SPEC_KITTY.md)
+
+Recommended setup:
+
+```bash
+pipx install spec-kitty-cli
+pipx ensurepath
+spec-kitty --version
+spec-kitty init . --ai copilot
+```
+
+Default workflow for substantial changes:
+
+1. Write the spec first.
+2. Generate the plan from the approved spec.
+3. Break the plan into work packages.
+4. Implement against the approved tasks.
+5. Review against the original acceptance criteria before merge.
+
+For this repo, use spec-first work by default for schema changes, ingestion or enrichment updates, accessibility fixes spanning multiple pages, new data intake workflows, and CI or deployment changes.
+
 ### Build
 
 ```bash
@@ -428,6 +456,7 @@ We welcome contributions from researchers, developers, data wranglers, accessibi
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
 
 - How to add new data sources
+- How to work spec-first with Spec-Kitty
 - How to improve community health metrics
 - How to enhance accessibility
 - How to optimize performance

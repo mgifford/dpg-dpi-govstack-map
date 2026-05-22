@@ -105,6 +105,46 @@ Run `npm run build` before submitting to catch type errors.
 
 ---
 
+## Spec-Kitty Workflow
+
+This repository is moving to Spec-Kitty-driven development for non-trivial changes.
+
+Start here:
+
+- https://docs.spec-kitty.ai/
+- https://docs.spec-kitty.ai/how-to/install-spec-kitty.html
+- https://docs.spec-kitty.ai/explanation/spec-driven-development.html
+- [docs/SPEC_KITTY.md](docs/SPEC_KITTY.md)
+
+Recommended local setup:
+
+```bash
+pipx install spec-kitty-cli
+pipx ensurepath
+spec-kitty --version
+spec-kitty init . --ai copilot
+```
+
+Use the full Spec-Kitty cycle by default when the change touches more than one layer of the system, especially for:
+
+- schema changes
+- ingestion or enrichment changes
+- accessibility fixes across shared components or multiple pages
+- new intake workflows or governance rules
+- CI, deployment, or audit workflow changes
+
+For those changes, the expected order is:
+
+1. Specify the change and acceptance criteria.
+2. Generate the implementation plan.
+3. Generate work packages.
+4. Implement against the approved plan.
+5. Review and accept against the original spec before merge.
+
+Trivial typo fixes and narrow one-line fixes do not need the full spec cycle.
+
+---
+
 ## Development Setup
 
 ```bash
@@ -139,11 +179,12 @@ If you are working on GitHub metadata enrichment, provide `GITHUB_TOKEN` or `ATL
 
 1. Fork the repository
 2. Create a branch: `git checkout -b feat/your-feature`
-3. Make changes in manual sources, scripts, or frontend files as appropriate
-4. Regenerate artifacts when data changes: `SKIP_GITHUB_ENRICHMENT=true npm run ingest`
-5. Run validation: `npm run validate:data && npm run check && npm run build`
-6. Open a pull request with a clear description
-7. A maintainer will review within 5 business days
+3. For non-trivial changes, start with the Spec-Kitty workflow in [docs/SPEC_KITTY.md](docs/SPEC_KITTY.md)
+4. Make changes in manual sources, scripts, or frontend files as appropriate
+5. Regenerate artifacts when data changes: `SKIP_GITHUB_ENRICHMENT=true npm run ingest`
+6. Run validation: `npm run validate:data && npm run check && npm run build`
+7. Open a pull request with a clear description and reference the accepted spec when one exists
+8. A maintainer will review within 5 business days
 
 ---
 
