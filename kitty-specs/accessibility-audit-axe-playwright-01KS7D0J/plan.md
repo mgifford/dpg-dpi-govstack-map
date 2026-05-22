@@ -1,108 +1,78 @@
-# Implementation Plan: [FEATURE]
-*Path: [templates/plan-template.md](templates/plan-template.md)*
+# Implementation Plan: Accessibility Audit: Axe + Playwright Only
 
-
-**Branch**: `[###-feature-name]` | **Date**: [DATE] | **Spec**: [link]
-**Input**: Feature specification from `/kitty-specs/[###-feature-name]/spec.md`
-
-**Note**: This template is filled in by the `/spec-kitty.plan` command. See `src/specify_cli/missions/software-dev/command-templates/plan.md` for the execution workflow.
-
-The planner will not begin until all planning questions have been answered—capture those answers in this document before progressing to later phases.
+**Branch**: `main` | **Date**: 2026-05-22 | **Spec**: `kitty-specs/accessibility-audit-axe-playwright-01KS7D0J/spec.md`
+**Input**: Feature specification from `/kitty-specs/accessibility-audit-axe-playwright-01KS7D0J/spec.md`
 
 ## Summary
 
-[Extract from feature spec: primary requirement + technical approach from research]
+Replace the mixed accessibility audit path with a single Playwright axe workflow, run that audit against the selected public pages, and fix any accessibility regressions it identifies in the responsible workflow, layout, page, or component layer.
 
 ## Technical Context
 
-<!--
-  ACTION REQUIRED: Replace the content in this section with the technical details
-  for the project. The structure here is presented in advisory capacity to guide
-  the iteration process.
--->
-
-**Language/Version**: [e.g., Python 3.11, Swift 5.9, Rust 1.75 or NEEDS CLARIFICATION]  
-**Primary Dependencies**: [e.g., FastAPI, UIKit, LLVM or NEEDS CLARIFICATION]  
-**Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]  
-**Testing**: [Project-specific test approach or NEEDS CLARIFICATION]
-**Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
-**Project Type**: [single/web/mobile - determines source structure]  
-**Performance Goals**: [domain-specific, e.g., 1000 req/s, 10k lines/sec, 60 fps or NEEDS CLARIFICATION]  
-**Constraints**: [domain-specific, e.g., <200ms p95, <100MB memory, offline-capable or NEEDS CLARIFICATION]  
-**Scale/Scope**: [domain-specific, e.g., 10k users, 1M LOC, 50 screens or NEEDS CLARIFICATION]
+**Language/Version**: TypeScript, Astro 6, Node 22  
+**Primary Dependencies**: Astro, Playwright, `@axe-core/playwright`, start-server-and-test  
+**Storage**: N/A  
+**Testing**: `npm run check`, `npm run build`, `npm run audit:axe`, targeted workflow validation  
+**Target Platform**: Static website built in CI on Linux and used locally on Linux/macOS  
+**Project Type**: Static web application  
+**Performance Goals**: Keep the audit focused on a small explicit route set and avoid introducing heavier browser-test overhead than the current Playwright axe scan  
+**Constraints**: Minimal diff, preserve existing public site behavior, keep accessibility checks reviewable in CI, do not commit `data/raw/`  
+**Scale/Scope**: One audit workflow, one audit script, and the core public routes currently listed in `scripts/audit/axe.mjs`
 
 ## Charter Check
 
-*GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
+- Charter exists and is generated.
+- Testing approach is project-declared via repo commands rather than external defaults.
+- Quality gate remains focused on explicit repo validations before merge.
+- No charter violations identified for this mission.
 
-[Gates determined based on charter file]
+## Implementation slices
+
+1. Audit workflow alignment
+   Update `.github/workflows/audits.yml` and `package.json` so Playwright axe is the only accessibility scan path and `audit:site` no longer invokes `pa11y`.
+
+2. Axe scan validation
+   Run the Playwright axe scan against the built preview site and capture the actual failing routes and rule IDs.
+
+3. Local remediation
+   Fix accessibility issues in the responsible `src/layouts/`, `src/components/`, or `src/pages/` files rather than weakening the audit.
+
+4. Final validation
+   Re-run `npm run check`, `npm run build`, and `npm run audit:axe` to confirm the new audit path and the targeted fixes hold together.
 
 ## Project Structure
 
 ### Documentation (this feature)
 
 ```
-kitty-specs/[###-feature]/
-├── plan.md              # This file (/spec-kitty.plan command output)
-├── research.md          # Phase 0 output (/spec-kitty.plan command)
-├── data-model.md        # Phase 1 output (/spec-kitty.plan command)
-├── quickstart.md        # Phase 1 output (/spec-kitty.plan command)
-├── contracts/           # Phase 1 output (/spec-kitty.plan command)
-└── tasks.md             # Phase 2 output (/spec-kitty.tasks command - NOT created by /spec-kitty.plan)
+kitty-specs/accessibility-audit-axe-playwright-01KS7D0J/
+├── spec.md
+├── plan.md
+├── meta.json
+└── tasks/
 ```
 
 ### Source Code (repository root)
-<!--
-  ACTION REQUIRED: Replace the placeholder tree below with the concrete layout
-  for this feature. Delete unused options and expand the chosen structure with
-  real paths (e.g., apps/admin, packages/something). The delivered plan must
-  not include Option labels.
--->
 
 ```
-# [REMOVE IF UNUSED] Option 1: Single project (DEFAULT)
+.github/workflows/
+└── audits.yml
+
+scripts/audit/
+└── axe.mjs
+
 src/
-├── models/
-├── services/
-├── cli/
-└── lib/
+├── layouts/
+├── components/
+└── pages/
 
-tests/
-├── contract/
-├── integration/
-└── unit/
-
-# [REMOVE IF UNUSED] Option 2: Web application (when "frontend" + "backend" detected)
-backend/
-├── src/
-│   ├── models/
-│   ├── services/
-│   └── api/
-└── tests/
-
-frontend/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── services/
-└── tests/
-
-# [REMOVE IF UNUSED] Option 3: Mobile + API (when "iOS/Android" detected)
-api/
-└── [same as backend above]
-
-ios/ or android/
-└── [platform-specific structure: feature modules, UI flows, platform tests]
+package.json
 ```
 
-**Structure Decision**: [Document the selected structure and reference the real
-directories captured above]
+**Structure Decision**: This mission is a single static-web repo change centered on one workflow file, one audit script, package scripts, and any directly affected Astro UI files.
 
 ## Complexity Tracking
 
-*Fill ONLY if Charter Check has violations that must be justified*
-
 | Violation | Why Needed | Simpler Alternative Rejected Because |
-|-----------|------------|-------------------------------------|
-| [e.g., 4th project] | [current need] | [why 3 projects insufficient] |
-| [e.g., Repository pattern] | [specific problem] | [why direct DB access insufficient] |
+| --------- | ---------- | ------------------------------------ |
+| None      | N/A        | N/A                                  |

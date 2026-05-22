@@ -4,3 +4,8 @@ agents:
   available:
     - copilot
   auto_commit: true
+project:
+  uuid: 8d24d16a-3905-455b-b899-be944419fb1e
+  slug: dpg-dpi-govstack-map
+  node_id: bb04ff4b2c03
+  build_id: e16b6e0c-8cb9-49f9-abce-8e297d28c66b
