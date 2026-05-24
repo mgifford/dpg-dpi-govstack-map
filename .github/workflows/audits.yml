@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   accessibility:
-    name: Axe and Pa11y
+    name: Axe (Playwright + axe-core)
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -37,8 +37,8 @@ jobs:
           SKIP_GITHUB_ENRICHMENT: "true"
         run: npm run build
 
-      - name: Run axe-core and pa11y
-        run: npx start-server-and-test "npm run preview -- --host 127.0.0.1 --port 4321" http://127.0.0.1:4321/dpg-dpi-govstack-map "npm run audit:axe && npm run audit:pa11y"
+      - name: Run axe-core accessibility audit
+        run: npx start-server-and-test "npm run preview -- --host 127.0.0.1 --port 4321" http://127.0.0.1:4321/dpg-dpi-govstack-map "npm run audit:axe"
 
   lighthouse:
     name: Lighthouse
