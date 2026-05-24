@@ -32,7 +32,12 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import YAML from "yaml";
-import { projectSchema, organizationSchema, type Project, type Organization } from "../src/lib/schema.js";
+import {
+  projectSchema,
+  organizationSchema,
+  type Project,
+  type Organization
+} from "../src/lib/schema.js";
 import { fetchJsonWithCache } from "./lib/fetch.js";
 import { normalizeLicense, slugify } from "./lib/normalize.js";
 
@@ -210,7 +215,10 @@ function buildProvenance(
   retrievedAt: string,
   feedGeneratedAt: string | undefined,
   record: GovScanRecord
-): Record<string, Array<{ source: string; retrieved_at: string; confidence: number; kind: "scraped"; note: string }>> {
+): Record<
+  string,
+  Array<{ source: string; retrieved_at: string; confidence: number; kind: "scraped"; note: string }>
+> {
   const note = [
     `Detected on government websites via ${source.name}.`,
     record.domain_count != null ? `Seen on ${record.domain_count} domain(s).` : "",
@@ -251,10 +259,7 @@ function calculateEcosystemScore(domainCount: number): number {
 }
 
 function calculateSustainabilityScore(domainCount: number, licenses: string[]): number {
-  return Math.min(
-    100,
-    20 + (licenses.length > 0 ? 15 : 0) + Math.min(domainCount * 2, 30)
-  );
+  return Math.min(100, 20 + (licenses.length > 0 ? 15 : 0) + Math.min(domainCount * 2, 30));
 }
 
 function buildOrganizations(
@@ -266,9 +271,7 @@ function buildOrganizations(
   // single placeholder org representing the scan source itself so the
   // provenance chain is traceable in the dataset.
   const id = `gov-scan-source-${slugify(source.label)}`;
-  const associatedProjects = projects
-    .filter((p) => p.tags.includes(source.label))
-    .map((p) => p.id);
+  const associatedProjects = projects.filter((p) => p.tags.includes(source.label)).map((p) => p.id);
 
   if (associatedProjects.length === 0) return [];
 
