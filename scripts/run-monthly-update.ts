@@ -1,10 +1,11 @@
 /**
  * Monthly update orchestrator.
- * Runs: fetch DPG → enrich GitHub → merge seed → generate datasets → search index
+ * Runs: fetch DPG → fetch gov-scans → enrich GitHub → merge seed → generate datasets → search index
  *
  * Usage:
  *   npm run ingest
  *   GITHUB_TOKEN=xxx npm run ingest
+ *   SKIP_GOV_SCANS=true npm run ingest   # skip government scan step
  */
 
 import { readFile } from "node:fs/promises";
@@ -12,6 +13,7 @@ import path from "node:path";
 import type { AtlasDataset } from "../src/lib/schema.js";
 import { atlasDatasetSchema } from "../src/lib/schema.js";
 import { fetchDpgDataset } from "./ingest-dpg.js";
+import { fetchGovScanDataset } from "./ingest-gov-scans.js";
 import { enrichProjectsBatch } from "./enrich-github.js";
 import { generateDatasets } from "./generate-datasets.js";
 import { generateSearchIndex } from "./generate-search-index.js";
@@ -85,7 +87,7 @@ async function main(): Promise<void> {
   const startTime = Date.now();
 
   // 1. Load curated manual dataset, with processed data as a fallback
-  console.log("[1/6] Loading manual phase-one dataset…");
+  console.log("[1/7] Loading manual phase-one dataset…");
   let seed: AtlasDataset;
   try {
     seed = await loadManualDataset();
@@ -95,25 +97,42 @@ async function main(): Promise<void> {
   }
 
   // 2. Fetch DPG Registry
-  console.log("[2/6] Fetching DPG Registry…");
+  console.log("[2/7] Fetching DPG Registry…");
   const dpgDataset = await fetchDpgDataset();
   console.log(`      → ${dpgDataset.projects.length} DPG projects fetched`);
 
-  // 3. Merge new with seed (seed wins to preserve curated data)
-  console.log("[3/6] Merging datasets…");
-  const mergedProjects = mergeProjects(seed.projects, dpgDataset.projects);
-  const mergedOrganizations = mergeOrganizations(seed.organizations, dpgDataset.organizations);
+  // 3. Fetch government website scan feeds (OSI-approved tools in production)
+  console.log("[3/7] Fetching government scan feeds…");
+  const govScanDataset =
+    process.env.SKIP_GOV_SCANS === "true"
+      ? { projects: [], organizations: [] }
+      : await fetchGovScanDataset();
+  console.log(`      → ${govScanDataset.projects.length} gov-scan projects fetched`);
+
+  // 4. Merge all sources (seed wins to preserve curated data)
+  console.log("[4/7] Merging datasets…");
+  const mergedProjects = mergeProjects(
+    seed.projects,
+    mergeProjects(dpgDataset.projects, govScanDataset.projects)
+  );
+  const mergedOrganizations = mergeOrganizations(
+    seed.organizations,
+    mergeOrganizations(dpgDataset.organizations, govScanDataset.organizations)
+  );
   console.log(`      → ${mergedProjects.length} projects total`);
 
-  // 4. Enrich with GitHub metadata
-  console.log("[4/6] Enriching with GitHub metadata…");
+  // 5. Enrich with GitHub metadata
+  console.log("[5/7] Enriching with GitHub metadata…");
   const githubEnrichment =
     process.env.SKIP_GITHUB_ENRICHMENT === "true"
       ? { projects: mergedProjects, repositories: seed.repositories }
       : await enrichProjectsBatch(mergedProjects);
 
-  // 5. Build final dataset
+  // 6. Build final dataset
   const activeSources = ["manual-seed", "dpg-registry"];
+  if (process.env.SKIP_GOV_SCANS !== "true") {
+    activeSources.push("gov-scans");
+  }
   if (process.env.SKIP_GITHUB_ENRICHMENT !== "true") {
     activeSources.push("github-api");
   }
@@ -131,12 +150,12 @@ async function main(): Promise<void> {
     standards: seed.standards
   };
 
-  // 6. Persist updated dataset
-  console.log("[5/6] Persisting dataset…");
+  // 7. Persist updated dataset
+  console.log("[6/7] Persisting dataset…");
   await writeJsonFile(OUT_PATH, dataset);
 
-  // 7. Generate static API outputs
-  console.log("[6/6] Generating static API outputs and search index…");
+  // 8. Generate static API outputs
+  console.log("[7/7] Generating static API outputs and search index…");
   await generateDatasets(dataset);
   await generateSearchIndex(dataset);
 
