@@ -1,0 +1,30 @@
+# Government website technology scan sources.
+#
+# Each entry points to a JSON endpoint that returns OSI-approved open source
+# tools detected on live government websites.  The monthly update pipeline
+# reads this file, fetches every enabled source, filters for OSI-approved
+# entries, and merges the results into the Atlas project catalogue.
+#
+# Required fields
+# ───────────────
+# name        Human-readable label shown in provenance metadata.
+# url         Full URL of the technology-license-data JSON feed.
+# label       Short machine-readable identifier used as the cache key
+#             (e.g. "eu-gov-scans").  Must be unique across all sources.
+#
+# Optional fields
+# ───────────────
+# description  Free-text description of the scan scope.
+# enabled      Boolean; omit or set to true to include in the monthly run.
+#              Set to false to temporarily disable without removing the entry.
+
+sources:
+  - name: EU Plus Government Scans – Technology License Data
+    url: https://mgifford.github.io/eu-plus-government-scans/technology-license-data.json
+    label: eu-gov-scans
+    description: >
+      OSI-approved open source technologies detected on EU+ government websites
+      via automated Wappalyzer/built.with-style scanning.  Covers national and
+      sub-national government domains across EU member states and associated
+      countries.
+    enabled: true
