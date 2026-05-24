@@ -217,9 +217,15 @@ const govstackHighlights = Array.from(
     };
 
     hydrateFromUrl();
+    filterForm?.dispatchEvent(new Event("apply-filters"));
     sortSelect?.addEventListener("input", () => {
       applySort();
       syncUrl();
+    });
+    filterForm?.addEventListener("input", syncUrl);
+    filterForm?.addEventListener("change", syncUrl);
+    filterForm?.addEventListener("reset", () => {
+      setTimeout(syncUrl, 0);
     });
 
     const observer = new MutationObserver(() => {

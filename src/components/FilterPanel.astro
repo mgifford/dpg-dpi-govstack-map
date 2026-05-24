@@ -167,6 +167,7 @@ const { options, totalCount } = Astro.props;
 
     const inputs = form.querySelectorAll("input, select");
     inputs.forEach((el) => el.addEventListener("input", doFilter));
+    form.addEventListener("apply-filters", doFilter as EventListener);
 
     function doFilter() {
       const data = new FormData(form!);
@@ -209,5 +210,7 @@ const { options, totalCount } = Astro.props;
 
       if (countEl) countEl.textContent = `— ${visible} project${visible !== 1 ? "s" : ""}`;
     }
+
+    requestAnimationFrame(doFilter);
   })();
 </script>
