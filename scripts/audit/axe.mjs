@@ -14,7 +14,7 @@ const routes = [
   "/accessibility/"
 ];
 
-const browser = await chromium.launch();
+const browser = await chromium.launch({ args: ["--no-sandbox", "--disable-setuid-sandbox"] });
 const context = await browser.newContext();
 const page = await context.newPage();
 let failed = false;
