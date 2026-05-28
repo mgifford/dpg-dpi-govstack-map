@@ -136,3 +136,5 @@ The maturity-model approach currently appears in:
 ## Summary
 
 The Atlas is not being built as a generic software directory. It is being built as an evidence-backed maturity atlas for digital public infrastructure, informed by Linaker and Muto's work on integrating OSS enablement indicators into digital government maturity models.
+
+For a broader survey and comparison of open source maturity frameworks — including the DPGA DPG Maturity Indicators, CHAOSS Business Readiness, OpenSSF Scorecard, CII Best Practices, GovStack Building Block Specs, and the DPG Standard — see [docs/maturity-models/README.md](maturity-models/README.md).
