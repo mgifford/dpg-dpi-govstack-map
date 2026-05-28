@@ -532,6 +532,7 @@ npm run validate
 
 - [Architecture](docs/ARCHITECTURE.md) — System design and data flow
 - [Maturity Model Alignment](docs/MATURITY_MODEL.md) — How the Atlas builds on Linaker and Muto's OSS enablement maturity framework for digital government
+- [Maturity Models Comparison](docs/maturity-models/README.md) — Survey and comparison of open source maturity schemes (DPGA, CHAOSS, OpenSSF, and more)
 - [Schema](docs/SCHEMA.md) — Complete data model reference
 - [API](docs/API.md) — API endpoints and examples
 - [Contributing](CONTRIBUTING.md) — How to contribute code and data
