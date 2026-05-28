@@ -38,15 +38,15 @@ The DPGA DPG Maturity Indicators project is a Community of Practice (CoP) initia
 
 ### The Seven Pillars
 
-| Pillar | Description |
-|--------|-------------|
-| **1. Governance** | Transparency of ownership, decision-making, and community structure |
-| **2. Data Protection and Security** | Secure development practices, regulatory compliance (e.g. GDPR), and security controls |
-| **3. Open Standards** | Use of open standards, modular design, and data interoperability/export capabilities |
+| Pillar                              | Description                                                                                    |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **1. Governance**                   | Transparency of ownership, decision-making, and community structure                            |
+| **2. Data Protection and Security** | Secure development practices, regulatory compliance (e.g. GDPR), and security controls         |
+| **3. Open Standards**               | Use of open standards, modular design, and data interoperability/export capabilities           |
 | **4. Product Strategy and Roadmap** | Clarity and public availability of the roadmap; structured community input into prioritization |
-| **5. Source Code Accessibility** | Developer friendliness, documentation quality, code structure, OSI-approved licensing |
-| **6. Total Cost of Ownership** | Guidance on operational costs including deployment, training, and maintenance |
-| **7. Composability** | Architectural modularity and extensibility; ability to add functionality without forking |
+| **5. Source Code Accessibility**    | Developer friendliness, documentation quality, code structure, OSI-approved licensing          |
+| **6. Total Cost of Ownership**      | Guidance on operational costs including deployment, training, and maintenance                  |
+| **7. Composability**                | Architectural modularity and extensibility; ability to add functionality without forking       |
 
 ### Maturity Levels
 
@@ -75,11 +75,11 @@ CHAOSS (Community Health Analytics for Open Source Software) produces a library 
 
 ### Metric Categories
 
-| Category | Metrics |
-|----------|---------|
-| **Code Quality** | Defect Resolution Duration, Test Coverage |
-| **License Issues** | License Coverage, License Declared, OSI Approved Licenses |
-| **Risk Assessment** | Contributor Absence Factor, Committers, Elephant Factor |
+| Category            | Metrics                                                   |
+| ------------------- | --------------------------------------------------------- |
+| **Code Quality**    | Defect Resolution Duration, Test Coverage                 |
+| **License Issues**  | License Coverage, License Declared, OSI Approved Licenses |
+| **Risk Assessment** | Contributor Absence Factor, Committers, Elephant Factor   |
 
 ### Key Metrics Explained
 
@@ -100,12 +100,12 @@ CHAOSS (Community Health Analytics for Open Source Software) produces a library 
 
 While Business Readiness is the model cited in this issue, other CHAOSS models are directly relevant to DPG/DPI evaluation:
 
-| Model | Focus |
-|-------|-------|
-| Community Health | Contributor growth, retention, and diversity |
-| Responsiveness | Issue and PR response times |
+| Model                         | Focus                                            |
+| ----------------------------- | ------------------------------------------------ |
+| Community Health              | Contributor growth, retention, and diversity     |
+| Responsiveness                | Issue and PR response times                      |
 | Diversity, Equity & Inclusion | Contributor demographics and inclusive practices |
-| Software Dependency Risk | Supply chain health for dependencies |
+| Software Dependency Risk      | Supply chain health for dependencies             |
 
 ---
 
@@ -122,22 +122,22 @@ OpenSSF Scorecard is an automated security assessment tool that evaluates GitHub
 
 ### Example Scorecard Checks
 
-| Check | What It Measures |
-|-------|-----------------|
-| Maintained | Is the project actively maintained? |
-| Code Review | Are changes reviewed before merging? |
-| Branch Protection | Are branch protection rules configured? |
-| Pinned Dependencies | Are dependencies version-pinned? |
-| Token Permissions | Are GitHub Actions permissions minimal? |
-| Vulnerabilities | Are known CVEs present in dependencies? |
-| SAST | Is static analysis run in CI? |
-| Fuzzing | Is fuzzing performed? |
-| Security Policy | Is there a SECURITY.md? |
-| Signed Releases | Are releases cryptographically signed? |
-| Binary Artifacts | Are binary artifacts committed to the repo? |
-| Dangerous Workflow | Do workflows contain dangerous patterns? |
-| License | Is a license file present? |
-| CI Tests | Do tests run in CI? |
+| Check                  | What It Measures                               |
+| ---------------------- | ---------------------------------------------- |
+| Maintained             | Is the project actively maintained?            |
+| Code Review            | Are changes reviewed before merging?           |
+| Branch Protection      | Are branch protection rules configured?        |
+| Pinned Dependencies    | Are dependencies version-pinned?               |
+| Token Permissions      | Are GitHub Actions permissions minimal?        |
+| Vulnerabilities        | Are known CVEs present in dependencies?        |
+| SAST                   | Is static analysis run in CI?                  |
+| Fuzzing                | Is fuzzing performed?                          |
+| Security Policy        | Is there a SECURITY.md?                        |
+| Signed Releases        | Are releases cryptographically signed?         |
+| Binary Artifacts       | Are binary artifacts committed to the repo?    |
+| Dangerous Workflow     | Do workflows contain dangerous patterns?       |
+| License                | Is a license file present?                     |
+| CI Tests               | Do tests run in CI?                            |
 | Dependency Update Tool | Is an automated dependency update tool in use? |
 
 ### Key Characteristics
@@ -163,14 +163,14 @@ The CII Best Practices Badge program allows projects to self-certify against a s
 
 ### Criteria Areas
 
-| Area | Includes |
-|------|----------|
-| Basics | Public repo, OSI-approved license, project website |
-| Change Control | Version control, unique versioning |
-| Reporting | Bug reporting mechanism, vulnerability disclosure |
-| Quality | Working build system, automated tests, CI |
-| Security | Secure development knowledge, vulnerability response |
-| Analysis | Static analysis, dynamic analysis |
+| Area           | Includes                                             |
+| -------------- | ---------------------------------------------------- |
+| Basics         | Public repo, OSI-approved license, project website   |
+| Change Control | Version control, unique versioning                   |
+| Reporting      | Bug reporting mechanism, vulnerability disclosure    |
+| Quality        | Working build system, automated tests, CI            |
+| Security       | Secure development knowledge, vulnerability response |
+| Analysis       | Static analysis, dynamic analysis                    |
 
 Silver and Gold badges add stricter requirements around documentation, code coverage, and security hardening.
 
@@ -197,16 +197,16 @@ This academic research paper argues that existing digital government maturity in
 
 ### Four Categories and 14 Areas
 
-| Category | Areas |
-|----------|-------|
+| Category              | Areas                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------- |
 | **Policy Incentives** | OSS mandate or preference policies; procurement reform; funding for OSS maintenance |
-| **Policy Design** | Governance models; licensing clarity; contribution policies |
-| **Implementation** | OSPO presence; OSS use in government systems; OSS contribution activity |
-| **Support** | Developer training; legal support; vendor ecosystem; community engagement |
+| **Policy Design**     | Governance models; licensing clarity; contribution policies                         |
+| **Implementation**    | OSPO presence; OSS use in government systems; OSS contribution activity             |
+| **Support**           | Developer training; legal support; vendor ecosystem; community engagement           |
 
 ### Key Characteristics
 
-- Uniquely focused on the *government* side of the equation: the national and institutional enablers that allow DPGs to succeed
+- Uniquely focused on the _government_ side of the equation: the national and institutional enablers that allow DPGs to succeed
 - Addresses gaps in existing digital maturity indexes that treat software as a procurement choice rather than a policy variable
 - Not a project-level assessment but a national/institutional maturity indicator
 - Provides the theoretical foundation for how the DPI Atlas structures its maturity evidence model
@@ -222,7 +222,7 @@ This academic research paper argues that existing digital government maturity in
 
 ### Overview
 
-GovStack does not provide a project maturity model in the traditional sense. Instead, it defines functional *building block specifications* that candidate software implementations must satisfy. Compliance is verified through a sandbox testing process.
+GovStack does not provide a project maturity model in the traditional sense. Instead, it defines functional _building block specifications_ that candidate software implementations must satisfy. Compliance is verified through a sandbox testing process.
 
 ### Building Block Categories
 
@@ -257,17 +257,17 @@ The DPG Standard defines the minimum criteria a project must meet to be recogniz
 
 ### The 9 Indicators
 
-| # | Indicator |
-|---|-----------|
-| 1 | Relevance to Sustainable Development Goals |
-| 2 | Use of Approved Open License |
-| 3 | Clear Ownership |
-| 4 | Platform Independence |
-| 5 | Documentation |
-| 6 | Mechanism for Extracting Data |
-| 7 | Adherence to Privacy and Applicable Laws |
-| 8 | Adherence to Standards and Best Practices |
-| 9 | Do No Significant Harm by Design |
+| #   | Indicator                                  |
+| --- | ------------------------------------------ |
+| 1   | Relevance to Sustainable Development Goals |
+| 2   | Use of Approved Open License               |
+| 3   | Clear Ownership                            |
+| 4   | Platform Independence                      |
+| 5   | Documentation                              |
+| 6   | Mechanism for Extracting Data              |
+| 7   | Adherence to Privacy and Applicable Laws   |
+| 8   | Adherence to Standards and Best Practices  |
+| 9   | Do No Significant Harm by Design           |
 
 ### Key Characteristics
 
@@ -290,19 +290,19 @@ The DPI Atlas translates the Linaker & Muto framework into an operational eviden
 
 ### Eleven Dimensions
 
-| Dimension | What It Captures |
-|-----------|-----------------|
-| `code` | Repository health, commit frequency, contributor activity |
-| `governance` | Governance files, community structures, decision-making transparency |
-| `stewardship` | Steward organizations, sustainability of institutional backing |
-| `public_sector` | Deployment in government or public-sector settings |
-| `accessibility` | Conformance to accessibility standards (WCAG, etc.) |
-| `sustainability` | Environmental and organizational sustainability signals |
-| `security` | Security policy, OpenSSF scorecard, advisory history |
+| Dimension          | What It Captures                                                      |
+| ------------------ | --------------------------------------------------------------------- |
+| `code`             | Repository health, commit frequency, contributor activity             |
+| `governance`       | Governance files, community structures, decision-making transparency  |
+| `stewardship`      | Steward organizations, sustainability of institutional backing        |
+| `public_sector`    | Deployment in government or public-sector settings                    |
+| `accessibility`    | Conformance to accessibility standards (WCAG, etc.)                   |
+| `sustainability`   | Environmental and organizational sustainability signals               |
+| `security`         | Security policy, OpenSSF scorecard, advisory history                  |
 | `interoperability` | Standards alignment, API conformance, GovStack building block mapping |
-| `procurement` | Procurement readiness, TCO guidance, licensing clarity |
-| `community` | Contributor diversity, responsiveness, community governance |
-| `documentation` | Developer and user documentation quality and completeness |
+| `procurement`      | Procurement readiness, TCO guidance, licensing clarity                |
+| `community`        | Contributor diversity, responsiveness, community governance           |
+| `documentation`    | Developer and user documentation quality and completeness             |
 
 ### Key Characteristics
 
@@ -317,24 +317,24 @@ The DPI Atlas translates the Linaker & Muto framework into an operational eviden
 
 The table below maps each model against the main evaluation areas relevant to DPG and DPI contexts.
 
-| Evaluation Area | DPGA Maturity Indicators | CHAOSS Business Readiness | OpenSSF Scorecard | CII Best Practices | Linaker & Muto | GovStack BB | DPG Standard | DPI Atlas |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Governance | ✅ | — | — | ✅ | ✅ | — | ✅ (ownership) | ✅ |
-| Security | ✅ | ✅ (partial) | ✅ | ✅ | — | ✅ | ✅ | ✅ |
-| Licensing | ✅ (source access) | ✅ | ✅ | ✅ | ✅ | — | ✅ | ✅ |
-| Interoperability / Standards | ✅ | — | — | — | — | ✅ | ✅ | ✅ |
-| Community health | — | ✅ | ✅ (partial) | ✅ | ✅ | — | — | ✅ |
-| Code quality | — | ✅ | ✅ | ✅ | — | — | — | ✅ |
-| Documentation | ✅ (source access pillar) | — | ✅ (partial) | ✅ | — | ✅ | ✅ | ✅ |
-| Product strategy / Roadmap | ✅ | — | — | — | — | — | — | — |
-| Total cost of ownership | ✅ | — | — | — | — | — | — | ✅ (procurement) |
-| Composability / Architecture | ✅ | — | — | — | — | ✅ | ✅ (platform independence) | — |
-| Public sector deployment | — | — | — | — | ✅ | ✅ | ✅ | ✅ |
-| National/policy enablement | — | — | — | — | ✅ | — | — | — |
-| Sustainability (long-term) | — | ✅ (risk) | ✅ (maintained check) | — | ✅ | — | — | ✅ |
-| Accessibility | — | — | — | — | — | — | — | ✅ |
-| Automated measurement | — | ✅ | ✅ | Partial | — | Partial | — | Partial |
-| Self-assessment | ✅ | — | — | ✅ | — | — | ✅ | Manual curation |
+| Evaluation Area              | DPGA Maturity Indicators  | CHAOSS Business Readiness |   OpenSSF Scorecard   | CII Best Practices | Linaker & Muto | GovStack BB |        DPG Standard        |    DPI Atlas     |
+| ---------------------------- | :-----------------------: | :-----------------------: | :-------------------: | :----------------: | :------------: | :---------: | :------------------------: | :--------------: |
+| Governance                   |            ✅             |             —             |           —           |         ✅         |       ✅       |      —      |       ✅ (ownership)       |        ✅        |
+| Security                     |            ✅             |       ✅ (partial)        |          ✅           |         ✅         |       —        |     ✅      |             ✅             |        ✅        |
+| Licensing                    |    ✅ (source access)     |            ✅             |          ✅           |         ✅         |       ✅       |      —      |             ✅             |        ✅        |
+| Interoperability / Standards |            ✅             |             —             |           —           |         —          |       —        |     ✅      |             ✅             |        ✅        |
+| Community health             |             —             |            ✅             |     ✅ (partial)      |         ✅         |       ✅       |      —      |             —              |        ✅        |
+| Code quality                 |             —             |            ✅             |          ✅           |         ✅         |       —        |      —      |             —              |        ✅        |
+| Documentation                | ✅ (source access pillar) |             —             |     ✅ (partial)      |         ✅         |       —        |     ✅      |             ✅             |        ✅        |
+| Product strategy / Roadmap   |            ✅             |             —             |           —           |         —          |       —        |      —      |             —              |        —         |
+| Total cost of ownership      |            ✅             |             —             |           —           |         —          |       —        |      —      |             —              | ✅ (procurement) |
+| Composability / Architecture |            ✅             |             —             |           —           |         —          |       —        |     ✅      | ✅ (platform independence) |        —         |
+| Public sector deployment     |             —             |             —             |           —           |         —          |       ✅       |     ✅      |             ✅             |        ✅        |
+| National/policy enablement   |             —             |             —             |           —           |         —          |       ✅       |      —      |             —              |        —         |
+| Sustainability (long-term)   |             —             |         ✅ (risk)         | ✅ (maintained check) |         —          |       ✅       |      —      |             —              |        ✅        |
+| Accessibility                |             —             |             —             |           —           |         —          |       —        |      —      |             —              |        ✅        |
+| Automated measurement        |             —             |            ✅             |          ✅           |      Partial       |       —        |   Partial   |             —              |     Partial      |
+| Self-assessment              |            ✅             |             —             |           —           |         ✅         |       —        |      —      |             ✅             | Manual curation  |
 
 ---
 
@@ -346,7 +346,7 @@ Each framework has a different primary audience and theory of change. OpenSSF Sc
 
 ### The DPG Standard is a floor, not a ceiling
 
-DPG recognition via the DPG Standard confirms that a project is eligible to be considered a public good. The DPGA Maturity Indicators (and the DPI Atlas dimensions) go beyond that floor to assess *how mature and adoptable* the project actually is.
+DPG recognition via the DPG Standard confirms that a project is eligible to be considered a public good. The DPGA Maturity Indicators (and the DPI Atlas dimensions) go beyond that floor to assess _how mature and adoptable_ the project actually is.
 
 ### Quantitative and qualitative approaches are complementary
 
@@ -364,16 +364,16 @@ The DPGA DPG Maturity Indicators uniquely include TCO guidance and architectural
 
 ## Recommendations for Practitioners
 
-| If you need to… | Use… |
-|-----------------|-------|
-| Check if a project meets DPG eligibility | DPG Standard |
-| Deeply assess DPG maturity for adoption | DPGA DPG Maturity Indicators |
-| Monitor security posture continuously | OpenSSF Scorecard |
-| Demonstrate security best practices | CII Best Practices Badge |
-| Assess business/enterprise adoption risk | CHAOSS Business Readiness |
-| Evaluate government interoperability readiness | GovStack Building Block Specs |
-| Assess national-level OSS policy enablement | Linaker & Muto Indicators |
-| Compare DPI projects across multiple dimensions | DPI Atlas |
+| If you need to…                                 | Use…                          |
+| ----------------------------------------------- | ----------------------------- |
+| Check if a project meets DPG eligibility        | DPG Standard                  |
+| Deeply assess DPG maturity for adoption         | DPGA DPG Maturity Indicators  |
+| Monitor security posture continuously           | OpenSSF Scorecard             |
+| Demonstrate security best practices             | CII Best Practices Badge      |
+| Assess business/enterprise adoption risk        | CHAOSS Business Readiness     |
+| Evaluate government interoperability readiness  | GovStack Building Block Specs |
+| Assess national-level OSS policy enablement     | Linaker & Muto Indicators     |
+| Compare DPI projects across multiple dimensions | DPI Atlas                     |
 
 ---
 
