@@ -5,8 +5,8 @@
       "label": "Drupal",
       "type": "project",
       "category": "Government Platforms",
-      "maturity": "mature",
-      "activity": 88
+      "maturity": "growing",
+      "activity": 50
     },
     {
       "id": "mosip",
@@ -21,56 +21,56 @@
       "label": "DHIS2",
       "type": "project",
       "category": "Health Information",
-      "maturity": "mature",
-      "activity": 92
+      "maturity": "growing",
+      "activity": 50
     },
     {
       "id": "openmrs",
       "label": "OpenMRS",
       "type": "project",
       "category": "Health Information",
-      "maturity": "mature",
-      "activity": 79
+      "maturity": "growing",
+      "activity": 60
     },
     {
       "id": "openspp",
       "label": "OpenSPP",
       "type": "project",
       "category": "Social Protection",
-      "maturity": "growing",
-      "activity": 66
+      "maturity": "emerging",
+      "activity": 10
     },
     {
       "id": "ckan",
       "label": "CKAN",
       "type": "project",
       "category": "Open Government",
-      "maturity": "mature",
-      "activity": 76
+      "maturity": "growing",
+      "activity": 70
     },
     {
       "id": "dkan",
       "label": "DKAN",
       "type": "project",
       "category": "Open Government",
-      "maturity": "growing",
-      "activity": 61
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "mojaloop",
       "label": "Mojaloop",
       "type": "project",
       "category": "Financial Inclusion",
-      "maturity": "mature",
-      "activity": 80
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "x-road",
       "label": "X-Road",
       "type": "project",
       "category": "Interoperability",
-      "maturity": "mature",
-      "activity": 84
+      "maturity": "growing",
+      "activity": 50
     },
     {
       "id": "opencrvs",
@@ -78,23 +78,23 @@
       "type": "project",
       "category": "Civil Registration",
       "maturity": "growing",
-      "activity": 71
+      "activity": 75
     },
     {
       "id": "openimis",
       "label": "openIMIS",
       "type": "project",
       "category": "Health Financing",
-      "maturity": "growing",
-      "activity": 69
+      "maturity": "stagnant",
+      "activity": 10
     },
     {
       "id": "rapidpro",
       "label": "RapidPro",
       "type": "project",
       "category": "Citizen Engagement",
-      "maturity": "mature",
-      "activity": 83
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "bahmni",
@@ -109,8 +109,8 @@
       "label": "DIGIT",
       "type": "project",
       "category": "Government Platforms",
-      "maturity": "growing",
-      "activity": 77
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "sunbird",
@@ -125,8 +125,8 @@
       "label": "OpenG2P",
       "type": "project",
       "category": "Social Protection",
-      "maturity": "growing",
-      "activity": 68
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "openemis",
@@ -141,8 +141,8 @@
       "label": "OpenLMIS",
       "type": "project",
       "category": "Health Information",
-      "maturity": "mature",
-      "activity": 76
+      "maturity": "emerging",
+      "activity": 5
     },
     {
       "id": "sovereign-cloud-stack",
@@ -157,8 +157,8 @@
       "label": "Baserow",
       "type": "project",
       "category": "Digital Registries",
-      "maturity": "growing",
-      "activity": 73
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "mifos-payment-hub-ee",
@@ -173,39 +173,39 @@
       "label": "Camunda Platform",
       "type": "project",
       "category": "Workflow Automation",
-      "maturity": "mature",
-      "activity": 80
+      "maturity": "emerging",
+      "activity": 12
     },
     {
       "id": "diia-engine",
       "label": "Diia.Engine",
       "type": "project",
       "category": "Government Platforms",
-      "maturity": "growing",
-      "activity": 71
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "prozorro-sale",
       "label": "Prozorro.Sale",
       "type": "project",
       "category": "Public Procurement",
-      "maturity": "mature",
-      "activity": 73
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "odk",
       "label": "ODK",
       "type": "project",
       "category": "Data Collection",
-      "maturity": "mature",
-      "activity": 87
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "kobotoolbox",
       "label": "KoboToolbox",
       "type": "project",
       "category": "Data Collection",
-      "maturity": "mature",
+      "maturity": "growing",
       "activity": 75
     },
     {
@@ -221,40 +221,40 @@
       "label": "OpenSRP",
       "type": "project",
       "category": "Health Information",
-      "maturity": "growing",
-      "activity": 71
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "openfn",
       "label": "OpenFn",
       "type": "project",
       "category": "Interoperability",
-      "maturity": "growing",
-      "activity": 74
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "commcare",
       "label": "CommCare",
       "type": "project",
       "category": "Health Information",
-      "maturity": "mature",
-      "activity": 84
+      "maturity": "growing",
+      "activity": 50
     },
     {
       "id": "openelis-global",
       "label": "OpenELIS Global",
       "type": "project",
       "category": "Health Information",
-      "maturity": "growing",
-      "activity": 66
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "ushahidi",
       "label": "Ushahidi",
       "type": "project",
       "category": "Civic Technology",
-      "maturity": "mature",
-      "activity": 69
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "opentenure",
@@ -269,40 +269,40 @@
       "label": "Apache Fineract",
       "type": "project",
       "category": "Financial Inclusion",
-      "maturity": "mature",
-      "activity": 81
+      "maturity": "growing",
+      "activity": 70
     },
     {
       "id": "aam-digital",
       "label": "Aam Digital",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 83
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "accessible-kazakhstan",
       "label": "Accessible Kazakhstan",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 14
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "accessible-medical-records-via-integrated-technologies",
       "label": "Accessible Medical Records via Integrated Technologies",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 9
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "accessmod",
       "label": "AccessMod",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 8
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "advocacy-training-for-community-health-workers",
@@ -317,8 +317,8 @@
       "label": "African Storybook",
       "type": "project",
       "category": "Open Content",
-      "maturity": "mature",
-      "activity": 6
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "agris-open-data-set",
@@ -357,24 +357,24 @@
       "label": "Aid Management Platform",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 46
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "altinn",
       "label": "Altinn",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "android-fhir-sdk",
       "label": "Android FHIR SDK",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "avni",
@@ -390,7 +390,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 36
+      "activity": 35
     },
     {
       "id": "bisa-health",
@@ -405,32 +405,32 @@
       "label": "Boxtribute",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 55
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "camicroscope",
       "label": "caMicroscope",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "care",
       "label": "Care | Open Healthcare Network",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "cboard",
       "label": "Cboard",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "cfr",
@@ -445,16 +445,16 @@
       "label": "Chamilo",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "cider",
       "label": "Cider",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 14
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "ciel-terminology",
@@ -469,72 +469,72 @@
       "label": "CityLearn",
       "type": "project",
       "category": "Open AI System",
-      "maturity": "mature",
-      "activity": 23
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
-      "id": "climweb-httpsclimtechafricaclimweb",
+      "id": "climweb",
       "label": "ClimWeb",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 13
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "code-your-future",
       "label": "Code Your Future",
       "type": "project",
       "category": "Open Content",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "codecarbon",
       "label": "CodeCarbon",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "coditeach",
       "label": "CodiTeach",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "community-health-toolkit",
       "label": "Community Health Toolkit",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "comparia",
       "label": "Compar:IA",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "connect-for-life",
       "label": "Connect For Life",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 5
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "consul-democracy",
       "label": "Consul Democracy",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 65
     },
     {
       "id": "convexity-humanitarian-aid-transfer-solution-chats",
@@ -549,8 +549,8 @@
       "label": "cQube",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 26
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "creative-commons-legal-tools",
@@ -589,7 +589,7 @@
       "label": "Data Norge",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -597,8 +597,8 @@
       "label": "Data Observation Toolkit",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 12
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "data-to-policy-navigator",
@@ -613,32 +613,32 @@
       "label": "Database of Greek and Latin Conjectural Emendations Attested in MSS",
       "type": "project",
       "category": "Open Data",
-      "maturity": "mature",
-      "activity": 10
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "decidim",
       "label": "Decidim",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "deon",
       "label": "Deon",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 21
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "designsystemet",
       "label": "Designsystemet",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 87
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "provenance-services-with-smart-data-agreements-using-data-exchange-protocols",
@@ -653,8 +653,8 @@
       "label": "DiCRA",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 17
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "digital-impact-exchange",
@@ -677,24 +677,24 @@
       "label": "E-Heza",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 33
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "eco-index-biodiversity-dashboards",
       "label": "Eco-Index Biodiversity Dashboards",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "ekshop-marketplace",
       "label": "ekShop Marketplace",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 5
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "energy-access-explorer",
@@ -709,23 +709,23 @@
       "label": "epiCo",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 9
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "ersilia-model-hub",
       "label": "Ersilia Model Hub",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "everwell-hub",
       "label": "Everwell Hub",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -773,8 +773,8 @@
       "label": "FarmStack",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 24
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "fedora-linux",
@@ -789,24 +789,24 @@
       "label": "Feluda",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 44
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "finalsize",
       "label": "finalsize",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 15
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "ffqms-food-fortification-quality-management-system",
       "label": "Food Fortification Quality Management System",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 3
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "food-price-monitoring-and-analysis-fpma-tool",
@@ -821,8 +821,8 @@
       "label": "FormSG",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "fuss-free-upgrade-for-a-digitally-sustainable-school",
@@ -837,16 +837,16 @@
       "label": "GeoPrism Registry",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 17
+      "maturity": "stagnant",
+      "activity": 10
     },
     {
       "id": "ghost",
       "label": "Ghost",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "glific",
@@ -861,7 +861,7 @@
       "label": "Global Healthsites Mapping Project",
       "type": "project",
       "category": "Open Data",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -877,32 +877,32 @@
       "label": "Global Open Facility Registry",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 11
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "globaleaks",
       "label": "GlobaLeaks",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 89
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "godata",
       "label": "Go.Data",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 28
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "govdirectory",
       "label": "Govdirectory",
       "type": "project",
       "category": "Open Data",
-      "maturity": "mature",
-      "activity": 43
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "green-roads-toolkit",
@@ -933,8 +933,8 @@
       "label": "Harmony",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 8
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "hcw-at-home",
@@ -949,16 +949,16 @@
       "label": "Health Claims Data Exchange",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 21
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "hope-humanitarian-cash-operations-and-programme-ecosystem",
       "label": "HOPE",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "hot-tasking-manager",
@@ -973,8 +973,8 @@
       "label": "IASO",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 81
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "iati-data",
@@ -989,31 +989,31 @@
       "label": "if me",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "ihris",
       "label": "iHRIS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 20
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "immunization-calculation-engine",
       "label": "Immunization Calculation Engine",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 20
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "indonesian-phoneme-recognizer",
       "label": "Indonesian Phoneme Recognizer",
       "type": "project",
       "category": "Open AI System",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1029,80 +1029,80 @@
       "label": "Isomer",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 43
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "iverify",
       "label": "iVerify",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 20
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "ivttoken",
       "label": "IVTToken",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 3
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "janssen-project",
       "label": "Janssen Project",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "jellow-aac-communicator",
       "label": "Jellow AAC Communicator",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 11
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "jembi-master-patient-index",
       "label": "JemPI",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 26
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "joomla-joomla-content-management-system",
       "label": "Joomla CMS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "kindly",
       "label": "Kindly",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 18
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "kolibri",
       "label": "Kolibri",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "docs-collaborative-text-editing",
       "label": "LaSuite Docs",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "la-suite-drive-collaborative-file-sharing",
@@ -1117,8 +1117,8 @@
       "label": "LaSuite Meet",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 86
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "lei",
@@ -1157,23 +1157,23 @@
       "label": "linelist",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 14
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "magasin",
       "label": "magasin",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 60
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "mapbiomas-brazil",
       "label": "MapBiomas Brazil",
       "type": "project",
       "category": "Open Data",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1181,48 +1181,48 @@
       "label": "Marine Spatial Planning - SAHAV",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 5
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "mastodon",
       "label": "Mastodon",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "mautic",
       "label": "Mautic",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 75
     },
     {
       "id": "measuring-real-power-usage-of-software-applications",
       "label": "Measuring Real Power Usage of Software Applications",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 3
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "media-cloud",
       "label": "Media Cloud",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 13
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "medplat",
       "label": "MEDPlat",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 15
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "met-norway-weather-api",
@@ -1245,8 +1245,8 @@
       "label": "Mifos X",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "modular-open-source-identity-platform",
@@ -1269,32 +1269,32 @@
       "label": "MyChild HelpLine",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 4
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "national-carbon-credit-registry",
       "label": "National Carbon Credit Registry",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 53
+      "maturity": "stagnant",
+      "activity": 10
     },
     {
       "id": "nextcloud",
       "label": "Nextcloud Server",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "nise3-skills-and-certification",
       "label": "NiSE3 Skills and Certification",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 5
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "notesmaster",
@@ -1309,15 +1309,15 @@
       "label": "Oky",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 19
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "oobee",
       "label": "Oobee",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 25
     },
     {
@@ -1333,16 +1333,16 @@
       "label": "Open Contracting Portal",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 23
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "open-data-editor",
       "label": "Open Data Editor",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 27
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "open-food-facts",
@@ -1357,24 +1357,24 @@
       "label": "Open Health Stack",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "open-supply-hub",
       "label": "Open Supply Hub",
       "type": "project",
       "category": "Open Data",
-      "maturity": "mature",
-      "activity": 35
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "open-sustainable-technology",
       "label": "Open Sustainable Technology",
       "type": "project",
       "category": "Open Data",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "open-terms-archive",
@@ -1389,15 +1389,15 @@
       "label": "Open-Pryv.io",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 8
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "openchs",
       "label": "OpenCHS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1413,16 +1413,16 @@
       "label": "OpenEWS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 28
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "openeyes",
       "label": "OpenEyes",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "openfisca",
@@ -1437,8 +1437,8 @@
       "label": "OpenHexa",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 13
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "openmandriva-lx",
@@ -1453,16 +1453,16 @@
       "label": "OpenRIMS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 3
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "openrims-pv",
       "label": "OpenRIMS-PV",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 3
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "openstreetmap",
@@ -1517,16 +1517,16 @@
       "label": "Penpot",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "polis",
       "label": "Pol.is",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "potlock",
@@ -1541,7 +1541,7 @@
       "label": "PrepTime Analytics",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1549,31 +1549,31 @@
       "label": "PreSco: Neonatal Predictive Scoring Application and Platform",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "primero",
       "label": "Primero",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "prism",
       "label": "PRISM",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 56
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "product-catalog-management-tool",
       "label": "Product Catalog Management Tool",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1589,32 +1589,32 @@
       "label": "Project AEDES",
       "type": "project",
       "category": "Open AI System",
-      "maturity": "mature",
-      "activity": 6
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "prospect",
       "label": "Prospect",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 23
     },
     {
       "id": "qfield",
       "label": "QField",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 99
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "qgis",
       "label": "QGIS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "quantification-analytics-tool",
@@ -1637,24 +1637,24 @@
       "label": "Querido Diário",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "rahat",
       "label": "Rahat",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 54
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "register-for-organic-agriculture",
       "label": "Register for Organic Agriculture",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "rights-tracker",
@@ -1677,24 +1677,24 @@
       "label": "Rural Environmental Registry Registration Module",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "safe-you",
       "label": "Safe YOU",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 8
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "santesuite",
       "label": "SanteSuite",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 17
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "sentinel-2-10m-land-useland-cover-time-series",
@@ -1709,16 +1709,16 @@
       "label": "Simple",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 59
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "simpleaudit",
       "label": "SimpleAudit",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 6
+      "maturity": "stagnant",
+      "activity": 10
     },
     {
       "id": "software-heritage",
@@ -1749,8 +1749,8 @@
       "label": "Statbus",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 62
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "storyweaver",
@@ -1765,64 +1765,64 @@
       "label": "Sunbird Lern",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "sunbird-rc",
       "label": "Sunbird RC",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 68
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "sunbird-saral",
       "label": "Sunbird Saral",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 20
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "sunbird-serve",
       "label": "Sunbird SERVE",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 2
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "surveillance-outbreak-response-management-and-analysis-system",
       "label": "Surveillance Outbreak Response Management and Analysis System",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 60
     },
     {
       "id": "suse-linux-enterprise-server",
       "label": "SUSE Linux Enterprise Server",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "syft",
       "label": "Syft",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "synthea",
       "label": "Synthea",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "stagnant",
+      "activity": 15
     },
     {
       "id": "tazama",
@@ -1837,7 +1837,7 @@
       "label": "The Land Portal",
       "type": "project",
       "category": "Open Content",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1845,16 +1845,16 @@
       "label": "The Turing Way",
       "type": "project",
       "category": "Open Content",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "tor-browser",
       "label": "Tor Browser",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 23
     },
     {
       "id": "torkel-opsahl-academic-epublisher",
@@ -1869,16 +1869,16 @@
       "label": "TradeTrust",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 38
+      "maturity": "stagnant",
+      "activity": 15
     },
     {
       "id": "trubudget",
       "label": "TruBudget",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 59
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "truenas",
@@ -1893,16 +1893,16 @@
       "label": "TYPO3",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "uli",
       "label": "Uli",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 33
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "unido-industrial-analytics-platform",
@@ -1917,31 +1917,31 @@
       "label": "UPYOG",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "emerging",
+      "activity": 60
     },
     {
       "id": "urbanpy",
       "label": "UrbanPy",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 11
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "uwazi",
       "label": "Uwazi",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 84
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "vaccineledger",
       "label": "VaccineLedger",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1957,8 +1957,8 @@
       "label": "Vxnaid",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 6
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "wapor",
@@ -1997,15 +1997,15 @@
       "label": "WSO2 Identity Server",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 100
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "xcapit",
       "label": "Xcapit",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -2013,8 +2013,96 @@
       "label": "Zamba",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 23
+      "maturity": "abandoned",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-jquery",
+      "label": "jQuery",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-php",
+      "label": "PHP",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-apache",
+      "label": "Apache",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-bootstrap",
+      "label": "Bootstrap",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-mysql",
+      "label": "MySQL",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-wordpress",
+      "label": "WordPress",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-nginx",
+      "label": "Nginx",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-jquery-migrate",
+      "label": "jQuery Migrate",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-jquery-ui",
+      "label": "jQuery UI",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-drupal",
+      "label": "Drupal",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
+    },
+    {
+      "id": "gov-scan-yoast-seo",
+      "label": "Yoast SEO",
+      "type": "project",
+      "category": "Government OSS",
+      "maturity": "emerging",
+      "activity": 0
     },
     {
       "id": "drupal-association",
@@ -3702,6 +3790,13 @@
       "type": "organization",
       "org_type": "private",
       "country": "Spain"
+    },
+    {
+      "id": "gov-scan-source-eu-gov-scans",
+      "label": "EU Plus Government Scans – Technology License Data",
+      "type": "organization",
+      "org_type": "scan-source",
+      "country": "Unknown"
     }
   ],
   "edges": [

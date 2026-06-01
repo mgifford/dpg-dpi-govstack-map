@@ -251,7 +251,13 @@
         "org_type": "nonprofit",
         "country": "India",
         "city": "Bengaluru",
-        "associated_projects": ["sunbird", "cqube", "sunbird-lern", "sunbird-rc", "sunbird-saral"],
+        "associated_projects": [
+          "sunbird",
+          "cqube",
+          "sunbird-lern",
+          "sunbird-rc",
+          "sunbird-saral"
+        ],
         "popup_label": "EkStep Foundation — Bengaluru, India",
         "popup_detail": "Projects: Sunbird, cQube, Sunbird Lern, Sunbird RC, Sunbird Saral"
       }
