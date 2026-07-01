@@ -94,7 +94,7 @@
       "type": "project",
       "category": "Citizen Engagement",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 4
     },
     {
       "id": "bahmni",
@@ -157,8 +157,8 @@
       "label": "Baserow",
       "type": "project",
       "category": "Digital Registries",
-      "maturity": "emerging",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "mifos-payment-hub-ee",
@@ -174,7 +174,7 @@
       "type": "project",
       "category": "Workflow Automation",
       "maturity": "emerging",
-      "activity": 12
+      "activity": 9
     },
     {
       "id": "diia-engine",
@@ -302,7 +302,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 25
     },
     {
       "id": "advocacy-training-for-community-health-workers",
@@ -358,7 +358,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "emerging",
-      "activity": 50
+      "activity": 55
     },
     {
       "id": "altinn",
@@ -390,7 +390,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 35
+      "activity": 34
     },
     {
       "id": "bisa-health",
@@ -413,16 +413,16 @@
       "label": "caMicroscope",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 5
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "care",
       "label": "Care | Open Healthcare Network",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "cboard",
@@ -517,8 +517,8 @@
       "label": "Compar:IA",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "connect-for-life",
@@ -534,7 +534,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "emerging",
-      "activity": 65
+      "activity": 70
     },
     {
       "id": "convexity-humanitarian-aid-transfer-solution-chats",
@@ -697,6 +697,14 @@
       "activity": 0
     },
     {
+      "id": "element",
+      "label": "Element",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "growing",
+      "activity": 75
+    },
+    {
       "id": "energy-access-explorer",
       "label": "Energy Access Explorer",
       "type": "project",
@@ -801,6 +809,14 @@
       "activity": 0
     },
     {
+      "id": "fireform",
+      "label": "FireForm",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 10
+    },
+    {
       "id": "ffqms-food-fortification-quality-management-system",
       "label": "Food Fortification Quality Management System",
       "type": "project",
@@ -854,7 +870,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 64
+      "activity": 66
     },
     {
       "id": "global-healthsites-mapping-project",
@@ -1005,7 +1021,7 @@
       "label": "Immunization Calculation Engine",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
+      "maturity": "emerging",
       "activity": 25
     },
     {
@@ -1022,7 +1038,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 17
+      "activity": 18
     },
     {
       "id": "isomer",
@@ -1101,8 +1117,8 @@
       "label": "LaSuite Docs",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "la-suite-drive-collaborative-file-sharing",
@@ -1110,7 +1126,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 55
+      "activity": 59
     },
     {
       "id": "la-suite-meet-simple-video-conferencing",
@@ -1150,15 +1166,15 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 88
+      "activity": 92
     },
     {
       "id": "linelist",
       "label": "linelist",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 5
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "magasin",
@@ -1278,7 +1294,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 10
+      "activity": 5
     },
     {
       "id": "nextcloud",
@@ -1358,7 +1374,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 14
     },
     {
       "id": "open-supply-hub",
@@ -1397,7 +1413,7 @@
       "label": "OpenCHS",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
+      "maturity": "abandoned",
       "activity": 0
     },
     {
@@ -1478,7 +1494,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 27
+      "activity": 28
     },
     {
       "id": "orthanc",
@@ -1497,7 +1513,7 @@
       "activity": 0
     },
     {
-      "id": "ozone-the-instant-health-information-system",
+      "id": "ozone-his",
       "label": "Ozone",
       "type": "project",
       "category": "Open Software",
@@ -1622,7 +1638,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 0
+      "activity": 32
     },
     {
       "id": "quarkid",
@@ -1709,7 +1725,7 @@
       "label": "Simple",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1718,7 +1734,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 10
+      "activity": 15
     },
     {
       "id": "software-heritage",
@@ -1813,8 +1829,8 @@
       "label": "Syft",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 50
     },
     {
       "id": "synthea",
@@ -1886,7 +1902,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 26
+      "activity": 23
     },
     {
       "id": "typo3",
@@ -2001,20 +2017,12 @@
       "activity": 75
     },
     {
-      "id": "xcapit",
-      "label": "Xcapit",
-      "type": "project",
-      "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 0
-    },
-    {
       "id": "zamba",
       "label": "Zamba",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "stagnant",
+      "activity": 15
     },
     {
       "id": "gov-scan-jquery",
@@ -2637,8 +2645,8 @@
       "country": "United States of America"
     },
     {
-      "id": "blockster-labs-private-limited",
-      "label": "Blockster Labs Private Limited",
+      "id": "ayanworks",
+      "label": "AYANWORKS",
       "type": "organization",
       "org_type": "private",
       "country": "India"
@@ -2763,6 +2771,13 @@
       "country": "New Zealand"
     },
     {
+      "id": "element-creations-ltd",
+      "label": "Element Creations Ltd",
+      "type": "organization",
+      "org_type": "private",
+      "country": "United Kingdom"
+    },
+    {
       "id": "world-resources-institute",
       "label": "World Resources Institute",
       "type": "organization",
@@ -2824,6 +2839,13 @@
       "type": "organization",
       "org_type": "private",
       "country": "India"
+    },
+    {
+      "id": "accountable-entity-the-intellectual-property-and-copyright-of-the-software-code-and-content-are-owned-by-the-original-core-creators-juan-lvarez-s-nchez-manuel-carriedo-garrido-vincent-harkins-marc-verg-s-and-jan-sans",
+      "label": "Accountable Entity: The intellectual property and copyright of the software code and content are owned by the original core creators: Juan Álvarez Sánchez, Manuel Carriedo Garrido, Vincent Harkins, Marc Vergés, and Jan Sans.",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
     },
     {
       "id": "path",
@@ -3783,13 +3805,6 @@
       "type": "organization",
       "org_type": "ngo non profit",
       "country": "Estonia"
-    },
-    {
-      "id": "xcapit",
-      "label": "Xcapit",
-      "type": "organization",
-      "org_type": "private",
-      "country": "Spain"
     },
     {
       "id": "gov-scan-source-eu-gov-scans",
