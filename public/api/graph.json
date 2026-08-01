@@ -157,8 +157,8 @@
       "label": "Baserow",
       "type": "project",
       "category": "Digital Registries",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "mifos-payment-hub-ee",
@@ -174,7 +174,7 @@
       "type": "project",
       "category": "Workflow Automation",
       "maturity": "emerging",
-      "activity": 9
+      "activity": 6
     },
     {
       "id": "diia-engine",
@@ -270,7 +270,7 @@
       "type": "project",
       "category": "Financial Inclusion",
       "maturity": "growing",
-      "activity": 70
+      "activity": 65
     },
     {
       "id": "aam-digital",
@@ -390,7 +390,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 34
+      "activity": 33
     },
     {
       "id": "bisa-health",
@@ -421,8 +421,8 @@
       "label": "Care | Open Healthcare Network",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 50
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "cboard",
@@ -517,8 +517,16 @@
       "label": "Compar:IA",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 50
+      "maturity": "abandoned",
+      "activity": 0
+    },
+    {
+      "id": "comparia-datatsets",
+      "label": "Compar:IA Datatsets",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
     },
     {
       "id": "connect-for-life",
@@ -665,6 +673,14 @@
       "activity": 0
     },
     {
+      "id": "docs-collaborative-text-editing",
+      "label": "Docs - Collaborative Text Editing",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 25
+    },
+    {
       "id": "doptor-open-data",
       "label": "Doptor Open Data",
       "type": "project",
@@ -725,8 +741,8 @@
       "label": "Ersilia Model Hub",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "everwell-hub",
@@ -870,7 +886,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 66
+      "activity": 67
     },
     {
       "id": "global-healthsites-mapping-project",
@@ -898,7 +914,7 @@
     },
     {
       "id": "globaleaks",
-      "label": "GlobaLeaks",
+      "label": "GLOBALEAKS",
       "type": "project",
       "category": "Open Software",
       "maturity": "growing",
@@ -1113,14 +1129,6 @@
       "activity": 75
     },
     {
-      "id": "docs-collaborative-text-editing",
-      "label": "LaSuite Docs",
-      "type": "project",
-      "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
-    },
-    {
       "id": "la-suite-drive-collaborative-file-sharing",
       "label": "LaSuite Drive",
       "type": "project",
@@ -1166,7 +1174,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 92
+      "activity": 99
     },
     {
       "id": "linelist",
@@ -1294,7 +1302,15 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 3
+    },
+    {
+      "id": "neotree",
+      "label": "neotree",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "nextcloud",
@@ -1374,7 +1390,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 14
+      "activity": 13
     },
     {
       "id": "open-supply-hub",
@@ -1637,8 +1653,8 @@
       "label": "Quantification Analytics Tool",
       "type": "project",
       "category": "Open Software",
-      "maturity": "mature",
-      "activity": 32
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "quarkid",
@@ -1662,14 +1678,6 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "abandoned",
-      "activity": 0
-    },
-    {
-      "id": "register-for-organic-agriculture",
-      "label": "Register for Organic Agriculture",
-      "type": "project",
-      "category": "Open Software",
-      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1725,7 +1733,7 @@
       "label": "Simple",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
+      "maturity": "abandoned",
       "activity": 0
     },
     {
@@ -1734,7 +1742,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 15
+      "activity": 20
     },
     {
       "id": "software-heritage",
@@ -1765,8 +1773,8 @@
       "label": "Statbus",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "storyweaver",
@@ -1777,20 +1785,28 @@
       "activity": 0
     },
     {
+      "id": "register-for-organic-agriculture",
+      "label": "Sunbird",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 0
+    },
+    {
       "id": "sunbird-lern",
       "label": "Sunbird Lern",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 25
+      "maturity": "mature",
+      "activity": 0
     },
     {
       "id": "sunbird-rc",
       "label": "Sunbird RC",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "sunbird-saral",
@@ -1837,8 +1853,16 @@
       "label": "Synthea",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 15
+      "maturity": "emerging",
+      "activity": 34
+    },
+    {
+      "id": "syspin",
+      "label": "SYSPIN",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
     },
     {
       "id": "tazama",
@@ -1847,6 +1871,14 @@
       "category": "Open Software",
       "maturity": "mature",
       "activity": 0
+    },
+    {
+      "id": "the-climate-action-data-trust",
+      "label": "The Climate Action Data Trust",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "the-land-portal",
@@ -1882,11 +1914,11 @@
     },
     {
       "id": "trade-trust",
-      "label": "TradeTrust",
+      "label": "Trade Trust",
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 15
+      "activity": 10
     },
     {
       "id": "trubudget",
@@ -1902,7 +1934,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 23
+      "activity": 19
     },
     {
       "id": "typo3",
@@ -2617,6 +2649,13 @@
       "country": "France"
     },
     {
+      "id": "ministry-of-culture-france",
+      "label": "Ministry of Culture - France",
+      "type": "organization",
+      "org_type": "government",
+      "country": "France"
+    },
+    {
       "id": "janssen-pharmaceutica-nv-a-company-of-johnson-johnson",
       "label": "Janssen Pharmaceutica NV. (A company of Johnson & Johnson)",
       "type": "organization",
@@ -2743,6 +2782,13 @@
       "country": "United States of America"
     },
     {
+      "id": "direction-interminist-rielle-du-num-rique-dinum",
+      "label": "Direction Interministérielle du Numérique (DINUM)",
+      "type": "organization",
+      "org_type": "government",
+      "country": "France"
+    },
+    {
       "id": "aspire-to-innovate-a2i-programme-a-multinational-digital-transformation-catalyst-from-the-government-of-bangladesh",
       "label": "Aspire to Innovate (a2i) Programme (A Multinational Digital Transformation Catalyst from the Government of Bangladesh)",
       "type": "organization",
@@ -2806,10 +2852,10 @@
       "country": "India"
     },
     {
-      "id": "food-and-agriculture-organization-of-the-united-nations",
-      "label": "Food and Agriculture Organization of the United Nations",
+      "id": "un-fao",
+      "label": "UN FAO",
       "type": "organization",
-      "org_type": "multilateral",
+      "org_type": "ngo non profit",
       "country": "Italy"
     },
     {
@@ -2855,6 +2901,13 @@
       "country": "India"
     },
     {
+      "id": "food-and-agriculture-organization-of-the-united-nations",
+      "label": "Food and Agriculture Organization of the United Nations",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Italy"
+    },
+    {
       "id": "open-government-products-government-technology-agency-of-singapore",
       "label": "Open Government Products, Government Technology Agency of Singapore",
       "type": "organization",
@@ -2894,7 +2947,7 @@
       "label": "European Commission",
       "type": "organization",
       "org_type": "multilateral",
-      "country": "Italy"
+      "country": "Belgium"
     },
     {
       "id": "intrahealth-international",
@@ -2904,8 +2957,8 @@
       "country": "United States of America"
     },
     {
-      "id": "globaleaks",
-      "label": "GlobaLeaks",
+      "id": "whistleblowing-solutions-impresa-sociale-s-r-l",
+      "label": "Whistleblowing Solutions Impresa Sociale S.r.l.",
       "type": "organization",
       "org_type": "ngo non profit",
       "country": "Italy"
@@ -2921,8 +2974,8 @@
       "id": "govdirectory",
       "label": "Govdirectory",
       "type": "organization",
-      "org_type": "unknown",
-      "country": "United States of America"
+      "org_type": "other",
+      "country": "Sweden"
     },
     {
       "id": "asian-development-bank",
@@ -3065,13 +3118,6 @@
       "country": "United States of America"
     },
     {
-      "id": "direction-interminist-rielle-du-num-rique-dinum",
-      "label": "Direction Interministérielle du Numérique (DINUM)",
-      "type": "organization",
-      "org_type": "government",
-      "country": "France"
-    },
-    {
       "id": "global-legal-entity-identifier-foundation",
       "label": "Global Legal Entity Identifier Foundation",
       "type": "organization",
@@ -3196,6 +3242,13 @@
       "type": "organization",
       "org_type": "multilateral",
       "country": "Barbados"
+    },
+    {
+      "id": "the-neotree-charity",
+      "label": "The Neotree Charity",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United Kingdom"
     },
     {
       "id": "nextcloud-gmbh",
@@ -3534,13 +3587,6 @@
       "country": "United States of America"
     },
     {
-      "id": "organika-association",
-      "label": "ORGANIKA Association",
-      "type": "organization",
-      "org_type": "ngo non profit",
-      "country": "Kosovo"
-    },
-    {
       "id": "human-rights-measurement-initiative-charitable-trust",
       "label": "Human Rights Measurement Initiative Charitable Trust",
       "type": "organization",
@@ -3576,8 +3622,8 @@
       "country": "Canada"
     },
     {
-      "id": "impact-observatory",
-      "label": "Impact Observatory",
+      "id": "impact-observatory-inc",
+      "label": "Impact Observatory Inc.",
       "type": "organization",
       "org_type": "private",
       "country": "United States of America"
@@ -3625,6 +3671,13 @@
       "country": "India"
     },
     {
+      "id": "organika-association",
+      "label": "ORGANIKA Association",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Kosovo"
+    },
+    {
       "id": "evean-foundation",
       "label": "eVean Foundation",
       "type": "organization",
@@ -3660,11 +3713,25 @@
       "country": "United States of America"
     },
     {
+      "id": "indian-institute-of-science-iisc-bangalore",
+      "label": "Indian Institute of Science (IISc), Bangalore",
+      "type": "organization",
+      "org_type": "academic",
+      "country": "India"
+    },
+    {
       "id": "the-linux-foundation",
       "label": "The Linux Foundation",
       "type": "organization",
       "org_type": "ngo non profit",
       "country": "United Kingdom"
+    },
+    {
+      "id": "climate-action-data-trust-ltd",
+      "label": "Climate Action Data Trust Ltd",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Singapore"
     },
     {
       "id": "stiching-the-land-portal-land-portal-foundation",
