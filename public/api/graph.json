@@ -30,15 +30,15 @@
       "type": "project",
       "category": "Health Information",
       "maturity": "growing",
-      "activity": 60
+      "activity": 55
     },
     {
       "id": "openspp",
       "label": "OpenSPP",
       "type": "project",
       "category": "Social Protection",
-      "maturity": "emerging",
-      "activity": 10
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "ckan",
@@ -46,7 +46,7 @@
       "type": "project",
       "category": "Open Government",
       "maturity": "growing",
-      "activity": 70
+      "activity": 75
     },
     {
       "id": "dkan",
@@ -157,8 +157,8 @@
       "label": "Baserow",
       "type": "project",
       "category": "Digital Registries",
-      "maturity": "emerging",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "mifos-payment-hub-ee",
@@ -173,8 +173,8 @@
       "label": "Camunda Platform",
       "type": "project",
       "category": "Workflow Automation",
-      "maturity": "emerging",
-      "activity": 6
+      "maturity": "stagnant",
+      "activity": 2
     },
     {
       "id": "diia-engine",
@@ -390,7 +390,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 33
+      "activity": 32
     },
     {
       "id": "bisa-health",
@@ -413,8 +413,8 @@
       "label": "caMicroscope",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "care",
@@ -470,7 +470,7 @@
       "type": "project",
       "category": "Open AI System",
       "maturity": "stagnant",
-      "activity": 25
+      "activity": 15
     },
     {
       "id": "climweb",
@@ -493,8 +493,8 @@
       "label": "CodeCarbon",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "coditeach",
@@ -629,8 +629,8 @@
       "label": "Decidim",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "deon",
@@ -677,8 +677,8 @@
       "label": "Docs - Collaborative Text Editing",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "doptor-open-data",
@@ -741,8 +741,8 @@
       "label": "Ersilia Model Hub",
       "type": "project",
       "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "emerging",
+      "activity": 66
     },
     {
       "id": "everwell-hub",
@@ -1174,7 +1174,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 99
+      "activity": 100
     },
     {
       "id": "linelist",
@@ -1301,8 +1301,8 @@
       "label": "National Carbon Credit Registry",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 3
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "neotree",
@@ -1374,7 +1374,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 25
+      "activity": 20
     },
     {
       "id": "open-food-facts",
@@ -1453,8 +1453,8 @@
       "label": "OpenEyes",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "stagnant",
+      "activity": 6
     },
     {
       "id": "openfisca",
@@ -1733,7 +1733,7 @@
       "label": "Simple",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -1742,7 +1742,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 20
+      "activity": 25
     },
     {
       "id": "software-heritage",
@@ -1806,7 +1806,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 10
     },
     {
       "id": "sunbird-saral",
@@ -1853,8 +1853,8 @@
       "label": "Synthea",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 34
+      "maturity": "stagnant",
+      "activity": 15
     },
     {
       "id": "syspin",
@@ -1917,8 +1917,8 @@
       "label": "Trade Trust",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 10
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "trubudget",
@@ -1934,7 +1934,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 19
+      "activity": 17
     },
     {
       "id": "typo3",

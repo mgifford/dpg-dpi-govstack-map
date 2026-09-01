@@ -68183,7 +68183,7 @@
       "name": "OpenSPP",
       "category": "Social Protection",
       "project_type": "GovTech",
-      "maturity_level": "emerging"
+      "maturity_level": "stagnant"
     },
     "ckan": {
       "name": "CKAN",
@@ -68273,7 +68273,7 @@
       "name": "Baserow",
       "category": "Digital Registries",
       "project_type": "GovTech",
-      "maturity_level": "emerging"
+      "maturity_level": "growing"
     },
     "mifos-payment-hub-ee": {
       "name": "Mifos Payment Hub Enterprise Edition",
@@ -68285,7 +68285,7 @@
       "name": "Camunda Platform",
       "category": "Workflow Automation",
       "project_type": "GovTech",
-      "maturity_level": "emerging"
+      "maturity_level": "stagnant"
     },
     "diia-engine": {
       "name": "Diia.Engine",
@@ -68465,7 +68465,7 @@
       "name": "caMicroscope",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "abandoned"
+      "maturity_level": "stagnant"
     },
     "care": {
       "name": "Care | Open Healthcare Network",
@@ -68525,7 +68525,7 @@
       "name": "CodeCarbon",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "stagnant"
+      "maturity_level": "growing"
     },
     "coditeach": {
       "name": "CodiTeach",
@@ -68627,7 +68627,7 @@
       "name": "Decidim",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "stagnant"
+      "maturity_level": "growing"
     },
     "deon": {
       "name": "Deon",
@@ -68663,7 +68663,7 @@
       "name": "Docs - Collaborative Text Editing",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "stagnant"
+      "maturity_level": "growing"
     },
     "doptor-open-data": {
       "name": "Doptor Open Data",
@@ -68711,7 +68711,7 @@
       "name": "Ersilia Model Hub",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "growing"
+      "maturity_level": "emerging"
     },
     "everwell-hub": {
       "name": "Everwell Hub",
@@ -69131,7 +69131,7 @@
       "name": "National Carbon Credit Registry",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "stagnant"
+      "maturity_level": "abandoned"
     },
     "neotree": {
       "name": "neotree",
@@ -69245,7 +69245,7 @@
       "name": "OpenEyes",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "abandoned"
+      "maturity_level": "stagnant"
     },
     "openfisca": {
       "name": "OpenFisca",
@@ -69455,7 +69455,7 @@
       "name": "Simple",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "abandoned"
+      "maturity_level": "stagnant"
     },
     "simpleaudit": {
       "name": "SimpleAudit",
@@ -69545,7 +69545,7 @@
       "name": "Synthea",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "emerging"
+      "maturity_level": "stagnant"
     },
     "syspin": {
       "name": "SYSPIN",
@@ -69593,7 +69593,7 @@
       "name": "Trade Trust",
       "category": "Open Software",
       "project_type": "DPG",
-      "maturity_level": "stagnant"
+      "maturity_level": "emerging"
     },
     "trubudget": {
       "name": "TruBudget",
