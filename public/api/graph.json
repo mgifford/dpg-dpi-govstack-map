@@ -30,7 +30,7 @@
       "type": "project",
       "category": "Health Information",
       "maturity": "growing",
-      "activity": 55
+      "activity": 50
     },
     {
       "id": "openspp",
@@ -142,7 +142,7 @@
       "type": "project",
       "category": "Health Information",
       "maturity": "emerging",
-      "activity": 5
+      "activity": 10
     },
     {
       "id": "sovereign-cloud-stack",
@@ -157,8 +157,8 @@
       "label": "Baserow",
       "type": "project",
       "category": "Digital Registries",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "emerging",
+      "activity": 25
     },
     {
       "id": "mifos-payment-hub-ee",
@@ -174,7 +174,7 @@
       "type": "project",
       "category": "Workflow Automation",
       "maturity": "stagnant",
-      "activity": 2
+      "activity": 0
     },
     {
       "id": "diia-engine",
@@ -321,6 +321,14 @@
       "activity": 0
     },
     {
+      "id": "agrios",
+      "label": "AgriOS",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 0
+    },
+    {
       "id": "agris-open-data-set",
       "label": "AGRIS Open Data Set",
       "type": "project",
@@ -390,7 +398,15 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 32
+      "activity": 30
+    },
+    {
+      "id": "biomass-prediction-model",
+      "label": "Biomass Prediction Model",
+      "type": "project",
+      "category": "Open AI System",
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "bisa-health",
@@ -429,8 +445,8 @@
       "label": "Cboard",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "cfr",
@@ -453,7 +469,7 @@
       "label": "Cider",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
+      "maturity": "stagnant",
       "activity": 0
     },
     {
@@ -468,9 +484,9 @@
       "id": "citylearn",
       "label": "CityLearn",
       "type": "project",
-      "category": "Open AI System",
+      "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 15
+      "activity": 25
     },
     {
       "id": "climweb",
@@ -541,8 +557,8 @@
       "label": "Consul Democracy",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 70
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "convexity-humanitarian-aid-transfer-solution-chats",
@@ -566,7 +582,7 @@
       "type": "project",
       "category": "Open Content",
       "maturity": "mature",
-      "activity": 45
+      "activity": 47
     },
     {
       "id": "credebl",
@@ -629,8 +645,8 @@
       "label": "Decidim",
       "type": "project",
       "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "deon",
@@ -677,8 +693,8 @@
       "label": "Docs - Collaborative Text Editing",
       "type": "project",
       "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "doptor-open-data",
@@ -741,8 +757,8 @@
       "label": "Ersilia Model Hub",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 66
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "everwell-hub",
@@ -813,8 +829,8 @@
       "label": "Feluda",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
-      "activity": 5
+      "maturity": "abandoned",
+      "activity": 0
     },
     {
       "id": "finalsize",
@@ -865,6 +881,14 @@
       "activity": 0
     },
     {
+      "id": "gdevelop",
+      "label": "GDevelop",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "growing",
+      "activity": 75
+    },
+    {
       "id": "geoprism-registry",
       "label": "GeoPrism Registry",
       "type": "project",
@@ -886,7 +910,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 67
+      "activity": 69
     },
     {
       "id": "global-healthsites-mapping-project",
@@ -1044,7 +1068,7 @@
       "id": "indonesian-phoneme-recognizer",
       "label": "Indonesian Phoneme Recognizer",
       "type": "project",
-      "category": "Open AI System",
+      "category": "Open Software",
       "maturity": "stagnant",
       "activity": 0
     },
@@ -1054,7 +1078,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 18
+      "activity": 20
     },
     {
       "id": "isomer",
@@ -1134,7 +1158,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 59
+      "activity": 63
     },
     {
       "id": "la-suite-meet-simple-video-conferencing",
@@ -1182,6 +1206,14 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "abandoned",
+      "activity": 0
+    },
+    {
+      "id": "localgov-drupal",
+      "label": "LocalGov Drupal",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "mature",
       "activity": 0
     },
     {
@@ -1269,8 +1301,8 @@
       "label": "Mifos X",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
-      "activity": 25
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "modular-open-source-identity-platform",
@@ -1301,8 +1333,8 @@
       "label": "National Carbon Credit Registry",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 55
     },
     {
       "id": "neotree",
@@ -1341,8 +1373,8 @@
       "label": "Oky",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "stagnant",
+      "activity": 5
     },
     {
       "id": "oobee",
@@ -1374,7 +1406,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 20
+      "activity": 10
     },
     {
       "id": "open-food-facts",
@@ -1462,7 +1494,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 72
+      "activity": 74
     },
     {
       "id": "openhexa",
@@ -1553,6 +1585,14 @@
       "activity": 75
     },
     {
+      "id": "pix",
+      "label": "Pix",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "growing",
+      "activity": 75
+    },
+    {
       "id": "polis",
       "label": "Pol.is",
       "type": "project",
@@ -1620,7 +1660,7 @@
       "id": "project-aedes",
       "label": "Project AEDES",
       "type": "project",
-      "category": "Open AI System",
+      "category": "Open Software",
       "maturity": "stagnant",
       "activity": 0
     },
@@ -1671,6 +1711,14 @@
       "category": "Open Software",
       "maturity": "abandoned",
       "activity": 0
+    },
+    {
+      "id": "rafiki",
+      "label": "Rafiki",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "rahat",
@@ -1733,7 +1781,7 @@
       "label": "Simple",
       "type": "project",
       "category": "Open Software",
-      "maturity": "stagnant",
+      "maturity": "abandoned",
       "activity": 0
     },
     {
@@ -1743,6 +1791,14 @@
       "category": "Open Software",
       "maturity": "stagnant",
       "activity": 25
+    },
+    {
+      "id": "smile",
+      "label": "SMILE",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "stagnant",
+      "activity": 0
     },
     {
       "id": "software-heritage",
@@ -1849,6 +1905,14 @@
       "activity": 50
     },
     {
+      "id": "synth",
+      "label": "SYNTH",
+      "type": "project",
+      "category": "Open Data",
+      "maturity": "mature",
+      "activity": 0
+    },
+    {
       "id": "synthea",
       "label": "Synthea",
       "type": "project",
@@ -1877,8 +1941,8 @@
       "label": "The Climate Action Data Trust",
       "type": "project",
       "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "the-land-portal",
@@ -1934,7 +1998,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 17
+      "activity": 37
     },
     {
       "id": "typo3",
@@ -2474,6 +2538,13 @@
       "country": "South Africa"
     },
     {
+      "id": "advance-insight",
+      "label": "Advance Insight",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Netherlands"
+    },
+    {
       "id": "food-and-agriculture-organization-of-the-united-nations-fao",
       "label": "Food and Agriculture Organization of the United Nations (FAO)",
       "type": "organization",
@@ -2528,6 +2599,13 @@
       "type": "organization",
       "org_type": "multilateral",
       "country": "United States of America"
+    },
+    {
+      "id": "vertify-earth",
+      "label": "Vertify.earth",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Switzerland"
     },
     {
       "id": "bisa-health",
@@ -2922,6 +3000,13 @@
       "country": "Italy"
     },
     {
+      "id": "gdevelop-ltd",
+      "label": "GDevelop LTD.",
+      "type": "organization",
+      "org_type": "private",
+      "country": "Canada"
+    },
+    {
       "id": "terraframe-inc",
       "label": "TerraFrame, Inc.",
       "type": "organization",
@@ -3107,8 +3192,8 @@
       "id": "kobo-inc",
       "label": "Kobo, Inc",
       "type": "organization",
-      "org_type": "private",
-      "country": "Canada"
+      "org_type": "ngo non profit",
+      "country": "United States of America"
     },
     {
       "id": "learning-equality",
@@ -3151,6 +3236,13 @@
       "type": "organization",
       "org_type": "ngo non profit",
       "country": "United States of America"
+    },
+    {
+      "id": "open-digital-cooperative",
+      "label": "Open Digital Cooperative",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Unknown"
     },
     {
       "id": "unicef-united-nations-children-s-fund",
@@ -3475,6 +3567,13 @@
       "country": "Spain"
     },
     {
+      "id": "groupement-int-r-t-public-pix",
+      "label": "Groupement Intérêt Public Pix",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "France"
+    },
+    {
       "id": "math-democracy",
       "label": "Math & Democracy",
       "type": "organization",
@@ -3573,6 +3672,13 @@
       "country": "Brazil"
     },
     {
+      "id": "interledger-foundation",
+      "label": "Interledger Foundation",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "United States of America"
+    },
+    {
       "id": "rumsan-associates-private-limited",
       "label": "Rumsan Associates Private Limited",
       "type": "organization",
@@ -3643,6 +3749,13 @@
       "country": "Norway"
     },
     {
+      "id": "united-nations-development-programme-undp",
+      "label": "United Nations Development Programme (UNDP)",
+      "type": "organization",
+      "org_type": "multilateral",
+      "country": "Indonesia"
+    },
+    {
       "id": "inria-and-fondation-inria",
       "label": "INRIA and Fondation INRIA",
       "type": "organization",
@@ -3704,6 +3817,13 @@
       "type": "organization",
       "org_type": "ngo non profit",
       "country": "United States of America"
+    },
+    {
+      "id": "pleias",
+      "label": "PleIAs",
+      "type": "organization",
+      "org_type": "private",
+      "country": "France"
     },
     {
       "id": "the-mitre-corporation",

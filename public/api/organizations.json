@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T02:27:57.056Z",
-  "count": 248,
+  "generated_at": "2026-10-01T08:40:42.447Z",
+  "count": 256,
   "organizations": [
     {
       "id": "drupal-association",
@@ -731,7 +731,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.137Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -758,7 +758,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.137Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -787,7 +787,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.137Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -814,7 +814,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.137Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -841,7 +841,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.137Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -868,7 +868,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.137Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "advance-insight",
+      "name": "Advance Insight",
+      "type": "private",
+      "website": "",
+      "country": "Netherlands",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["agrios"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "advanceinsight",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -899,7 +926,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -926,7 +953,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -956,7 +983,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -983,7 +1010,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1010,7 +1037,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.271Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1037,7 +1064,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1064,7 +1091,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1097,7 +1124,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vertify-earth",
+      "name": "Vertify.earth",
+      "type": "private",
+      "website": "",
+      "country": "Switzerland",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["biomass-prediction-model"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1124,7 +1178,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1151,7 +1205,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1178,7 +1232,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1205,7 +1259,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1232,7 +1286,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1259,7 +1313,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1286,7 +1340,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1313,7 +1367,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1340,7 +1394,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1367,7 +1421,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1394,7 +1448,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1421,7 +1475,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1448,7 +1502,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1475,7 +1529,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1502,7 +1556,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1529,7 +1583,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1556,7 +1610,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1583,7 +1637,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1610,7 +1664,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1637,7 +1691,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1666,7 +1720,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1693,7 +1747,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1720,7 +1774,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1747,7 +1801,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1774,7 +1828,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1801,7 +1855,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1828,7 +1882,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1860,7 +1914,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1889,7 +1943,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1916,7 +1970,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1943,7 +1997,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1970,7 +2024,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -1999,7 +2053,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2026,7 +2080,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2053,7 +2107,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2080,7 +2134,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.272Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2111,7 +2165,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2143,7 +2197,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2170,7 +2224,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2197,7 +2251,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2224,7 +2278,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2251,7 +2305,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2278,7 +2332,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2305,7 +2359,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2332,7 +2386,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2359,7 +2413,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2386,7 +2440,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.138Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2413,7 +2467,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2440,7 +2494,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2467,7 +2521,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2494,7 +2548,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2521,7 +2575,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2550,7 +2604,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2577,7 +2631,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2604,7 +2658,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2633,7 +2687,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gdevelop-ltd",
+      "name": "GDevelop LTD.",
+      "type": "private",
+      "website": "",
+      "country": "Canada",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["gdevelop"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "4ian",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2660,7 +2741,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2687,7 +2768,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2714,7 +2795,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2741,7 +2822,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2768,7 +2849,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2795,7 +2876,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2822,7 +2903,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2849,7 +2930,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2876,7 +2957,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2903,7 +2984,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2930,7 +3011,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2957,7 +3038,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -2984,7 +3065,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3011,7 +3092,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3038,7 +3119,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.273Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3065,7 +3146,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3092,7 +3173,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3119,7 +3200,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3146,7 +3227,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3173,7 +3254,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3200,7 +3281,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3227,7 +3308,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3254,7 +3335,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3281,7 +3362,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3308,7 +3389,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3335,7 +3416,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3346,9 +3427,9 @@
     {
       "id": "kobo-inc",
       "name": "Kobo, Inc",
-      "type": "private",
+      "type": "ngo non profit",
       "website": "",
-      "country": "Canada",
+      "country": "United States of America",
       "city": "",
       "coordinates": null,
       "associated_projects": ["kobotoolbox"],
@@ -3362,7 +3443,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3389,7 +3470,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3416,7 +3497,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3443,7 +3524,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3470,7 +3551,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3497,7 +3578,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3524,7 +3605,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "open-digital-cooperative",
+      "name": "Open Digital Cooperative",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "Unknown",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["localgov-drupal"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3551,7 +3659,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3578,7 +3686,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.139Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3605,7 +3713,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3632,7 +3740,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3659,7 +3767,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3688,7 +3796,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3715,7 +3823,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3742,7 +3850,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3769,7 +3877,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3796,7 +3904,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3819,14 +3927,14 @@
       "partnerships": [],
       "funders": [],
       "staff": [],
-      "github_org": "openg2p",
+      "github_org": "",
       "linkedin": "",
       "governance_role": "steward",
       "provenance": {
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3853,7 +3961,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3880,7 +3988,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3907,7 +4015,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3934,7 +4042,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.274Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3961,7 +4069,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -3988,7 +4096,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4015,7 +4123,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4042,7 +4150,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4069,7 +4177,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4096,7 +4204,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4123,7 +4231,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4150,7 +4258,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4177,7 +4285,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4204,7 +4312,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4231,7 +4339,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4258,7 +4366,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4285,7 +4393,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4312,7 +4420,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4339,7 +4447,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4366,7 +4474,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4393,7 +4501,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4420,7 +4528,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4447,7 +4555,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4474,7 +4582,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4501,7 +4609,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.140Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4528,7 +4636,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4555,7 +4663,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4582,7 +4690,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4609,7 +4717,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4636,7 +4744,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4663,7 +4771,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4692,7 +4800,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4719,7 +4827,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4746,7 +4854,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4773,7 +4881,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "groupement-int-r-t-public-pix",
+      "name": "Groupement Intérêt Public Pix",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["pix"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "1024pix",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4800,7 +4935,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4827,7 +4962,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4854,7 +4989,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4881,7 +5016,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4908,7 +5043,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.275Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4935,7 +5070,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4962,7 +5097,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -4989,7 +5124,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5016,7 +5151,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5043,7 +5178,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5070,7 +5205,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5097,7 +5232,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5124,7 +5259,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5151,7 +5286,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "interledger-foundation",
+      "name": "Interledger Foundation",
+      "type": "ngo non profit",
+      "website": "",
+      "country": "United States of America",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["rafiki"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "interledger",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5178,7 +5340,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5205,7 +5367,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5232,7 +5394,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5259,7 +5421,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5288,7 +5450,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5315,7 +5477,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5342,7 +5504,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5369,7 +5531,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5396,7 +5558,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5423,7 +5585,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "united-nations-development-programme-undp",
+      "name": "United Nations Development Programme (UNDP)",
+      "type": "multilateral",
+      "website": "",
+      "country": "Indonesia",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["smile"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "smile-health",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5450,7 +5639,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5477,7 +5666,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5504,7 +5693,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5531,7 +5720,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5558,7 +5747,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.141Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5585,7 +5774,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5614,7 +5803,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5641,7 +5830,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5668,7 +5857,34 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
+            "confidence": 0.8,
+            "kind": "declared",
+            "note": "Organization generated from DPG owner metadata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pleias",
+      "name": "PleIAs",
+      "type": "private",
+      "website": "",
+      "country": "France",
+      "city": "",
+      "coordinates": null,
+      "associated_projects": ["synth"],
+      "partnerships": [],
+      "funders": [],
+      "staff": [],
+      "github_org": "",
+      "linkedin": "",
+      "governance_role": "steward",
+      "provenance": {
+        "associated_projects": [
+          {
+            "source": "DPG API",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5695,7 +5911,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5722,7 +5938,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5749,7 +5965,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5776,7 +5992,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5803,7 +6019,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5830,7 +6046,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5857,7 +6073,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5884,7 +6100,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5911,7 +6127,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.276Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5938,7 +6154,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5965,7 +6181,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -5992,7 +6208,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6019,7 +6235,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6046,7 +6262,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6075,7 +6291,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6102,7 +6318,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6129,7 +6345,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6156,7 +6372,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6183,7 +6399,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6210,7 +6426,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6237,7 +6453,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6264,7 +6480,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6291,7 +6507,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6318,7 +6534,7 @@
         "associated_projects": [
           {
             "source": "DPG API",
-            "retrieved_at": "2026-09-01T02:26:27.142Z",
+            "retrieved_at": "2026-10-01T08:39:07.277Z",
             "confidence": 0.8,
             "kind": "declared",
             "note": "Organization generated from DPG owner metadata."
@@ -6357,7 +6573,7 @@
         "associated_projects": [
           {
             "source": "EU Plus Government Scans – Technology License Data",
-            "retrieved_at": "2026-09-01T02:26:27.344Z",
+            "retrieved_at": "2026-10-01T08:39:07.430Z",
             "confidence": 0.7,
             "kind": "scraped",
             "note": "Organisation generated from gov-scan source \"eu-gov-scans\"."
