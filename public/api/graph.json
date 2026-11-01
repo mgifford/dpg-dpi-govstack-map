@@ -30,7 +30,7 @@
       "type": "project",
       "category": "Health Information",
       "maturity": "growing",
-      "activity": 50
+      "activity": 55
     },
     {
       "id": "openspp",
@@ -38,7 +38,7 @@
       "type": "project",
       "category": "Social Protection",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 0
     },
     {
       "id": "ckan",
@@ -142,7 +142,7 @@
       "type": "project",
       "category": "Health Information",
       "maturity": "emerging",
-      "activity": 10
+      "activity": 20
     },
     {
       "id": "sovereign-cloud-stack",
@@ -157,8 +157,8 @@
       "label": "Baserow",
       "type": "project",
       "category": "Digital Registries",
-      "maturity": "emerging",
-      "activity": 25
+      "maturity": "growing",
+      "activity": 75
     },
     {
       "id": "mifos-payment-hub-ee",
@@ -270,7 +270,7 @@
       "type": "project",
       "category": "Financial Inclusion",
       "maturity": "growing",
-      "activity": 65
+      "activity": 70
     },
     {
       "id": "aam-digital",
@@ -398,7 +398,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 30
+      "activity": 29
     },
     {
       "id": "biomass-prediction-model",
@@ -445,8 +445,8 @@
       "label": "Cboard",
       "type": "project",
       "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "cfr",
@@ -509,8 +509,8 @@
       "label": "CodeCarbon",
       "type": "project",
       "category": "Open Software",
-      "maturity": "growing",
-      "activity": 75
+      "maturity": "stagnant",
+      "activity": 25
     },
     {
       "id": "coditeach",
@@ -761,12 +761,20 @@
       "activity": 25
     },
     {
+      "id": "eurosky-identity-platform",
+      "label": "Eurosky Identity Platform",
+      "type": "project",
+      "category": "Open Software",
+      "maturity": "emerging",
+      "activity": 25
+    },
+    {
       "id": "everwell-hub",
       "label": "Everwell Hub",
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 0
+      "activity": 1
     },
     {
       "id": "fao-agricultural-stress-index-system",
@@ -894,7 +902,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 10
+      "activity": 15
     },
     {
       "id": "ghost",
@@ -910,7 +918,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 69
+      "activity": 71
     },
     {
       "id": "global-healthsites-mapping-project",
@@ -1061,7 +1069,7 @@
       "label": "Immunization Calculation Engine",
       "type": "project",
       "category": "Open Software",
-      "maturity": "emerging",
+      "maturity": "stagnant",
       "activity": 25
     },
     {
@@ -1158,7 +1166,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 63
+      "activity": 66
     },
     {
       "id": "la-suite-meet-simple-video-conferencing",
@@ -1302,7 +1310,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 0
+      "activity": 5
     },
     {
       "id": "modular-open-source-identity-platform",
@@ -1374,7 +1382,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 10
     },
     {
       "id": "oobee",
@@ -1406,7 +1414,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 10
+      "activity": 5
     },
     {
       "id": "open-food-facts",
@@ -1422,7 +1430,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 13
+      "activity": 11
     },
     {
       "id": "open-supply-hub",
@@ -1597,8 +1605,8 @@
       "label": "Pol.is",
       "type": "project",
       "category": "Open Software",
-      "maturity": "abandoned",
-      "activity": 0
+      "maturity": "emerging",
+      "activity": 55
     },
     {
       "id": "potlock",
@@ -1718,7 +1726,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 25
+      "activity": 20
     },
     {
       "id": "rahat",
@@ -1766,7 +1774,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "stagnant",
-      "activity": 5
+      "activity": 0
     },
     {
       "id": "sentinel-2-10m-land-useland-cover-time-series",
@@ -1998,7 +2006,7 @@
       "type": "project",
       "category": "Open Software",
       "maturity": "mature",
-      "activity": 37
+      "activity": 35
     },
     {
       "id": "typo3",
@@ -2921,6 +2929,13 @@
       "type": "organization",
       "org_type": "ngo non profit",
       "country": "United Kingdom"
+    },
+    {
+      "id": "stichting-modal-eurosky",
+      "label": "Stichting Modal / Eurosky",
+      "type": "organization",
+      "org_type": "ngo non profit",
+      "country": "Netherlands"
     },
     {
       "id": "everwell-health-solutions-pvt-ltd",
